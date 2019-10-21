@@ -5,8 +5,8 @@ Once a quarter, entrepreneurs must submit a packaging excise duty declaration. T
 
 References to the Packaging Act: 
 
-Packaging Act: https://www.riigiteataja.ee/akt/104042012006?leiaKehtiv
-Packaging Excise Duty Act: https://www.riigiteataja.ee/akt/13074692?leiaKehtiv
+Packaging Act: [https://www.riigiteataja.ee/akt/104042012006?leiaKehtiv](https://www.riigiteataja.ee/akt/104042012006?leiaKehtiv)  
+Packaging Excise Duty Act: [https://www.riigiteataja.ee/akt/13074692?leiaKehtiv](https://www.riigiteataja.ee/akt/13074692?leiaKehtiv)
 
 # Settings
 ## General settings
@@ -15,9 +15,10 @@ Settings of packaging materials can be found by typing **Package Materials**
 ### Item Card
 On the **Inventory** FastTab, a value is selected for the **Packaging Excise Calculation** field.
 Possible values of the field are:
-|  Value|Explanation  |
+
+| Value | Explanation |
 |--|--|
-| No Calculation | The item is not included in packaging excise duty calculation   |
+|No Calculation | The item is not included in packaging excise duty calculation.|
 |Use Entry Unit of Measure| Packages must be setup for the units used in transactions.|
 |Use Base Unit of Measure| Packages must be setup only for the base unit. Transactions in other units are converted to base units before package quantity calculation.|
 
