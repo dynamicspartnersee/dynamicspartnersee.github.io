@@ -37,15 +37,15 @@ Actions:
  
 Upon the creation of a new packaging excise duty declaration, the following fields are filled in the page:
 
-|Field|Explanation  |
+|Field|Explanation|
 |--|--|
 |No.| The packaging excise duty declaration number is entered in the field|
 |Description  | Description of the packaging excise duty declaration|
 |Period Start| Determines the beginning of the period|
 |Period End| Determines the end of the period|
-|Last Modify Time| Time when the packaging excise duty declaration was last modified
-|Last Modify User| The user name of the person having last modified the packaging excise duty declaration
-|Reported| Shows that the packaging excise duty declaration has been submitted. Makes fields (except for Reported) read-only
+|Last Modify Time| Time when the packaging excise duty declaration was last modified|
+|Last Modify User| The user name of the person having last modified the packaging excise duty declaration|
+|Reported| Shows that the packaging excise duty declaration has been submitted. Makes fields (except for Reported) read-only|
 
 Calculation activity of packaging excise duty declaration is started from the **Packaging Excise Declaration** page by pressing **Calculate Lines**. On the request form that opens, determine the filters (those are pre-filled by default), and press **OK**.
 
@@ -53,7 +53,7 @@ Packaging excise duty quantities are calculated on terms determined by the filte
  
 By default, request form filters of the **Calculate Lines** activity are filled with the following filters:
 - Entry type = Sales
-- Country/Region code = ’’|Country/Region code from company information
+- Country/Region code = '' | Country/Region code from company information
 - Posting Date = filter based on report header
 
 The packaging excise duty declaration is filled, using the following logic:
