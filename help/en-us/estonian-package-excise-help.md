@@ -53,7 +53,7 @@ Packaging excise duty quantities are calculated on terms determined by the filte
  
 By default, request form filters of the **Calculate Lines** activity are filled with the following filters:
 - Entry type = Sales
-- Country/Region code = '' | Country/Region code from company information
+- Country/Region code = '' and/or Country/Region code from company information
 - Posting Date = filter based on report header
 
 The packaging excise duty declaration is filled, using the following logic:
