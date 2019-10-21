@@ -35,7 +35,8 @@ Actions:
 **View** - displays a marked packaging excise duty declaration 
 **Delete** - deletes a marked packaging excise duty declaration 
  
-Upon the creation of a new packaging excise duty declaration, the following fields are filled in the page.
+Upon the creation of a new packaging excise duty declaration, the following fields are filled in the page:
+
 |Field|Explanation  |
 |--|--|
 |No.| The packaging excise duty declaration number is entered in the field|
