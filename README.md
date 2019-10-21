@@ -9,3 +9,4 @@
 
 ## All Countries
 [Prepayment Management](help/en-us/prepayment-management-help.md)
+[Telema EDI Management](http://www.dynamicspartners.ee/docs/en-us/telema-edi-help)
