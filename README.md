@@ -1,6 +1,4 @@
-# User Guides
-
-## for Estonia
+## Estonia
 [Estonian Language for Estonia](help/en-us/estonian-language-help.md)  
 [Business Register Localization for Estonia](help/en-us/estonian-business-register-help.md)  
 [VAT Reporting Localization for Estonia](help/en-us/estonian-vat-reporting-help.md)  
@@ -9,6 +7,5 @@
 [Package Excise Localization for Estonia](help/en-us/estonian-package-excise-help.md)  
 [E-Invoicing for Estonia](help/en-us/einvoices-for-estonia-help.md)
 
-
-## for all countries
+## All Countries
 [Prepayment Management](help/en-us/prepayment-management-help.md)
