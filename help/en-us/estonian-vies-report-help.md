@@ -14,6 +14,6 @@ Open **EC Sales List Reports** (NB! not **EC Sales List**).
 
 Click **New**. Choose *EST* for **VAT Report Version** and enter period information you would like to create report for.
 
-To collect sales list into the report click **Suggest Lines**.
+To collect sales list into the report click **Suggest Lines** .
 
 Click **Relase** and **Submit** to save the report into XML file. Upload and submit the file in E-Tax Board.
