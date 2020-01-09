@@ -18,4 +18,4 @@ Australia, Canada, Estonia, Finland, Hong Kong, New Zealand, Philippines, Singap
 ### Contact information
 
 For more information and pricing please contact one of the partners:  
-http://www.dynamicspartners.ee/docs/en-us/contacts
+[http://www.dynamicspartners.ee/docs/en-us/contacts](http://www.dynamicspartners.ee/docs/en-us/contacts)
