@@ -8,5 +8,6 @@
 [E-Invoicing for Estonia](help/en-us/einvoices-for-estonia-help.md)
 
 ## All Countries
+[Balance Statements](apps/balance-statements/docs/en-US/app.md)  
 [Prepayment Management](help/en-us/prepayment-management-help.md)  
 [Telema EDI Management](http://www.dynamicspartners.ee/docs/en-us/telema-edi-help)
