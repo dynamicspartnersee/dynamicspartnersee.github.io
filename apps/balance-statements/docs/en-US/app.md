@@ -1,7 +1,7 @@
 # Balance Statements
 This extension makes it easy to reconcile your balances with customers and vendors.
 
-### Features:
+### Key Features:
 - Define balance statement layout or use default
 - Define balance statement e-mail body or use default
 - Create and review balance statement e-mails
@@ -14,6 +14,10 @@ This extension supports both the Essential and Premium editions of Microsoft Dyn
 
 ### Supported countries:
 Australia, Canada, Estonia, Finland, Hong Kong, New Zealand, Philippines, Singapore, United Kingdom, United States
+
+---
+
+[User Guide](help.md)
 
 ### Contact information
 
