@@ -22,7 +22,7 @@ Click **Process-> Create Customer Statements**
 
 |Field|Value|
 |-|-|
-|Balance Date|To this date user want Customers Balance.|
+|Balance Date|The date user wants Customers balance.|
 |Returning Date|The date user wants Customers response.|
 |Print In LCY||
 |Issued By|If specified, his/her contact information will be added to the signature.|
@@ -41,7 +41,7 @@ Click **Process-> Create Vendor Statements**
 
 |Field|Value|
 |-|-|
-|Balance Date|To this date user want Vendors Balance.|
+|Balance Date|The date user wants Vendors balance.|
 |Returning Date|The date user wants Vendors response.|
 |Print In LCY||
 |Issued By|If specified, his/her contact information will be added to the signature.|
@@ -64,7 +64,7 @@ Click **Process-> Send Statements**
 |Options:||
 |From Address|Enter e-mail from which statements will be sent. It depeneds on your SMTP server setup if you are required to use address from **SMTP Mail Setup** or you can use a different address.|
 |Filters:||
-|No.|By default current balance statement is filtered. To send all the statements remove the filter for **No.** field.|
+|No.|By default current balance statement is filtered. To send all the statements remove the filter for this field.|
 
 Click **OK** to send the statements.
 

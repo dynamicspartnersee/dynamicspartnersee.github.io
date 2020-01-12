@@ -1,1 +1,1 @@
-# Saldoteatised - Kasutajajuhend
+[User Guide](help.md)

@@ -1,1 +1,1 @@
-# Balance Statements - User Guide
+[User Guide](help.md)

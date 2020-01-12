@@ -13,7 +13,7 @@ This extension makes it easy to reconcile your balances with customers and vendo
 This extension supports both the Essential and Premium editions of Microsoft Dynamics 365 Business Central.
 
 ### Supported countries:
-Australia, Canada, Estonia, Finland, Hong Kong, New Zealand, Philippines, Singapore, United Kingdom, United States
+Australia, Canada, Estonia, Finland, Hong Kong, New Zealand, Singapore, United Kingdom, United States
 
 ---
 
