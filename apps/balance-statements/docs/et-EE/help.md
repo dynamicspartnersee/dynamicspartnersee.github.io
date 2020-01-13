@@ -1,77 +1,77 @@
-# Balance Statements - User Guide
+# Saldoteatis- Kasutusjuhend
 
-Balance Statement functionality allows user to send Balance Statement information to customers or vendors and track their confirmations.
+Saldoteatise funksionaalsus võimaldab kasutajal saata klientidele/hankijatele saldoteatised vastavalt enda valitud kuupäevale ning jälgida nende kinnitamisi.
 
-## Verify Balance Statement Installation
-Open **Extension Management** and check if extension named ‘Balance Statement’ is installed. If not, please find and install it from AppSource or contact your partner.
+## Saldoteatise api tuvastamine
+Ava **Laiendused** ja veendu, et app ‘Saldoteatised’ on alla laetud. Kui pole, võid selle leida AppSourcest või võta ühendust oma partneriga.
 
-## Setup
-**Open Balance Statements Setup.**
+## Seadistused
+**Ava otsingust Saldoteatiste seadistused**
 
-|Field|Value|
+|Välja nimi|Kasutamine|
 |-|-|
-|Balance Statement Nos.|Enter new number series you want to use for Balance Statements.|
-|Customer E-mail Layout Code|CUST-EMAIL-by default, but user can modify for company needs.|
-|Vendor E-mail Layout Code|VEND-EMAIL by default, but user can modify for company needs.|
+|Saldoteatiste numbrid|Seadista endale soovitud saldoteatise numbriseeria.|
+|Kliendi e-kirjade kujunduse tähis|CUST-EMAIL- sisse ehitatud aruanne, võimalik modifitseerida vastavalt enda vajadustele.|
+|Hankija e-kirjade kujunduse tähis|VEND-EMAIL  sisse ehitatud aruanne, võimalik modifitseerida vastavalt enda vajadustele.|
 
-## Balance Statements 
-Open **Balance Statements**.
+## Saldoteatised
+Ava otsingust **Saldoteatised**.
 
-## How to create Customer Statements
-Click **Process-> Create Customer Statements**
+## Kuidas luua kliendi saldoteatiseid
+Kliki **Protsess-> Loo kliendi teatised**
 
-|Field|Value|
+|Välja nimi|Kasutamine|
 |-|-|
-|Balance Date|The date user wants Customers balance.|
-|Returning Date|The date user wants Customers response.|
-|Print In LCY||
-|Issued By|If specified, his/her contact information will be added to the signature.|
+|Saldo kuupäev|Määrab ära, mis kuupäevani saldo kuvatakse.|
+|Tagastamise kuupäev|Kuupäev, mis ajaks oodatakse vastust.|
+|Prindi KV-s||
+|Väljastaja |Kui täpsustatud kontakti nimi, lisatakse see saldoteatisele.|
  
-Click **OK** to create statements.
+Kliki **OK** Klientidele saldoteatised on loodud.
 
 ![CustomerStatementList](CustomerStatementList.png)
 
-On the factbox user can open PDF of the statement:
+Saldoteatise PDF leiad kiirinfo väljalt, kus vajadusel saad selle ka avada:
 
 ![CustomerStatementFactbox](CustomerStatementFactbox.png)
 
 
-## How to create Vendor Statements
-Click **Process-> Create Vendor Statements**
+## Kuidas luua Hankijate saldoteatised
+Kliki **Protsess-> Loo hankija teatised**
 
-|Field|Value|
+|Välja nimi|Kasutamine|
 |-|-|
-|Balance Date|The date user wants Vendors balance.|
-|Returning Date|The date user wants Vendors response.|
-|Print In LCY||
-|Issued By|If specified, his/her contact information will be added to the signature.|
+|Saldo kuupäev|Määrab ära, mis kuupäevani saldo kuvatakse.|
+|Tagastamise kuupäev|Kuupäev, mis ajaks oodatakse vastust.|
+|Prindi KV-s||
+|Väljastaja |Kui täpsustatud kontakti nimi, lisatakse see saldoteatisele.|
 
-Click **OK** to create statements.
+Kliki **OK** saldoteatised on loodud.
 
 ![VendorStatementList](VendorStatementList.png)
 
-On the factbox user can open PDF of the statement:
+Saldoteatise PDF leiad kiirinfo väljalt, kus vajadusel saad selle ka avada:
 
 ![VendorStatementFactbox](VendorStatementFactbox.png)
 
-## How to Send Statements
-Before seding the statements, please make sure **SMTP Mail Setup** has been configured.
+## Kuidas saata Saldoteatiseid
+Enne, kui hakkad saldoteatiseid välja saatma, palun veendu, et  **SMTP-posti seadistused ** on tehtud.
 
-Click **Process-> Send Statements**
+Kliki **Protsess-> Saada teatised**
 
-|Field|Value|
+|Välja nimi|Kasutamine|
 |-|-|
-|Options:||
-|From Address|Enter e-mail from which statements will be sent. It depeneds on your SMTP server setup if you are required to use address from **SMTP Mail Setup** or you can use a different address.|
-|Filters:||
-|No.|By default current balance statement is filtered. To send all the statements remove the filter for this field.|
+|Valikud:||
+|Saatja aadress|Siia sisesta emaili aadress, mille pealt saldoteatised välja saadetakse. Sõltub **SMTP seadistusest**, kas saab saata ainult sinna määratud aadressilt või saab kasutada erinevaid aadresse.|
+|Filtrid:||
+|Nr.|Vaikimisi on filtreeritud see saldoteatis, mille pealt e-maili saatma hakkasid. Kui soovid saata kõik saltoteatised korraga, eemalda filter.|
 
-Click **OK** to send the statements.
+Kliki **OK**, saldoteatised on välja saadetud.
 
-## Set Statements Status to Processed
-After the feedback from your business partners, you can attach **Notes** to the statemnets and mark statements as **Processed**.
+## Pane linnuke saldoteatiste taha Saadetud.
+Hiljem, kui äripartnerid on vastanud, on võimalik igale saldoteatisele lisada **manuseid** ja **märkmeid** ning märkida teatis **töödelduks**. 
 
 
-For more information, please contact one of the partners:  
+Lisainformatsiooni saamiseks pöördu partneri poole:  
 [http://www.dynamicspartners.ee](http://www.dynamicspartners.ee)
 
