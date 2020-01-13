@@ -68,7 +68,7 @@ Kliki **Protsess-> Saada teatised**
 
 Kliki **OK**, saldoteatised on välja saadetud.
 
-## Pane linnuke saldoteatiste taha Saadetud.
+Pane linnuke saldoteatiste taha **Saadetud**.
 Hiljem, kui äripartnerid on vastanud, on võimalik igale saldoteatisele lisada **manuseid** ja **märkmeid** ning märkida teatis **töödelduks**. 
 
 
