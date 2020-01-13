@@ -33,7 +33,7 @@ Kliki **OK** Klientidele saldoteatised on loodud.
 
 Saldoteatise PDF leiad kiirinfo väljalt, kus vajadusel saad selle ka avada:
 
-![CustomerStatementFactbox](CustomerStatementFactbox.png)
+![CustomerStatementFactbox](CustomerStatementFactBox.png)
 
 
 ## Kuidas luua Hankijate saldoteatised
@@ -52,7 +52,7 @@ Kliki **OK** saldoteatised on loodud.
 
 Saldoteatise PDF leiad kiirinfo väljalt, kus vajadusel saad selle ka avada:
 
-![VendorStatementFactbox](VendorStatementFactbox.png)
+![VendorStatementFactbox](VendorStatementFactBox.png)
 
 ## Kuidas saata Saldoteatiseid
 Enne, kui hakkad saldoteatiseid välja saatma, palun veendu, et  **SMTP-posti seadistused ** on tehtud.
