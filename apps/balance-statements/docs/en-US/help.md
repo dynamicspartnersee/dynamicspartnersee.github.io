@@ -69,7 +69,7 @@ Click **Process-> Send Statements**
 Click **OK** to send the statements.
 
 ## Set Statements Status to Processed
-After the feedback from your business partners, you can attach **Notes** to the statemnets and mark statements as **Processed**.
+After the feedback from your business partners, you can attach **Notes** to the statements and mark statements as **Processed**.
 
 
 For more information, please contact one of the partners:  
