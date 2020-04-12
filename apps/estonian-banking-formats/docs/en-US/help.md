@@ -1,3 +1,5 @@
+---
+---
 # Estonian Banking Formats - User Guide
 This extension adds Estonian localization for banking functionality in Dynamics 365 Business Central.
 

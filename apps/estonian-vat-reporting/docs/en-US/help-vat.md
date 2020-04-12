@@ -1,3 +1,5 @@
+---
+---
 # Estonian VAT Report - User Guide
 This functionality enables you to gather the data necessary for the main VAT declaration (Form KMD) and declaration’s appendix (Form KMD INF) and submit the data in XML file format.
 

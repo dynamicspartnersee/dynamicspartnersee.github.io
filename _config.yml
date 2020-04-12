@@ -1,3 +1,7 @@
 theme: jekyll-theme-slate
 title: Estonian Dynamics Partners
 description: Extensions for Microsoft Dynamics 365 Business Central
+defaults:
+  -
+    values:
+      layout: "default"

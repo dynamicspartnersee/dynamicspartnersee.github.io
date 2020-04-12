@@ -1,3 +1,5 @@
+---
+---
 # Balance Statements
 This extension makes it easy to reconcile your balances with customers and vendors.
 
@@ -17,7 +19,7 @@ Australia, Canada, Estonia, Finland, Hong Kong, New Zealand, Singapore, United K
 
 ---
 
-[User Guide](help.md)
+[User Guide](help)
 
 ### Contact information
 

@@ -1,4 +1,6 @@
-# Estonian Business Register User Guide
+---
+---
+# Estonian Business Register - User Guide
 Estonian Business Register app adds **Registration No.** field to the customer and vendor data in Business Central and a functionality **Business Register Query**.
 
 ## Business Register Query

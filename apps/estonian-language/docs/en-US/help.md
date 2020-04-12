@@ -1,4 +1,6 @@
-# Estonian Language User Guide
+---
+---
+# Estonian Language - User Guide
 ## How to Verify Language Installation
 Open **Extension Management** and check if extension named 'Estonian Language' is installed. If not, please contact your partner.
 

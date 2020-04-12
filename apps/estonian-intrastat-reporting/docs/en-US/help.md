@@ -1,4 +1,6 @@
-# Estonian Intrastat Reporting User Guide
+---
+---
+# Estonian Intrastat Reporting - User Guide
 This app adds Estonian requirements and formats to the Intrastat reporting functionality in Dynamics 365 Business Central.
 
 Please read more about Business Central Intrastat reporting on:  

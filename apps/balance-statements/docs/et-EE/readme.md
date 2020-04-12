@@ -1,1 +1,0 @@
-[User Guide](help.md)

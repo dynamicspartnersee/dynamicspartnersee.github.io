@@ -1,3 +1,5 @@
+---
+---
 # Estonian Package Excise - User Guide
 This extension adds Estonian localization for package excise functionality in Dynamics 365 Business Central.
 

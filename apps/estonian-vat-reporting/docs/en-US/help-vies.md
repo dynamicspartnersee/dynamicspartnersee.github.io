@@ -1,3 +1,5 @@
+---
+---
 # Estonian VIES Report (VD form) / EC Sales List - User Guide
 This functionality enables you to gather the data necessary for the  internal turnover (VIES) report (Estonian Tax and Customs Board’s form VD) and submit the data in XML file format.
 

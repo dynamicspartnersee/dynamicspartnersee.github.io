@@ -1,3 +1,5 @@
+---
+---
 # Balance Statements - User Guide
 
 Balance Statement functionality allows user to send Balance Statement information to customers or vendors and track their confirmations.
