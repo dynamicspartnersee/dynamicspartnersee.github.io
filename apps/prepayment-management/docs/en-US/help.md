@@ -124,6 +124,5 @@ _After posting, a new prepayment ledger entry is created for the customer to be 
 
 ***
 
-For more information, please contact one of the partners:
-
-http://www.dynamicspartners.ee
+For more information, please contact one of the partners:  
+[http://www.dynamicspartners.ee](http://www.dynamicspartners.ee)

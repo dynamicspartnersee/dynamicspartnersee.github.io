@@ -3,7 +3,10 @@
 # E-Documents for Seller
 
 ## Table of Contents
-  - [Receive Sales Order or Sales Return Order](#-Receive-Sales-Order-or-Sales-Return-Order)
+ - [Receive Sales Order or Sales Return Order](#receive-sales-order-or-sales-return-order)
+ - [Issue Sales Shipment](#issue-sales-shipment)
+ - [Receive Receiving Advice](#receive-receiving-advice)
+ - [Issue Sales Invoice or Credit Memo](#issue-sales-invoice-incl-credit-memo)
 
 
 ## Receive Sales Order or Sales Return Order
@@ -70,6 +73,7 @@ Open  **Telema Setup** page and fill in the FastTab  **E-Documents**  as follows
 |**Company GLN**|If the company has Global Location Number you can enter it to this field. You can apply for GLN for your company through GS1 Estonia (www.gs1.ee)|
 
 Below is the mapping description of the main data entities.
+
 |NAV entity|Telema eDoc entity|Explanation|
 |--|--|--|
 |**Header**|
@@ -89,7 +93,7 @@ Below is the mapping description of the main data entities.
 
 You can look at the e-document created from posted document if you use action  **Navigate** on the posted document. Together with other entries this function also finds  **Outbound E-Document** entry.
 
-## Receiving Receiving Advice
+## Receive Receiving Advice
 
 Receiving advice allows buyer to confirm the delivery of the goods. In case there are differences you can make required corrections (on  **Posted Sales Shipment** lines action  **Functions->Undo Shipment**) and post new line(s).
 
@@ -124,7 +128,7 @@ If necessary the values will be converted to the right unit of measure with the 
 
 **Lot no.** information is not handled.
 
-## Issuing Sales Invoice (incl. Credit Memo)
+## Issue Sales Invoice (incl. Credit Memo)
 
 Allows to create e-invoice out of posted sales invoice and credit memo.
 

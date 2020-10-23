@@ -21,20 +21,20 @@
 
           <!-- LANGUAGE SELECTOR -->
           <div style="float: right">
+          {% assign enUSPage = "-" %}
+          {% assign etEEPage = "-" %}
+          {% assign fiFIPage = "-" %}
           {% if page.path contains "en-US" %}
-            {% assign enUSPage = "-" %}
             {% assign etEEPage = page.path | replace: "en-US", "et-EE" %}
             {% assign fiFIPage = page.path | replace: "en-US", "fi-FI" %}
           {% endif %}
           {% if page.path contains "et-EE" %}
             {% assign enUSPage = page.path | replace: "et-EE", "en-US" %}
-            {% assign etEEPage = "-" %}
             {% assign fiFIPage = page.path | replace: "et-EE", "fi-FI" %}
           {% endif %}
           {% if page.path contains "fi-FI" %}
             {% assign enUSPage = page.path | replace: "fi-FI", "en-US" %}
             {% assign etEEPage = page.path | replace: "fi-FI", "et-EE" %}
-            {% assign fiFIPage = "-" %}
           {% endif %}
 
           {% for mypage in site.pages %}

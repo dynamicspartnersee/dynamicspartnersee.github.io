@@ -24,7 +24,7 @@ If  **Pay-to Vendor**  cannot be identified from the e-document it is assigned a
 
 In addition to vendors, vendor bank account is identified from the e-document. If vendor bank account for the IBAN is missing from NAV, new  **Vendor Bank Account**  is created and assigned as a  **Prefered Bank Account**  on the  **Vendor**  card.
 
-See also:  [How to create missing vendors automatically](#_How_to_create_new_vendors_automatically)
+See also:  [How to create missing vendors automatically](#how-to-create-new-vendors-automatically)
 
 In addition the following fields are filled in on the  **Purchase Invoice**:
 

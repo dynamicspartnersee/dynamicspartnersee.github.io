@@ -7,7 +7,7 @@ Estonian Business Register app adds **Registration No.** field to the customer a
 Query from Business Register enables to make queries from Business Register free information service “Requisites XML Service” and “E-Invoice Register Service”. 
 
 In order to make queries, one has to have a contract for using e-Business Register. Contract information:
-http://www.rik.ee/en/e-business-registry/contract-info
+[http://www.rik.ee/en/e-business-registry/contract-info](http://www.rik.ee/en/e-business-registry/contract-info)
 
 The following data is queried from the Business Register:
 * Business name
@@ -20,7 +20,7 @@ The following data is queried from the Business Register:
  
 ## How to set up Business Register Query
 Open **Business Register Setup** and setup:
-* Business Register Service URL - enter the address of Business Register web service. Like: https://ariregxmlv6.rik.ee/  
+* Business Register Service URL - enter the address of Business Register web service. Like: [https://ariregxmlv6.rik.ee/](https://ariregxmlv6.rik.ee/)  
 * Requisites Service Username - enter your user name according to contract.  
 * Requisites Service Password - enter your password according to contract.
 * E-Invoice Sending Profile - if you issue e-invoices, choose Document Sending Profile you want to assign for the customers with the e-invoice receiving capability.

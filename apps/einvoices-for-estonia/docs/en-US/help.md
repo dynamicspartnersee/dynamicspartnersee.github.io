@@ -134,6 +134,5 @@ G/L Accounts and Dimensions will be sent periodically, if you have set up and ru
 
 ***
 
-For more information, please contact one of the partners:
-
-http://www.dynamicspartners.ee
+For more information, please contact one of the partners:  
+[http://www.dynamicspartners.ee](http://www.dynamicspartners.ee)

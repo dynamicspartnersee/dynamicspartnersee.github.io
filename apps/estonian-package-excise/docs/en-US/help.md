@@ -77,4 +77,4 @@ If the report has been submitted, the **Reported** field in the header is marked
 ***
 
 For more information, please contact one of the partners:  
-http://www.dynamicspartners.ee
+[http://www.dynamicspartners.ee](http://www.dynamicspartners.ee/)

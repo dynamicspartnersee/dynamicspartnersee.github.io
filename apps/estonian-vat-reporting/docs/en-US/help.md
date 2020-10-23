@@ -11,4 +11,4 @@ Please learn more about the localized functionalities:
 ***
 
 For more information, please contact one of the partners:  
-http://www.dynamicspartners.ee
+[http://www.dynamicspartners.ee](http://www.dynamicspartners.ee)

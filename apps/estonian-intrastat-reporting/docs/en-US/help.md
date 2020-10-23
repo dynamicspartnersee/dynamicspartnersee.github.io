@@ -4,7 +4,7 @@
 This app adds Estonian requirements and formats to the Intrastat reporting functionality in Dynamics 365 Business Central.
 
 Please read more about Business Central Intrastat reporting on:  
-https://docs.microsoft.com/en-US/dynamics365/business-central/finance-how-setup-report-intrastat
+[https://docs.microsoft.com/en-US/dynamics365/business-central/finance-how-setup-report-intrastat](https://docs.microsoft.com/en-US/dynamics365/business-central/finance-how-setup-report-intrastat)
 
 ## Setup Intrastat
 The required level of detail in Estonian Intrastat reporting can be different from company to company.
@@ -31,4 +31,4 @@ If formats are in place, localized versions of actions **Suggest Lines** and **M
 ***
 
 For more information, please contact one of the partners:  
-http://www.dynamicspartners.ee
+[http://www.dynamicspartners.ee](http://www.dynamicspartners.ee)
