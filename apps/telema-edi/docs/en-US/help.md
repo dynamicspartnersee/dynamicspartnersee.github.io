@@ -15,9 +15,10 @@ The following e-document types and related processes are supported in standard m
 ## E-documents for purchaser
 
 1.  Issuing Purchase Order
-2.  Receiving Shipment
-3.  Issuing Receiving Advice
-4.  Receiving Purchase Invoice (incl Credit Memo) or  [Processed Purchase Invoice (eFlow)](eflow-purch-invoice)
+2.  Receiving Purchase Order Confirmation
+3.  Receiving Shipment
+4.  Issuing Receiving Advice
+5.  Receiving Purchase Invoice (incl Credit Memo) or  [Processed Purchase Invoice (eFlow)](eflow-purch-invoice)
 
 ## How to send and receive e-documents?
 
