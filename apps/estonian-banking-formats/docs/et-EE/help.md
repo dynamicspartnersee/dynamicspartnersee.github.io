@@ -8,7 +8,7 @@ Eesti lokalisatsioon sisaldab:
 - Pangarekvisiitide täiendused müügidokumendite kujundustel (tellimus, arve, kreeditarve)
 - Eesti SEPA makseformaat
 - Eesti SEPA väljavõtteformaat
-- Viitenumbrit ja registreerimisnumbrit arvestavad maksete sidumise reeglid
+- Viitenumbrit ja registreerimisnumbrit arvestavad maksete sidumisreeglid
 
 ## Viitenumbrid müügis
 Müügiarvetel viitenumbrite kasutamine aitab hiljem väljavõtte töötlemisel laekumisi käsitleda.
@@ -34,20 +34,20 @@ Kas formaat on installitud, saate kontrollida **Eesti pangaformaatide seadistuse
 Formaadi seadistamiseks pangakontole avage **Pangakontod** ja redigeerige soovitud kontot. Määrake *SEPACT-EE* väljal **Makse ekspordi vorming**.
 
 ## SEPA väljavõtteformaat
-Pangaväljavõtet importimiseks Business Cnetral'isse on lisatud Eesti SEPA väljavõtteformaadi tugi.
+Pangaväljavõtete importimiseks Business Central'isse on lisatud Eesti SEPA väljavõtteformaadi tugi.
 
 Kas formaat on installitud, saate kontrollida **Eesti pangaformaatide seadistuses**. Kui ei ole, võtke ühendust oma partneriga.
 
 Formaadi seadistamiseks pangakontole avage **Pangakontod** ja redigeerige soovitud kontot. Määrake *SEPACAMT-EE* väljal **Panga väljavõtte impordi vorming**.
 
 ## Maksete sidumise reeglid
-Business Central'i makse sidumise reegleid on täiendatud järgnevate komponentidega: 
+Business Central'i makse sidumisreegleid on täiendatud järgnevate komponentidega: 
 -  *Viitenumber* - aitab dokumendi vastendamisel.
--  *Registreeriminumber* - aitab kliendi/hankija vastendamisel.
+-  *Registreerimisnumber* - aitab kliendi/hankija vastendamisel.
 
-Täiendavad reeglid ei vaja seadistamist ja ei ole seega nähtavad **Maksete sidumisreeglites**.
+Täiendavad reeglid ei vaja seadistamist ja ei ole nähtavad **Maksete sidumisreeglites**.
 
-Reegleid kasutatakse **Maksete sobitamise žurnaali** tegevusel  **Seo automaatselt**.
+Täiendatud reegleid kasutatakse **Maksete sobitamise žurnaali** tegevusel  **Seo automaatselt**.
 
 ***
 
