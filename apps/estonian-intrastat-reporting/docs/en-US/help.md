@@ -28,6 +28,8 @@ Before creating your first Intrastat report, check if Estonian formats are confi
 
 If formats are in place, localized versions of actions **Suggest Lines** and **Make File** will be used in **Intrastat Journal** for reporting.
 
+Issued file in XML format can be submitted in [estat](https://estat.stat.ee/) environment.
+
 ***
 
 For more information, please contact one of the partners:  
