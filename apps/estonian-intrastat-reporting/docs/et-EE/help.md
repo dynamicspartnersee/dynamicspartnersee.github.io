@@ -31,6 +31,8 @@ Enne esmakordset aruande koostamist kontrollige, kas Eesti failiformaat on seadi
 
 Kui eelnev formaat on seadistatud, siis intrastat žurnaali tegevused **Soovita read** ja **Koosta fail** kasutavad nende Eesti jaoks lokaliseeritud versioone.
 
+XML kujul väljundfaili saab esitada [estat](https://estat.stat.ee/) keskkonnas.
+
 ***
 
 Täpsema info saamiseks võtke palun ühendust oma partneriga:  
