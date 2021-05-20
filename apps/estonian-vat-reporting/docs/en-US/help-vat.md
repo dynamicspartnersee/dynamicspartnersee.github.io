@@ -57,7 +57,7 @@ In order to automatically complete the missing registration numbers, you can use
 
 Place the check mark **Report All Transactions** if you wish to include the invoices of those transaction partners, whose transactions total amount is below the limit (1000€).
 
-Click **Submit** to save the report into XML file. Upload and submit the file in E-Tax Board.
+Click **Generate** to save the report into XML file. Upload and submit the file in E-Tax Board.
 
 ---
 ## Requirements for postings in Business Central:
