@@ -19,8 +19,50 @@
           <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
           <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
 
-          <!-- LANGUAGE SELECTOR -->
+          <!-- NAVIGATION -->          
+          <div style="float: left">
+            {% if page.path contains "et-EE" %}
+              <a href="{{ site.url }}">Laiendused</a>
+            {% endif %}
+            {% if page.path contains "en-US" %}
+              <a href="{{ site.url }}">Extensions</a>
+            {% endif %}
+            {% if page.path contains "fi-FI" %}
+              <a href="{{ site.url }}">Extensions</a>
+            {% endif %}
+
+            {% assign appPage = page.dir | remove_first: '/' | append: 'app.md' %}
+            {% assign helpPage = page.dir | remove_first: '/' | append: 'help.md' %}
+            {% assign whatsnewPage = page.dir | remove_first: '/' | append: 'whatsnew.md' %}
+
+            {% for mypage in site.pages %}
+              {% if mypage.path == helpPage %}
+                {% if page.path contains "et-EE" %}
+                  <a href="{{ mypage.url }}">| Kasutajajuhend</a>
+                {% endif %}
+                {% if page.path contains "en-US" %}
+                  <a href="{{ mypage.url }}">| User Guide</a>
+                {% endif %}
+                {% if page.path contains "fi-FI" %}
+                  <a href="{{ mypage.url }}">| User Guide</a>
+                {% endif %}
+              {% endif %}
+              {% if mypage.path == whatsnewPage %}
+                {% if page.path contains "et-EE" %}
+                  <a href="{{ mypage.url }}">| Mis on uut</a>
+                {% endif %}
+                {% if page.path contains "en-US" %}
+                  <a href="{{ mypage.url }}">| What's new</a>
+                {% endif %}
+                {% if page.path contains "fi-FI" %}
+                  <a href="{{ mypage.url }}">| What's new</a>
+                {% endif %}
+              {% endif %}
+            {% endfor %}          
+          </div>
+          
           <div style="float: right">
+          <!-- LANGUAGE SELECTOR -->
           {% assign enUSPage = "-" %}
           {% assign etEEPage = "-" %}
           {% assign fiFIPage = "-" %}
@@ -36,16 +78,16 @@
             {% assign enUSPage = page.path | replace: "fi-FI", "en-US" %}
             {% assign etEEPage = page.path | replace: "fi-FI", "et-EE" %}
           {% endif %}
-
+          
           {% for mypage in site.pages %}
             {% if mypage.path == enUSPage %}
-                <a href="{{ mypage.url }}">eng </a>
+                <a href="{{ mypage.url }}">ENG </a>
             {% endif %}
             {% if mypage.path == etEEPage %}
-                <a href="{{ mypage.url }}">est </a>
+                <a href="{{ mypage.url }}">EST </a>
             {% endif %}
             {% if mypage.path == fiFIPage %}
-                <a href="{{ mypage.url }}">fin </a>
+                <a href="{{ mypage.url }}">FIN </a>
             {% endif %}
           {% endfor %}          
           </div>
