@@ -3,12 +3,11 @@
 # Estonian Package Excise - User Guide
 This extension adds Estonian localization for package excise functionality in Dynamics 365 Business Central.
 
-Once a quarter, entrepreneurs must submit a packaging excise duty declaration. The present functionality of the Estonian localization makes it possible to assemble a dataset necessary for the submission of the excise duty declaration in NAV. The functionality does not include a printout of the excise duty declaration report.
+Once a quarter, entrepreneurs must submit a packaging excise duty declaration. The present functionality of the Estonian localization makes it possible to assemble a dataset necessary for the submission of the excise duty declaration in Business Central. The functionality does not include a printout of the excise duty declaration report.
 
 References to the Packaging Act: 
-
-Packaging Act: [https://www.riigiteataja.ee/akt/104042012006?leiaKehtiv](https://www.riigiteataja.ee/akt/104042012006?leiaKehtiv)  
-Packaging Excise Duty Act: [https://www.riigiteataja.ee/akt/13074692?leiaKehtiv](https://www.riigiteataja.ee/akt/13074692?leiaKehtiv)
+- <a href="https://www.riigiteataja.ee/en/eli/513052021001/consolide" target="_blank">Packaging Act</a>
+- <a href="https://www.riigiteataja.ee/en/eli/504072017009/consolide" target="_blank">Packaging Excise Duty Act</a>
 
 # Settings
 ## General settings
@@ -77,4 +76,4 @@ If the report has been submitted, the **Reported** field in the header is marked
 ***
 
 For more information, please contact one of the partners:  
-[http://www.dynamicspartners.ee](http://www.dynamicspartners.ee/)
+<a href="http://www.dynamicspartners.ee/" target="_blank">www.dynamicspartners.ee</a> 
