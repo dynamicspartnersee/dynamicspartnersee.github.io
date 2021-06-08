@@ -4,12 +4,11 @@
 
 Käesolev äpp lisab Dynamics 365 Business Central-i pakendiaktsiisi funktsionaalsuse.
 
-Ettevõtjad peavad esitama kord kvartalis pakendi aktsiisideklaratsiooni. Antud Eesti lokalisatsiooni funktsionaalsus võimaldab NAV-is koostada aktsiisideklaratsiooni esitamise jaoks vajaliku andmete komplekti. Funktsionaalsus ei sisalda aktsiisideklaratsiooni aruande väljatrükki.
+Ettevõtjad peavad esitama kord kvartalis pakendi aktsiisideklaratsiooni. Antud Eesti lokalisatsiooni funktsionaalsus võimaldab Business Centralis koostada aktsiisideklaratsiooni esitamise jaoks vajaliku andmete komplekti. Funktsionaalsus ei sisalda aktsiisideklaratsiooni aruande väljatrükki.
 
 Viited pakendiseadusele:
-
-Pakendiseadus: [https://www.riigiteataja.ee/akt/104042012006?leiaKehtiv](https://www.riigiteataja.ee/akt/104042012006?leiaKehtiv)  
-Pakendiaktsiisi seadus: [https://www.riigiteataja.ee/akt/13074692?leiaKehtiv](https://www.riigiteataja.ee/akt/13074692?leiaKehtiv)
+- <a href="https://www.riigiteataja.ee/akt/104042012006?leiaKehtiv" target="_blank">Pakendiseadus</a>
+- <a href="https://www.riigiteataja.ee/akt/13074692?leiaKehtiv" target="_blank">Pakendiaktsiisi seadus</a>
 
 # Seadistamine
 
@@ -79,4 +78,4 @@ Kui aruanne on esitatud, siis märgitakse selle päises väli **Esitatud**. Kui 
 ----------
 
 Täpsema info saamiseks, palun võtke ühendust ühega partneritest:  
-[http://www.dynamicspartners.ee](http://www.dynamicspartners.ee/)
+<a href="http://www.dynamicspartners.ee/" target="_blank">www.dynamicspartners.ee</a>
