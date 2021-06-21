@@ -1,6 +1,11 @@
 ---
 ---
 
+##### Versioon 15.3.21168.0
+- Linnaosa salvestamine linna väljale tehtud seadistatavaks
+- Linna/Valla + linnaosa/küla mittemahtumisel salvestatakse ainult Linn/Vald
+
+
 ##### Versioon 15.3.21103.1
 - Inglise keele puudumise bugfix
 
