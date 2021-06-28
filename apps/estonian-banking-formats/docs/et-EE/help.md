@@ -49,6 +49,10 @@ Täiendavad reeglid ei vaja seadistamist ja ei ole nähtavad **Maksete sidumisre
 
 Täiendatud reegleid kasutatakse **Maksete sobitamise žurnaali** tegevusel  **Seo automaatselt**.
 
+## Makse saaja
+Kui makse saaja on erinev hankijast (näiteks on saajaks faktooring või Rahandusministeerium), lisage andmed **Hankija pangakonto kaart** kiirkaardil **Saaja**.  
+Kui **Saaja nimi** väli on täidetud, kasutatakse antud nime ka maksefailis. 
+
 ***
 
 Täpsema info saamiseks võtke palun ühendust oma partneriga:  
