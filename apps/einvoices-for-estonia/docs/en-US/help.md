@@ -8,9 +8,9 @@ E-Invoices for Estonia solution allows to exchange e-invoices with your business
   - [Job Queue Entries](#job-queue-entries)
   - [Data Exchange Activities Log](#data-exchange-activities-log)
   - [Receive E-Invoices](#receive-e-invoices)
-  - [Save E-Invoice to Purchase Invoice](#save-e-invoice-to-purchase-invoice)
-  - [Issue E-Invoices](#issue-e-invoices)
-  - [Issue G/L Accounts and Dimensions](#issue-gl-accounts-and-dimensions)
+  - [Create Purchase Invoice from E-Invoice](#create-purchase-invoice-from-e-invoice)
+  - [Send E-Invoices](#send-e-invoices)
+  - [Send Master Data to Omniva](#send-master-data-to-Omniva)
 
 <br/>
 
@@ -32,7 +32,7 @@ Open **Omniva Document Exchange Service Setup** or **Fitek Document Exchange Ser
 |Password<br/>(Fitek only)|Ask from Fitek.|
 |**Documents**<br/>(Omniva only)||
 |Get Invoices Changed Since|Document exchange internal bookmark. Not editable.|
-|Get Invoice Which Are|Specifies if invoice is taken from Omniva when it is received or after it has been processed in Omniva invoice management.|
+|Get Invoice Which Are|Receive invoice if status is: <br> a) Processed - invoice is marked as Ready for sending to ERP. <br> b) Received - invoice is received as soon as they arrive to Omniva. <br> c) Confirmed - invoce has been approved in Omniva invoice management.
 |Get Invoice Attachments|Specifies whether the attachents of the e-invoice are taken. „Main Attachment“ is usually invoice as a PDF.|
 
 To test the connection, use action **Test Connection**.
@@ -46,6 +46,7 @@ To test the connection, use action **Test Connection**.
 |--|--|
 |Send GL Accounts|Sends G/L accounts with checkmark **Send to Omniva**.|
 |Send Dimensions|Sends dimensions with checkmark **Send to Omniva**.|
+|Send Vendors and Customers|Sends vendors and customers with checkmark **Send to Omniva**.|
 |Get Purch. Invoices|Takes invoices from the operator server and saves to **Incoming Documents**.|
 |Send Posted Purch. Invoices No.|Sends posted purch. invoice number for Omniva incoming documents.|
 |Send Queued Sales Invoices|Sends sales invoices which **Document Exchange Status** is „Waits for Sending“ or „Sending Error“. Customer must have **Document Sending Profile** which has setup **Estonian E-Invoice**.
@@ -61,7 +62,7 @@ All data exchange activities are logged. In case of error, these help you in sol
 
 |Data record / Page|Data Exchange Activity|
 |--|--|
-|Omniva (/Fitek) Document Exchange Service Setup|-Send G/L accounts and dimensions <br> -Get purch. invoices batch|
+|Omniva (/Fitek) Document Exchange Service Setup|-Send G/L accounts and dimensions <br> -Send vendors and customers <br> -Get purch. invoices batch|
 |Incoming Document|-Get purch. invoice attachments <br> -Send posted purch. invoice no.|
 |Posted Sales Invoice (or credit memo)|-Send sales invoice|
 
@@ -78,22 +79,29 @@ Received e-invoices are stored to the table **Incoming Documents**.
 
 <br/>
 
-## Save E-Invoice to Purchase Invoice
+## Create Purchase Invoice from E-Invoice
 Open **Incoming Documents**. Select the received e-invoice that you want to save to **Purchase Invoice** and click **Create Document**.
 
 If failed, check the **Incoming Document** fast tab **Errors and Warnings**.
 
+To automatically create a purchase document from an incoming document You can create a workflow using template **Incoming Document Exchange Workflow**.
+
 The following mapping rules are used when **Purchase Invoice** is created from e-invoice:
 
-1. Vendor is identified by **Registration No.** If vendor is not found it can be created automatically, but using this feature is not recommended.
-2. G/L Account and dimensions are taken from the e-invoice if they are available – this means posting has been done in operator invoice management system.
-3. If the G/L account is not found on the e-invoice line, then **Map text to Account** functionality is used. Mapping is searched for the e-invoice line description and if not found then for the vendor name. **NB! Using filters is allowed in mapping texts setup.**
-4. Finally, the default accounts are used from the **Data Exchange** fast tab of the **Purchases & Payables Setup**.
+1. Vendor is identified by **Registration No.** <br> If vendor is not found it can be created automatically (*if New Vendor Template is specified in Countries/Regions table*), but using this feature is not recommended.
+2. **Items** are identified only if  **Activate Find Items** is activated on **Purchases & Payables Setup**. <br>
+Items are identified using the following order: <br> 
+a) EAN (firstly GTIN on item, then barcode from cross reference) <br>
+b) Seller Item No. (firstly from cross reference, then from BC Item No.) <br>
+3. G/L Account and dimensions are taken from the e-invoice if they are available – this means preposting has been done in operator invoice management system.
+4. If the G/L account is not found on the e-invoice line, then **Map text to Account** functionality is used. Mapping is searched for the e-invoice line description and if not found then for the vendor name. **NB! Using filters is allowed in Text-to-Account Mapping page.**
+5. Finally, the default accounts are used from the **Default Accounts** fast tab of the **Purchases & Payables Setup**.
+6. **VAT Prod. Posting Group** is taken from e-invoice (if it exists). If it's not on e-invoice then a VAT Prod. Posting Group that's specified on Item or G/L Account is used. <br> Note! If VAT % on e-invoice line is smaller then on purchase invoice line, then system finds and uses a first suitable VAT Prod. Posting Group with a matching VAT % (*in combination with VAT Bus. Posting Group from Vendor*).
 
 <br/>
 
-## Issue E-Invoices
-If you want issue e-invoices for the customer, open Customer card and assign the corresponding **Document Sending Profile**.
+## Send E-Invoices
+If you want send e-invoices to the customer, open Customer card and assign the corresponding **Document Sending Profile**.
 
 If there is no profile for e-invoice, open **Document Sending Profiles** and create new profile as follows:
 
@@ -102,9 +110,11 @@ If there is no profile for e-invoice, open **Document Sending Profiles** and cre
 |Code|"E-ARVE"|
 |Description|"E-arve"|
 |Estonian E-Invoice|Select your operator.|
+|Send Estonia E-Invoice Automatically | Posted invoice E-Invoice Status will be set to "Waits for Sending" and will be sent by the Job Queue job "Send Queued Sales Invoices".
 |Omniva Delivery Method|Select appropriate.|
+|Omniva Invoice Management| Specifies if invoice is immediately sent to the customer or to Omniva Invoice Management (meaning from there the invoice has to be manually sent to customer).
 
-To send e-invoice, use the action **Post and Send** on **Sales Invoice** or action **Send** on **Posted Sales Invoice**.
+To send e-invoice, use the action **Post and Send** on **Sales Invoice** or action **Send** on **Posted Sales Invoice**. <br> *If customer has document sending profile with a checkmark "Send Estonia E-Invoice Automatically", then e-invoice will be sent by the Job Queue even when only **Post** action is used.*
 
 Information about the sending status you can see on the posted invoice field **E-Invoice Status**:
 
@@ -125,12 +135,23 @@ If invoice has a sending error that cannot be resolved, it is advisable to stop 
 
 <br/>
 
-## Issue G/L Accounts and Dimensions
-On the **G/L Account** card and on the **Dimensions** page there is field **Send to Omniva**. Mark this field for those accounts and dimensions you want to send to Omniva.
+## Send Master Data to Omniva
+You can send to Omniva Invoice Management the following master data:
+- **G/L Accounts**
+- **Dimensions**
+- **Vendors and Customers**
 
-To send data manually, open the **Omniva Document Exchange Service Setup** and run the actions **Send GL Accounts** and **Send Dimensions**.
+In the respective tables there is field **Send to Omniva**. Mark this field for records that You want to send to Omniva.
 
-G/L Accounts and Dimensions will be sent periodically, if you have set up and running according job queue entries.
+<br>
+
+To send data manually, open the **Omniva Document Exchange Service Setup** and from Actions -> Master Data select suitable action:
+- **Send G/L Accounts**
+- **Send Dimensions**
+- **Send Vendors and Customers**
+
+
+Master Data will be sent periodically, if you have set up and running the appropriate job queue entries.
 
 ***
 
