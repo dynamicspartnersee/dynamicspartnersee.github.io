@@ -19,7 +19,7 @@ If the saving of the e-document is unsuccessful,  **Handling Status**  will be u
 If you choose  **Stop on Error**  option, the action will stop on first error and display the detailed error message.
 
 Typical errors could be:
-·  E-document contains a unrecognizable counterpart
+·  E-document contains a unrecognizable partner
 ·  E-document contains a unrecognizable item
 
 If problems with e-documents appear you can use action  **View Document XML** which enables to open the document (in web browser), save and inspect the content of the document.
