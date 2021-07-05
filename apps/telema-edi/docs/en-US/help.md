@@ -23,5 +23,5 @@ The following e-document types and related processes are supported in standard m
 ## How to send and receive e-documents?
 
 [Connection Setup](telema-setup)  
-[Inbound E-Documents](http://www.dynamicspartners.ee/docs/en-us/T_24007800.htm)  
-[Outbound E-Documents](http://www.dynamicspartners.ee/docs/en-us/T_24007801.htm)  
+[Inbound E-Documents](inbound-edocuments)  
+[Outbound E-Documents](outbound-edocuments)  
