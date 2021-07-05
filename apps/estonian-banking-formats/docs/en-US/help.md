@@ -48,6 +48,11 @@ New rules does not require setup and thus are not visible in **Payment Applicati
 
 Rules are used on action **Apply Automatically** in **Payment Reconciliation Journal**.
 
+
+## Payment recipient
+In case the payment recipient differs from the vendor (for example recipient is factoring company or Ministry of Finance), fill in data under **Recipient** tab on the **Vendor Bank Account Card**.  
+If the **Recipient Name** is filled, it is also used in the payment file.  
+
 ***
 
 For more information, please contact one of the partners:  
