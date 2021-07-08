@@ -1,7 +1,7 @@
 ---
 ---
-##### Mis on planeeritud
-- Edisofti opertaatori tugi (2021 Juuli)
+##### Versioon 15.0.21189.0
+- Edisoft opertaatori tugi
 
 ##### Versioon 15.0.21151.0
 - Vastavat Telema soovitusele on e-arve ReceiverID elemendi väärtus "Maksja-kliendi nr." asemel "Ostja-kliendi nr.".

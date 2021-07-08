@@ -1,7 +1,7 @@
 ---
 ---
-##### What's planned
-- Edisoft connector (2021 July)
+##### Version 15.0.21189.0
+- Edisoft operator support
 
 ##### Version 15.0.21151.0
 - According to instruction received from Telema. E-Invoice element ReceiverID value has been changed from "Bill-to Customer No." to "Sell-to Customer No.".
