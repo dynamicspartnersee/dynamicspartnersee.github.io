@@ -1,5 +1,9 @@
 ---
 ---
+##### _Peatselt lisandumas_
+- _Masterdata (kontoplaan, dimensioonid, hankijad) ning konteeritud ostuarve numbri saatmine läbi Unifiedpost-i liidese FitekIn keskkonda_
+<br>
+
 ##### Versioon 17.3.21215.0.
 - Operaatorite kaubamärgi muudatused (Omniva -> Finbite ja Fitek -> Unifiedpost)
 - Võimalus säilitada ostuarve rea kirjeldus ning ühiku hind peale PRkonto (või kaubakoodi) muutmist
@@ -9,7 +13,7 @@
 - Arve väljastaja postiaadressit ei lisata müügiarve XML-i, kui vastav sisu puudub
 - Müügiarve XML-i lisatakse nüüd arve väljastanud ettevõtte meiliaadress ning URL (ettevõtte andmetest)
 - Väiksemad bugfixid ja täiendused
-
+<br>
 
 ##### Versioon 17.3.21140.0
 - Allahindluse arvestamine ostuarvel on tehtud seadistusega aktiveeritavaks
