@@ -80,25 +80,54 @@ Received e-invoices are stored to the table **Incoming Documents**.
 <br/>
 
 ## Create Purchase Invoice from E-Invoice
+
+Functionality of the solution (inc. invoice creation logic and retaining line information) can be specified on **Purchases & Payables Setup**:
+
+![Purchases & Payables Setup](1-Purchases_and_Payables_Setup.png "Fields rounded with red line specify the functionality of the solution")
+
+- In fast tab **Default Accounts** you can specify a G/L account that is automatically inserted on purchase lines that are created from e-invoices when the line does not contain an identifiable G/L account or item (look below point 5).
+- In fast tab **E-Invoicing for Estonia Settings** you can:
+  - Activate find items from e-invoice functionality (look below point 2)
+  - Activate find discounts from e-invoice functionality (look below point 7)
+  - Specify logic to retain information on purchase line (look below Retain Line information specification)
+
+
+**Process:**
+
+
 Open **Incoming Documents**. Select the received e-invoice that you want to save to **Purchase Invoice** and click **Create Document**.
 
 If failed, check the **Incoming Document** fast tab **Errors and Warnings**.
 
+<br>
+
 To automatically create a purchase document from an incoming document You can create a workflow using template **Incoming Document Exchange Workflow**.
 
-The following mapping rules are used when **Purchase Invoice** is created from e-invoice:
+<br>
+
+**The following logic is used when **Purchase Invoice** is created from e-invoice:**
 
 1. Vendor is identified by **Registration No.** <br> If vendor is not found it can be created automatically (*if New Vendor Template is specified in Countries/Regions table*), but using this feature is not recommended.
-2. **Items** are identified only if  **Activate Find Items** is activated on **Purchases & Payables Setup**. <br>
+2. **Items** are identified only if  **Activate Find Items from e-invoice** is activated on **Purchases & Payables Setup**. <br>
 Items are identified using the following order: <br> 
-a) EAN (firstly GTIN on item, then barcode from cross reference) <br>
-b) Seller Item No. (firstly from cross reference, then from BC Item No.) <br>
+a) BC Item No. (in item code in BuyerProductId tag)
+b) EAN (firstly GTIN on item, then barcode from cross reference) <br>
+c) Seller Item No. (firstly from cross reference, then solution checks if a BC Item No. with this code exists) <br>
 3. G/L Account and dimensions are taken from the e-invoice if they are available – this means preposting has been done in operator invoice management system.
 4. If the G/L account is not found on the e-invoice line, then **Map text to Account** functionality is used. Mapping is searched for the e-invoice line description and if not found then for the vendor name. **NB! Using filters is allowed in Text-to-Account Mapping page.**
 5. Finally, the default accounts are used from the **Default Accounts** fast tab of the **Purchases & Payables Setup**.
 6. **VAT Prod. Posting Group** is taken from e-invoice (if it exists). If it's not on e-invoice then a VAT Prod. Posting Group that's specified on Item or G/L Account is used. <br> Note! If VAT % on e-invoice line is smaller then on purchase invoice line, then system finds and uses a first suitable VAT Prod. Posting Group with a matching VAT % (*in combination with VAT Bus. Posting Group from Vendor*).
+7. **Discount** is added to invoice line only if **Activate Find Discounts from e-invoice** is activated on  **Purchases & Payables Setup** and if discount information exists on e-invoice and if it passes mathematic checks (like Line amount less Line discount amount must equal SumBeforeVAT on e-invoice XML).
 
-<br/>
+<br><br>
+
+**Retain Line information specification**
+Field | Selections with descriptions
+|--|--|
+**Retain Description & Unit Cost** | Specifies whether to retain line's Description, Unit of Measure, Unit Cost and Line discount amount after a change on field No. or Location code. <br><br> a) No (BC Standard) - use Business Centrali standard logic meaning a G/L Account change shall result in data loss on fields mentioned above. <br> b) for E-invoice Lines - if purchase line is created from e-invoice XML, then change on fields No. or Location code does not result in data loss on fields mentioned above. <br> c) for All lines - no matter if line is created manually or from e-invoice, a change on fields No. or Location code does not result in data loss on fields mentioned above. <br><br> **NB!** If you selected b) or c) then solution stops user form changing line Type *(for example G/L Account is changed to Item)*. To change line type you should create a new line with suitable data and then delete the line created from e-invoice.
+**Line Dimension Change Logic** | Specifies logic for changing or retaining dimension values after a change in fields No., Job No., Job Task No. <br><br> a) Default Dimensions (BC Standard) - standard BC behaviour meaning dimensions on line depend on default dimensions from values of fields mentioned above. <br> b) Ask User - every change on fields mentioned abouve activate checking if dimension set ID has changed and if so, then user is asked Do You want to change line dimensions with default dimensions. If user confirms then selection a) applies and if not then dimension values are retained. <br> c) Retain for E-invoice Lines - dimension values are retained only on lines created from e-invoice XML.
+
+<br>
 
 ## Send E-Invoices
 If you want send e-invoices to the customer, open Customer card and assign the corresponding **Document Sending Profile**.
