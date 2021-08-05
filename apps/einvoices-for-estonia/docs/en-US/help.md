@@ -105,7 +105,7 @@ To automatically create a purchase document from an incoming document You can cr
 
 <br>
 
-**The following logic is used when **Purchase Invoice** is created from e-invoice:**
+**The following logic is used when Purchase Invoice is created from e-invoice:**
 
 1. Vendor is identified by **Registration No.** <br> If vendor is not found it can be created automatically (*if New Vendor Template is specified in Countries/Regions table*), but using this feature is not recommended.
 2. **Items** are identified only if  **Activate Find Items from e-invoice** is activated on **Purchases & Payables Setup**. <br>
@@ -122,6 +122,7 @@ c) Seller Item No. (firstly from cross reference, then solution checks if a BC I
 <br><br>
 
 **Retain Line information specification**
+
 Field | Selections with descriptions
 |--|--|
 **Retain Description & Unit Cost** | Specifies whether to retain line's Description, Unit of Measure, Unit Cost and Line discount amount after a change on field No. or Location code. <br><br> a) No (BC Standard) - use Business Centrali standard logic meaning a G/L Account change shall result in data loss on fields mentioned above. <br> b) for E-invoice Lines - if purchase line is created from e-invoice XML, then change on fields No. or Location code does not result in data loss on fields mentioned above. <br> c) for All lines - no matter if line is created manually or from e-invoice, a change on fields No. or Location code does not result in data loss on fields mentioned above. <br><br> **NB!** If you selected b) or c) then solution stops user form changing line Type *(for example G/L Account is changed to Item)*. To change line type you should create a new line with suitable data and then delete the line created from e-invoice.
