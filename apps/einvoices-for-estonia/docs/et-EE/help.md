@@ -123,6 +123,7 @@ c) Müüja kauba kood (esmalt ristviidetes, seejärel vaadatakse, kas vastavat B
 <br><br>
 
 **Osturea andmete säilitamise määrangud**
+
 Väli | Valikud ning selgitus
 |--|--|
 **Säilita kirjeldus ning ühiku hind** | Sellest määratlusest sõltub, kas peale muudatust ostuarve rea väljadel Nr. või Asukoha tähis säilitatakse muudatuse eelne info väljadel: <br> Kirjeldus/Märkus, Mõõtühiku tähis, Otsene ühikukulu, Rea hinnaalandi summa <br><br> a) Ei (BC Standardloogika) - st toimib Business Centrali standardloogika ehk nt PR Konto muutmisel kustub info ülaloetletud väljadelt. <br> b) e-arve ridadel - st kui arverida on XML-ist loodud, siis nt PR Konto muutmisel ei kao info ülaloetletud väljadelt. <br> c) kõikidel ridadel - st vahet pole, kas arverida pärineb e-arvelt või on käsitsi sisestatud, igal juhul ei kao info ülaloetletud väljadelt, kui muudetakse real välja Nr. või Asukoha tähis. <br><br> **NB!** Kui on tehtud valik b) või c), siis lahendus ei luba muuta rea tüüpi *(nt PR Konto asemele panna Kaup)*. Soovides rea tüüpi muuta, tuleks esmalt luua uus rida soovitud andmetega ning seejärel e-arvelt tekkinud rida kustutada.
