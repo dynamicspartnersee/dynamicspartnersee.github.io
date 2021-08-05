@@ -1,7 +1,7 @@
 ---
 ---
 # E-Invoices for Estonia - User Guide
-E-Invoices for Estonia solution allows to exchange e-invoices with your business partners. As a prerequisite, you must have entered into a corresponding contract with one of the e-invoice operators Omniva or Fitek.
+E-Invoices for Estonia solution allows to exchange e-invoices with your business partners. As a prerequisite, you must have entered into a corresponding contract with one of the e-invoice operators Finbite (formerly Omniva) or Unifiedpost (formerly Fitek).
 
 ## Table of Contents
   - [Service Setup](#service-setup)
@@ -10,12 +10,12 @@ E-Invoices for Estonia solution allows to exchange e-invoices with your business
   - [Receive E-Invoices](#receive-e-invoices)
   - [Create Purchase Invoice from E-Invoice](#create-purchase-invoice-from-e-invoice)
   - [Send E-Invoices](#send-e-invoices)
-  - [Send Master Data to Omniva](#send-master-data-to-Omniva)
+  - [Send Master Data to Finbite](#send-master-data-to-Finbite)
 
 <br/>
 
 ## Service Setup
-Open **Omniva Document Exchange Service Setup** or **Fitek Document Exchange Service Setup** and configure the following fields:
+Open **Finbite (Omniva) Document Exchange Service Setup** or **Unifiedpost (FitekIn) Document Exchange Service Setup** and configure the following fields:
 
 |Fast tab / Field|Explanation|
 |--|--|
@@ -24,15 +24,15 @@ Open **Omniva Document Exchange Service Setup** or **Fitek Document Exchange Ser
 |Key User|Notifications of errors of automatic data exchange will be sent to his/her role center.|
 |Activity Logging|Determines the level of detail for data exchange activity logging. During the test period it is advisable to use "Activity Message and XML Message" to get the maximum information to solve problems. Logged activities and messages can be viewed on the page **Activity Log**.|
 |**Connection**|To setup default values for connection, you can use action **Set URLs to Default**.|
-|Service URL|For Omniva you can find it in Omniva invoicing management environment under the Settings->Settings->Data Exchange with ERP.|
+|Service URL|For Finbite you can find it in Finbite invoicing management environment under the Settings->Settings->Data Exchange with ERP.|
 |Service Namespace URL|Usually no need to change default value.|
 |SOAP Namespace URL|Usually no need to change default value.|
-|Authentication Phrase<br/>(Omniva only)|You can find it in the Omniva invoicing management environment under the Settings->Settings->Data Exchange with ERP.|
-|User Name<br/>(Fitek only)|Ask from Fitek.|
-|Password<br/>(Fitek only)|Ask from Fitek.|
-|**Documents**<br/>(Omniva only)||
+|Authentication Phrase<br/>(Finbite only)|You can find it in the Finbite invoicing management environment under the Settings->Settings->Data Exchange with ERP.|
+|User Name<br/>(Unifiedpost only)|Ask from Unifiedpost.|
+|Password<br/>(Unifiedpost only)|Ask from Unifiedpost.|
+|**Documents**<br/>(Finbite only)||
 |Get Invoices Changed Since|Document exchange internal bookmark. Not editable.|
-|Get Invoice Which Are|Receive invoice if status is: <br> a) Processed - invoice is marked as Ready for sending to ERP. <br> b) Received - invoice is received as soon as they arrive to Omniva. <br> c) Confirmed - invoce has been approved in Omniva invoice management.
+|Get Invoice Which Are|Receive invoice if status is: <br> a) Processed - invoice is marked as Ready for sending to ERP. <br> b) Received - invoice is received as soon as they arrive to Finbite. <br> c) Confirmed - invoce has been approved in Finbite invoice management.
 |Get Invoice Attachments|Specifies whether the attachents of the e-invoice are taken. „Main Attachment“ is usually invoice as a PDF.|
 
 To test the connection, use action **Test Connection**.
@@ -44,16 +44,16 @@ To test the connection, use action **Test Connection**.
 
 |Data Exchange Job|Explanation|
 |--|--|
-|Send GL Accounts|Sends G/L accounts with checkmark **Send to Omniva**.|
-|Send Dimensions|Sends dimensions with checkmark **Send to Omniva**.|
-|Send Vendors and Customers|Sends vendors and customers with checkmark **Send to Omniva**.|
+|Send GL Accounts|Sends G/L accounts with checkmark **Send to Finbite**.|
+|Send Dimensions|Sends dimensions with checkmark **Send to Finbite**.|
+|Send Vendors and Customers|Sends vendors and customers with checkmark **Send to Finbite**.|
 |Get Purch. Invoices|Takes invoices from the operator server and saves to **Incoming Documents**.|
-|Send Posted Purch. Invoices No.|Sends posted purch. invoice number for Omniva incoming documents.|
+|Send Posted Purch. Invoices No.|Sends posted purch. invoice number for Finbite incoming documents.|
 |Send Queued Sales Invoices|Sends sales invoices which **Document Exchange Status** is „Waits for Sending“ or „Sending Error“. Customer must have **Document Sending Profile** which has setup **Estonian E-Invoice**.
 
 Set the desired frequency and activate the jobs with action **Set Status to Ready**.
 
-Manually you can run data exchange activities from the **Omniva Document Exchange Setup** or **Fitek Document Exchange Setup** actions ribbon.
+Manually you can run data exchange activities from the **Finbite Document Exchange Setup** or **Unifiedpost Document Exchange Setup** actions ribbon.
 
 <br/>
 
@@ -62,7 +62,7 @@ All data exchange activities are logged. In case of error, these help you in sol
 
 |Data record / Page|Data Exchange Activity|
 |--|--|
-|Omniva (/Fitek) Document Exchange Service Setup|-Send G/L accounts and dimensions <br> -Send vendors and customers <br> -Get purch. invoices batch|
+|Finbite (/Unifiedpost) Document Exchange Service Setup|-Send G/L accounts and dimensions <br> -Send vendors and customers <br> -Get purch. invoices batch|
 |Incoming Document|-Get purch. invoice attachments <br> -Send posted purch. invoice no.|
 |Posted Sales Invoice (or credit memo)|-Send sales invoice|
 
@@ -71,7 +71,7 @@ To view log entries, click **Activity Log** on the service setup or on a documen
 <br/>
 
 ## Receive E-Invoices
-Receiving e-invoices is normally an automated activity. To check this, open **Omniva (/Fitek) Document Exchange Setup**, make sure it is **Enabled**, and click **Job Queue Entries**. Open the job „Get Purchase Invoices“ and make sure it is set up and running the way you want.
+Receiving e-invoices is normally an automated activity. To check this, open **Finbite (/Unifiedpost) Document Exchange Setup**, make sure it is **Enabled**, and click **Job Queue Entries**. Open the job „Get Purchase Invoices“ and make sure it is set up and running the way you want.
 
 If you want to run receiving e-invoices manually, you can do so by clicking **Get Purch. Invoices** on the service setup page.
 
@@ -111,8 +111,8 @@ If there is no profile for e-invoice, open **Document Sending Profiles** and cre
 |Description|"E-arve"|
 |Estonian E-Invoice|Select your operator.|
 |Send Estonia E-Invoice Automatically | Posted invoice E-Invoice Status will be set to "Waits for Sending" and will be sent by the Job Queue job "Send Queued Sales Invoices".
-|Omniva Delivery Method|Select appropriate.|
-|Omniva Invoice Management| Specifies if invoice is immediately sent to the customer or to Omniva Invoice Management (meaning from there the invoice has to be manually sent to customer).
+|Finbite Delivery Method|Select appropriate.|
+|Finbite Invoice Management| Specifies if invoice is immediately sent to the customer or to Finbite Invoice Management (meaning from there the invoice has to be manually sent to customer).
 
 To send e-invoice, use the action **Post and Send** on **Sales Invoice** or action **Send** on **Posted Sales Invoice**. <br> *If customer has document sending profile with a checkmark "Send Estonia E-Invoice Automatically", then e-invoice will be sent by the Job Queue even when only **Post** action is used.*
 
@@ -122,8 +122,8 @@ Information about the sending status you can see on the posted invoice field **E
 |--|--|
 |Not Sent|Document has not been sent by the user and it will also not be sent by Job Queue.|
 |Sending Error|There was an error when sending the document.|
-|Sent to Omniva|Document has been sent to Omniva.|
-|Sent to Fitek|Document has been sent to Fitek.|
+|Sent to Finbite|Document has been sent to Finbite.|
+|Sent to Unifiedpost|Document has been sent to Unifiedpost.|
 
 Invoices to be sent will be sent by the periodic **Job Queue** job „Send Queued Sales Invoices“.
 
@@ -135,17 +135,17 @@ If invoice has a sending error that cannot be resolved, it is advisable to stop 
 
 <br/>
 
-## Send Master Data to Omniva
-You can send to Omniva Invoice Management the following master data:
+## Send Master Data to Finbite
+You can send to Finbite Invoice Management the following master data:
 - **G/L Accounts**
 - **Dimensions**
 - **Vendors and Customers**
 
-In the respective tables there is field **Send to Omniva**. Mark this field for records that You want to send to Omniva.
+In the respective tables there is field **Send to Finbite**. Mark this field for records that You want to send to Finbite.
 
 <br>
 
-To send data manually, open the **Omniva Document Exchange Service Setup** and from Actions -> Master Data select suitable action:
+To send data manually, open the **Finbite Document Exchange Service Setup** and from Actions -> Master Data select suitable action:
 - **Send G/L Accounts**
 - **Send Dimensions**
 - **Send Vendors and Customers**

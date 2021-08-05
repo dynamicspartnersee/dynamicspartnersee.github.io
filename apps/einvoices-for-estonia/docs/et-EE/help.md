@@ -2,7 +2,7 @@
 ---
 # Eesti e-arved - Kasutusjuhend
 
-Eesti e-arve lahendus võimaldab teil vahetada e-arveid oma äripartneritega. Eeldusena peate olema sõlminud operaatorlepingu Omniva'ga või Fitek'iga.
+Eesti e-arve lahendus võimaldab teil vahetada e-arveid oma äripartneritega. Eeldusena peate olema sõlminud operaatorlepingu Finbite'ga või Unifiedpost'iga.
 
 ## Sisukord
   - [Teenuse seadistamine](#teenuse-seadistamine)
@@ -11,11 +11,11 @@ Eesti e-arve lahendus võimaldab teil vahetada e-arveid oma äripartneritega. Ee
   - [E-arvete vastuvõtmine](#e-arvete-vastuvõtmine)
   - [E-arvete salvestamine ostuarveks](#e-arvete-salvestamine-ostuarveks)
   - [E-arvete saatmine](#e-arvete-saatmine)
-  - [Põhiandmete saatmine Omnivasse](#põhiandmete-saatmine-omnivasse)
+  - [Põhiandmete saatmine Finbite](#põhiandmete-saatmine-Finbite)
 
 ## Teenuse seadistamine
 
-Avage **Omniva dokumendivahetusteenuse seadistus** või **Fitek dokumendivahetusteenuse seadistus** ning seadistage järgnevad väljad:
+Avage **Finbite (Omniva) dokumendivahetusteenuse seadistus** või **Unifiedpost (FitekIn) dokumendivahetusteenuse seadistus** ning seadistage järgnevad väljad:
 
 
 Kiirkaart / Väli | Selgitus
@@ -25,15 +25,15 @@ Lubatud | Aktiveerib teenuse ning loob automaatse andmevahetuse jaoks vajalikud 
 Võtmekasutaja | Tema rollikeskuse teatistesse saadetakse automaatsete andmevahetustööde käigus tekkivad vead, mis vajavad lahendamist.
 Tegevuse logimine | Määrab, millise detailsusega peetakse andmevahetuse tegevuste logi. Testperioodil on soovitav kasutada valikut „Tegevuse teade ja XML sõnumid“, et saada probleemide lahendamiseks maksimaalselt infot. Logitud teated ja sõnumid on vaadeldavad lehel Tegevuse logi.
 **Ühendus** | Ühenduse vaikeväärtuste seadistamiseks saate kasutada tegevust Taasta URLide vaikeväärtused.
-Teenuse URL | Omniva puhul leiate selle arvete halduse keskkonnast Üldinfo->Seaded->Andmevahetus ERP-ga.
+Teenuse URL | Finbite puhul leiate selle arvete halduse keskkonnast Üldinfo->Seaded->Andmevahetus ERP-ga.
 Teenuse nimeruumi URL | Vaikeväärtust ei ole vaja üldjuhul muuta.
 SOAP nimeruumi URL | Vaikeväärtust ei ole vaja üldjuhul muuta.
-Autentimisfraas (Omniva puhul) | Leiate selle Omniva arvete halduse keskkonnast Üldinfo->Seaded->Andmevahetus ERP-ga.
-Kasutajanimi  (Fiteki puhul) | Täpsustage Fitek’ist.
-Parool  (Fiteki puhul) | Täpsustage Fitek’ist.
-**Dokumendid**  (Omniva puhul) | 
+Autentimisfraas (Finbite puhul) | Leiate selle Finbite arvete halduse keskkonnast Üldinfo->Seaded->Andmevahetus ERP-ga.
+Kasutajanimi  (Unifiedposti puhul) | Täpsustage Unifiedpost’ist.
+Parool  (Unifiedposti puhul) | Täpsustage Unifiedpost’ist.
+**Dokumendid**  (Finbite puhul) | 
 Võta arved muudetud alates | Dokumendivahetuse sisemine järjehoida. Mittemuudetav.
-Võta arved, mis on | Määrab, millise olekuga ostuarved laetakse BC-sse: <br> a) Töödeldud - st peale nende töötlemist Omniva arvehalduses. <br> b) Vastu võetud - st kohe peale arve saabumist Omnivasse. <br> c) Kinnitatud - st peale arve kinnitamist Omnivas.
+Võta arved, mis on | Määrab, millise olekuga ostuarved laetakse BC-sse: <br> a) Töödeldud - st peale nende töötlemist Finbite arvehalduses. <br> b) Vastu võetud - st kohe peale arve saabumist Finbitesse. <br> c) Kinnitatud - st peale arve kinnitamist Finbites.
 Võta arve manused | Määrab, kas võetakse e-arvega kaasasolevad manused. „Põhimanus“ on üljuhul arve PDF kujul.
 
 Ühenduse testimiseks kasutage tegevust **Testi ühendust**.
@@ -46,14 +46,14 @@ Teenuse aktiveerimisel luuakse automaatse andmevahetuse jaoks Tööjärjekorra k
 
 Andmevahetuse töö | Selgitus
 |--|--|
-Saada PR kontod | Saadab PR kontod, millel on märge **Saada Omnivasse**.
-Saada dimensioonid | Saadab dimensioonid, millel on märge **Saada Omnivasse**.
-Saada hankijad ja kliendid | Saadab hankijad ja kliendid, millel on märge **Saada Omnivasse**.
+Saada PR kontod | Saadab PR kontod, millel on märge **Saada Finbite**.
+Saada dimensioonid | Saadab dimensioonid, millel on märge **Saada Finbite**.
+Saada hankijad ja kliendid | Saadab hankijad ja kliendid, millel on märge **Saada Finbite**.
 Võta ostuarved | Võtab operaatori serverist ostuarved ning salvestab need tabelisse Sissetulevad dokumendid.
-Saada kont. ostuarvete nr. | Saadab konteeritud ostuarve numbri Omnivast tulnud sissetulevatele dokumentidele.
+Saada kont. ostuarvete nr. | Saadab konteeritud ostuarve numbri Finbitest tulnud sissetulevatele dokumentidele.
 Saada järjek. müügiarved | Saadab müügiarved, mille **E-arve olek** on „Ootab saatmist“ või „Saatmise tõrge“. Kliendil peab olema **Dokumendi saatmise profiil**, millel on seadistatud **Eesti e-arve**.
 
-Seadistage töödele soovitud sagedus ning aktiveerige iga töö tegevusega **Sea olekuks Valmis**. Käsitsi saab andmevahetuse tegevusi käivitada **Omniva dokumendivahetusteenuse seadistuse** või **Fitek dokumendivahetusteenuse seadistuse** toimingute ribalt.
+Seadistage töödele soovitud sagedus ning aktiveerige iga töö tegevusega **Sea olekuks Valmis**. Käsitsi saab andmevahetuse tegevusi käivitada **Finbite (Omniva) dokumendivahetusteenuse seadistuse** või **Unifiedpost (FitekIn) dokumendivahetusteenuse seadistuse** toimingute ribalt.
 
 <br>
 
@@ -63,7 +63,7 @@ Kõik andmevahetuse tegevused logitakse. Tõrgete korral aitavad need teid probl
 
 Andmekirje / Leht | Andmevahetustegevus
 |--|--|
-Omniva (/Fitek) dokumendivahetusteenuse seadistus | -Kontoplaani ja dimensioonide saatmine <br> -Hankijate ja klientide saatmine <br> -Ostuarvete paketi vastuvõtmine
+Finbite (/Unifiedpost) dokumendivahetusteenuse seadistus | -Kontoplaani ja dimensioonide saatmine <br> -Hankijate ja klientide saatmine <br> -Ostuarvete paketi vastuvõtmine
 Sissetulev dokument | -Ostuarvega seotud manuste vastuvõtmine <br> -Konteeritud ostuarve nr. saatmine
 Konteeritud müügiarve ( või kreeditarve) | -Müügiarve saatmine
 
@@ -73,7 +73,7 @@ Logi sissekannete vaatamiseks klikkige seadistusel või dokumendil **Tegevuse lo
 
 ## E-arvete vastuvõtmine
 
-E-arvete vastuvõtmine on tavaliselt seadistatud automaatseks tegevuseks. Selle kontrollimiseks avage **Omniva (/Fitek) dokumendivahetusteenuse seadistus**, veenduge, et see on **Lubatud** ning klikkige **Tööjärjekorra kanded**. Avage töö „Võta ostuarved“ ning veenduge, et see on seadistatud ja töötab nii nagu soovite.
+E-arvete vastuvõtmine on tavaliselt seadistatud automaatseks tegevuseks. Selle kontrollimiseks avage **Finbite (/Unifiedpost) dokumendivahetusteenuse seadistus**, veenduge, et see on **Lubatud** ning klikkige **Tööjärjekorra kanded**. Avage töö „Võta ostuarved“ ning veenduge, et see on seadistatud ja töötab nii nagu soovite.
 
 Juhul, kui soovite arvete vastuvõtmist kävitada käsitsi, saate seda teha teenuse seadistuse lehel tegevusega **Võta ostuarved**.
 
@@ -115,12 +115,13 @@ Tähis | "E-ARVE"
 Kirjeldus | "E-arve"
 Eesti e-arve | Valige oma operaator
 Saada Eesti e-arve automaatselt | Konteeritud arve E-arve olek saab väärtuse "Ootab saatmist" ja saadetakse Tööjärjekorra tööga "Saada järjekorras müügiarved"
-Omniva kättetoimetamisviis | Valige sobiv
-Omniva arvehaldus | Kas müügiarve läheb kohe kliendile või esmalt Omniva arvehaldusesse (viimases tuleb siis manuaalselt müügiarve kliendile edasi saata).
+Finbite kättetoimetamisviis | Valige sobiv (vaikeväärtus tühi tähendab, et kanali otsustab Finbite)
+Finbite arvehaldus | Kas müügiarve läheb kohe kliendile või esmalt Finbite arvehaldusesse (viimases tuleb siis manuaalselt müügiarve kliendile edasi saata).
 
 <br>
 
-E-arve saatmiseks kasutage arvel tegevust **Konteeri ja saada** või juba konteeritud arvel tegevust **Saada**. <br> *Kui kliendile on määratud dokumendi saatmise profiil, kus aktiveeritud "Saada Eesti e-arve automaatselt", siis saadetakse e-arved tööjärjekorraga ka lihtsalt tegevust **Konteeri** kasutades.*
+E-arve saatmiseks kasutage arvel tegevust **Konteeri ja saada** või juba konteeritud arvel tegevust **Saada**. <br>
+*Kui kliendile on määratud dokumendi saatmise profiil, kus aktiveeritud "Saada Eesti e-arve automaatselt", siis saadetakse e-arved tööjärjekorraga ka lihtsalt tegevust **Konteeri** kasutades.*
 
 <br>
 
@@ -128,10 +129,10 @@ Saatmise oleku kohta annab infot konteeritud arve väli **E-arve olek**:
 
 Väärtus | Selgitus
 |--|--|
-Saatmata | Dokumenti ei ole kasutaja poolt saadetud ja seda ei saada hiljem ka tööjärjekord.
-Saatmise tõrge | Dokumendi saatmisel tekkis tõrge.
-Saadetud Omnivasse | Dokument on saadetud Omnivasse.
-Saadetud Fitekisse | Dokument on saadetud Fitekisse.
+Ootab saatmist | Dokumenti ei ole veel ära saadetud aga seda teeb hiljem tööjärjekord (kui viimane on aktiveeritud).
+Saatmistõrge | Dokumendi saatmisel tekkis tõrge.
+Saadetud Finbite | Dokument on saadetud e-arve operaatorile Finbite.
+Saadetud Unifiedpost | Dokument on saadetud e-arve operaatorile Unifiedpost.
 
 Saatmata e-arveid saadab perioodiliselt tööjärjekorra töö „Saada järjek. müügiarved“.
 
@@ -144,16 +145,16 @@ Juhul, kui arve saatmisel on tõrge, mida ei ole võimalik lahendada, siis on so
 
 <br>
 
-## Põhiandmete saatmine Omnivasse
+## Põhiandmete saatmine Finbite
 
-Omnivasse arvehaldusesse on võimalik saata järgmised põhiandmed:
+Finbitesse arvehaldusesse on võimalik saata järgmised põhiandmed:
 - **PR kontod**
 - **Dimensioonid**
 - **Hankijad ja kliendid**
 
-Vastavates registrites tuleb märkida on väli **Saada Omnivasse** nendele kirjetele, mida soovite Omnivasse edastada.
+Vastavates registrites tuleb märkida on väli **Saada Finbite** nendele kirjetele, mida soovite Finbitesse edastada.
 <br>
-Andmete saatmiseks ühekordselt avage **Omniva dokumendivahetusteenuse seadistus** ning käivitage Toimingud -> Põhiandmed alt vastav tegevus:
+Andmete saatmiseks ühekordselt avage **Finbite dokumendivahetusteenuse seadistus** ning käivitage Toimingud -> Põhiandmed alt vastav tegevus:
 - **Saada PR kontod**
 - **Saada dimensioonid**
 - **Saada hankijad ja kliendid**
