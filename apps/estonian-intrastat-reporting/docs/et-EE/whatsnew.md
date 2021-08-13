@@ -1,7 +1,7 @@
 ---
 ---
 
-##### Versioon 17.0.21223.0
+##### Versioon 17.0.21225.0
 - XML failis ajaformaadi parandus
 - Tehnilised täiendused (sh Intrastati žurnaalis toiming Soovita ridu kasutab nüüdsest BC standardit) 
 
