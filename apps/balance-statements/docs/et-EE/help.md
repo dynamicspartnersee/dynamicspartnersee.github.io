@@ -3,77 +3,86 @@
 # Saldoteatised - Kasutusjuhend
 
 Saldoteatise funksionaalsus võimaldab kasutajal saata klientidele/hankijatele saldoteatised vastavalt enda valitud kuupäevale ning jälgida nende kinnitamisi.
+  
+<br>
 
-## Saldoteatise api tuvastamine
-Ava **Laiendused** ja veendu, et app ‘Saldoteatised’ on alla laetud. Kui pole, võid selle leida AppSourcest või võta ühendust oma partneriga.
+## Saldoteatise laienduse olemasolu kontroll
+Ava **Laiendused** ja veendu, et laiendus ‘Balance Statements’ on installitud. Kui pole, võid selle leida <a href="https://appsource.microsoft.com/et-ee/product/dynamics-365-business-central/PUBID.estonian_dynamics_partners%7CAID.balance-statements%7CPAPPID.2c6e9797-3574-4828-b075-ef340322f94c" target="_blank">AppSourcest</a> või võta ühendust oma partneriga.  
+
+<br>
 
 ## Seadistused
 **Ava otsingust Saldoteatiste seadistused**
 
-|Välja nimi|Kasutamine|
+|**Välja nimi**|**Selgitus**|
 |-|-|
 |Saldoteatiste numbrid|Seadista endale soovitud saldoteatise numbriseeria.|
-|Kliendi e-kirjade kujunduse tähis|CUST-EMAIL- sisse ehitatud aruanne, võimalik modifitseerida vastavalt enda vajadustele.|
-|Hankija e-kirjade kujunduse tähis|VEND-EMAIL  sisse ehitatud aruanne, võimalik modifitseerida vastavalt enda vajadustele.|
+|Kliendi meilisõnumi kujunduse tähis|CUST-EMAIL- sisse ehitatud aruanne, võimalik modifitseerida vastavalt enda vajadustele.|
+|Hankija meilisõnumi kujunduse tähis|VEND-EMAIL  sisse ehitatud aruanne, võimalik modifitseerida vastavalt enda vajadustele.|
+
+<br>
 
 ## Saldoteatised
 Ava otsingust **Saldoteatised**.
+  
+  
+### Kuidas luua kliendi/hankija saldoteatiseid
+Saldoteatiste loomise protsess kliendidele ja hankijatele on analoogne.
 
-## Kuidas luua kliendi saldoteatiseid
-Kliki **Protsess-> Loo kliendi teatised**
+Kliki **Protsess -> Loo kliendi/hankija teatised**
 
-|Välja nimi|Kasutamine|
+|**Välja nimi**|**Selgitus**|
 |-|-|
-|Saldo kuupäev|Määrab ära, mis kuupäevani saldo kuvatakse.|
+|Saldo kuupäev|Määrab ära, mis seisuga saldo kuvatakse.|
 |Tagastamise kuupäev|Kuupäev, mis ajaks oodatakse vastust.|
-|Prindi KV-s||
-|Väljastaja |Kui täpsustatud kontakti nimi, lisatakse see saldoteatisele.|
+|Prindi KV-s|Määratleb kas võlgnevuse summa näidatakse konverteerituna kokku kohalikus valuutas või iga valuuta kohta eraldi.|
+|Väljastaja |Valitud Töötaja nimi ning info (telefon, meil, ametinimetus) lisatakse saldoteatisele.|
  
-Kliki **OK** Klientidele saldoteatised on loodud.
+Loo sobiv filter ja vajuta **OK** ning süsteem alustab saldoteatiste loomist.
 
 ![CustomerStatementList](CustomerStatementList.png)
 
-Saldoteatise PDF leiad kiirinfo väljalt, kus vajadusel saad selle ka avada:
+Punaselt kuvatakse saldoteatised, millel puudub Saaja meiliaadress (või on mõni muu saatmise tõrge).  
+**Saaja meiliadressi saab muuta/lisada toiminguga "Muuda saaja meil..."** ning järgmiseks korraks kliendi kaardile salvestada (_va olekuga Töödeldud teatised_).
+
+<br>
+
+Saldoteatise PDF faili leiad kiirinfo väljalt, kus vajadusel saad selle ka avada:
 
 ![CustomerStatementFactbox](CustomerStatementFactBox.png)
 
+<br>
 
-## Kuidas luua Hankijate saldoteatised
-Kliki **Protsess-> Loo hankija teatised**
+PDF faili kujundust ning meilisõnumi sisu saab kohandada lehel **Aruande kujunduse valik**:
 
-|Välja nimi|Kasutamine|
+|**Aruande ID**|**Aruande nimetus**|
 |-|-|
-|Saldo kuupäev|Määrab ära, mis kuupäevani saldo kuvatakse.|
-|Tagastamise kuupäev|Kuupäev, mis ajaks oodatakse vastust.|
-|Prindi KV-s||
-|Väljastaja |Kui täpsustatud kontakti nimi, lisatakse see saldoteatisele.|
+|24012100|Klient - Saldoteatis|
+|24012101|Hankija - Saldoteatis|
 
-Kliki **OK** saldoteatised on loodud.
-
-![VendorStatementList](VendorStatementList.png)
-
-Saldoteatise PDF leiad kiirinfo väljalt, kus vajadusel saad selle ka avada:
-
-![VendorStatementFactbox](VendorStatementFactBox.png)
+<br>
 
 ## Kuidas saata Saldoteatiseid
-Enne, kui hakkad saldoteatiseid välja saatma, palun veendu, et  **SMTP-posti seadistused ** on tehtud.
+Enne, kui hakkad saldoteatiseid välja saatma, palun veendu, et  **SMTP-posti seadistused** on tehtud.
 
-Kliki **Protsess-> Saada teatised**
+Kliki **Protsess -> Saada teatised...**
 
-|Välja nimi|Kasutamine|
+|**Välja nimi**|**Selgitus**|
 |-|-|
-|Valikud:||
-|Saatja aadress|Siia sisesta emaili aadress, mille pealt saldoteatised välja saadetakse. Sõltub **SMTP seadistusest**, kas saab saata ainult sinna määratud aadressilt või saab kasutada erinevaid aadresse.|
-|Filtrid:||
-|Nr.|Vaikimisi on filtreeritud see saldoteatis, mille pealt e-maili saatma hakkasid. Kui soovid saata kõik saltoteatised korraga, eemalda filter.|
+|**Meiliaadressid:**||
+|Saatja meil|Siia sisesta emaili aadress, mille pealt saldoteatised välja saadetakse. Sõltub **SMTP seadistusest**, kas saab saata ainult sinna määratud aadressilt või saab kasutada erinevaid aadresse.|
+|Saatja nimi|Määratleb saajale kuvatava saatja nime (va juhul, kui viimane tuleb meilikontolt).|
+|Koopia|Määratleb isikute meiliaadressid, kes saavad kirja koopia.|
+|Salakoopia|Määratleb isikute meiliaadressid, kes saavad kirja salakoopiana (Bcc). Neid aadresse ei näidata teistele kirja saajatele.|
+|Test adressaat|Kui väli on täidetud, siis saadetakse saldoteatis sellele meiliaadressile (Saaja meili asemel). Saab kasutada testimiseks.|
+|**Filtrid:**||
+|Nr.|Vaikimisi on filtris see saldoteatis, mille peal olles "Saada teatised..." toimingu käivitasid. Kui soovid saata kõik saltoteatised korraga, tühjenda filter.|
 
-Kliki **OK**, saldoteatised on välja saadetud.
+Vajuta **OK** ning ning süsteem alustab saldoteatiste välja saatmist.
+Õnnestunult saadetud saldoteatised saavad märke **Saadetud**.
 
-Pane linnuke saldoteatiste taha **Saadetud**.
-Hiljem, kui äripartnerid on vastanud, on võimalik igale saldoteatisele lisada **manuseid** ja **märkmeid** ning märkida teatis **töödelduks**. 
+Hiljem, kui äripartnerid on vastanud, on võimalik igale saldoteatisele lisada **manuseid** ja **märkmeid** ning märkida teatise olek **töödelduks**. 
 
 
 Lisainformatsiooni saamiseks pöördu partneri poole:  
-[http://www.dynamicspartners.ee](http://www.dynamicspartners.ee)
-
+<a href="http://www.dynamicspartners.ee/" target="_blank">www.dynamicspartners.ee</a>
