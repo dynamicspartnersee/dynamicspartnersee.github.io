@@ -1,13 +1,13 @@
 ---
 ---
 # Balance Statements
-This extension makes it easy to reconcile your balances with customers and vendors.
+This extension makes it easy to compare your balances with customers and vendors.
 
 ### Key Features:
 - Define balance statement layout or use default
 - Define balance statement e-mail body or use default
-- Create and review balance statement e-mails
-- Send prepared balance statements by e-mail
+- Create and review balance statement emails
+- Send prepared balance statements by email
 - Attach feedback on balance reconciliation (notes and documents received) 
 - Archive processed statements
 
@@ -15,7 +15,10 @@ This extension makes it easy to reconcile your balances with customers and vendo
 This extension supports both the Essential and Premium editions of Microsoft Dynamics 365 Business Central.
 
 ### Supported countries:
-Australia, Canada, Estonia, Finland, Hong Kong, New Zealand, Singapore, United Kingdom, United States
+All countries where Business Central is available.
+
+### Supported Languages:
+This app is available in English (United States) and Estonian (Estonia).
 
 ---
 
@@ -24,4 +27,4 @@ Australia, Canada, Estonia, Finland, Hong Kong, New Zealand, Singapore, United K
 ### Contact information
 
 For more information and pricing please contact one of the partners:  
-[http://www.dynamicspartners.ee/docs/en-us/contacts](http://www.dynamicspartners.ee/docs/en-us/contacts)
+<a href="http://www.dynamicspartners.ee/" target="_blank">www.dynamicspartners.ee</a>
