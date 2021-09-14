@@ -69,7 +69,7 @@ Pärast uuenduse käivitamist, sisaldab nimekiri neid tehinguparntereid keda ei 
 Muutke neid kliente/hankijaid ükshaaval kasutades funktsiooni **Päri äriregistrist** ja määrates otsitava ettevõtte nime.
 
 ## Deklaratsiooni esitamiseks XML-faili loomine
-Märkige linnuke **Teata kõigist tehingutest**, kui soovite lisada nende tehingupartnerite arveid, kelle tehingute kogusumma jääb alla **KM aruande seadistus** lehel määratud piirmäära (üldjuhul 1000 €).
+Märkige linnuke **Esita kõik tehingud**, kui soovite lisada nende tehingupartnerite arveid, kelle tehingute kogusumma jääb alla **KM aruande seadistus** lehel määratud piirmäära (üldjuhul 1000 €).
 
 Aruande XML-faili salvestamiseks klõpsake **Koosta** ja OK nupule vajutades saate faili salvestada.  
 Laadige fail üles ja esitage E-maksuametis.
