@@ -28,6 +28,8 @@ Teiseks tuleb **KM konteerimise seadistuses** soovitud _**KM äri konteeringurü
 
 BC-s registreeritakse kliendipõhine ettemaks müügiarve kaudu. Selleks luuakse kliendile müügiarve, mille reale valitakse konto, mis esineb üld. konteeringu seadistuses veerus **Müügi ettemaksu konto**.
 
+**Projektiga setoud** etteamksu arve loomine saab, saranselt projekti müügiarvetega, alguse Projekti plaanimisrealt ning sellele rakendub eelpoolmainitu. Projektipõhise etteamksu arve korral lisatakse **Ettemaksuandmikusse** ka **Projekti nr.** ning **Projekti ülesande nr.**
+
 #### **_Tähtis_**
 ----------
 _Ettemaksu arve koostamisel märgitakse taustal väli **Kliendipõhine ettemaksuarve** konteerimsiel automaatselt (välja väärtus kandub üle konteeritud arvele või konteeritud kreeditarvele)._
@@ -52,13 +54,14 @@ Numbrit klõpsates avaneb leht, kus kuvatakse kliendi ettemaksuandmiku kanded
 
 Tähtsamate väljade selgitused:
 
-Väli | Selgitus
-- | -
+|Väli | Selgitus|
+|- | -|
 Summa | Algne ettemaksu summa.
 Jääksumma | Kasutamata ettemaksu summa.
 Avatud | Märge väljal viitab, et ettemaksukanne on avatud ja seda saab saab kasutada (sel juhul on **Jääksumma** nullist erinev).
 Kliendi andmikukande number | Viide kliendi andmikukande numbrile, millega seoses loodi kanne ettemaksuandmikusse.
 Arve makstud | Viitab, kas ettemaksukande eest on kliendilt laekumine tehtud või mitte. Kui see on **Ei**, siis on kliendi andmikukanne avatud ehk kliendilt pole veel ettemaksu laekumist BC-s registreeritud. **Jah** puhul on kliendi andmikukanne suletud, mis viitab registreeritud laekumisele.
+|Projekti nr. / Projekti ülesnde nr.| Lisatakse kannetele kui ettemaks on seotud projektiga ehk kui ettemaksu arve on loodud **Projekti plaanimisrealt**.|
 
 #### **_Tähtis_**
 
@@ -72,19 +75,19 @@ Kasutades tegevusnuppu **Navigeeri** saab vaadata märgitud ettemaksukandega seo
 
 ### **Ettemaksu kasutamine**
 
-Kliendi ettemaksu saab kasutada konteerimata müügitellimusel ja -arvel kasutades selleks nuppu **Too kliendipõhine ettemaks**. Avaneval lehel kuvatakse avatud ja jääksummadega ettemaksukanded, mille seast märgitakse kanne, mida soovitakse kasutada ja vajutatakse nuppu **OK**.
+Kliendi ettemaksu saab kasutada konteerimata müügitellimusel ja -arvel või projekti plaanimisridadel kasutades selleks nuppu **Too kliendipõhine ettemaks**. Avaneval lehel kuvatakse avatud ja jääksummadega ettemaksukanded, mille seast märgitakse kanne, mida soovitakse kasutada ja vajutatakse nuppu **OK**.
 
 **OK** vajutamisel toimuvad järgmised kontrollid:
 
--   Kontrollitakse, et kande valuuta vastab dokumendi valuutale.
+-   Kontrollitakse, et kande valuuta vastab dokumendi või projekti valuutale.
 -   Kontrollitakse, et kande ettemaksu liik ei oleks **Tellimusepõhine** ehk, et kanne oleks **Kliendipõhine**.
 
-Kandelt kopeeritakse uuele dokumendi reale:
+Kandelt kopeeritakse uuele dokumendi reale või projekti plaanimisreale:
 
 -   konto nr.
 -   kirjeldus
 -   kõik konteeringurühmad
--   müügireal täidetakse väli **Seotud ettemaksukande number** seotud ettemaksu kande numbriga. Väli on peidetud ja selle infot saab vaadata ainult suumi kasutades
+-   müügireal/projekti plaanimisreal täidetakse väli **Seotud ettemaksukande number** seotud ettemaksu kande numbriga. Väli on peidetud ja selle infot saab vaadata ainult suumi kasutades
 -   rea koguseks täidetakse miinus üks (-1).
 -   juhul kui arve summa käibemaksuga on väiksem kui avatud ettemaks, siis vähendatakse selle järgi arvele toodavat summat.
 
@@ -92,11 +95,12 @@ Kandelt kopeeritakse uuele dokumendi reale:
 
 ----------
 
--   Müügidokumendile valitakse ettemaksuridu ükshaaval, st et korraga mitut rida valida ei saa.
--   Kui ettemaksukandel olevat jääksummat ei soovita korraga kasutada, siis vähendatakse ettemaksurea summat veerus **Ühiku hind KM-ta**. Sel juhul jääb ettemaksukanne pärast dokumendi konteerimist jääksummaga avatuks.
--   Ettemaksureaga müügidokumendi konteerimisel kontrollib BC, kas ettemaksuga müügirida ei ületa ettemaksukande jääksummat. Vea korral kuvatakse kasutajale veateade.
--   Kui kogu ettemaksusumma kasutati ära, siis pärast müügidokumendi konteerimist märgitakse ettemaksukanne suletuks ja seda ei saa enam dokumendile valida.
--   Kui ettemaksusummast kasutati ainult osa, siis jääb ettemaksukanne avatuks ning kande jääki saab kasutada mõne teise müügidokumendiga.
+-   _Müügidokumendile/projekti plaanimisreale valitakse ettemaksuridu ükshaaval, st et korraga mitut rida valida ei saa._
+-   _Kui ettemaksukandel olevat jääksummat ei soovita korraga kasutada, siis vähendatakse ettemaksurea summat veerus **Ühiku hind KM-ta** / **Ühiku hind**. Sel juhul jääb ettemaksukanne pärast dokumendi konteerimist jääksummaga avatuks._
+-   _**NB!**Projektipõhise ettemaksu puhul tuleb seejärel projekti plaanimisrealt luua müügiarve._
+-   _Ettemaksureaga müügidokumendi konteerimisel kontrollib BC, kas ettemaksuga müügirida ei ületa ettemaksukande jääksummat. Vea korral kuvatakse kasutajale veateade._
+-   _Kui kogu ettemaksusumma kasutati ära, siis pärast müügidokumendi konteerimist märgitakse ettemaksukanne suletuks ja seda ei saa enam dokumendile valida._
+-   _Kui ettemaksusummast kasutati ainult osa, siis jääb ettemaksukanne avatuks ning kande jääki saab kasutada mõne teise müügidokumendiga._
 
 ----------
 

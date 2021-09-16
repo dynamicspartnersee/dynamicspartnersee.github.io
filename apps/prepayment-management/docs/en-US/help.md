@@ -6,6 +6,7 @@ Prepayment management functionality enables the following:
 - According to the VAT Act, treating prepayment of customers as turnover and subject it to the calculation of VAT.
 - Keep the accounting of customer’s prepayments and use them on (deduct from) the main invoices issued to the customer.
 - Support for standard Prepayment Unrealized VAT functionality.
+- Link prepayments with jobs module.
 
 ## Settings
 To use the functionality, standard prepayment settings are required. 
@@ -22,7 +23,9 @@ As a second step you have to open **VAT Posting Setup** and modify necessary _**
 ## Use
 ### Registration of customer-specific prepayment and issuing of a prepayment invoice
 
-In BC, customer-specific prepayment is registered through a sales invoice. For that, a sales invoice is created for the customer, including the account from the **_Sales Prepayment Account_** column of the general posting setting in its line. 
+In BC, customer-specific prepayment is registered through a sales invoice. For that, a sales invoice is created for the customer, including the account from the **_Sales Prepayment Account_** column of the general posting setting in its line.
+
+**Job related** prepayment invoice begins, as ordinary job sales invoice, from Job planning line and all mentioned above is applying. With Job related prepayment invoice columns  **Job no.** and **Job Task No.** will be filled in **Prepayment Ledger**.
 
 #### **_Important!_**
 ---
@@ -52,6 +55,7 @@ Explanations of the main fields. Explanations of the main fields.
 |Open |A check mark in the field refers to an open prepayment entry, which can be used (in such an event the **Remaining Amount** cannot be zero). 
 |Cust. Ledger Entry No. |A reference to the Customer’s Ledger Entry number associated with the entry in the Prepayment Ledger. Prepayment Ledger.
 |Invoice Paid Fully |Shows whether a cash receipt from the customer is registered for a prepayment entry or not. If the value is **No**, the Customer Ledger Entry is open, i.e. prepayment cash receipt from the customer has not yet been registered in BC. **Yes** marks a closed Customer Ledger Entry, referring to a registered cash receipt. 
+|Job No. / Job Task No.| Is filled on etnries that are linked to Jobs.|
 
 #### **_Important!_** 
 
@@ -64,18 +68,17 @@ By selection action **Navigate** you can navigate to invoice and entries from th
 
 ### Using of prepayment
 
-A customer prepayment can be used on a sales order and invoice by using **Get Cust. Spec. Prepayment** button on the order/invoice page. The page that opens shows open prepayment entries with remaining amounts, from which mark the entry you wish to use and press **OK**
+A customer prepayment can be used on a sales order and invoice or on job planning line by using **Get Cust. Spec. Prepayment** button on the order/invoice/Job Planning Lines page. The page that opens shows open prepayment entries with remaining amounts, from which mark the entry you wish to use and press **OK**
 
 By pressing **OK**, the following checks are carried out:
 - It is checked that the currency of the entry corresponds to the currency in the document currency in the document
 - It is checked that the prepayment type of the entry is not Order-specific, i.e. the entry should be Customer-specific
  
-The following information is copied from the entry to a new document line:
+The following information is copied from the entry to a new document line or job planning line:
 - Account No.
 - Description 
-- Description
 - All posting groups
-- In sales line, the **Applied Prepayment Entry No.** field is filled with the number of the associated prepayment entry. The field is hidden and the information can only be viewed using zoom. 
+- In sales line/job planning line, the **Applied Prepayment Entry No.** field is filled with the number of the associated prepayment entry. The field is hidden and the information can only be viewed using zoom. 
 - The quantity for the line is minus one (-1). ty for the line is minus one (-1). 
 - If the invoice amount with VAT is smaller than the open prepayment, the invoice amount shall be decreased accordingly.  
   
@@ -83,8 +86,9 @@ The following information is copied from the entry to a new document line:
 #### **_Important!_**
 
 ***
-- _Prepayment lines for the sales document are selected one by one, i.e. several lines cannot be selected at once._
-- _If the remaining amount of the prepayment entry should not be used at once, decrease the amount of the prepayment line in the **Unit Price Excl. VAT** column. In such an event the prepayment entry will stay open with the remaining amount after the posting of the document._
+- _Prepayment lines for the sales document/job planning line are selected one by one, i.e. several lines cannot be selected at once._
+- _If the remaining amount of the prepayment entry should not be used at once, decrease the amount of the prepayment line in the **Unit Price Excl. VAT** / **Unit Price** column. In such an event the prepayment entry will stay open with the remaining amount after the posting of the document._
+- _**NB!**In case of job related prepayment the next step is to create sales invoice from planning line._
 - _Upon posting of a sales document with a prepayment line, BC checks if the sales line with prepayment exceeds the remaining amount of the prepayment entry. In the event of an error, an error message is displayed to the user._
 - _If the whole prepaid amount was used, the prepayment entry shall be marked as closed after posting the sales document and it can no longer be selected for the document. for the document._
 - _If only a part of the prepaid amount was used, the prepayment entry shall remain open and the remaining amount of the entry can be used with another sales document._
