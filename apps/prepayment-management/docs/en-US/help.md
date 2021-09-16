@@ -18,7 +18,7 @@ If it is preferable to declare VAT amounts from prepayment invoices after they a
 
 As a first step you have to open **General Ledger Setup** and mark _**Prepayment Unrealized VAT**_ as Yes.
 
-As a second step you have to open **VAT Posting Setup** and modify necessary _**VAT Bus. Posting Group**_ and _**VAT Product Posting Group**_ combinations. On sleected combinations you have to define _**Unrealized VAT Type**_ (for an example _Percentage_) and also setup _**Sales VAT Unreal. Account**_.
+As a second step you have to open **VAT Posting Setup** and modify necessary _**VAT Bus. Posting Group**_ and _**VAT Product Posting Group**_ combinations. On selected combinations you have to define _**Unrealized VAT Type**_ (for an example _Percentage_) and also setup _**Sales VAT Unreal. Account**_.
 
 ## Use
 ### Registration of customer-specific prepayment and issuing of a prepayment invoice
@@ -55,7 +55,7 @@ Explanations of the main fields. Explanations of the main fields.
 |Open |A check mark in the field refers to an open prepayment entry, which can be used (in such an event the **Remaining Amount** cannot be zero). 
 |Cust. Ledger Entry No. |A reference to the Customer’s Ledger Entry number associated with the entry in the Prepayment Ledger. Prepayment Ledger.
 |Invoice Paid Fully |Shows whether a cash receipt from the customer is registered for a prepayment entry or not. If the value is **No**, the Customer Ledger Entry is open, i.e. prepayment cash receipt from the customer has not yet been registered in BC. **Yes** marks a closed Customer Ledger Entry, referring to a registered cash receipt. 
-|Job No. / Job Task No.| Is filled on etnries that are linked to Jobs.|
+|Job No. / Job Task No.| Is filled on entries that are linked to Jobs.|
 
 #### **_Important!_** 
 
@@ -88,7 +88,7 @@ The following information is copied from the entry to a new document line or job
 ***
 - _Prepayment lines for the sales document/job planning line are selected one by one, i.e. several lines cannot be selected at once._
 - _If the remaining amount of the prepayment entry should not be used at once, decrease the amount of the prepayment line in the **Unit Price Excl. VAT** / **Unit Price** column. In such an event the prepayment entry will stay open with the remaining amount after the posting of the document._
-- _**NB!**In case of job related prepayment the next step is to create sales invoice from planning line._
+- _**NB!** In case of job related prepayment the next step is to create sales invoice from planning line._
 - _Upon posting of a sales document with a prepayment line, BC checks if the sales line with prepayment exceeds the remaining amount of the prepayment entry. In the event of an error, an error message is displayed to the user._
 - _If the whole prepaid amount was used, the prepayment entry shall be marked as closed after posting the sales document and it can no longer be selected for the document. for the document._
 - _If only a part of the prepaid amount was used, the prepayment entry shall remain open and the remaining amount of the entry can be used with another sales document._
