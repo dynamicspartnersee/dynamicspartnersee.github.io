@@ -8,6 +8,7 @@ Kliendipõhise ettemaksu funktsionaalsus võimaldab BC-s järgmist:
 -   Käibemaksuseadusest tulenevalt käsitleda klientide ettemaksu kui käivet ning arvestada sellelt käibemaksu.
 -   Kliendi ettemaksude üle arvestust pidada ning neid kasutada (maha arvata) kliendile esitatavatel põhiarvetel.
 -   Kliendipõhise ettemaksu funktsionaalsus toetab ka standardis olevat ettemaksu realiseerimata käibemaksu lahendust.
+-   Siduda ettemakseid projektimooduliga.
 
 ## **Seadistamine**
 
