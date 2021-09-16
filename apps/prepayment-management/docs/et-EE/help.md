@@ -95,12 +95,12 @@ Kandelt kopeeritakse uuele dokumendi reale või projekti plaanimisreale:
 
 ----------
 
--   Müügidokumendile/projekti plaanimisreale valitakse ettemaksuridu ükshaaval, st et korraga mitut rida valida ei saa.
--   Kui ettemaksukandel olevat jääksummat ei soovita korraga kasutada, siis vähendatakse ettemaksurea summat veerus **Ühiku hind KM-ta** / **Ühiku hind**. Sel juhul jääb ettemaksukanne pärast dokumendi konteerimist jääksummaga avatuks.
--   _Projektipõhise ettemaksu puhul tuleb seejärel projekti plaanimisrealt luua müügiarve._
--   Ettemaksureaga müügidokumendi konteerimisel kontrollib BC, kas ettemaksuga müügirida ei ületa ettemaksukande jääksummat. Vea korral kuvatakse kasutajale veateade.
--   Kui kogu ettemaksusumma kasutati ära, siis pärast müügidokumendi konteerimist märgitakse ettemaksukanne suletuks ja seda ei saa enam dokumendile valida.
--   Kui ettemaksusummast kasutati ainult osa, siis jääb ettemaksukanne avatuks ning kande jääki saab kasutada mõne teise müügidokumendiga.
+-   _Müügidokumendile/projekti plaanimisreale valitakse ettemaksuridu ükshaaval, st et korraga mitut rida valida ei saa._
+-   _Kui ettemaksukandel olevat jääksummat ei soovita korraga kasutada, siis vähendatakse ettemaksurea summat veerus **Ühiku hind KM-ta** / **Ühiku hind**. Sel juhul jääb ettemaksukanne pärast dokumendi konteerimist jääksummaga avatuks._
+-   _**NB!**Projektipõhise ettemaksu puhul tuleb seejärel projekti plaanimisrealt luua müügiarve._
+-   _Ettemaksureaga müügidokumendi konteerimisel kontrollib BC, kas ettemaksuga müügirida ei ületa ettemaksukande jääksummat. Vea korral kuvatakse kasutajale veateade._
+-   _Kui kogu ettemaksusumma kasutati ära, siis pärast müügidokumendi konteerimist märgitakse ettemaksukanne suletuks ja seda ei saa enam dokumendile valida._
+-   _Kui ettemaksusummast kasutati ainult osa, siis jääb ettemaksukanne avatuks ning kande jääki saab kasutada mõne teise müügidokumendiga._
 
 ----------
 
