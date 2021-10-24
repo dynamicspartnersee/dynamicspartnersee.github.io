@@ -10,6 +10,8 @@ Rakenduse saab Eesti keelseks, kui avada **My Settings** (Minu sätted) ning mä
 
 Kuvamaks numbreid ja kuupäevi Eestis kasutatavas formaadis, tuleks määrata Regiooniks (**Region**) samuti 'Estonian (Estonia)'.  
 
+![Image](my-settings.png)
+
 Tehtud määratlused rakenduvad vajutades nupule **OK**.
 
 Nüüd peaks Dynamics 365 Business Central olema eesti keeles.
