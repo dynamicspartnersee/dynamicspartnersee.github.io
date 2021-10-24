@@ -9,6 +9,8 @@ To change application language into Estonian, open **My Settings**, and choose '
 
 To display dates and numbers according to Estonian format, choose also 'Estonian (Estonia)' for the **Region**.  
 
+![Image](my-settings.png)
+
 Click OK to apply and close **My Settings**.
 
 You should see now Dynamics 365 Business Central in Estonian.
