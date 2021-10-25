@@ -1,15 +1,20 @@
 ---
 ---
-##### Versioon 15.0.21235.0
+##### Version 16.0.21285.0
+- BC19 support
+- GTIN field support
+- Item References support (in addition to Cross-References)
+
+##### Version 15.0.21235.0
 - Better application of purchase invoice to receipt(s).
   
-##### Versioon 15.0.21216.0
+##### Version 15.0.21216.0
 - According to instruction received from Telema. E-Invoice element ReceiverID value has been changed from "Bill-to Customer No." to "Sell-to Customer No.".
   
-##### Versioon 15.0.21189.0
+##### Version 15.0.21189.0
 - Edisoft opertator support
 
-##### Versioon 15.0.21122.1
+##### Version 15.0.21122.1
 - New option on customer card **Despatch Advice Without Prices**
 
 ##### Version 15.0.21122.0
@@ -24,5 +29,5 @@
 - Direct document exchange between Business Central companies using web services
 - New document type: Purchase Order Confirmation
 
-##### Versioon 1.0.19161.0
+##### Version 1.0.19161.0
 - Purchase Invoice: If item is not idetified, additional functionality will try to idetify cost account ("Based on "Map Text to Account" setup).

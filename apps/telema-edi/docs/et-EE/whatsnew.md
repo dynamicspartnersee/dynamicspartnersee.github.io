@@ -1,5 +1,10 @@
 ---
 ---
+##### Versioon 16.0.21285.0
+- BC19 tugi
+- GTIN välja tugi
+- Kauba viidete tugi (lisaks ristviidetele)
+
 ##### Versioon 15.0.21235.0
 - Parendatud tarne sidumist arvega 
   
