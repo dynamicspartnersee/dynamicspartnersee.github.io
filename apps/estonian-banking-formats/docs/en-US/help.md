@@ -10,6 +10,10 @@ Estonian localization includes:
 - Estonian SEPA statement format
 - Payment application rules
   
+## Install activities
+After the installation of extension page **Estonian Banking Formats Setup** must be opened, because this triggers the background installation of formats needed (_Data Exchange Definitions, Bank Export/Import Setup, Document Layouts_).  
+Page must be opened in every company, where Estonian Banking Formats shall be used.  
+
 ## Payment Reference Numbers for Sales
 Using payment reference numbers in sales helps you apply cash receipts and invoices when processing bank statements.
 
@@ -25,19 +29,21 @@ Three new custom layouts has been added to provide commonly used company and ban
 
 You can see if layouts are installed in **Estonian Banking Formats Setup**. If not installed, please contact your partner.
 
-## SEPA Payment Format
-To be able to submit payments from Business Central to bank, Estonian SEPA payment format has been added.
 
-You can see if format is installed in **Estonian Banking Formats Setup**. If not installed, please contact your partner.
+## Bank Statement Import Format (SEPA Statement Format)
+To be able to import bank statements from bank to Business Central, Estonian SEPA statement format has been added.  
+You can see if format is installed in **Estonian Banking Formats Setup**. If not installed, please contact your partner.  
+To setup statement format for a bank account, open **Bank Accounts** and edit bank account you would like to setup.  
+Choose **SEPACAMT-EE** for **Bank Statement Import Format**.  
 
-To setup payments format for a bank account, open **Bank Accounts** and edit bank account you would like to setup. Choose *SEPACT-EE* for **Payment Export Format**.
+![Image](formats-setup-onBankAccount.png)
 
-## SEPA Statement Format
-To be able to import bank statements from bank to Business Central, Estonian SEPA statement format has been added.
+## Payment Export Format (SEPA Payment Format)
+To be able to submit payments from Business Central to bank, Estonian SEPA payment format has been added.  
+You can see if format is installed in **Estonian Banking Formats Setup**. If not installed, please contact your partner.  
+To setup payments format for a bank account, open **Bank Accounts** and edit bank account you would like to setup.  
+Choose **SEPACT-EE** for **Payment Export Format**.  
 
-You can see if format is installed in **Estonian Banking Formats Setup**. If not installed, please contact your partner.
-
-To setup statement format for a bank account, open **Bank Accounts** and edit bank account you would like to setup. Choose *SEPACAMT-EE* for **Bank Statement Import Format**.
 
 ## Payment Application Rules
 Business Central payment application rules have been complemented by two new components:
