@@ -47,7 +47,7 @@ Määrake **SEPACAMT-EE** väljal **Panga väljavõtte impordi vorming**.
 
 ![Image](vormingu-seaded-pangakontol.png)
 
-## Panga väljavõtte impordi vorming (SEPA makseformaat)
+## Makse ekspordi vorming (SEPA makseformaat)
 Business Central'is koostatud maksete panka edastamiseks on lisatud Eesti SEPA makseformaadi tugi.  
 Kas formaat on installitud, saate kontrollida **Eesti pangaformaatide seadistuses**. Kui ei ole, võtke ühendust oma partneriga.  
 Formaadi seadistamiseks pangakontole avage **Pangakontod** ja redigeerige soovitud kontot.  
