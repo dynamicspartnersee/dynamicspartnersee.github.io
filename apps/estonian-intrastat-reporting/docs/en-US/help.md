@@ -4,7 +4,7 @@
 This app adds Estonian requirements and formats to the Intrastat reporting functionality in Dynamics 365 Business Central.
 
 Please read more about Business Central Intrastat reporting on:  
-[https://docs.microsoft.com/en-US/dynamics365/business-central/finance-how-setup-report-intrastat](https://docs.microsoft.com/en-US/dynamics365/business-central/finance-how-setup-report-intrastat)
+<a href="https://docs.microsoft.com/en-US/dynamics365/business-central/finance-how-setup-report-intrastat" target="_blank">Set Up and Report Intrastat</a>  
 
 ## Setup Intrastat
 The required level of detail in Estonian Intrastat reporting can be different from company to company.
@@ -14,6 +14,9 @@ To setup the appropriate requirements for your company,  open **Intrastat Setup*
 * Basic Requirements - "Transaction Type", "Tariff No.", "Country/Region of Origin Code", "Net Weight" are required.
 * Additional Requirements - Basic Requirements + "Transport Method", "Shipment Method Code", "Entry/Exit Point" are required.
 
+Check if field **Format Configured** is 'Yes' on **Estonian Intrastat** fast tab. You can also click 'Yes', to see the format configuration entry.  
+_This makes possible the creation of Intrastat Report file, that meets the Estonian requirements._ 
+
 ## Setup Tariff Numbers
 In Estonia, some of the tariff numbers require reporting of quantity in supplementary units in addition to the weight.
 
@@ -21,16 +24,15 @@ To setup this, open **Tariff Numbers** and fill in appropriate **Supplem. UoM Co
 
 Items belonging to such tariffs, need to have the same unit of measure setup in **Items Unit of Measure** window.
 
-When doing Intrastat reporting, as a result, **Supplem. UoM Code** and a **Supplem. UoM Quantity** will be filled in on **Intrastat Journal** lines for these items.
+When doing Intrastat reporting, as a result, **Supplem. UoM Code** and a **Supplem. UoM Quantity** will be filled in on **Intrastat Journal** lines for these items. Please note that **Supplem. UoM Quantity** value is taken from respective field **International Standard Code** on **Units of Measure** table.
 
 ## Reporting in Intrastat Journal
-Before creating your first Intrastat report, check if Estonian formats are configured. To do this, open **Intrastat Setup** and check if the field **Format Configured** is 'Yes' on **Estonian Intrastat** fast tab. You can also click 'Yes', to see the format configuration entry.
+If on **Intrastat Jnl. Batches** field **Statistics Period** is filled (for example december 2021 is 2112) and **Reported** is false, then on **Intrastat journal** action **Suggest Lines** retrieves all the item entries in the statistics period and inserts them as lines in the **Intrastat journal**.  
 
-If formats are in place, localized versions of actions **Suggest Lines** and **Make File** will be used in **Intrastat Journal** for reporting.
-
-Issued file in XML format can be submitted in [estat](https://estat.stat.ee/) environment.
+Action **Create File** shall create an XML file of Intrastat report.  
+Saved file in XML format can be submitted in <a href="https://estat.stat.ee/" target="_blank">estat</a> environment.
 
 ***
 
 For more information, please contact one of the partners:  
-[http://www.dynamicspartners.ee](http://www.dynamicspartners.ee)
+<a href="http://www.dynamicspartners.ee/" target="_blank">www.dynamicspartners.ee</a>
