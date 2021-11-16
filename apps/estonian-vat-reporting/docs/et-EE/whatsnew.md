@@ -1,7 +1,7 @@
 ---
 ---
 
-##### Versioon 16.0.21315.0
+##### Versioon 16.0.21320.0
 - Parandatud olukord, kus ei õnnestunud kasutada üle 10 märgiseid väärtusi väljadel "KM äri konteeringurühm" ning "KM toote konteeringurühm".
 
 ##### Versioon 16.0.21132.0
