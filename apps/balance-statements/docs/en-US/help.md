@@ -2,7 +2,8 @@
 ---
 # Balance Statements - User Guide
 
-Balance Statement functionality allows user to send Balance Statement information to customers or vendors and track their confirmations.
+Balance Statement functionality makes possible to send **Balance Statement confirmations** to customers and vendors.  
+Also in Fixed assets list user can view **FA Balance** (Physical Inventory List) report.  
 
 <br>
 
@@ -15,7 +16,7 @@ Open **Extension Management** and check if extension named â€˜Balance Statementâ
 ## Setup
 **Open Balance Statements Setup.**
 
-|Field|Value|
+|**Field**|**Explanation**|
 |-|-|
 |Balance Statement Nos.|Enter new number series you want to use for Balance Statements.|
 |Customer Email Layout Code|CUST-EMAIL-by default, but user can modify for company needs.|
@@ -28,10 +29,10 @@ Open **Balance Statements**.
 
 ## How to create Customer/Vendor Statements
 
-_The creation process of customer and vendor balance statements is identical._
+_The creation process of customer and vendor balance statements is identical._  
 Click **Process -> Create Customer/Vendor Statements**
 
-|Field|Value|
+|**Field**|**Explanation**|
 |-|-|
 |Balance Date|The balance (standing) date.|
 |Returning Date|The date user wants Customer/Vendor response.|
@@ -61,24 +62,53 @@ You can change the design of PDF file and email message body on page **Report La
 <br>
 
 ## How to Send Statements
-Before seding the statements, please make sure **SMTP Mail Setup** has been configured.
+Before sending the statements for the first time, please make sure that **Email Scenario Assignment** has been configured.  
+Balance statements are sent from Email account that has scenario **Balance Statement** assigned. If latter is not assigned, then default Email account is used.  
 
 Click **Process-> Send Statements**
 
-|Field|Value|
+|**Field**|**Explanation**|
 |-|-|
-|**Email Addressses:**||
-|From Email|Enter e-mail from which statements will be sent. It depeneds on your SMTP server setup if you are required to use address from **SMTP Mail Setup** or you can use a different address.|
+|**Email Addresses:**||
+|From|Specifies the account to send the email from. Account is determined on page Email Scenario Setup.|
+|Cc|Specifies the email addresses of people who should receive a copy of the email.|
+|Bcc|Specifies the email addresses of people who should receive a blind carbon copy (Bcc) of the email. These addresses are not shown to other recipients.|
 |Test To|If specified, this address is used instead of Account Email. Can be used for testing.|
+|Open in Compose an Email|Specifies if Balance Statement(s) are opened in Compose an Email page before sending. Note! Balance statement is marked sent even when email is discarded on Compose an Email page.|
 |**Filters:**||
-|No.|By default current balance statement is filtered. To send all the statements remove the filter for this field.|
+|No.|By default selected balance statement(s) is(are) filtered. To send all the statements remove the filter for this field.|
 
-Click **OK** to send the statements.
+Click **OK** to send the statements.  
+Successfully sent Balance statements are marked as **Sent**.  
+User can also find the sent statements from **Sent emails** under respective customer/vendor.  
 
 <br>
 
 ## Set Statements Status to Processed
-After the feedback from your business partners, you can attach **Notes** to the statements and mark statements as **Processed**.
+After the feedback from your business partners, User can mark statements as **Processed**.  
+Also user can attach **Attachments** and **Notes** to the statements.  
+
+<br>
+
+## FA Balance (Physical Inventory List)
+User can find the **FA Balance** report on Fixed asset list, in reports section (under More options).  
+
+The report shows a list of fixed assets on a specified balance date and user can also use this report to make fixed asset inventory.  
+
+|**Field**|**Explanation**|
+|-|-|
+|**Options:**||
+|Depreciation Book|Specifies the code for the depreciation book to be included in the report or batch job.|
+|Document No.|Specifies the number of the document.|
+|Balance Date|Specifies the date to which the report or batch job processes information.|
+|Print FA financial info|Specifies if financial information (Acquisition cost, Depreciation, Book value) is displayed instead of general (class, subclass etc) information.|
+|Include FA with Zero Book Value|Specifies if fixed assets with zero book value are included in the report.|
+|Group by|Specifies if you want the report to group fixed assets and print totals using the category defined in this field.|
+|New Page Per Group|Specifies if you want each group printed on a new page.|
+|**Committee members:**|You can select up to 3 inventory committee members from employees|
+  
+<br>
+
 
 For more information, please contact one of the partners:  
 <a href="http://www.dynamicspartners.ee/" target="_blank">www.dynamicspartners.ee</a>
