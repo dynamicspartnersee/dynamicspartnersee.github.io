@@ -1,5 +1,15 @@
 ---
 ---
+##### Versioon 18.0.212331.0
+- Saadetud saldoteatised on nüüd leitavad ka kliendi/hankija registrist, Saadetud meilisõnumid lehelt
+- Parandatud bugi, mille tõttu muutus meilisõnumi redigeerimise aknas väljasaatmise meilikonto vaike meilikontoks
+- PV Saldo aruande kasutusmugavuse täiendused
+
+##### Versioon 17.1.21327.0
+- Saldoteatiseid saab nüüd saata täiendatud meilivõimaluste (meilistsenaarium Saldoteatis) funktsionaalsusega
+- Lisandus võimalus enne saatmist meilisõnumit redigeerida
+- Lisatud Saldo kuupäev veerg saldoteatiste loendisse
+- Lisatud aruanne PV Saldo põhivara loendisse
 
 ##### Versioon 15.3.21243.0
 - Saldoteatised luuakse nüüd hoolimata meiliaadressi puudumisest kliendi/hankija kaardil
