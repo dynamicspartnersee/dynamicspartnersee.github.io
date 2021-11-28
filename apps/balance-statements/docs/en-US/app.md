@@ -4,12 +4,13 @@
 This extension makes it easy to compare your balances with customers and vendors.
 
 ### Key Features:
+- Create and review balance statements
 - Define balance statement layout or use default
-- Define balance statement e-mail body or use default
-- Create and review balance statement emails
-- Send prepared balance statements by email
+- Send prepared balance statement confirmations in batches by email (using email scenarios)
+- Define balance statement email body or use default
 - Attach feedback on balance reconciliation (notes and documents received) 
 - Archive processed statements
+- Print Fixed asset balance (Physical Inventory List) report
 
 ### Supported editions:
 This extension supports both the Essential and Premium editions of Microsoft Dynamics 365 Business Central.
