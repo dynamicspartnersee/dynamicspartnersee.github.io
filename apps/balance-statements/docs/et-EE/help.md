@@ -2,7 +2,8 @@
 ---
 # Saldoteatised - Kasutusjuhend
 
-Saldoteatise funksionaalsus võimaldab kasutajal saata klientidele/hankijatele saldoteatised vastavalt enda valitud kuupäevale ning jälgida nende kinnitamisi.
+Saldoteatise funksionaalsus võimaldab kasutajal saata klientidele/hankijatele saldoteatised vastavalt enda valitud kuupäevale ning jälgida nende kinnitamisi.  
+Lisaks on Põhivarade loendis võimalik väljastada **PV Saldo** (inventuuri loend) aruannet.
   
 <br>
 
@@ -63,26 +64,50 @@ PDF faili kujundust ning meilisõnumi sisu saab kohandada lehel **Aruande kujund
 <br>
 
 ## Kuidas saata Saldoteatiseid
-Enne, kui hakkad saldoteatiseid välja saatma, palun veendu, et  **SMTP-posti seadistused** on tehtud.
+Enne, kui hakkad esmakordselt saldoteatiseid välja saatma, palun veendu, et  **Meili stsenaarium** on määratud.  
+Saldoteatised saadetakse välja meilikontoga, mille alla on määäratud stsenaarium **Saldoteatis**. Kui viimane on määramata, siis kasutatakse vaike meilikontot. 
 
 Kliki **Protsess -> Saada teatised...**
 
 |**Välja nimi**|**Selgitus**|
 |-|-|
 |**Meiliaadressid:**||
-|Saatja meil|Siia sisesta emaili aadress, mille pealt saldoteatised välja saadetakse. Sõltub **SMTP seadistusest**, kas saab saata ainult sinna määratud aadressilt või saab kasutada erinevaid aadresse.|
-|Saatja nimi|Määratleb saajale kuvatava saatja nime (va juhul, kui viimane tuleb meilikontolt).|
+|Saatja|Määratleb meilisõnumi saatmise konto. Meilikonto määratakse lehel Meili stsenaariumi määramine.|
 |Koopia|Määratleb isikute meiliaadressid, kes saavad kirja koopia.|
 |Salakoopia|Määratleb isikute meiliaadressid, kes saavad kirja salakoopiana (Bcc). Neid aadresse ei näidata teistele kirja saajatele.|
 |Test adressaat|Kui väli on täidetud, siis saadetakse saldoteatis sellele meiliaadressile (Saaja meili asemel). Saab kasutada testimiseks.|
+|Ava meilisõnumi koostamine|Määratleb, kas saldoteatis(ed) avatakse enne saatmist Meilisõnumi koostamise lehel. NB! Saldoteatis(ed) märgitakse saadetuks ka juhul, kui meil hüljatakse Meilisõnumi koostamise lehel.|
 |**Filtrid:**||
-|Nr.|Vaikimisi on filtris see saldoteatis, mille peal olles "Saada teatised..." toimingu käivitasid. Kui soovid saata kõik saltoteatised korraga, tühjenda filter.|
+|Nr.|Vaikimisi on filtris saldoteatis(ed), mis oli(d) valitud nupule "Saada teatised..." vajutamise hetkel. Kui soovid saata kõik saltoteatised korraga, siis tühjenda filter.|
 
-Vajuta **OK** ning ning süsteem alustab saldoteatiste välja saatmist.
-Õnnestunult saadetud saldoteatised saavad märke **Saadetud**.
+Vajuta **OK** ning ning süsteem alustab saldoteatiste välja saatmist.  
+Õnnestunult saadetud saldoteatised saavad märke **Saadetud**.  
+Saadetud saldoteatised on leitavad ka kliendi/hankija alt avanevast **Saadetud meilisõnumid** lehelt.  
 
-Hiljem, kui äripartnerid on vastanud, on võimalik igale saldoteatisele lisada **manuseid** ja **märkmeid** ning märkida teatise olek **töödelduks**. 
+Hiljem, kui äripartnerid on vastanud, saate märkida teatise oleku **töödelduks**.  
+Lisaks on võimalik igale saldoteatisele lisada **manuseid** ja **märkmeid**.  
 
+<br>
+
+## PV Saldo (inventuuri loend)
+Põhivarade loendis, aruannete sektsioonis (Rohkem suvandeid all) on aruanne **PV Saldo**.  
+
+Aruanne võimaldab väljastada põhivarade loendi teatud kuupäeva seisuga ning kasutada seda näiteks põhivara inventeerimiseks.  
+
+|**Välja nimi**|**Selgitus**|
+|-|-|
+|**Valikud:**||
+|Kulumiraamat|Määratleb kulumiraamatu tähise, mille kohta aruanne väljastatakse.|
+|Dokumendi nr.|Määratleb aruandel kuvatava dokumendi numbri|
+|Saldo kuupäev|Määratleb kuupäeva, mis seisuga on info aruandel kajastatud.|
+|Trüki PV finantsinfo|Määratleb, kas aruandel kuvatakse üldinfo (klass, alamklass jne) asemel finantsinfo (soetusmaksumus, kulum, jääkväärtus).|
+|Kaasa jääkväärtuseta PV|Määratleb, kas aruandele kaasatakse ka null jääkväärtusega põhivarad.|
+|Rühmitusalus|Määratleb millistel alustel põhivarad aruandele rühmitatakse.|
+|Uus lk per rühm|Määratleb, kas iga rühm trükkida eraldi lehele.|
+|**Komisjoni liikmed:**|Väljatrükile saab valida töötajate loendist kuni 3 inventuurikomisjoni liiget|
+
+
+<br>
 
 Lisainformatsiooni saamiseks pöördu partneri poole:  
 <a href="http://www.dynamicspartners.ee/" target="_blank">www.dynamicspartners.ee</a>
