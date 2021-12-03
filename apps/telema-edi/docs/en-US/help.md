@@ -2,7 +2,12 @@
 ---
 # Telema EDI Module
 
-Module allows to send and receive electronic documents using Telema operator.
+Module allows to send and receive electronic documents in [Telema eDoc](https://telema.ee/telema-edoc/) formats.  
+
+## Supported Operators
+- [Telema](https://telema.ee/)
+- [Edisoft](https://ediweb.com/)
+
 The following e-document types and related processes are supported in standard module.
 
 ## [E-documents for seller](seller-edocuments)
@@ -18,7 +23,8 @@ The following e-document types and related processes are supported in standard m
 2.  Receiving Purchase Order Confirmation
 3.  Receiving Shipment
 4.  Issuing Receiving Advice
-5.  Receiving Purchase Invoice (incl Credit Memo) or  [Processed Purchase Invoice (eFlow)](eflow-purch-invoice)
+5.  Receiving Purchase Invoice (incl Credit Memo)
+6.  [Receiving Processed Purchase Invoice (Telema eFlow)](eflow-purch-invoice)
 
 ## How to send and receive e-documents?
 

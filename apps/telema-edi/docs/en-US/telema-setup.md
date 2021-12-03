@@ -1,20 +1,35 @@
 ---
 ---
-# Telema EDI Setup
+# EDI Setup
 
-## How to set up a connection with Telema server
+ - [How to setup connection with Telema server](#how-to-setup-connection-with-telema-server)
+ - [How to setup connection with Edisoft server](#how-to-setup-connection-with-edisoft-server)
+ - [How to setup connection between Business Centrals without operator](#how-to-setup-connection-between-business-centrals-without-operator)
+
+## How to setup connection with Telema server
 Open  **Telema EDI Setup** and the FastTab  **Connection.**  
 Please ask the following information from Telema to fill in here:
 
-Field: |
-- |
-**API URL** |
-**API Channel Id** |
-**API Key** |
+| Field: |
+| - |
+| **API URL** |
+| **API Channel Id** |
+| **API Key** |
 
 After filling  **Connection** FastTab use function  **Test Connection** to ensure that connection with Telema has been established.
 
-## Document exchange between Business Centrals without operator
+## How to setup connection with Edisoft server
+Open  **Telema EDI Setup** and the FastTab  **Connection.**  
+Please ask the following information from Edisoft to fill in here:
+
+| Field: |
+| - |
+| **Edisoft URL** |
+| **Edisoft User** |
+| **Edisoft Key** |
+
+After filling  **Connection** FastTab use function  **Test Edisoft Connection** to ensure that connection with Edisoft has been established.
+## How to setup connection between Business Centrals without operator
 Business Central SOAP web services are used to exchange documents. SOAP service must be activated on the receiver side.
 ### Sending Documents
 To send documents, open **Telema EDI Setup** and activate the check box **Publish E-Document Web Service** - this allows document exchange between Business Central companies.
