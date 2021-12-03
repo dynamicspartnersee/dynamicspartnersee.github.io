@@ -10,12 +10,12 @@ Moodul võimaldab saata ja vastu võtta [Telema eDoc](https://telema.ee/telema-e
   
 Standardmoodulis on toetatud järgnevad e-dokumenditüübid ning protsessid.
 
-## [E-dokumendid müüjale](seller-edocuments)
+## E-dokumendid müüjale
 
-1. Müügitellimuse vastuvõtmine (sh tagastuskorralduse)
-2. Müügisaadetise väljasaatmine
-3. Vastuvõtukinnituse vastuvõtmine
-4. Müügiarve (sh kreeditarve) väljastamine
+1. [Müügitellimuse vastuvõtmine (sh tagastuskorralduse)](seller-edocuments#müügitellimuse-või-müügi-tag.korralduse-vastuvõtmine)
+2. [Müügisaadetise väljasaatmine](seller-edocuments#müügilähetuse-väljastamine)
+3. [Vastuvõtukinnituse vastuvõtmine](seller-edocuments#tarnekinnituse-vastuvõtmine)
+4. [Müügiarve (sh kreeditarve) väljastamine](seller-edocuments#müügi--või-kreeditarve-väljastamine)
 
 ## E-dokumendid ostjale
 

@@ -2,9 +2,11 @@
 ---
 # EDI Setup
 
+## Table of Contents
  - [How to setup connection with Telema server](#how-to-setup-connection-with-telema-server)
  - [How to setup connection with Edisoft server](#how-to-setup-connection-with-edisoft-server)
  - [How to setup connection between Business Centrals without operator](#how-to-setup-connection-between-business-centrals-without-operator)
+ - [How to send and receive e-documents](#how-to-send-and-receive-e-documents)
 
 ## How to setup connection with Telema server
 Open  **Telema EDI Setup** and the FastTab  **Connection.**  
@@ -50,7 +52,7 @@ Then open **Users** and create a user for the sending company. Specify **User Na
   
 Give the data to the document sender.
 
-## How to receive and send e-documents
+## How to send and receive e-documents
 
 See the manual for:  
 [Inbound E-Documents](inbound-edocuments)  

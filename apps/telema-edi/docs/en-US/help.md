@@ -2,7 +2,7 @@
 ---
 # Telema EDI Module
 
-Module allows to send and receive electronic documents in [Telema eDoc](https://telema.ee/telema-edoc/) formats.  
+Module allows to send and receive electronic documents in [Telema eDoc](https://telema.ee/telema-edoc/) format.  
 
 ## Supported Operators
 - [Telema](https://telema.ee/)
@@ -10,12 +10,12 @@ Module allows to send and receive electronic documents in [Telema eDoc](https://
 
 The following e-document types and related processes are supported in standard module.
 
-## [E-documents for seller](seller-edocuments)
+## E-documents for seller
 
-1.  Receiving Sales Order (incl Return Order)
-2.  Issuing Sales Shipment
-3.  Receiving Receiving Advice
-4.  Issuing Sales Invoice (incl Credit Memo)
+1.  [Receiving Sales Order (incl Return Order)](seller-edocuments#receive-sales-order-or-sales-return-order)
+2.  [Issuing Sales Shipment](seller-edocuments#issue-sales-shipment)
+3.  [Receiving Receiving Advice](seller-edocuments#receive-receiving-advice)
+4.  [Issuing Sales Invoice (incl Credit Memo)](seller-edocuments#issue-sales-invoice-incl-credit-memo)
 
 ## E-documents for purchaser
 
