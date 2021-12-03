@@ -1,6 +1,9 @@
 ---
 ---
 
+##### Versioon 17.0.21337.0
+- Parandatud viga, mis ei lubanud muuta lähetusviiside tähist.
+
 ##### Versioon 17.0.21312.0
 - Lisatud loogika, et kui nomenklatuurinumbrites on kasutusel täiendavad mõõtühikud, siis Intrastati žurnaali võetakse Täiendava mõõtühiku tähisele vastav Rahvusvaheline standardkood Mõõtühikute tabelist (nt PCE).
 
