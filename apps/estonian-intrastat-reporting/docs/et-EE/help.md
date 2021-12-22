@@ -14,8 +14,8 @@ Nõutud detailsusastme määramiseks avage **Intrastati seadistus** ning määra
 Väärtus | Kirjeldus
 -- | --
 Ei ole kasutuses | Intrastati väljade täitmist ei nõuta.
-Baasnõuded | "Tehingu liik", "Nomenklatuuri nr.", "Päritoluriigi tähis", "Netokaal" on nõutud.
-Täiendavad nõuded | Baasnõuded + "Transpordiviis", "Lahetusviisi tähis", "Sisenemis- /väljumispunkt" on nõutud.
+Baasnõuded | "Nomenklatuuri nr.", "Päritoluriigi tähis", "Netokaal" on nõutud kaubakaardil ning "Tehingu liik" dokumendil.
+Täiendavad nõuded | Baasnõuded + "Sisenemis- /väljumispunkt" on dokumendil nõutud.<br>_(Kuni 31.12.2021 konteerimiskuupäevaga dokumentidel on nõutud veel "Transpordiviis" ja  "Lahetusviisi tähis)._
 
 Kontrollige, et **Formaat seadistatud** väärtus on 'Jah'. Klikkides väljal näete formaadi konfiguratsioonikirjet.  
 _See võimaldab luua Eesti nõuetele vastava Intrastati faili._  
