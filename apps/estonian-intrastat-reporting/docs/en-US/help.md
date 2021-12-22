@@ -10,9 +10,12 @@ Please read more about Business Central Intrastat reporting on:
 The required level of detail in Estonian Intrastat reporting can be different from company to company.
 
 To setup the appropriate requirements for your company,  open **Intrastat Setup** and fill in the **Purchase Mandatory Fields** and **Sales Mandatory Fields** on **Estonian Intrastat** fast tab:
-* Not in Use - Intrastat specific fields are not required on sales and purchases.
-* Basic Requirements - "Transaction Type", "Tariff No.", "Country/Region of Origin Code", "Net Weight" are required.
-* Additional Requirements - Basic Requirements + "Transport Method", "Shipment Method Code", "Entry/Exit Point" are required.
+
+Value | Description
+-- | --
+Not in Use | Intrastat specific fields are not required on sales and purchases.
+Basic Requirements | "Tariff No.", "Country/Region of Origin Code", "Net Weight" are required on Item card and "Transaction Type" on document.
+Additional Requirements | Basic Requirements + "Entry/Exit Point" are required on document.<br>_(Documents with posting date until 31st december 2021 have as required fields also "Transport Method" and "Shipment Method Code")._  
 
 Check if field **Format Configured** is 'Yes' on **Estonian Intrastat** fast tab. You can also click 'Yes', to see the format configuration entry.  
 _This makes possible the creation of Intrastat Report file, that meets the Estonian requirements._ 
