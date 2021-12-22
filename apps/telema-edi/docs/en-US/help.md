@@ -1,6 +1,6 @@
 ---
 ---
-# Telema EDI Module
+# Telema & Edisoft EDI
 
 Module allows to send and receive electronic documents in [Telema eDoc](https://telema.ee/telema-edoc/) format.  
 

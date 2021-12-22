@@ -1,6 +1,6 @@
 ---
 ---
-# Telema EDI moodul
+# Telema & Edisoft EDI
 
 Moodul võimaldab saata ja vastu võtta [Telema eDoc](https://telema.ee/telema-edoc/) formaadis elektroonilisi dokumente.   
 

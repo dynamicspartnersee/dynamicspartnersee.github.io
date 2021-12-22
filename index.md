@@ -12,4 +12,4 @@
 ## All Countries
 [Balance Statements](apps/balance-statements/docs/en-US/app)  
 [Prepayment Management](apps/prepayment-management/docs/en-US/help)  
-[Telema EDI Module](apps/telema-edi/docs/en-US/help)
+[Telema & Edisoft EDI](apps/telema-edi/docs/en-US/help)
