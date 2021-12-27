@@ -1,9 +1,13 @@
 ---
 ---
 
-##### Versioon 17.2.21356.1
-- XML-i loomisel arvestab lahendus 2022 aastast kehtima hakkavad nõudeid (lisandub tehingupartneri käibemaksukohustuslase number ning eemaldatakse transpordiliik, tarneklausel, koht, statistilise väärtus. Lisaks kontrollitakse, et aruande valuutaks oleks EUR).
+##### Versioon 17.2.21356.3
+- XML-i loomisel arvestab lahendus 2022 aastast kehtima hakkavad nõudeid (eemaldatakse transpordiliik, tarneklausel, koht, statistiline väärtus ning lähetuste puhul lisandub tehingupartneri käibemaksukohustuslase number. Lisaks kontrollitakse, et aruande valuutaks oleks EUR).
+- Perioodist 2022.a. jaanuar alates kontrollitakse, et Intrastati žurnaalis oleks Lähetus liigiga ridadel täidetud Partneri KM ID.
 - Täiendavate nõuetena ei kontrollita enam Transpordiviisi ega Lahetusviisi tähist dokumendidel, mille konteerimiskuupäev on 2022 aastas (sest seda infot enam XML-i ei panda).
+- 2022 aastast kehtima hakkavate muudatuste (sh muudatused andmetes) kohta täpsemalt:
+  - Palume lugeda <a href="https://www.stat.ee/et/intrastat" target="_blank">Statistikaameti Intrastat lehte</a>
+  - Palume vaadata <a href="https://www.youtube.com/watch?v=cbNvK0wDxAM" target="_blank">Statistikaameti infotundi</a>
 
 ##### Versioon 17.0.21337.0
 - Parandatud viga, mis ei lubanud muuta lähetusviiside tähist.  
