@@ -6,9 +6,9 @@ Eesti äriregistri äpp lisab Business Central-i kliendi ja hankija andmetele uu
 
 ## Äriregistri päring
 
-Äriregistri päring võimaldab teha tasuta päringuid e-äriregistri infoteenustest „Ettevõtja rekvisiitide teenus“ ja „E-arve registri teenus“.
+Äriregistri päring võimaldab teha tasuta päringuid e-äriregistri infoteenustest „Ettevõtja rekvisiitide teenus“ ja „E-arve registri teenus“.  
 
-Päringute tegemiseks tuleb sõlmida päringusüsteemide kasutamise leping. Lepingu info: [http://www.rik.ee/et/e-ariregister/lepinguinfo](http://www.rik.ee/et/e-ariregister/lepinguinfo)
+Päringute tegemiseks tuleb sõlmida päringusüsteemide kasutamise leping. Lepingu info: [http://www.rik.ee/et/e-ariregister/lepinguinfo](http://www.rik.ee/et/e-ariregister/lepinguinfo)  
 
 E-äriregistrist päritakse järgmised andmed:
 
@@ -35,8 +35,11 @@ Avage **Äriregistri seadistus** ning seadistage:
 -   E-arve saatmisprofiil - juhul, kui väljastate e-arveid, valige Dokumendi saatmise profiil, mida soovite määrata neile klientidele, kellel on e-arve vastuvõtu võimekus.
 
 
-Kui valite **Rakenda vaikeseaded**, siis täidetakse **Äriregistri teenuse URL** Eesti äriregistri leheküljega (https://ariregxmlv6.rik.ee/) ning määratakse automaatselt **Vaike riigi/regiooni tähiseks** Eestile vastav tähis (nt "EE"). Ühtlasi muudetakse **Riigid/regioonid** tabelis Eesti kirjet nii, et aadressi vorming oleks "Linn+Maakond+Postiindeks". Viimane toob Kliendi/Hankija/Kontakti jms kaartidel nähtavale välja Maakond.
+Kui valite **Rakenda vaikeseaded**, siis täidetakse **Äriregistri teenuse URL** Eesti äriregistri leheküljega (https://ariregxmlv6.rik.ee/) ning määratakse automaatselt **Vaike riigi/regiooni tähiseks** Eestile vastav tähis (nt "EE").  
+Ühtlasi muudetakse **Riigid/regioonid** tabelis Eesti kirjet nii, et aadressi vorming oleks "Linn+Maakond+Postiindeks". Viimane toob Kliendi/Hankija/Kontakti jms kaartidel nähtavale välja Maakond.  
 
+<br>
+<br>
 
 ## Kuidas kasutada äriregistri päringut
 
@@ -45,23 +48,22 @@ Kui valite **Rakenda vaikeseaded**, siis täidetakse **Äriregistri teenuse URL*
 1.  Masspäringu aruandena, mis võrdleb kliendi ja hankija andmeid äriregistriga ning näitab või uuendab allpool nimetatud väljade erinevused. Aruannet saab seadistada ka tööjärjekorra all korduva tööna. Tegevus võrdleb ja uuendab väljad:
     -   Registreerimisnr.
     -   KM reg. nr.
-    -   Dokumendi saatmise profiil - võimadab määrata e-arve profiili neile klientidele, kes on e-arve registris.
+    -   Dokumendi saatmise profiil - võimadab määrata e-arve profiili neile **klientidele**, kes on e-arve registris.
 2.  Detailpäringuna uue kliendi/hankija/kontakti loomiseks või olemasoleva kliendi/hankija/kontakti andmete kontrollimiseks ja uuendamiseks.
 
 **Masspäringu** kasutamiseks avage Klientide või Hankijate loend. Soovi korral rakendage filtrid ning käivitage tegevus **Uuenda andmed äriregistrist**.  
 Avanevas päriguaknas määrake, kas soovite, et väljund näitab erinevusi või ka uuendab andmed.  
-Juhul, kui kliendil või hankijal on Registreerimisnr. täitmata, siis päritakse andmeid nime järgi, millest on eemaldatud "OÜ" ja "AS".  
+Juhul, kui kliendil või hankijal on Registreerimisnr. täitmata, siis päritakse andmeid nime järgi, millest on eemaldatud enamlevinud õigusliku vormi tähised _(OÜ, AS, UÜ, TÜ, MTÜ, FIE, OSAÜHING, TÄISÜHING, AKTSIASELTS, USALDUSÜHING, KORTERIÜHISTU, TULUNDUSÜHISTU, MITTETULUNDUSÜHING ja FÜÜSILISEST ISIKUST ETTEVÕTJA)_.  
 Juhul, kui masspäring mõnda ettevõtet äriregistrist ei leidnud (n. kuna nimekuju erineb) või leidis mitu vastet, siis saate nende puhul kasutada detailpäringut, mis võimaldab otsitavat nime korrigeerida ja tulemuste hulgast õige vaste valida.
 
 **Detailpäringu** kasutamiseks avage Kliendid või Hankijad või Kontaktid, redigeerige mõnda olemasolevat ettevõtet või looge uus, millele määrake **Nr.**.  
 Seejärel käivitage tegevus **Päri äriregistrist**, mis avab Äriregistri päringu akna.  
-NB! Kontaktide puhul sab pärida andmeid äriregistrist vaid juhul kui kontakti **Liik** on "Ettevõte". (Päring ei ole aktiivne kui kontakti liik on "Isik")
+_Juhul kui pärida olemasoleva Kliendi/Hankija/Kontakti infot ja äriregistri kood on kirjel täidetud, siis tehakse päring äriregistri koodi järgi. Selle puudumisel nime järgi._  
+NB! Kontaktide puhul saab pärida andmeid äriregistrist vaid juhul kui kontakti **Liik** on "Ettevõte". (Päring ei ole aktiivne kui kontakti liik on "Isik")
 
 ## Äriregistri päringu aken
 
-_Windows kliendis akna esmakordsel avamisel peitke nupurida, et saada aknasse rohkem tööruumi. Selleks tehke hiire paremklikk nupureal ning valige Ahenda linti._
-
-Sisestage ettevõtja **Otsitav nimi** ja/või **Otsitav reg.number**, mille peale teostatakse päring e-äriregistrisse ning kuvatakse leitud tulemused. Vajadusel korrigeerige otsitavat nime.
+Sisestage ettevõtja **Otsitav nimi** ja/või **Otsitav reg.number**, mille peale teostatakse päring e-äriregistrisse ning kuvatakse leitud tulemused. Vajadusel korrigeerige otsitavat nime või reg.numbrit.
 
 Soovitud tulemuse leidmisel, klikkige ettevõttele.
 
@@ -74,6 +76,7 @@ Andmete salvestamiseks kliendi/hankija/kontakti kaardile klikkige **OK**.
 
 ----------
 
-Täpsema info saamiseks, palun võtke ühendust ühega partneritest:
+<br>
 
-[http://www.dynamicspartners.ee](http://www.dynamicspartners.ee/)
+Lisainformatsiooni saamiseks pöördu partneri poole:  
+<a href="http://www.dynamicspartners.ee/" target="_blank">www.dynamicspartners.ee</a>
