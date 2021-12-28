@@ -50,7 +50,7 @@ If the Registration No. is missing for the customer or vendor, query is made usi
 In cases when a company was not found in Business Register (e.g. company name was written differently) or multiple matches was found, then you can use detailed query to correct the company name or select the correct match from the results.  
 
 **To use the detailed query**, open Customers or Vendors or Contacts, edit an existing card or create a new card and assign a **No.** to the new customer/vendor/contact card.   Then run a function **Query from Business Register**, which will open the Business Register Query window.  
-_When running query on existing Customer/Vendor/Contact and if Registration No. exists and meets requirements, then query shall be done using Registration No._
+_When running query on existing Customer/Vendor/Contact and if Registration No. exists and meets requirements, then query shall be done using Registration No._  
 NB! You can only run the **Query from Business Register** on contacts that have **Type** "Company". The query is not active when contact type is "Person".  
 
 ## Business Register Query window
