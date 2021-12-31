@@ -1,10 +1,20 @@
 ---
 ---
-##### _Peatselt lisandumas_
-- _Masterdata (kontoplaan, dimensioonid, hankijad) ning konteeritud ostuarve numbri saatmine läbi Unifiedpost-i liidese FitekIn keskkonda_
+##### Peatselt lisandumas _(kohe kui Unifiedpost oma ühenduse FitekIn keskkonda korda saab)_
+- _Masterdata (kontoplaan, dimensioonid, hankijad) saatmine läbi Unifiedpost-i liidese FitekIn keskkonda_
 <br>
 
-##### Versioon 17.3.21215.0.
+##### Versioon 17.3.21364.0
+- Konteeritud ostuarve numbri saatmine läbi Unifiedpost-i liidese FitekIn keskkonda (sh tööjärjekorra kandega)
+- Rahvusvaheliste müügiarvete saatmise tugi (sh Finbite kaudu Peppol ja Unifiedpost kaudu nii Peppol kui muud roaming kanalid)
+- Müügiarve kliendile määratud kanaliga Finbite PANK saatmise täiendused (saadetakse kont.arvelt makse viide ning maksja kliendikaardilt eelistatud pangakonto IBAN)
+- E-arve standardi kohased parendused (et tühjasid tage veelgi paremini vältida)
+- FitekIn-is määratud konteerimiskuupäeva haldus ostuarve loomisel
+- Peale PRKonto/Kauba koodi muutmist kirjelduste ja dimensioonide mittekadumine nüüd ka ostu-kreeditarvetel
+- UX täiendused (dok.saatmise staatused on nüüd jälle värvilised, PRKontode loendis on nüüd saatmise linnuke jms)
+<br>
+
+##### Versioon 17.3.21215.0
 - Operaatorite kaubamärgi muudatused (Omniva -> Finbite ja Fitek -> Unifiedpost)
 - Võimalus säilitada ostuarve rea kirjeldus ning ühiku hind peale PRkonto (või kaubakoodi) muutmist
 - Võimalus säilitada ostuarve rea dimensioonid peale PRkonto (või kaubakoodi) muutmist (st kasutada e-arvega kaasa tulnud dimensioone ehk mitte kasutada PR Konto või kauba vaikedimensioone)
