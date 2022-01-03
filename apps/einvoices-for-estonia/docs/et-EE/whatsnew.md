@@ -4,10 +4,10 @@
 - _Masterdata (kontoplaan, dimensioonid, hankijad) saatmine läbi Unifiedpost-i liidese FitekIn keskkonda_
 <br>
 
-##### Versioon 17.3.21364.0
+##### Versioon 17.3.21364.1
 - Konteeritud ostuarve numbri saatmine läbi Unifiedpost-i liidese FitekIn keskkonda (sh tööjärjekorra kandega)
 - Rahvusvaheliste müügiarvete saatmise tugi (sh Finbite kaudu Peppol ja Unifiedpost kaudu nii Peppol kui muud roaming kanalid)
-- Müügiarve kliendile määratud kanaliga Finbite PANK saatmise täiendused (saadetakse kont.arvelt makse viide ning maksja kliendikaardilt eelistatud pangakonto IBAN)
+- Müügiarve kliendile määratud kanaliga Finbite PANK saatmise täiendused (saadetakse serviceId-na kont.arvelt makse viitenr. ning channelId-na maksja kliendikaardilt eelistatud pangakonto IBAN)
 - E-arve standardi kohased parendused (et tühjasid tage veelgi paremini vältida)
 - FitekIn-is määratud konteerimiskuupäeva haldus ostuarve loomisel
 - Peale PRKonto/Kauba koodi muutmist kirjelduste ja dimensioonide mittekadumine nüüd ka ostu-kreeditarvetel
