@@ -2,7 +2,8 @@
 ---
 # Eesti e-arved - Kasutusjuhend
 
-Eesti e-arve lahendus võimaldab teil vahetada e-arveid oma äripartneritega. Eeldusena peate olema sõlminud operaatorlepingu Finbite'ga või Unifiedpost'iga.
+Eesti e-arve lahendus võimaldab teil vahetada e-arveid oma äripartneritega.  
+Eeldusena peate olema sõlminud operaatorlepingu Finbite'ga või Unifiedpost'iga.
 
 ## Sisukord
   - [Teenuse seadistamine](#teenuse-seadistamine)
@@ -11,7 +12,7 @@ Eesti e-arve lahendus võimaldab teil vahetada e-arveid oma äripartneritega. Ee
   - [E-arvete vastuvõtmine](#e-arvete-vastuvõtmine)
   - [E-arvete salvestamine ostuarveks](#e-arvete-salvestamine-ostuarveks)
   - [E-arvete saatmine](#e-arvete-saatmine)
-  - [Põhiandmete saatmine Finbite](#põhiandmete-saatmine-Finbite)
+  - [Põhiandmete saatmine](#põhiandmete-saatmine)
 
 ## Teenuse seadistamine
 
@@ -24,6 +25,7 @@ Kiirkaart / Väli | Selgitus
 Lubatud | Aktiveerib teenuse ning loob automaatse andmevahetuse jaoks vajalikud **Tööjärjekorra kanded**.
 Võtmekasutaja | Tema rollikeskuse teatistesse saadetakse automaatsete andmevahetustööde käigus tekkivad vead, mis vajavad lahendamist.
 Tegevuse logimine | Määrab, millise detailsusega peetakse andmevahetuse tegevuste logi. Testperioodil on soovitav kasutada valikut „Tegevuse teade ja XML sõnumid“, et saada probleemide lahendamiseks maksimaalselt infot. Logitud teated ja sõnumid on vaadeldavad lehel Tegevuse logi.
+Aktiveeri Peppol (Finbite) <br><br>Aktiveeri roaming | Aktiveerib e-arvete saatmise läbi Peppoli. Kliendi kaardil tuleb määrata vastav PeppolId.<br><br>Aktiveerib rahvusvaheliste e-arvete saatmise. Kliendi kaardil saab määrata vastava kanali (channelId) ning kanali aadressi (channelAddress).
 **Ühendus** | Ühenduse vaikeväärtuste seadistamiseks saate kasutada tegevust Taasta URLide vaikeväärtused.
 Teenuse URL | Finbite puhul leiate selle arvete halduse keskkonnast Üldinfo->Seaded->Andmevahetus ERP-ga.
 Teenuse nimeruumi URL | Vaikeväärtust ei ole vaja üldjuhul muuta.
@@ -31,6 +33,10 @@ SOAP nimeruumi URL | Vaikeväärtust ei ole vaja üldjuhul muuta.
 Autentimisfraas (Finbite puhul) | Leiate selle Finbite arvete halduse keskkonnast Üldinfo->Seaded->Andmevahetus ERP-ga.
 Kasutajanimi  (Unifiedposti puhul) | Täpsustage Unifiedpost’ist.
 Parool  (Unifiedposti puhul) | Täpsustage Unifiedpost’ist.
+**Põhiandmed**  (Unifiedpost puhul) | 
+Saada ühes PR kontoga tähis kohustuslik dim. nõue | Määratleb kas ühes PR Kontodega saadetakse ka Tähis kohustuslik dimensioonid, mis Fitekin-is määratakse kohustuslikeks kuluobjektideks vastavale kontole.
+Kustuta kasutamata põhiandmed uute saatmisel | Määratleb, kas kasutamata Kontod/Dimensiooniväärtused/Hankijad kustutatakse FitekIn-ist enne uute andmete lisamist.
+
 **Dokumendid**  (Finbite puhul) | 
 Võta arved muudetud alates | Dokumendivahetuse sisemine järjehoida. Mittemuudetav.
 Võta arved, mis on | Määrab, millise olekuga ostuarved laetakse BC-sse: <br> a) Töödeldud - st peale nende töötlemist Finbite arvehalduses. <br> b) Vastu võetud - st kohe peale arve saabumist Finbite-i. <br> c) Kinnitatud - st peale arve kinnitamist Finbites.
@@ -44,14 +50,14 @@ Võta arve manused | Määrab, kas võetakse e-arvega kaasasolevad manused. „P
 
 Teenuse aktiveerimisel luuakse automaatse andmevahetuse jaoks Tööjärjekorra kanded. Tööjärjekorra kannete vaatamiseks klikkige teenuse seadistuses **Tööjärjekorra kanded**.
 
-Andmevahetuse töö | Selgitus
-|--|--|
-Saada PR kontod | Saadab PR kontod, millel on märge **Saada Finbite**.
-Saada dimensioonid | Saadab dimensioonid, millel on märge **Saada Finbite**.
-Saada hankijad ja kliendid | Saadab hankijad ja kliendid, millel on märge **Saada Finbite**.
-Võta ostuarved | Võtab operaatori serverist ostuarved ning salvestab need tabelisse Sissetulevad dokumendid.
-Saada kont. ostuarvete nr. | Saadab konteeritud ostuarve numbri Finbitest tulnud sissetulevatele dokumentidele.
-Saada järjek. müügiarved | Saadab müügiarved, mille **E-arve olek** on „Ootab saatmist“ või „Saatmise tõrge“. Kliendil peab olema **Dokumendi saatmise profiil**, millel on seadistatud **Eesti e-arve**.
+Tööjärjekorra kanne | Parameetrijada | Selgitus
+|--|--|--|
+Saada PR kontod | SEND-ACC | Saadab PR kontod, millel on märge **Saada Finbite/FitekIn**.
+Saada dimensioonid | SEND-DIM | Saadab dimensioonid, millel on märge **Saada Finbite/FitekIn**.
+Saada hankijad | SEND-VEND	|  Saadab hankijad millel on märge **Saada Finbite/FitekIn**.<br>Ainult Finbite - saab põhiandmetena saata ka kliente.
+Võta ostuarved | GET-PINV	|  Võtab operaatori serverist ostuarved ning salvestab need tabelisse Sissetulevad dokumendid.
+Saada kont. ostuarvete nr. | SEND-PINV-NO	|  Saadab konteeritud ostuarve numbri Finbitest tulnud sissetulevatele dokumentidele.
+Saada järjek. müügiarved | SEND-SINV |  Saadab müügiarved, mille **E-arve olek** on „Ootab saatmist“ või „Saatmise tõrge“. Kliendil peab olema **Dokumendi saatmise profiil**, millel on seadistatud **Eesti e-arve**.
 
 Seadistage töödele soovitud sagedus ning aktiveerige iga töö tegevusega **Sea olekuks Valmis**. Käsitsi saab andmevahetuse tegevusi käivitada **Finbite (Omniva) dokumendivahetusteenuse seadistuse** või **Unifiedpost (FitekIn) dokumendivahetusteenuse seadistuse** toimingute ribalt.
 
@@ -63,7 +69,7 @@ Kõik andmevahetuse tegevused logitakse. Tõrgete korral aitavad need teid probl
 
 Andmekirje / Leht | Andmevahetustegevus
 |--|--|
-Finbite (/Unifiedpost) dokumendivahetusteenuse seadistus | -Kontoplaani ja dimensioonide saatmine <br> -Hankijate ja klientide saatmine <br> -Ostuarvete paketi vastuvõtmine
+Finbite (/Unifiedpost) dokumendivahetusteenuse seadistus | -Kontoplaani ja dimensioonide saatmine <br> -Hankijate ja klientide saatmine <br> -Ostuarvete vastuvõtmine
 Sissetulev dokument | -Ostuarvega seotud manuste vastuvõtmine <br> -Konteeritud ostuarve nr. saatmine
 Konteeritud müügiarve ( või kreeditarve) | -Müügiarve saatmine
 
@@ -134,8 +140,16 @@ Väli | Valikud ning selgitus
 ## E-arvete saatmine
 
 Kui soovite kliendile saata arveid e-arvena, avage kliendi kaart ning määrake vastav **Dokumendi saatmise profiil**.
+  
+Rahvusvaheliste e-arvete saatmiseks aktiveerige Finbite-i tarbeks Peppol või Unifiedpost-i tarbeks roaming. Lisaks vaja Kliendi kaardil täita:
 
-Kui e-arve profiil puudub, avage **Dokumendi saatmise profiilid** ning kirjeldage uus profiil:
+|Väli|Selgitus|
+|--|--|
+|Kanal (ChannelId)|Määratleb Unifiedposti jaoks rahvusvahelise kliendi kanali ID (nt PEPPOL, fEAb, INEX, ERIGA). Väärtus lisatakse XML-is Invoice tagi atribuudina channelId.|
+|PeppolId või Channel-i aadress|Määratleb Finbite jaoks kliendi Peppoli ID (nt 0192:979920261), mida kasutatakse XML-is PartyEN laienduses.<br>Unifiedposti jaoks aga määratleb kliendi rahvusvahelise kanali aadressi (sh PeppolId ning selle saab kliendi käest või soome puhul vt. https://verkkolaskuosoite). Väärtus lisatakse XML-is Invoice tagi atribuudina channelAddress.| 
+
+
+Kui e-arve profiil puudub, avage **Dokumendi saatmise profiilid** ning looge uus profiil:
 
 Väli | Väärtus / Selgitus
 |--|--|
@@ -143,7 +157,7 @@ Tähis | "E-ARVE"
 Kirjeldus | "E-arve"
 Eesti e-arve | Valige oma operaator
 Saada Eesti e-arve automaatselt | Konteeritud arve E-arve olek saab väärtuse "Ootab saatmist" ja saadetakse Tööjärjekorra tööga "Saada järjekorras müügiarved"
-Finbite kättetoimetamisviis | Valige sobiv (vaikeväärtus tühi tähendab, et kanali otsustab Finbite)
+Finbite kättetoimetamisviis | Valige sobiv (vaikeväärtus tühi tähendab, et kanali otsustab Finbite).<br>NB! Kui valikuks on Pank, siis edastatakse serviceId-na konteeritud arvelt makse viitenumber ning channelId-na maksja kliendikaardilt eelistatud pangakonto IBAN.
 Finbite arvehaldus | Kas müügiarve läheb kohe kliendile või esmalt Finbite arvehaldusesse (viimases tuleb siis manuaalselt müügiarve kliendile edasi saata).
 
 <br>
@@ -169,23 +183,24 @@ Töö saadab arveid, mis vastavad järgnevatele tingimustele:
 -   arve **E-arve olek** on „Ootab saatmist“ või „Saatmise tõrge“
 -   kliendi **Dokumendi saatmise profiili** valik **Eesti e-arve** on täidetud.
 
-Juhul, kui arve saatmisel on tõrge, mida ei ole võimalik lahendada, siis on soovitav peatada arve saatmiskatsed. Selleks klikkige arve väljal **E-arve olek**, mis avab andmevahetustegevuste logi. Logi sulgemisel saate valida, kas soovite saatmise peatada.
+Juhul, kui arve saatmisel on tõrge, mida ei ole võimalik lahendada, siis on soovitav peatada arve saatmiskatsed.  
+Selleks klikkige arve väljal **E-arve olek**, mis avab andmevahetustegevuste logi. Logi sulgemisel saate valida, kas soovite saatmise peatada.  
 
 <br>
 
-## Põhiandmete saatmine Finbite
+## Põhiandmete saatmine
 
-Finbite arvehaldusesse on võimalik saata järgmised põhiandmed:
+Finbite arvehaldusesse ja FitekIn-i on võimalik saata järgmised põhiandmed:
 - **PR kontod**
 - **Dimensioonid**
-- **Hankijad ja kliendid**
+- **Hankijad** (ja kliendid (ainult Finbite))
 
-Vastavates registrites tuleb märkida on väli **Saada Finbite** nendele kirjetele, mida soovite Finbite-i edastada.
+Vastavates registrites tuleb märkida on väli **Saada Finbite/FitekIn** nendele kirjetele, mida soovite Finbite-i edastada.
 <br>
-Andmete saatmiseks ühekordselt avage **Finbite dokumendivahetusteenuse seadistus** ning käivitage Toimingud -> Põhiandmed alt vastav tegevus:
+Andmete saatmiseks ühekordselt avage vastav **Dokumendivahetusteenuse seadistus** ning käivitage Toimingud -> Põhiandmed alt vastav tegevus:
 - **Saada PR kontod**
 - **Saada dimensioonid**
-- **Saada hankijad ja kliendid**
+- **Saada hankijad** (ja kliendid)
 
  Andmeid saadetakse perioodiliselt, kui teil on seadistatud ja töötavad vastavad tööjärjekorra kanded.
 
