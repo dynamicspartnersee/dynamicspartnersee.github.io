@@ -1,8 +1,11 @@
 ---
 ---
 ##### Peatselt lisandumas _(kohe kui Unifiedpost oma ühenduse FitekIn keskkonda korda saab)_
-- _Masterdata (kontoplaan, dimensioonid, hankijad) saatmine läbi Unifiedpost-i liidese FitekIn keskkonda_
+- _Hankijate saatmine läbi Unifiedpost-i liidese FitekIn keskkonda_
 <br>
+
+##### Versioon 17.3.21364.2
+- Põhiandmete (kontod ja dimensioonid) saatmine läbi Unifiedpost-i liidese FitekIn keskkonda
 
 ##### Versioon 17.3.21364.1
 - Konteeritud ostuarve numbri saatmine läbi Unifiedpost-i liidese FitekIn keskkonda (sh tööjärjekorra kandega)
