@@ -5,7 +5,7 @@
 ## Sisukord
  - [Kuidas seadistada ühendus Telema serveriga](#kuidas-seadistada-ühendus-telema-serveriga)
  - [Kuidas seadistada ühendus Edisofti serveriga](#kuidas-seadistada-ühendus-edisofti-serveriga)
- - [Kuidas seadistada ühendus kahe Business Centrali vahel ilma operaatorita](#kuidas-seadistada-ühendus-kahe-Business-Centrali-vahel-ilma-operaatorita)
+ - [Kuidas seadistada ühendus kahe Business Centrali vahel ilma operaatorita](#kuidas-seadistada-uhendus-kahe-Business-Centrali-vahel-ilma-operaatorita)
  - [Kuidas e-dokumente saata ja vastu võtta](#kuidas-e-dokumente-saata-ja-vastu-võtta)
  
 ## Kuidas seadistada ühendus Telema serveriga
