@@ -5,7 +5,7 @@
 <br>
 
 ##### Versioon 17.3.22034.0
-- Täiendatud XML-ist ostuarve loomist, et oleks hallatud ka juhtumid, kui XML-is puudub <SumBeforeVAT> tag
+- Täiendatud XML-ist ostuarve loomist, et oleks hallatud ka juhtumid, kui XML-is puudub "SumBeforeVAT" tag
 - Muudetud installeerimise loogikat, et vältida vahest tekkinud "session is in the kill state" viga
 <br>
 
