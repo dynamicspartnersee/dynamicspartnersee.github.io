@@ -4,8 +4,14 @@
 - _Hankijate saatmine läbi Unifiedpost-i liidese FitekIn keskkonda_
 <br>
 
+##### Versioon 17.3.22034.0
+- Täiendatud XML-ist ostuarve loomist, et oleks hallatud ka juhtumid, kui XML-is puudub <SumBeforeVAT> tag
+- Muudetud installeerimise loogikat, et vältida vahest tekkinud "session is in the kill state" viga
+<br>
+
 ##### Versioon 17.3.21364.2
 - Põhiandmete (kontod ja dimensioonid) saatmine läbi Unifiedpost-i liidese FitekIn keskkonda
+<br>
 
 ##### Versioon 17.3.21364.1
 - Konteeritud ostuarve numbri saatmine läbi Unifiedpost-i liidese FitekIn keskkonda (sh tööjärjekorra kandega)
