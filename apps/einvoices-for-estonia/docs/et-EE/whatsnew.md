@@ -4,6 +4,11 @@
 - _Hankijate saatmine läbi Unifiedpost-i liidese FitekIn keskkonda_
 <br>
 
+##### Versioon 17.3.22062.0
+- Tehnilised täiendused, et saaks kliendipõhiste arendustena lisada valikusse täiendavaid E-arve operaatoreid
+- UX täiendused (arve saatmisvalikute juurde lisatud selgitavad tooltipid)
+<br>
+
 ##### Versioon 17.3.22034.0
 - Täiendatud XML-ist ostuarve loomist, et oleks hallatud juhtumid, kui XML-is puudub arverea netosumma "SumBeforeVAT" tag-i näol, kuid seda on võimalik tuletada alternatiivse info põhjal
 - Muudetud installeerimise loogikat, et vältida vahest tekkinud "session is in the kill state" viga
