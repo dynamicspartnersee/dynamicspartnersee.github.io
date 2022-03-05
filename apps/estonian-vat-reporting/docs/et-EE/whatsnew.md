@@ -1,5 +1,8 @@
 ---
 ---
+##### Versioon 16.0.21320.2
+- Lahendus ühilduvaks BC20-ga
+
 ##### Versioon 16.0.21320.1
 - Parandatud olukord, kus väga paljude (sajad tuhanded) KM kannete korral tekkis KMD loomise protsessi "Soovita ridu..." käigus viga "Arithmetic operation resulted in an overflow".
 
