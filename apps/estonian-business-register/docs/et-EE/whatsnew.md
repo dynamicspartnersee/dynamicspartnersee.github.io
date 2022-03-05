@@ -1,5 +1,8 @@
 ---
 ---
+##### Versioon 15.3.22064.0
+- Mittefunktsionaalsed tehnilised täiendused
+
 
 ##### Versioon 15.3.21362.0
 - Päring tehakse nüüd eelistades äriregistri koodi _(kui kood puudub või ei vasta nõuetele, siis päring endiselt nime alusel)_
