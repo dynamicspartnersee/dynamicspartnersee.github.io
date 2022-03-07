@@ -1,5 +1,8 @@
 ---
 ---
+##### Versioon 18.0.22005.0
+- Mittefunktsionaalsed tehnilised täiendused
+
 ##### Versioon 18.0.212331.0
 - Saadetud saldoteatised on nüüd leitavad ka kliendi/hankija registrist, Saadetud meilisõnumid lehelt
 - Parandatud bugi, mille tõttu muutus meilisõnumi redigeerimise aknas väljasaatmise meilikonto vaike meilikontoks
