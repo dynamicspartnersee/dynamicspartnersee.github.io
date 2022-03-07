@@ -1,5 +1,8 @@
 ---
 ---
+##### Versioon 17.2.21356.4
+- Mittefunktsionaalsed tehnilised täiendused
+
 
 ##### Versioon 17.2.21356.3
 - XML-i loomisel arvestab lahendus 2022 aastast kehtima hakkavad nõudeid (eemaldatakse transpordiliik, tarneklausel, koht, statistiline väärtus ning lähetuste puhul lisandub tehingupartneri käibemaksukohustuslase number. Lisaks kontrollitakse, et aruande valuutaks oleks EUR).
