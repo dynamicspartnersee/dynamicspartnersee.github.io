@@ -4,6 +4,9 @@
 - _Hankijate saatmine läbi Unifiedpost-i liidese FitekIn keskkonda_
 <br>
 
+##### Versioon 17.3.22062.1
+- Parandatud olukord, kus Finbite-ist tulnud e-ostuarve manuse nimes olnud mitteootuspäraste sümbolite tõttu e-ostuarve vastuvõtmine ebaõnnestus.
+
 ##### Versioon 17.3.22062.0
 - Tehnilised täiendused, et saaks kliendipõhiste arendustena lisada valikusse täiendavaid E-arve operaatoreid
 - UX täiendused (arve saatmisvalikute juurde lisatud selgitavad tooltipid)
