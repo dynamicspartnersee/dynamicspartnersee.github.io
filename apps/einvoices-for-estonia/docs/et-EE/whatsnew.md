@@ -4,8 +4,17 @@
 - _Hankijate saatmine läbi Unifiedpost-i liidese FitekIn keskkonda_
 <br>
 
+##### Versioon 17.3.22096.0
+- Lisandus automaatne ostuarvete ümardamise funktsionaalsus (et ei peaks käsitsi BC arve summat klapitama e-arve XML-is oleva summaga)
+- Peppoli saatmisel Finbite-i lisatakse nüüd ka eakInvPartyCountry extension tag, mille puudumine võis saada takistuseks Finbite poolsel arve edastusel Peppol süsteemi
+- Parandatud turvalisust päringute salvestamisel XML faili
+- Lisatud kontroll välistamaks sama registrikoodiga teise hankija märkimist "Saada Finbite/FitekIn"
+- UX täiendused (sh klientide ning hankijate loendis tuleb nüüdsest automaatselt "Saada Finbite/FitekIn" linnuke nähtavale)
+<br>
+
 ##### Versioon 17.3.22062.1
-- Parandatud olukord, kus Finbite-ist tulnud e-ostuarve manuse nimes olnud mitteootuspäraste sümbolite tõttu e-ostuarve vastuvõtmine ebaõnnestus.
+- Parandatud olukord, kus Finbite-ist tulnud e-ostuarve manuse nimes olnud mitteootuspäraste sümbolite tõttu e-ostuarve vastuvõtmine ebaõnnestus
+<br>
 
 ##### Versioon 17.3.22062.0
 - Tehnilised täiendused, et saaks kliendipõhiste arendustena lisada valikusse täiendavaid E-arve operaatoreid
