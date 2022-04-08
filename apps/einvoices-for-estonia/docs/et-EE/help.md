@@ -103,7 +103,7 @@ Lahenduse funktsionaalsust (sh ostuarveks salvestamisel ning loodud arve ridade 
     - Määrata automaatseks ümarduseks lubatud maksimaalse arve erinevuse kohalikus valuutas. Kui selles piires leitakse arve summa erinevus (sissetulevatest dokumentidest ostuarve loomisel), siis luuakse arvele lisarida, kasutades väljal "Arve ümardamise konto" määratud PR kontot
     - Määrata PR konto, mida kasutatakse arve automaatsel ümardamisel:
       - Valitud kontol peaks kontoplaanis olema täidetud "Üld. toote konteeringurühm" ja "KM toote konteeringurühm"
-      - "KM konteerimise seadistuses" peaks vastavaö "KM toote konteeringurühm" ridadel olema 0 (null) määranguga "KM %" (et ümarduse rida ei tekitaks omakorda KM summa erinevust)
+      - "KM konteerimise seadistuses" peaks vastava "KM toote konteeringurühm" ridadel olema 0 (null) määranguga "KM %" (et automaatselt lisatav ümarduse rida ei tekitaks omakorda KM summa erinevust)
 
 
 **Protsess:**
