@@ -95,9 +95,15 @@ Lahenduse funktsionaalsust (sh ostuarveks salvestamisel ning loodud arve ridade 
 
 - Sektsioonis **Vaikekontod** saab seadistada pearaamatu konto, mida süsteem kasutab arveridadele konto määramisel (vt all loogika punkt 5)
 - Sektsioonis Eesti e-arvete seaded saab:
-  - Aktiveerida kaupade tuvastamise funktsionaalsuse (vt all loogika punkt 2)
-  - Aktiveerida allahindluste tuvastamise funktsionaalsuse (vt all loogika punkt 7)
-  - Teha osturea andmete säilitamise määrangud (vt all Osturea andmete säilitamise määrangud)
+  - **Üldine**:
+    - Aktiveerida kaupade tuvastamise funktsionaalsuse (vt all loogika punkt 2)
+    - Aktiveerida allahindluste tuvastamise funktsionaalsuse (vt all loogika punkt 7)
+    - Teha osturea andmete säilitamise määrangud (vt all Osturea andmete säilitamise määrangud)
+  - <span style="color:blue">**Automatne ümardamine**:</span>
+    - Määrata automaatseks ümarduseks lubatud maksimaalse arve erinevuse kohalikus valuutas. Kui selles piires leitakse arve summa erinevus (sissetulevatest dokumentidest ostuarve loomisel), siis luuakse arvele lisarida, kasutades väljal "Arve ümardamise konto" määratud PR kontot
+    - Määrata PR konto, mida kasutatakse arve automaatsel ümardamisel:
+      - Valitud kontol peaks kontoplaanis olema täidetud "Üld. toote konteeringurühm" ja "KM toote konteeringurühm"
+      - "KM konteerimise seadistuses" peaks vastavaö "KM toote konteeringurühm" ridadel olema 0 (null) määranguga "KM %" (et ümarduse rida ei tekitaks omakorda KM summa erinevust)
 
 
 **Protsess:**
