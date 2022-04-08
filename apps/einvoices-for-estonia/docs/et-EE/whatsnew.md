@@ -9,7 +9,7 @@
 - Peppoli saatmisel Finbite-i lisatakse nüüd ka eakInvPartyCountry extension tag, mille puudumine võis saada takistuseks Finbite poolsel arve edastusel Peppol süsteemi
 - Parandatud turvalisust päringute salvestamisel XML faili
 - Lisatud kontroll välistamaks sama registrikoodiga teise hankija märkimist "Saada Finbite/FitekIn"
-- UX täiendused (sh klientide ning hankijate loendis tuleb nüüdsest automaatselt "Saada Finbite/FitekIn" linnuke nähtavale)
+- UX täiendused (sh klientide ning hankijate loendis tuleb nüüdsest automaatselt "Saada Finbite/FitekIn" linnuke nähtavale jms)
 <br>
 
 ##### Versioon 17.3.22062.1
