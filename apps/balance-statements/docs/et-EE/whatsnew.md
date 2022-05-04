@@ -1,6 +1,6 @@
 ---
 ---
-##### Versioon 18.0.22124.0
+##### Versioon 18.0.22124.1
 - PV Saldo aruandes saab nüüd valida, kas aruandesse kaasatakse likvideeritud põhivarad või mitte
 
 ##### Versioon 18.0.22005.0
