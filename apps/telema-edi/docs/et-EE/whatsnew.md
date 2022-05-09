@@ -1,5 +1,20 @@
 ---
 ---
+
+##### Versioon 16.0.22103.0
+- Uus dokumendi liik: Müügitellimuse kinnitus.
+- Uus sündmus **OnBeforeModifySalesHeader** sissetuleva müügitellimuse käsitlemisel.
+- Uus sündmus **OnBeforeSalesLineInsert** sissetuleva müügitellimuse käsitlemisel.
+- Uus sündmus **OnAfterSaveSalesOrderLine** sissetuleva müügitellimuse käsitlemisel.
+- Uus sündmus **OnAfterSaveRecAdv** sissetuleva tarnekinnituse käsitlemisel.
+- Uus sündmus **OnAfterModifySalesLineRecAdv** sissetuleva tarnekinnituse käsitlemisel.
+
+##### Versioon 16.0.21361.0
+- Litsentsikontroll uuendatud oauth autentimisele
+
+##### Versioon 16.0.21356.0
+- Äpi nimi muutus: "Telema & Edisoft EDI"
+
 ##### Versioon 16.0.21285.0
 - BC19 tugi
 - GTIN välja tugi

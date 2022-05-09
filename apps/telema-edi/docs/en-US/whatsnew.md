@@ -1,5 +1,20 @@
 ---
 ---
+
+##### Version 16.0.22103.0
+- New document type: Sales Order Confirmation
+- New event **OnBeforeModifySalesHeader** on inbound sales order handling.
+- New event **OnBeforeSalesLineInsert** on inbound sales order handling.
+- New event **OnAfterSaveSalesOrderLine** on inbound sales order handling.
+- New event **OnAfterSaveRecAdv** on inbound recadv handling.
+- New event **OnAfterModifySalesLineRecAdv** on inbound recadv handling.
+
+##### Version 16.0.21361.0
+- License check updated to oauth authentication
+
+##### Version 16.0.21356.0
+- App name changed to "Telema & Edisoft EDI"
+
 ##### Version 16.0.21285.0
 - BC19 support
 - GTIN field support
