@@ -2,7 +2,7 @@
 ---
 
 ##### Version 16.0.22103.0
-- New document type: Sales Order Confirmation
+- New document type: **Sales Order Confirmation**
 - New event **OnBeforeModifySalesHeader** on inbound sales order handling.
 - New event **OnBeforeSalesLineInsert** on inbound sales order handling.
 - New event **OnAfterSaveSalesOrderLine** on inbound sales order handling.
@@ -42,7 +42,7 @@
 
 ##### Version 15.0.20314.0
 - Direct document exchange between Business Central companies using web services
-- New document type: Purchase Order Confirmation
+- New document type: **Purchase Order Confirmation**
 
 ##### Version 1.0.19161.0
 - Purchase Invoice: If item is not idetified, additional functionality will try to idetify cost account ("Based on "Map Text to Account" setup).

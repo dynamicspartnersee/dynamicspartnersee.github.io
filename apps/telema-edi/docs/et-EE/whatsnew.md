@@ -2,7 +2,7 @@
 ---
 
 ##### Versioon 16.0.22103.0
-- Uus dokumendi liik: Müügitellimuse kinnitus.
+- Uus dokumendi liik: **Müügitellimuse kinnitus**.
 - Uus sündmus **OnBeforeModifySalesHeader** sissetuleva müügitellimuse käsitlemisel.
 - Uus sündmus **OnBeforeSalesLineInsert** sissetuleva müügitellimuse käsitlemisel.
 - Uus sündmus **OnAfterSaveSalesOrderLine** sissetuleva müügitellimuse käsitlemisel.
@@ -42,7 +42,7 @@
 
 ##### Versioon 15.0.20314.0
 - Veebiteenustel baseeruv otsekanal dokumendivahetuseks Business Central ettevõtete vahel.
-- Uus dokumendi liik: Ostutellimuse kinnitus.
+- Uus dokumendi liik: **Ostutellimuse kinnitus**.
 
 ##### Versioon 1.0.19161.0
 - Ostuarve: kauba mittetuvastamisel kulukonto tuvastamise funktsionaalsus ("Vastenda tekst kontoks" seadete alusel).
