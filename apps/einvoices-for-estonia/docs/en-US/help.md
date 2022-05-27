@@ -120,10 +120,16 @@ To automatically create a purchase document from an incoming document You can cr
 
 **The following logic is used when Purchase Invoice is created from e-invoice:**
 
-1. Vendor is identified by **Registration No.** <br> If vendor is not found it can be created automatically (*if New Vendor Template is specified in Countries/Regions table*), but using this feature is not recommended.
-2. **Items** are identified only if  **Activate Find Items from e-invoice** is activated on **Purchases & Payables Setup**. <br>
+1. **Vendor is identified** using the following order:   
+a) BC Vendor code (in XML “UniqueCode” tag) <br>
+b) Registration No. <br>
+c) VAT Registration No. <br>
+d) Vendor Name (system searches for exact match in XML) <br>
+If vendor is not found it can be created automatically (*if New Vendor Template is specified in Countries/Regions table*), but using this feature is not recommended.  
+_Puchase invoices mediated by Finbite can have fllowing country codes: "EE", "LT", "LV" or "ZZ", where the last one means all other countries. Therefore one should create a so called virtual country with code "ZZ" to Countries/Regions table._
+4. **Items are identified** only if  **Activate Find Items from e-invoice** is activated on **Purchases & Payables Setup**. <br>
 Items are identified using the following order: <br> 
-a) BC Item No. (in item code in BuyerProductId tag)
+a) BC Item No. (in item code in BuyerProductId tag) <br>
 b) EAN (firstly GTIN on item, then barcode from cross reference) <br>
 c) Seller Item No. (firstly from cross reference, then solution checks if a BC Item No. with this code exists) <br>
 3. G/L Account and dimensions are taken from the e-invoice if they are available – this means preposting has been done in operator invoice management system.
