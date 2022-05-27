@@ -120,8 +120,13 @@ Automaatseks ostuarve loomiseks tuleks seadistada BC töövoog, kasutades malli 
 <br>
 
 **E-arvest ostuarve loomisel kasutatakse järgnevat loogikat:**
-1. Hankija tuvastatakse **Registreerimisnumbri** alusel. <br>
-Hankija puudumisel on võimalus hankija automaatselt luua (eeldusel, et Riigid/regioonid tabelis on seadistatud Uue hankija mall) aga see ei ole soovituslik.
+1. **Hankija tuvastatakse** järgmises järjekorras: <br>
+a) BC Hankija koodi alusel (XML-is "UniqueCode" tag) <br>
+b) Registreerimisnumbri alusel <br>
+c) KM Koodi alusel <br>
+d) Nime alusel (süsteem otsib täpset vastet XML-is olevale hankija nimele) <br>
+Hankija puudumisel on võimalus hankija automaatselt luua (eeldusel, et Riigid/regioonid tabelis on seadistatud Uue hankija mall) aga see ei ole soovituslik.  
+_Finbite-ist tulevatel ostuarvel saab riigi määranguks olla "EE", "LT", "LV" või "ZZ", kus viimane tähistab kõiki ülejäänud riike. Seega tuleks luua Riigid/regioonid tabelisse välishankijat tähistav nn virtuaalne riik tähisega "ZZ"._
 2. **Kaubad** tuvastatakse ainult juhul kui **Aktiveeri kaupade tuvastamine e-arvelt** on aktiveeritud **Ostu ja ostuv. seadistus** lehel. <br>
 Kaubad tuvastatakse järgmises järjekorras: <br>
 a) BC kauba nr. (BuyerProductId tagis oleva koodi alusel) <br>
