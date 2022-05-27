@@ -4,6 +4,10 @@
 - _Hankijate saatmine läbi Unifiedpost-i liidese FitekIn keskkonda_
 <br>
 
+##### Versioon 17.3.22147.0
+- Lisandus tugi välismaiste (ehk äriregistrikoodi mitte omavate) hankijate tuvastamisele, automaatsele hankija loomisele ning XML ostuarvete käsitlemisele  
+<br>
+
 ##### Versioon 17.3.22096.0
 - Lisandus automaatne ostuarvete ümardamise funktsionaalsus (et ei peaks käsitsi BC arve summat klapitama e-arve XML-is oleva summaga)
 - Peppoli saatmisel Finbite-i lisatakse nüüd ka eakInvPartyCountry extension tag, mille puudumine võis saada takistuseks Finbite poolsel arve edastusel Peppol süsteemi
