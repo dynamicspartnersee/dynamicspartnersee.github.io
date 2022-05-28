@@ -5,7 +5,8 @@
 <br>
 
 ##### Versioon 17.3.22147.0
-- Lisandus tugi välismaiste (ehk äriregistrikoodi mitte omavate) hankijate tuvastamisele, automaatsele hankija loomisele ning XML ostuarvete käsitlemisele  
+- Lisandus tugi välismaiste (ehk äriregistrikoodi mitte omavate) hankijate tuvastamisele, automaatsele hankija loomisele ning vastavate XML ostuarvete käsitlemisele 
+- Täiendatud olemasoleva hankija otsimist (lisandus otsimine KM Koodi ning täpse nime alusel) 
 <br>
 
 ##### Versioon 17.3.22096.0
