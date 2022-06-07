@@ -4,6 +4,10 @@
 - _Hankijate saatmine läbi Unifiedpost-i liidese FitekIn keskkonda_
 <br>
 
+##### Versioon 17.3.22158.0
+- Lisatud tugi müügiarve ja müügi kreeditarve ridadele liigiga "Kulu (kaup)"  
+<br>
+
 ##### Versioon 17.3.22151.0
 - Lisatud saatja registrikood Invoice tag-i parameetritesse, et e-arved jõuaks saajani, kes kasutavad operaatorina Registrite- ja infosüsteemide keskust (RIK)  
 <br>
