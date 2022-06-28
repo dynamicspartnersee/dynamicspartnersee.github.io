@@ -1,5 +1,10 @@
 ---
 ---
+##### Versioon 16.0.22179.0
+- Lisandus 5% käibemaksu tugi
+  - KM väljavõtted (KMD seadistus) tabeli väljale "Lahtri nr." saab nüüd sisestada väärtuse 2¹, mis tähistab 5% KM puhul KMD vormi rea numbrit).
+  - KMD XML faili loomisel lisatud loogika, et kui KMD luuakse aasta 2022 kuu 8 või hilisem perioodi kohta, siis lisatakse XML faili tag <transactions5>
+
 ##### Versioon 16.0.21320.2
 - Lahendus ühilduvaks BC20-ga
 
