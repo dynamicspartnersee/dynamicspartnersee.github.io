@@ -4,6 +4,10 @@
 - _Hankijate saatmine läbi Unifiedpost-i liidese FitekIn keskkonda_
 <br>
 
+##### Versioon 17.3.22179.0
+- Täiendatud valuutas ostuarve haldust (kui arve on kohalikus valuutas siis alati kustutatakse valuuta tähis ostuarvelt, sest muidu võib sinna sattuda väärtus hankija kaardilt)
+<br>
+
 ##### Versioon 17.3.22158.0
 - Lisatud tugi müügiarve ja müügi kreeditarve ridadele liigiga "Kulu (kaup)"  
 <br>
