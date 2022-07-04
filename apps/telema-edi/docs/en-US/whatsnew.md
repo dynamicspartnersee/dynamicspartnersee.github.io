@@ -1,6 +1,9 @@
 ---
 ---
 
+##### Version 17.0.22185.0
+- Notification system has been added. In the setup you can set e-mail address(es) who will be notified in case of e-document handling error (inbound or outbound).  
+
 ##### Version 16.0.22103.0
 - New document type: **Sales Order Confirmation**
 - New event **OnBeforeModifySalesHeader** on inbound sales order handling.

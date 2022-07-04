@@ -1,6 +1,9 @@
 ---
 ---
 
+##### Versioon 17.0.22185.0
+- Lisandus teavituslahendus. Seadistuses saab määrata e-meili aadressi(d), keda teavitatakse, kui e-dokumendi käsitlemine ebaõnnestub (nii sisse kui välja suunal).  
+  
 ##### Versioon 16.0.22103.0
 - Uus dokumendi liik: **Müügitellimuse kinnitus**.
 - Uus sündmus **OnBeforeModifySalesHeader** sissetuleva müügitellimuse käsitlemisel.
