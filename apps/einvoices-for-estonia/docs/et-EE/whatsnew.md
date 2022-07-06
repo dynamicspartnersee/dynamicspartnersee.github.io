@@ -4,6 +4,12 @@
 - _Hankijate saatmine läbi Unifiedpost-i liidese FitekIn keskkonda_
 <br>
 
+##### Versioon 17.3.22187.0
+- Täiendatud XML-ist ostuarve loomise veakindlust tulenevalt mittekorrektsetest andmetest:
+  - Kaupade tuvastamisel kontrollitakse XML-is oleva EAN andmestiku pikkust
+  - Hankija loomisel kontrollitakse XML-is oleva meiliaadressi õigsust
+<br>
+
 ##### Versioon 17.3.22179.0
 - Täiendatud valuutas ostuarve haldust (kui arve on kohalikus valuutas siis alati kustutatakse valuuta tähis ostuarvelt, sest muidu võib sinna sattuda väärtus hankija kaardilt)
 <br>
