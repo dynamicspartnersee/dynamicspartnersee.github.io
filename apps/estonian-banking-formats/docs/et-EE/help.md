@@ -3,12 +3,13 @@
 # Eesti pangaformaadid - kasutajajuhend
 Laiendus lokaliseerib Dynamics 365 Business Central pangafunktsionaalsuse Eesti nõuetele vastavaks.
 
-Eesti lokalisatsioon sisaldab:
+**Eesti lokalisatsioon sisaldab:**
 - Kliendi- või arvepõhised viitenumbrid müügiarvetel
 - Pangarekvisiitide täiendused müügidokumendite kujundustel (tellimus, arve, kreeditarve)
 - Eesti SEPA makseformaat
 - Eesti SEPA väljavõtteformaat
 - Viitenumbrit ja registreerimisnumbrit arvestavad maksete sidumisreeglid
+- Hankijale maksete loomise täiendused
 
 ## Installeerimise tegevused
 Peale laienduse installeerimist tuleb avada leht **Eesti pangaformaatide seadistus** (_Estonian Banking Formats Setup_), sest lehe avamine käivitab taustal formaatide installeerimise (_Andmevahetuse määratlused, Panga ekspordi/impordi seadistus, Dokumendi kujundused_).  
@@ -53,6 +54,18 @@ Kas formaat on installitud, saate kontrollida **Eesti pangaformaatide seadistuse
 Formaadi seadistamiseks pangakontole avage **Pangakontod** ja redigeerige soovitud kontot.  
 Määrake **SEPACT-EE** väljal **Makse ekspordi vorming**.
 
+## Hankijale maksete loomise täiendused
+Maksežurnaalis olevas toimingus **Soovita makseid hankijale** saab:
+- Valiku **Ainult samasse panka maksed** abil filtreerida tasumisele kuuluvate maksete hulgast välja ainult need, mis läheksid samasse panka, millelt toimub väljamakse
+  - Lahendus otsib hankija pangakontode hulgast vastava panga kontot ning kui leiab, siis määrab selle Saaja pangakontoks.
+  - Lahendus on aktiivne ainult siis, kui maksežurnaali töölehele on valitud Korr. Konto liigiks Pangakonto ning Korr. konto nr. pangakonto, millel IBAN täidetud.
+- Valiku **ja viitenumbri alusel** abil saab summeerida makseid kombinatsioonis hankija ja viitenumber
+  - Valiku tulemusena pannakse sama viitenumbriga arved kokku ühele maksele.
+- Summeerimise puhul tulevad makse selgitusse kõik summeeritud arvete numbrid
+  - Kui summeeritud arveid on niipalju, et Teade saajale väli maksežurnaalis saab täis (140 tähemärki), siis ülejääv osa lõigatakse ära.
+  - Kui hankijaandmiku kandel on täidetud väli Teade saajale, siis kasutatakse välise dokumendi nr. asemel infot sellelt väljalt.
+- Maksete selgituse koostamisel arvestatakse Hankija kaardil oleva keele tähisega
+  - Toetatud on eesti ja inglise keel
 
 ## Makse saaja
 Kui makse saaja on erinev hankijast (näiteks on saajaks faktooring või Rahandusministeerium), lisage andmed **Hankija pangakonto kaart** kiirkaardil **Saaja**.  
