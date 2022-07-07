@@ -54,6 +54,18 @@ New rules does not require setup and thus are not visible in **Payment Applicati
 
 Rules are used on action **Apply Automatically** in **Payment Reconciliation Journal**.
 
+## Payments to Vendor improvements
+With action **Suggest Vendor Payments** in Payment Journals:
+- Selection **Only payments to Same Bank** suggests only payments to these vendors, that have a bank account in the same bank as "Bal. Account No." bank specified on journal batch
+  - Solution searches for vendors with a bank account in the same bank and if finds then sets it to Recipient Bank Account
+  - Solution is active only then when batch has Bal. Account Type as Bank Account and Bal. Account No. has bankaccount with IBAN.
+- Selection **and per Payment Reference** summarizes payments per vendor and payment reference combination
+  - Payments, that have same reference numbers are summarized.
+- Summarized payment's **Message to Recipient** consits of all summarized invoice numbers 
+  - If there are so many summarized invoices, that Message to recipient field comes full, then the rest of information is cut from the end.
+  - If in Vendor Ledger Entries there is Message to recipient field filled then that is used instead of External Document No.
+- **Message to Recipient takes into account Language code** specified on Vendor card 
+  - English and Estonian is supported
 
 ## Payment recipient
 In case the payment recipient differs from the vendor (for example recipient is factoring company or Ministry of Finance), fill in data under **Recipient** tab on the **Vendor Bank Account Card**.  
