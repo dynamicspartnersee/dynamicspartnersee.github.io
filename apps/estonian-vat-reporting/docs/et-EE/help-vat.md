@@ -22,11 +22,12 @@ Kui sõiduautode arv muutub, siis tuleb enne vastava kuu käibedeklaratsiooni XM
   
 ## Kuidas koguda andmeid käibemaksuaruande lisa jaoks
 Avage **KM aruande seadistus** ja vahekaardil **Eesti KM aruanne** seadistage järgmised väljad:
-* Esitatav tehingupartner - valige, milliseid osapooli deklaratsioonis kasutatakse:
+* **Esitatav tehingupartner** - valige, milliseid osapooli deklaratsioonis kasutatakse:
     * *Makse saaja hankija/Maksja klient*
     * *Müüja hankija/Ostja klient*
     * *Müüja hankija/Ostja klient (ainult KM reg. nr. olemasolul)* - selle valikuga kasutatakse Müüja hankija/Ostja klient juhul kui neil on **KM reg. nr.**, vastasel juhul kasutatakse Makse saaja hankijat/Maksja klienti.
-* Piirmäära summa - sisestage Käibemaksuseaduses sätestatud piirmäär (üldjuhul 1000).   
+* **Kasuta INF-A peal välise dok. nr.** - Juhul kui see on aktiveeritud ning müügiarvel on välise dokumendi number täidetud, siis INF-A peal kasutatakse välise dokumendi numbrit müügiarve numbri asemel.
+* **Piirmäära summa** - sisestage Käibemaksuseaduses sätestatud piirmäär (üldjuhul 1000).   
  
 Andmed KM aruande lisa jaoks kogutakse **KM kanded** loendist.  
 Õigete andmete kogumiseks vajalike tingimuste seadistamiseks avage **KM konteerimise seadistus**.  
