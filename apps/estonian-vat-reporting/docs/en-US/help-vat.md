@@ -16,11 +16,12 @@ To pre-fill these fields on new declarations, open **VAT Report Setup** and setu
 
 ## How to collect data for appendix of VAT Report
 Open **VAT Report Setup** and on the **Estonian VAT Report** tab setup the following fields:
-* Transaction Partner to report - choose, which of the parties will be used on declaration:
+* **Transaction Partner to report** - choose, which of the parties will be used on declaration:
     * *Pay-to Vendor/Bill-to Customer*
     * *Buy-from Vendor/Sell-to Customer*
     * *Buy-from Vendor/Sell-to Customer (Only If VAT Reg. No. Exists)* – with this option Buy-from/Sell-to is used if **VAT Reg. No.** exist for them, otherwise Pay-to/Bill-to will be used.
-* Limit Amount - enter 1000.
+* **Use Ext. Doc. No. on INF-A** - Specifies if External Document No. from Sales invoice is used on INF-A as Invoice No. (_only if Ext. Doc. No is not empty_).
+* **Limit Amount** - enter transactions limit amount specified by the law (usually 1000).
 
 The data of VAT Report appendix is collected from **VAT Entries**. To set up the necessary conditions to collect the correct data, open **VAT Posting Setup**.
 
@@ -55,7 +56,7 @@ In order to automatically complete the missing registration numbers, you can use
 
 ## Creating the XML file for submitting the declaration
 
-Place the check mark **Report All Transactions** if you wish to include the invoices of those transaction partners, whose transactions total amount is below the limit (1000€).
+Place the check mark **Report All Transactions** if you wish to include the invoices of those transaction partners, whose transactions total amount is below the limit (usually 1000€).
 
 Click **Generate** to save the report into XML file. Upload and submit the file in E-Tax Board.
 
