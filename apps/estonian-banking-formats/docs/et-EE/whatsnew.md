@@ -1,5 +1,9 @@
 ---
 ---
+##### Peatselt lisandumas _(okt.2022.a.)_
+- _Maksete XML faili sisu tehniline täiendus (Seoses 21.11.2022.a. jõustuvate Euroopa Keskpanga uute nõuetega ISO faili struktuuris)_
+<br>
+
 ##### Versioon 19.4.22188.0
 - Hankijatele maksete loomise täiendused:
   - Makseid saab filtreerida samasse panka, millelt toimub väljamakse (et teha võimalikult palju nn pangasiseseid makseid, hoidmaks kokku ülekandekulusid)
