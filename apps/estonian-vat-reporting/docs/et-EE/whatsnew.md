@@ -1,5 +1,8 @@
 ---
 ---
+##### Versioon 16.0.22244.0
+- Parandatud olukord, kus peažurnaalist käsitsi muudetud KM summat (nn KM erinevust) ei võetud mittemahaarvatava KM arvutamisel arvesse.
+
 ##### Versioon 16.0.22225.0
 - KMD INF-A peal on võimalik kasutada välise dokumendi numbrit müügiarve numbri asemel.
   
