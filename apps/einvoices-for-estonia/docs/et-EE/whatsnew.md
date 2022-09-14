@@ -4,6 +4,11 @@
 - _Hankijate saatmine läbi Unifiedpost-i liidese FitekIn keskkonda_
 <br>
 
+
+##### Versioon 17.3.22257.0
+- Eemaldatud kaupade otsingu funktsionaalsuses, kaubaviidete tabelis kasutatud välja "Lõpeta vöötkoodi kasutamine" mittetäidetuse kontroll. _(Muudatus oli vajalik selleks, et lahendus oleks ühilduv BC21 versiooniga)_
+<br>
+
 ##### Versioon 17.3.22187.0
 - Täiendatud XML-ist ostuarve loomise veakindlust tulenevalt mittekorrektsetest andmetest:
   - Kaupade tuvastamisel kontrollitakse XML-is oleva EAN andmestiku pikkust
