@@ -1,7 +1,8 @@
 ---
 ---
-##### Peatselt lisandumas _(okt.2022.a.)_
-- _Maksete XML faili sisu tehniline täiendus (Seoses 21.11.2022.a. jõustuvate Euroopa Keskpanga uute nõuetega ISO faili struktuuris)_
+##### Infoks seoses 21.11.2022.a. jõustuvate Euroopa Keskpanga uute nõuetega ISO faili struktuuris
+- _BC maksete XML faili sisu on juba täna tehniliselt nõuetega kooskõlas_
+  - _Tuleb vaid jälgida, et EU väliste maksete puhul oleks Hankija pangakonto kaardil täidetud Saaja panga aadressiandmed (linn ning riik eelkõige)_
 <br>
 <br>
 
