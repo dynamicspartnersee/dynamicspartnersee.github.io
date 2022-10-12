@@ -4,6 +4,12 @@
 - _Hankijate saatmine läbi Unifiedpost-i liidese FitekIn keskkonda_
 <br>
 
+##### Versioon 17.3.22285.0
+- Arve XML-i loomise koodi lisatud event 'OnAfterCreateSellerProductIdAndBeforeDescription', võimaldamaks kliendipõhise arendusena e-arverea tag-ide lisamist
+- Täiendatud e-arve XML-i loomise koodi nii, et ka null-summaga arve puhul tekiks arve VAT blokk _(Muudatus oli vajalik seetõttu, et osad e-arve vastuvõtjad lükkavad vastasel juhul arve automaatselt tagasi)_
+- Parandatud olukord, kus Finbite arvekeskusest tulnud ostuarve lisamanustesse salvestus iga järgmise manusele lisaks juurde kõikide eelmiste manuste info
+- Muudetud tehnilist andmevahetusmääratluse algandandmete laadimise loogikat _(Muudatus oli vajalik selleks, et lahenduse installeerimisel ei tekiks tõrget teatud andmetega uuemates BC versioonides)_
+<br>
 
 ##### Versioon 17.3.22257.0
 - Eemaldatud kaupade otsingu funktsionaalsuses, kaubaviidete tabelis kasutatud välja "Lõpeta vöötkoodi kasutamine" mittetäidetuse kontroll. _(Muudatus oli vajalik selleks, et lahendus oleks ühilduv BC21 versiooniga)_
