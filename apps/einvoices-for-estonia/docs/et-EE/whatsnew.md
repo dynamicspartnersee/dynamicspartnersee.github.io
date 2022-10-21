@@ -4,6 +4,11 @@
 - _Hankijate saatmine läbi Unifiedpost-i liidese FitekIn keskkonda_
 <br>
 
+##### Versioon 17.3.22294.0
+- Lisandus võimalus saata uuesti juba korra saadetud e-arvet
+  - Selleks tuleb Konteeritud dokumendil nupule "Saada" avanevas aknas valida "Saada juba saadetud e-arve uuesti"
+<br>
+
 ##### Versioon 17.3.22285.0
 - Arve XML-i loomise koodi lisatud event 'OnAfterCreateSellerProductIdAndBeforeDescription', võimaldamaks kliendipõhise arendusena e-arverea tag-ide lisamist
 - Täiendatud e-arve XML-i loomise koodi nii, et ka null-summaga arve puhul tekiks arve VAT blokk _(Muudatus oli vajalik seetõttu, et osad e-arve vastuvõtjad lükkavad vastasel juhul arve automaatselt tagasi)_
