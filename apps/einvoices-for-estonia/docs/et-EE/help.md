@@ -195,6 +195,8 @@ Töö saadab arveid, mis vastavad järgnevatele tingimustele:
 -   arve **E-arve olek** on „Ootab saatmist“ või „Saatmise tõrge“
 -   kliendi **Dokumendi saatmise profiili** valik **Eesti e-arve** on täidetud.
 
+Juhul, kui arve saatmisel tuleb tõrge, et dokument on juba saadetud aga sellest hoolimata soovitakse saata mingil põhjusel e-arve uuesti, siis saab konteeritud müügiarvete (ja ka kreeditarvete) registris valida toimingu **Saada...** ning avanenud aknas märkida **Saada juba saadetud e-arve uuesti**.  
+
 Juhul, kui arve saatmisel on tõrge, mida ei ole võimalik lahendada, siis on soovitav peatada arve saatmiskatsed.  
 Selleks klikkige arve väljal **E-arve olek**, mis avab andmevahetustegevuste logi. Logi sulgemisel saate valida, kas soovite saatmise peatada.  
 
