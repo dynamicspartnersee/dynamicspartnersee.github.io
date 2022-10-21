@@ -192,6 +192,8 @@ Invoices to be sent will be sent by the periodic **Job Queue** job „Send Queue
 Job sends invoices that meet the following conditions:
 - Invoice **E-Invoice Status** is „Waits for Sending“ or „Sending Error“.
 - Customer **Document Sending Profile** has **Estonian E-Invoice** set.
+  
+If invoice has a sending error like Document already received, but it's needed to resend the e-invoice, then on Posted Sales Invoices (also on Posted Credit Memos) action **Send...** opens Send Documents to window, where you can select **Send Again Already Sent E-Invoice**.  
 
 If invoice has a sending error that cannot be resolved, it is advisable to stop re sending attempts.<br>To do so, click on the field **E-Invoice Status** that will open a data exchange activity log. After closing the log, you can choose whether you want to stop re sending attempts.  
 
