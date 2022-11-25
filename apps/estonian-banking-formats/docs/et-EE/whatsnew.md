@@ -6,6 +6,11 @@
 <br>
 <br>
 
+##### Versioon 19.4.22329.0
+- Hankijatele maksete loomise täiendus:
+  - Üksiku arve puhul määratakse selgituseks senise "Arve 123 makse" asemel lihtsalt "Arve 123" (inglise keeles vastavalt "Payment of Invoice 123" asemel lihtsalt "Invoice 123")
+<br>
+
 ##### Versioon 19.4.22188.0
 - Hankijatele maksete loomise täiendused:
   - Makseid saab filtreerida samasse panka, millelt toimub väljamakse (et teha võimalikult palju nn pangasiseseid makseid, hoidmaks kokku ülekandekulusid)
