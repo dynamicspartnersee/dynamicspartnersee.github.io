@@ -1,6 +1,13 @@
 ---
 ---
 
+##### Version 17.0.22311.0
+- OrderParty has been added to the sales documents in addition to current BuyerParty and DeliveryParty. It means all three parties are supported: Sell-to, Bill-to and Ship-to.
+
+##### Version 17.0.22259.0
+- You can setup "Unidentified Item No." in Telema setup. In this case incoming document will not fail when some item is not found, instead this item is used.
+- E-Documents need quite a lot of storage space and are often one of the biggest tables in the database. To save the space nearly by half, PDF is not extracted from the XML and saved separately. User experience is not affected by the change - when viewing PDF, it is extracted at the same moment from the XML and is displayd.
+
 ##### Version 17.0.22185.0
 - Notification system has been added. In the setup you can set e-mail address(es) who will be notified in case of e-document handling error (inbound or outbound).  
 

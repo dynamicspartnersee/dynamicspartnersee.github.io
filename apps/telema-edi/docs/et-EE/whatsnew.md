@@ -1,6 +1,13 @@
 ---
 ---
 
+##### Versioon 17.0.22311.0
+- Müügidokumentidele on lisatud OrderParty blokk, lisaks senistele BuyerParty ja DeliveryParty blokkidele. See tähendab, et toetatud on kõigi kolme osapoole: Ostja, Maksja ja Saaja väljastamine.
+
+##### Versioon 17.0.22259.0
+- Telema seadistuses saab määrata "Tuvstamata kauba nr". Sel juhul ei lähe sissetulev dokument tõrkesse kui kaupa ei leita, vaid kasutatakse seda.
+- E-dokumendid vajavad üsna palju salvestusruumi ja on tihti baasis ühed suuremad tabelid. Mahu vähendamiseks pea poole võrra ei eraldata enam XML-ist PDF-i ja ei salvestata seda eraldi. Kasutuskogemust muudatus ei mõjuta - PDF-i vaatamisel loetakse see sel samal hetkel XML-ist välja ning kuvatakse.
+
 ##### Versioon 17.0.22185.0
 - Lisandus teavituslahendus. Seadistuses saab määrata e-meili aadressi(d), keda teavitatakse, kui e-dokumendi käsitlemine ebaõnnestub (nii sisse kui välja suunal).  
   
