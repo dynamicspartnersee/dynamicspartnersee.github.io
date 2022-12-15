@@ -1,8 +1,5 @@
 ---
 ---
-##### Peatselt lisandumas _(kohe kui Unifiedpost oma ühenduse FitekIn keskkonda korda saab)_
-- _Hankijate saatmine läbi Unifiedpost-i liidese FitekIn keskkonda_
-<br>
 
 ##### Versioon 17.3.22294.0
 - Lisandus võimalus saata uuesti juba korra saadetud e-arvet
@@ -66,7 +63,7 @@
 <br>
 
 ##### Versioon 17.3.21364.2
-- Põhiandmete (kontod ja dimensioonid) saatmine läbi Unifiedpost-i liidese FitekIn keskkonda
+- Põhiandmete (kontod, dimensioonid ning hankijad) saatmine läbi Unifiedpost-i liidese FitekIn keskkonda
 <br>
 
 ##### Versioon 17.3.21364.1
