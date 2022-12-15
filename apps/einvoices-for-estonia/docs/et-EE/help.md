@@ -205,9 +205,9 @@ Selleks klikkige arve väljal **E-arve olek**, mis avab andmevahetustegevuste lo
 ## Põhiandmete saatmine
 
 Finbite arvehaldusesse ja FitekIn-i on võimalik saata järgmised põhiandmed:
-- **PR kontod**
-- **Dimensioonid**
-- **Hankijad** (ja kliendid (ainult Finbite))
+- **PR kontod** _(FitekIn puhul võimalik kaasata ka kohustuslikud kuluobjektid)_
+- **Dimensioonid** _(FitekIn puhul peab seal olema kuluobjekt loodud)_
+- **Hankijad** _(Finbite puhul võimalik saata ka kliendid)_
 
 Vastavates registrites tuleb märkida on väli **Saada Finbite/FitekIn** nendele kirjetele, mida soovite Finbite-i edastada.
 <br>
