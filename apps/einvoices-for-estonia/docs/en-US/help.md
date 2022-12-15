@@ -210,9 +210,9 @@ In the respective tables there is field **Send to Finbite/FitekIn**. Mark this f
 <br>
 
 To send data manually, open the respectable **Document Exchange Service Setup** and from Actions -> Master Data select suitable action:
-- **Send G/L Accounts**
-- **Send Dimensions**
-- **Send Vendors (and Customers)**
+- **Send G/L Accounts** _(For FitekIn, it is also possible to include mandatory cost objectives)_
+- **Send Dimensions** _(For FitekIn, a cost objective must be created there first)_
+- **Send Vendors** _(In the case of Finbit, it is also possible to send customers)_
 
 
 Master Data will be sent periodically, if you have set up and running the appropriate job queue entries.
