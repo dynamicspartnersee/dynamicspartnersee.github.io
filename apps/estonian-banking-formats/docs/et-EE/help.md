@@ -67,7 +67,12 @@ Maksežurnaalis olevas toimingus **Soovita makseid hankijale** saab:
 - Maksete selgituse koostamisel arvestatakse Hankija kaardil oleva keele tähisega
   - Toetatud on eesti ja inglise keel
 
-## Makse saaja
+## "Seo kanded" ning "Seo käsitsi" toimingute täiendused
+Žurnaalides (sh laekumisžurnaalis) olevat toiminguid "Seo kanded" ning "Seo käsitsi" on täidendatud loogikaga, et žurnaali rea väljale kirjeldus tulevad seotud arvete numbrid (_standard märkis sinna lihtsalt kliendi/hankija nime_).  
+
+Funktsionaalsus on vaikimisi aktiveeritud, kuid seda saab väja lülitada **Eesti pangaformaatide seadistuses** valides **Kasuta lokaliseerimata kirjeldust kannete sidumisel**. Lisavõimalusena saab aktiveerida **Kasuta välise dok. nr. kui võimalik** valiku, mis BC arve numbrite asemel kasutab välise dokumendi numbreid.  
+
+## Makse saaja nime muutmine maksel
 Kui makse saaja on erinev hankijast (näiteks on saajaks faktooring või Rahandusministeerium), lisage andmed **Hankija pangakonto kaart** kiirkaardil **Saaja**.  
 Kui **Saaja nimi** väli on täidetud, kasutatakse antud nime ka maksefailis. 
 
