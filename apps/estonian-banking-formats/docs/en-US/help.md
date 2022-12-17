@@ -67,7 +67,12 @@ With action **Suggest Vendor Payments** in Payment Journals:
 - **Message to Recipient takes into account Language code** specified on Vendor card 
   - English and Estonian is supported
 
-## Payment recipient
+## "Apply entries" improvements
+In journals (incl. Cash Receipt Journal) action **Apply Entries** inserts applied invoice numbers to journal field **Description** (_standard just entered there Customer/Vendor name_).  
+
+Improvement is activated by default, but can be deactivated on **Estonian Banking Formats Setup** page by selecting **Use Non-localized Description when applying entries**. Additionally it's possible to activate **Use Ext. Doc. No. if Possible** in order to use external document numbers instead of BC Sales Invoice numbers.  
+
+## Payment recipient change
 In case the payment recipient differs from the vendor (for example recipient is factoring company or Ministry of Finance), fill in data under **Recipient** tab on the **Vendor Bank Account Card**.  
 If the **Recipient Name** is filled, it is also used in the payment file.  
 
