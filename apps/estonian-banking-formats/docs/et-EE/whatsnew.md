@@ -1,9 +1,15 @@
 ---
 ---
-##### Infoks seoses 21.11.2022.a. jõustuvate Euroopa Keskpanga uute nõuetega ISO faili struktuuris
+##### Infoks seoses 20.03.2023.a. jõustuvate Euroopa Keskpanga uute nõuetega ISO faili struktuuris
 - _BC maksete XML faili sisu on juba täna tehniliselt nõuetega kooskõlas_
   - _Tuleb vaid jälgida, et EU väliste maksete puhul oleks Hankija pangakonto kaardil täidetud Saaja panga aadressiandmed (linn ning riik eelkõige)_
 <br>
+<br>
+
+##### Versioon 19.4.22350.0
+- Lisatud loogika, et laekumisžurnaalis "Seo kanded..." nupust arvete valimisel, täidetakse Laekumisžurnaali real kirjelduse väli seotud arvete numbritega.
+  - Saab aktiveerida loogika, et kui müügiarvel on täidetud välise dokumendi number, siis tuleb see kirjeldusse.
+  - Täiendus parandab pangakontoandmikukannete loetavust ning seeläbi ka kassaorderi sisu.
 <br>
 
 ##### Versioon 19.4.22329.0
