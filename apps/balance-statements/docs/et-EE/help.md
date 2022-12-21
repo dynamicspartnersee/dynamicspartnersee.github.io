@@ -36,6 +36,8 @@ Kliki **Protsess -> Loo kliendi/hankija teatised**
 |-|-|
 |Saldo kuupäev|Määrab ära, mis seisuga saldo kuvatakse.|
 |Tagastamise kuupäev|Kuupäev, mis ajaks oodatakse vastust.|
+|Kaasa kannete loetelu|Määrab kas kaasata saldoteatisele loetelu kannetest, millest saldo koosneb.|
+|Kasuta dok. nr asemel välise dok. nr.|Määrab kas saldoteatisel kajastatakse välise dokumendi numbrit kui müügiarve numbrit (kui võimalik).|
 |Prindi KV-s|Määratleb kas võlgnevuse summa näidatakse konverteerituna kokku kohalikus valuutas või iga valuuta kohta eraldi.|
 |Väljastaja |Valitud Töötaja nimi ning info (telefon, meil, ametinimetus) lisatakse saldoteatisele.|
  
