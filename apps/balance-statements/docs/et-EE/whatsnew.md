@@ -1,5 +1,9 @@
 ---
 ---
+##### Versioon 18.0.22355.0
+- Kliendi- ja hankija teatiste loomisel on nüüd võimalik valida, kas kaasata kannete loetelu, millest saldo moodustub, või mitte
+- Kliendi teatiste loomisel on nüüd võimalik valida, kas kasutada välise dokumendi numbrit arve numbri asemel  
+
 ##### Versioon 18.0.22124.1
 - PV Saldo aruandes saab nüüd valida, kas aruandesse kaasatakse likvideeritud põhivarad või mitte
 
