@@ -36,6 +36,8 @@ Click **Process -> Create Customer/Vendor Statements**
 |-|-|
 |Balance Date|The balance (standing) date.|
 |Returning Date|The date user wants Customer/Vendor response.|
+|Include details|Specifies if list of entries, that form the outstanding amount, is included on the statement.|
+|Use Ext. Doc. No. as Doc. No.|Specifies if External Document No. is used as Document No. on balance statement (if possible).|
 |Print In LCY|Specifies if outstanding amount is shown converted to Local Currency only or for each currency separately.|
 |Issued By|If specified selected employees information will be added to the signature.|
  
