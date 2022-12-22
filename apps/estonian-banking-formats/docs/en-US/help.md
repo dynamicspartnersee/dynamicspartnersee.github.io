@@ -50,9 +50,9 @@ Business Central payment application rules have been complemented by two new com
 - *Reference No.* - helps in the process of document match.
 - *Registration No.* - helps in the process of customer/vendor match.
 
-New rules does not require setup and thus are not visible in **Payment Application Rules**.
-
-Rules are used on action **Apply Automatically** in **Payment Reconciliation Journal**.
+New rules does not require setup and thus are not visible in **Payment Application Rules**.  
+Rules are used on action **Apply Automatically** in **Payment Reconciliation Journal**.  
+_Note! (from BC21) It's reccommended to set **Disable Automatic Payment Matching** to true on **Bank Account Card** in order to avoid running BC standard application process during bank statement import (since it's not using Reference numbers to match, it's slower and less accurate)._  
 
 ## Payments to Vendor improvements
 With action **Suggest Vendor Payments** in Payment Journals:
