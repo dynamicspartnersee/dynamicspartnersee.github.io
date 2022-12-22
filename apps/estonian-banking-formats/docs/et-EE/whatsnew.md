@@ -5,6 +5,9 @@
   - _Tuleb vaid jälgida, et EU väliste maksete puhul oleks Hankija pangakonto kaardil täidetud Saaja panga aadressiandmed (linn ning riik eelkõige)_
 <br>
 <br>
+##### Versioon 19.4.22356.0
+- Täiendatud maksete sobitamise žurnaalis viitenumbri alusel müügidokumentide sidumist laekumistega (sh sidumise kiirust)
+<br>
 
 ##### Versioon 19.4.22350.0
 - Lisatud loogika, et laekumisžurnaalis "Seo kanded..." nupust arvete valimisel, täidetakse Laekumisžurnaali real kirjelduse väli seotud arvete numbritega.
