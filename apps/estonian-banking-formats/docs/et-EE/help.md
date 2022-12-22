@@ -34,11 +34,12 @@ Lisatud on kolm uut dokumendi kujundust, millel on toodud Eestis üldlevinud kuj
 
 ## Maksete sidumise reeglid
 Business Central'i makse sidumisreegleid on täiendatud järgnevate komponentidega: 
--  *Viitenumber* - aitab dokumendi vastendamisel.
+-  *Viitenumber* - aitab dokumendi vastendamisel (sh kiirendab automaatse sidumise toimingut).
 -  *Registreerimisnumber* - aitab kliendi/hankija vastendamisel.
 
 Täiendavad reeglid ei vaja seadistamist ja ei ole nähtavad **Maksete sidumisreeglites**.  
-Täiendatud reegleid kasutatakse **Maksete sobitamise žurnaali** tegevusel  **Seo automaatselt**.
+Täiendatud reegleid kasutatakse **Maksete sobitamise žurnaali** toimingul **Seo automaatselt**.  
+_NB! (Alates BC 21) Pangaväljavõtte importimisel tasub **aktiveerida pangakonto lehel "Keela automaatne maksete sobitamine"**, vältimaks väljavõtte faili importimisel BC standard sobitamise käivitumist (ei arvesta viitenumbritega, mistõttu aeglasem kui viitenumbrid kasutuses)._  
 
 ## Panga väljavõtte impordi vorming (SEPA väljavõtteformaat)
 Pangaväljavõtete importimiseks Business Central'isse on lisatud Eesti SEPA väljavõtteformaadi tugi.  
