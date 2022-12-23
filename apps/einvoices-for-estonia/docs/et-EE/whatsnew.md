@@ -1,6 +1,12 @@
 ---
 ---
 
+##### Versioon 17.3.22357.0
+- Lisandus võimalus valida, kas e-arve/e-kreeditarve kuupäevana kasutatakse vastava arve/kreeditarve konteerimiskuupäeva või dokumendi kuupäeva
+  - Valikut saab teha müügi ja müügivõlgade seadistuses, linnukesega "Konteerimiskuupäev e-arve kuupäevana"
+<br>
+
+
 ##### Versioon 17.3.22294.0
 - Lisandus võimalus saata uuesti juba korra saadetud e-arvet
   - Selleks tuleb Konteeritud dokumendil nupule "Saada" avanevas aknas valida "Saada juba saadetud e-arve uuesti"
