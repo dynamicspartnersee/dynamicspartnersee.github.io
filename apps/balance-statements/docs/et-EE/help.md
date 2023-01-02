@@ -20,6 +20,8 @@ Ava **Laiendused** ja veendu, et laiendus ‘Balance Statements’ on installitu
 |Saldoteatiste numbrid|Seadista endale soovitud saldoteatise numbriseeria.|
 |Kliendi meilisõnumi kujunduse tähis|CUST-EMAIL- sisse ehitatud aruanne, võimalik modifitseerida vastavalt enda vajadustele.|
 |Hankija meilisõnumi kujunduse tähis|VEND-EMAIL  sisse ehitatud aruanne, võimalik modifitseerida vastavalt enda vajadustele.|
+  
+Toimingu **Kohanda teatiste tekste** kaudu saab luua kohandatud saldoteatiste tekstid ja seda nii kliendi- kui hankija teatiste ning nii inglise, kui eesti keeles.  
 
 <br>
 
