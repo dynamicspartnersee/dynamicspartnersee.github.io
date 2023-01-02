@@ -1,5 +1,10 @@
 ---
 ---
+
+##### Versioon 18.0.22365.0
+- Kliendi- ja hankija saldoteatiste tekste on nüüd võimalik lihtsasti kohandada läbi Saldoteatiste seadistus lehe
+  - Kohandada saab nii eesti-, kui inglisekeelseid tekste
+
 ##### Versioon 18.0.22355.0
 - Kliendi- ja hankija teatiste loomisel on nüüd võimalik valida, kas kaasata kannete loetelu, millest saldo moodustub, või mitte
 - Kliendi teatiste loomisel on nüüd võimalik valida, kas kasutada välise dokumendi numbrit arve numbri asemel  
