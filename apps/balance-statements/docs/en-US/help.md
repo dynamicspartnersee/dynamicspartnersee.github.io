@@ -22,6 +22,8 @@ Open **Extension Management** and check if extension named â€˜Balance Statementâ
 |Customer Email Layout Code|CUST-EMAIL-by default, but user can modify for company needs.|
 |Vendor Email Layout Code|VEND-EMAIL by default, but user can modify for company needs.|
   
+Use **Customize Statement Texts** to create, view or edit customized statement texts for different languages.  
+  
 <br>
 
 ## Balance Statements 
