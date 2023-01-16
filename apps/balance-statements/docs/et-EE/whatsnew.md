@@ -1,9 +1,14 @@
 ---
 ---
 
+##### Versioon 18.0.22365.1
+- Bugiparandused:
+  - Factboxis manuste lisamine ei õnnestunud BC20 või uuemates versioonides
+  - Kohandatud saldoteatiste tekstide kaartide vahel liikudes ei muutunud tekstid  
+
 ##### Versioon 18.0.22365.0
 - Kliendi- ja hankija saldoteatiste tekste on nüüd võimalik lihtsasti kohandada läbi Saldoteatiste seadistus lehe
-  - Kohandada saab nii eesti-, kui inglisekeelseid tekste
+  - Kohandada saab nii eesti-, kui inglisekeelseid tekste  
 
 ##### Versioon 18.0.22355.0
 - Kliendi- ja hankija teatiste loomisel on nüüd võimalik valida, kas kaasata kannete loetelu, millest saldo moodustub, või mitte
