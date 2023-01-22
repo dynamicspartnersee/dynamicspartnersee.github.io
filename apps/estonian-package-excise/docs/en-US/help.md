@@ -26,7 +26,12 @@ Possible values of the field are:
 ### Application of the unit of measurement of an item to packaging materials
 
 For the calculation of packaging excise duty, the measurement unit(s) of an item must be applied to packaging materials. For that, on the **Item Card** in the **_Actions_** tab under **_Item_** press the **Package Materials** button.
-In the page that opens, codes and quantities of packaging materials related to the unit of measurement (or different units of measurement) of the item are set.
+In the page that opens, codes and quantities of packaging materials related to the unit of measurement (or different units of measurement) of the item are set.  
+There it's possible via personalization to make visible field **Variant Code**, to enter packaging materials for different item variants (in case different item variants have different packaging).  
+_Note! If an item variant has no packaging materials, but the item with an empty variant has a packaging material, then the amount of packaging material for the item of the corresponding variant should be set to zero._  
+As additional information (e.g. for the auditor) it's possible to add the method how package weight was found (from options Self weighted, Provided By Vendor, Similar item).
+With personalization it's possible to add creator and/or modifier information fields to the page.  
+
 
 # Use
 The page for generation of packaging excise duty report **Package Excise Declaration** is launched by typing **Package Excise Declarations** 
@@ -60,7 +65,8 @@ By default, request form filters of the **Calculate Lines** activity are filled 
 The packaging excise duty declaration is filled, using the following logic:
 - All entries from the table **Packaging Material**, i.e. all packaging materials set are retrieved.
 - Quantities according to the item **Packaging Excise Calculation** and package materials setup for the item. 
-- As many packaging entries are generated for the item entry as the number of different packagings established for the different units of measurements.
+- As many **Package Excise Decl. Entries** are generated for the item entry as many different packaging material are specified for the item.
+  - If packaging materials are assigned to the items according to the variants, then packaging quantities are calculated according to the variants.
 - If the report already has lines, upon the second running of activity **Calculate Lines** a warning is displayed to the user upon the acceptance of which lines are recalculated.
 
 Report lines that have been generated cannot be manually added and deleted. The user can add values to the following columns:
