@@ -6,6 +6,11 @@
 <br>
 <br>
 
+##### Versioon 19.4.23037.0
+- Maksete sobitamise žurnaali lisatud väli "Seotud kande viitenumber", mis näitab reaga seotud kliendi/hankija/töötajaandmiku kande viitenumbrit, kontrollimaks vastavust tehingu viitenumbrile
+- Kliendi pangakonto kaardile lisatud Makse saaja blokk, võimaldamaks makse saaja nime muutmist ka hüvitiste maksmisel kliendil
+<br>
+  
 ##### Versioon 19.4.22356.0
 - Täiendatud maksete sobitamise žurnaalis viitenumbri alusel müügidokumentide sidumist laekumistega (sh sidumise kiirust)
 <br>
