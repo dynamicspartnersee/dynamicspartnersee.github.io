@@ -1,5 +1,10 @@
 ---
 ---
+
+##### Versioon 16.0.23037.0
+- Lisatud loogika, et KMD nn põhiosa XML faili tulevad tag-id ainult siis, kui seal on väärtus _(vältimaks olukorda, kus raamatupidaja maksuametis igaks-juhuks neid nulle igakuiselt kustutamas käis)._
+- Tehniline täiendus (lisatud event OnBeforeUpdateamountswithNDV protseduuri OnBeforePostGenJnlLine).
+  
 ##### Versioon 16.0.22244.0
 - Parandatud olukord, kus peažurnaalist käsitsi muudetud KM summat (nn KM erinevust) ei võetud mittemahaarvatava KM arvutamisel arvesse.
 
