@@ -74,8 +74,8 @@ Maksežurnaalis olevas toimingus **Soovita makseid hankijale** saab:
 Funktsionaalsus on vaikimisi aktiveeritud, kuid seda saab väja lülitada **Eesti pangaformaatide seadistuses** valides **Kasuta lokaliseerimata kirjeldust kannete sidumisel**. Lisavõimalusena saab aktiveerida **Kasuta välise dok. nr. kui võimalik** valiku, mis BC arve numbrite asemel kasutab välise dokumendi numbreid.  
 
 ## Makse saaja nime muutmine maksel
-Kui makse saaja on erinev hankijast (näiteks on saajaks faktooring või Rahandusministeerium), lisage andmed **Hankija pangakonto kaart** kiirkaardil **Saaja**.  
-Kui **Saaja nimi** väli on täidetud, kasutatakse antud nime ka maksefailis. 
+Kui makse saaja on erinev hankijast/kliendist (näiteks on saajaks faktooringettevõte või Rahandusministeerium), lisage andmed **Hankija/Kliendi pangakonto kaart** kiirkaardil **Makse saaja**.  
+Kui **Saaja nimi** väli on täidetud, kasutatakse antud nime ka maksefailis (hankija/kliendi nime asemel). 
 
 ***
 
