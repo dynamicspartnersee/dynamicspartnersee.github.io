@@ -1,6 +1,10 @@
 ---
 ---
 
+##### Versioon 17.3.23059.0
+- Lisandus võimalus saata e-arvena konteeritud hooldusarvet ja konteeritud hoolduse kreeditarvet.  
+<br>
+
 ##### Versioon 17.3.22357.0
 - Lisandus võimalus valida, kas e-arve/e-kreeditarve kuupäevana kasutatakse vastava arve/kreeditarve konteerimiskuupäeva või dokumendi kuupäeva
   - Valikut saab teha müügi ja müügivõlgade seadistuses, linnukesega "Konteerimiskuupäev e-arve kuupäevana"
