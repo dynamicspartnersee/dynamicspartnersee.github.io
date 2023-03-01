@@ -55,7 +55,8 @@ To test the connection, use action **Test Connection**.
 |Send Vendors|SEND-VEND|Sends vendors with checkmark **Send to Finbite/FitekIn**.  <br>Finbite only! Marked customers can also be sent to Finbite.|
 |Get Purch. Invoices|GET-PINV|Takes invoices from the operator server and saves to **Incoming Documents**.|
 |Send Posted Purch. Invoices No.|SEND-PINV-NO|Sends posted purchase invoice numbers to Finbite or FitekIn. |
-|Send Queued Sales Invoices|SEND-SINV|Sends sales invoices which **Document Exchange Status** is „Waits for Sending“ or „Sending Error“. Customer must have **Document Sending Profile** which has setup **Estonian E-Invoice**.
+|Send Queued Sales Invoices|SEND-SINV|Sends posted sales invoices (and posted sales credit memos) that have **Document Exchange Status** as „Waits for Sending“ or „Sending Error“. Customer must have **Document Sending Profile** which has setup **Estonian E-Invoice**.
+|Send Queued Service Invoices|SEND-SMINV|Sends posted service invoices (and posted service credit memos) that have **Document Exchange Status** as „Waits for Sending“ or „Sending Error“. Customer must have **Document Sending Profile** which has setup **Estonian E-Invoice**.
 
 Set the desired frequency and activate the jobs with action **Set Status to Ready**.
 
@@ -71,6 +72,7 @@ All data exchange activities are logged. In case of error, these help you in sol
 |Finbite (/Unifiedpost) Document Exchange Service Setup|-Send G/L accounts and dimensions <br> -Send vendors (and customers) <br> -Get purchase invoices|
 |Incoming Document|-Get purch. invoice attachments <br> -Send posted purch. invoice no.|
 |Posted Sales Invoice (or credit memo)|-Send sales invoice|
+|Posted Service Invoice (or credit memo)|-Send service invoice|
 
 To view log entries, click **Activity Log** on the service setup or on a document.
 
@@ -193,7 +195,7 @@ Job sends invoices that meet the following conditions:
 - Invoice **E-Invoice Status** is „Waits for Sending“ or „Sending Error“.
 - Customer **Document Sending Profile** has **Estonian E-Invoice** set.
   
-If invoice has a sending error like Document already received, but it's needed to resend the e-invoice, then on Posted Sales Invoices (also on Posted Credit Memos) action **Send...** opens Send Documents to window, where you can select **Send Again Already Sent E-Invoice**.  
+If invoice has a sending error like Document already received, but it's needed to resend the e-invoice, then on posted sales invoices (also on posted service invoices and sales/service credit memos) action **Send...** opens Send Documents to window, where you can select **Send Again Already Sent E-Invoice**.  
 
 If invoice has a sending error that cannot be resolved, it is advisable to stop re sending attempts.<br>To do so, click on the field **E-Invoice Status** that will open a data exchange activity log. After closing the log, you can choose whether you want to stop re sending attempts.  
 
