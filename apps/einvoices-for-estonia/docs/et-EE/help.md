@@ -57,7 +57,8 @@ Saada dimensioonid | SEND-DIM | Saadab dimensioonid, millel on märge **Saada Fi
 Saada hankijad | SEND-VEND	|  Saadab hankijad millel on märge **Saada Finbite/FitekIn**.<br>Ainult Finbite - saab põhiandmetena saata ka kliente.
 Võta ostuarved | GET-PINV	|  Võtab operaatori serverist ostuarved ning salvestab need tabelisse Sissetulevad dokumendid.
 Saada kont. ostuarvete nr. | SEND-PINV-NO	|  Saadab konteeritud ostuarve numbri Finbitest tulnud sissetulevatele dokumentidele.
-Saada järjek. müügiarved | SEND-SINV |  Saadab müügiarved, mille **E-arve olek** on „Ootab saatmist“ või „Saatmise tõrge“. Kliendil peab olema **Dokumendi saatmise profiil**, millel on seadistatud **Eesti e-arve**.
+Saada järjek. müügiarved | SEND-SINV |  Saadab konteeritud müügiarved (ning konteritud müügi kreeditarved), mille **E-arve olek** on „Ootab saatmist“ või „Saatmise tõrge“. Kliendil peab olema **Dokumendi saatmise profiil**, millel on seadistatud **Eesti e-arve**.
+Saada järjek. hooldusarved | SEND-SMINV |  Saadab konteeritud hooldusarved (ning konteeritud hoolduse kreeditarved), mille **E-arve olek** on „Ootab saatmist“ või „Saatmise tõrge“. Kliendil peab olema **Dokumendi saatmise profiil**, millel on seadistatud **Eesti e-arve**.
 
 Seadistage töödele soovitud sagedus ning aktiveerige iga töö tegevusega **Sea olekuks Valmis**. Käsitsi saab andmevahetuse tegevusi käivitada **Finbite (Omniva) dokumendivahetusteenuse seadistuse** või **Unifiedpost (FitekIn) dokumendivahetusteenuse seadistuse** toimingute ribalt.
 
@@ -72,6 +73,7 @@ Andmekirje / Leht | Andmevahetustegevus
 Finbite (/Unifiedpost) dokumendivahetusteenuse seadistus | -Kontoplaani ja dimensioonide saatmine <br> -Hankijate ja klientide saatmine <br> -Ostuarvete vastuvõtmine
 Sissetulev dokument | -Ostuarvega seotud manuste vastuvõtmine <br> -Konteeritud ostuarve nr. saatmine
 Konteeritud müügiarve ( või kreeditarve) | -Müügiarve saatmine
+Konteeritud hooldusarve ( või hoolduse kreeditarve) | -Hooldusarve saatmine
 
 Logi sissekannete vaatamiseks klikkige seadistusel või dokumendil **Tegevuse logi**.
 
@@ -195,7 +197,7 @@ Töö saadab arveid, mis vastavad järgnevatele tingimustele:
 -   arve **E-arve olek** on „Ootab saatmist“ või „Saatmise tõrge“
 -   kliendi **Dokumendi saatmise profiili** valik **Eesti e-arve** on täidetud.
 
-Juhul, kui arve saatmisel tuleb tõrge, et dokument on juba saadetud aga sellest hoolimata soovitakse saata mingil põhjusel e-arve uuesti, siis saab konteeritud müügiarvete (ja ka kreeditarvete) registris valida toimingu **Saada...** ning avanenud aknas märkida **Saada juba saadetud e-arve uuesti**.  
+Juhul, kui arve saatmisel tuleb tõrge, et dokument on juba saadetud aga sellest hoolimata soovitakse saata mingil põhjusel e-arve uuesti, siis saab konteeritud müügiarvete (samuti konteeritud hooldusarvete ning müügi- ja hoolduse kreeditarvete) registris valida toimingu **Saada...** ning avanenud aknas märkida **Saada juba saadetud e-arve uuesti**.  
 
 Juhul, kui arve saatmisel on tõrge, mida ei ole võimalik lahendada, siis on soovitav peatada arve saatmiskatsed.  
 Selleks klikkige arve väljal **E-arve olek**, mis avab andmevahetustegevuste logi. Logi sulgemisel saate valida, kas soovite saatmise peatada.  
