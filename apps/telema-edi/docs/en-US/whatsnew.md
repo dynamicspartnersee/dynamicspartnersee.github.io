@@ -1,6 +1,9 @@
 ---
 ---
 
+##### Versioon 17.0.23072.0
+- Web Folders functionality has been added which allows file exchange with on-prem servers. Server with file folder needs to publish the folder as IIS Virtual Directory with WebDAW Publishing, Directory Browsing and Basic Authentication activated.
+
 ##### Version 17.0.22311.0
 - OrderParty has been added to the sales documents in addition to current BuyerParty and DeliveryParty. It means all three parties are supported: Sell-to, Bill-to and Ship-to.
 

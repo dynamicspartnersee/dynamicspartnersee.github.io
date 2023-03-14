@@ -1,6 +1,9 @@
 ---
 ---
 
+##### Versioon 17.0.23072.0
+- Lisandus Web Folders funktsionaalsus, mis võimaldab teha failivahetust on-prem serveritega. Serveris, kus asub failikaust, tuleb see välja jagada IIS Virtual Directory-na ning aktiveerida WebDAW Publishing, Directory Browsing ja Basic Authentication.
+
 ##### Versioon 17.0.22311.0
 - Müügidokumentidele on lisatud OrderParty blokk, lisaks senistele BuyerParty ja DeliveryParty blokkidele. See tähendab, et toetatud on kõigi kolme osapoole: Ostja, Maksja ja Saaja väljastamine.
 
