@@ -2,7 +2,7 @@
 ---
 # Eesti äriregister - Kasutusjuhend
 
-Eesti äriregistri äpp lisab Business Central-i kliendi, hankija ja kontakti andmetele uue välja **Registreerimisnr.** ning funktsionaalsuse **Äriregistri päring**.
+Eesti äriregistri äpp lisab Business Central-i kontakti tabelisse uue välja **Registreerimisnr.** ning võimaldab kasutada **Äriregistri päring** funktsionaalsust kliendi, hankija ja kontakti registris.
 
 ## Äriregistri päring
 
