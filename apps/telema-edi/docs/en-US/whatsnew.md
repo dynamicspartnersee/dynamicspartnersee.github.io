@@ -1,7 +1,17 @@
 ---
 ---
 
-##### Versioon 17.0.23072.0
+##### Version 17.0.23076.0
+- According to instruction from Telema, e-document will be canceled in case of error code 0 which means the following typical errors:
+  - unknown sender 
+  - unknown receiver 
+  - missing link between sender and receiver 
+  - validation error 
+  - duplicate
+  
+  Cancelling means no new sending attempts occur for the document.
+
+##### Version 17.0.23072.0
 - Web Folders functionality has been added which allows file exchange with on-prem servers. Server with file folder needs to publish the folder as IIS Virtual Directory with WebDAW Publishing, Directory Browsing and Basic Authentication activated.
 
 ##### Version 17.0.22311.0

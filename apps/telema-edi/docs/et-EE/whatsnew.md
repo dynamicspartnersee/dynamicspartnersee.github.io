@@ -1,6 +1,16 @@
 ---
 ---
 
+##### Versioon 17.0.23076.0
+- Telema soovil tühistatakse e-dokument, mille saatmisel tekib veakood 0 ehk järgmised tüüpvead:
+  - tundmatu saatja 
+  - tundmatu saaja 
+  - puuduv link saatja ja saaja vahel 
+  - valideerimise viga 
+  - duplikaat
+  
+  Tühistamine tähendab, et lõpetatakse dokumendi edasised saatmiskatsed.
+
 ##### Versioon 17.0.23072.0
 - Lisandus Web Folders funktsionaalsus, mis võimaldab failivahetust on-prem serveritega. Serveris kus asub failikaust, tuleb see välja jagada IIS Virtual Directory-na ning aktiveerida WebDAW Publishing, Directory Browsing ja Basic Authentication.
 
