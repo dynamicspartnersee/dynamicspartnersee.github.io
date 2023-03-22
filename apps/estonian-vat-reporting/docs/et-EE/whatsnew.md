@@ -1,6 +1,9 @@
 ---
 ---
 
+##### Versioon 16.0.23081.0
+- Parandatud olukord, kus kasutades ostuarvel korraga mittemahaarvatavat käibemaksu ja periodiseerimist ning saates arve kinnitusringile, kuvati kinnitajale konteeringu eelvaates valede summadega kanded.
+
 ##### Versioon 16.0.23037.0
 - Lisatud loogika, et KMD nn põhiosa XML faili tulevad tag-id ainult siis, kui seal on väärtus _(vältimaks olukorda, kus raamatupidaja maksuametis igaks-juhuks neid nulle igakuiselt kustutamas käis)._
 - Tehniline täiendus (lisatud event OnBeforeUpdateamountswithNDV protseduuri OnBeforePostGenJnlLine).
