@@ -4,7 +4,7 @@
 This extension adds Estonian localization for banking functionality in Dynamics 365 Business Central.
 
 Estonian localization includes:
-- Payment reference numbers for sales
+- Payment reference numbers for sales- and service invoices
 - Sales document layouts (Order, Invoice, Cr. Memo) with commonly used requisites
 - Estonian SEPA payment format
 - Estonian SEPA statement format
@@ -14,12 +14,12 @@ Estonian localization includes:
 After the installation of extension page **Estonian Banking Formats Setup** must be opened, because this triggers the background installation of formats needed (_Data Exchange Definitions, Bank Export/Import Setup, Document Layouts_).  
 Page must be opened in every company, where Estonian Banking Formats shall be used.  
 
-## Payment Reference Numbers for Sales
+## Payment Reference Numbers for Sales and Service Invoices
 Using payment reference numbers in sales helps you apply cash receipts and invoices when processing bank statements.
 
-To use payment reference numbers in sales, open **Estonian Banking Formats Setup** and set **Sales Reference No.** as:
-- *Create from Customer No.* - In this case, the **Payment Refernece No.** will be generated for new customers and then taken from customers to the new invoices.
-- *Create from Invoice No.* - In this case, if **Payment Refernece No.** is empty before posting, it will be generated from invoice number in the posting process.
+To use payment reference numbers in sales- and service invoices, open **Estonian Banking Formats Setup** and set **Sales Reference No.** as:
+- *Create from Customer No.* - In this case, the **Payment Refernece No.** will be generated for new customers and then taken from customers to the new sales- and service invoices.
+- *Create from Invoice No.* - In this case, if **Payment Refernece No.** on sales invoice header is empty before posting, then it will be generated from invoice number in the posting process. For service invoices it will always be generated from service invoice number.
 
 ## Sales Document Layouts
 Three new custom layouts has been added to provide commonly used company and banking information on sales documents:
@@ -47,7 +47,7 @@ Choose **SEPACT-EE** for **Payment Export Format**.
 
 ## Payment Application Rules
 Business Central payment application rules have been complemented by two new components:
-- *Reference No.* - helps in the process of document match.
+- *Reference No.* - helps in the process of document matching.
 - *Registration No.* - helps in the process of customer/vendor match.
 
 New rules does not require setup and thus are not visible in **Payment Application Rules**.  
