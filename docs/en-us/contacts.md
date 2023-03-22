@@ -1,4 +1,5 @@
 Please contact one of **Estonian Dynamics Partners** for support:
+
 | BCS Itera AS | Columbus Eesti AS | Fujitsu Eestonia AS | Aptus Group OÜ |
 |--|--|--|--|
 | Mäealuse 2/4, Tallinn, 12618 | Veerenni 58A, Tallinn 11314 | Mustamäe tee 16, Tallinn 10617 | Valge 13, Tallinn, 11415 |
