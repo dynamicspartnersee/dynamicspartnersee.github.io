@@ -4,7 +4,7 @@
 Laiendus lokaliseerib Dynamics 365 Business Central pangafunktsionaalsuse Eesti nõuetele vastavaks.
 
 **Eesti lokalisatsioon sisaldab:**
-- Kliendi- või arvepõhised viitenumbrid müügiarvetel
+- Kliendi- või arvepõhised viitenumbrid müügi- ja hooldusarvetel
 - Pangarekvisiitide täiendused müügidokumendite kujundustel (tellimus, arve, kreeditarve)
 - Eesti SEPA makseformaat
 - Eesti SEPA väljavõtteformaat
@@ -16,15 +16,15 @@ Peale laienduse installeerimist tuleb avada leht **Eesti pangaformaatide seadist
 
 Leht tuleb avada igas ettevõttes, kus soovitakse Eesti pangaformaate kasutada.  
 
-## Viitenumbrid müügis
-Müügiarvetel viitenumbrite kasutamine aitab hiljem väljavõtte töötlemisel laekumisi käsitleda.
+## Viitenumbrid müügi- ja hooldusarvetel
+Müügi- ja hooldusarvetel viitenumbrite kasutamine aitab hiljem väljavõtte töötlemisel laekumisi käsitleda.
 
-Müügis viitenumbrite kasutamiseks avage **Eesti pangaformaatide seadistus** ja määrake **Müügi viitenr.** ühena alljärgnevast:
+Müügi- ja hooldusarvetel viitenumbrite kasutamiseks avage **Eesti pangaformaatide seadistus** ja määrake **Müügi viitenr.** ühena alljärgnevast:
 
 Väärtus | Selgitus
 -- | --
 Loo kliendi numbrist | **Makse viitenr.** genereeritakse uue kliendi loomisel ja kantakse edaspidi kliendi pealt kaasa tema arvetele.
-Loo arve numbrist | **Makse viitenr.** genereeritakse konteerimise käigus müügiarve numbrist. Seda juhul, kui **Makse viitenr.** puudus enne konteerimist.
+Loo arve numbrist | **Makse viitenr.** genereeritakse konteerimise käigus müügi- või hooldusarve numbrist. Seda juhul, kui **Makse viitenr.** puudus enne konteerimist müügiarvelt.
 
 ## Müügidokumentide kujundused
 Lisatud on kolm uut dokumendi kujundust, millel on toodud Eestis üldlevinud kujul ettevõtte- ja pangarekvisiidid:
