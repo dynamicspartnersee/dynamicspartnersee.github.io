@@ -1,6 +1,9 @@
 ---
 ---
 
+##### Versioon 17.0.23083.0
+- E-dokumendid vajavad üsna palju salvestusruumi ja on tihti baasis ühed suuremad tabelid. Vanad e-dokumendid saab nüüd kustutada läbi "Säilitamise poliitika" funktsionaalsuse.
+
 ##### Versioon 17.0.23076.0
 - Telema soovil tühistatakse e-dokument, mille saatmisel tekib veakood 0 ehk järgmised tüüpvead:
   - tundmatu saatja 

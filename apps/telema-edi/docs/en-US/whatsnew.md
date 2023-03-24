@@ -1,6 +1,9 @@
 ---
 ---
 
+##### Version 17.0.23083.0
+- E-Documents need quite a lot of storage space and are often one of the biggest tables in the database. Old e-documents can now be deleted through "Retention Policy" functionality.
+
 ##### Version 17.0.23076.0
 - According to instruction from Telema, e-document will be canceled in case of error code 0 which means the following typical errors:
   - unknown sender 
