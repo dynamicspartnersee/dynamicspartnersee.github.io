@@ -132,8 +132,8 @@ _Finbite-ist tulevatel ostuarvel saab riigi määranguks olla "EE", "LT", "LV" v
 2. **Kaubad** tuvastatakse ainult juhul kui **Aktiveeri kaupade tuvastamine e-arvelt** on aktiveeritud **Ostu ja ostuv. seadistus** lehel. <br>
 Kaubad tuvastatakse järgmises järjekorras: <br>
 a) BC kauba nr. (BuyerProductId tagis oleva koodi alusel) <br>
-b) EAN (esmalt GTIN kauba kaardil, seejärel vöötkood ristviidetes) <br>
-c) Müüja kauba kood (esmalt ristviidetes, seejärel vaadatakse, kas vastavat BC kauba nr. leidub *(kuna Finbite-is käsitsi loodud kaubad saadetakse ka kui SellerProductId)*) <br>
+b) EAN (esmalt GTIN kauba kaardil, seejärel vöötkood kauba viidetes) <br>
+c) Müüja kauba kood (esmalt kauba viidetes, seejärel vaadatakse, kas vastavat BC kauba nr. leidub *(kuna Finbite-is käsitsi loodud kaubad saadetakse ka kui SellerProductId)*) <br>
 3. **Kulukontod ja dimensioonid** võetakse e-arvest juhul, kui need on seal olemas – st. eelkonteerimine on tehtud operaatori arvehalduskeskkonnas.
 4. Kui konto e-arvel puudub, siis kasutatakse **Vastenda tekst kontoks** funktsionaalsust, kust kõigepealt otsitakse e-arve rea kirjeldusele vastet ning kui seda ei leita, siis hankija nimele vastavat seadistust. **NB! Vastendamises on lubatud filtri kujul seadistused.**
 5. Viimases järjekorras kasutatakse **Ostu ja ostuv. seadistus** lehel, **Vaikekontod** kiirkaardil määratud vaikekontosid.
