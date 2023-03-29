@@ -1,5 +1,10 @@
 ---
 ---
+##### Versioon 17.3.23088.0
+- BC22 ühilduvaks
+  - Kuna kadus Kauba ristviited tabel, siis selle alusel enam e-arvest ostuarvet luues kauba vastet ei otsita.
+- Lisatud event OnBeforeCreatePurchaseDocument  
+<br>
 
 ##### Versioon 17.3.23059.0
 - Lisandus võimalus saata e-arvena konteeritud hooldusarvet ja konteeritud hoolduse kreeditarvet.  
