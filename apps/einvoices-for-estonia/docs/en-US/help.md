@@ -132,8 +132,8 @@ _Puchase invoices mediated by Finbite can have fllowing country codes: "EE", "LT
 4. **Items are identified** only if  **Activate Find Items from e-invoice** is activated on **Purchases & Payables Setup**. <br>
 Items are identified using the following order: <br> 
 a) BC Item No. (in item code in BuyerProductId tag) <br>
-b) EAN (firstly GTIN on item, then barcode from cross reference) <br>
-c) Seller Item No. (firstly from cross reference, then solution checks if a BC Item No. with this code exists) <br>
+b) EAN (firstly GTIN on item, then barcode from item reference) <br>
+c) Seller Item No. (firstly from item reference, then solution checks if a BC Item No. with this code exists) <br>
 3. G/L Account and dimensions are taken from the e-invoice if they are available – this means preposting has been done in operator invoice management system.
 4. If the G/L account is not found on the e-invoice line, then **Map text to Account** functionality is used. Mapping is searched for the e-invoice line description and if not found then for the vendor name. **NB! Using filters is allowed in Text-to-Account Mapping page.**
 5. Finally, the default accounts are used from the **Default Accounts** fast tab of the **Purchases & Payables Setup**.
