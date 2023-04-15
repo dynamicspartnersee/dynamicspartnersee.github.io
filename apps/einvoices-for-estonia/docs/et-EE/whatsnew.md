@@ -1,5 +1,11 @@
 ---
 ---
+
+##### Versioon 17.3.23105.0
+- Parandatud veateadet "Väljal Kogus peab olema tabelis Osturida väärtus" tekitanud olukord, mis ilmnes kui real puudus kogus ning kui "Ostude ja ostuv. seadisuses", Eesti e-arvete seadete sektsioonis välja "Säilita kirjeldus ning ühiku hind" väärtuseks oli "kõikidel ridadel" ja kui muudeti ostuarve real PR Kontot/kaupa või kasutati "Kopeeri dokument" funktsionaalsust.
+- Parandatud olukord, kus uue hankija esitatud e-ostuarve väljastaja ettevõtte riigiks ei olnud mitte kahetäheline kood vaid pikem riigi nimetus ning seetõttu automaatne hankija loomine ebaõnnestus.
+<br> 
+
 ##### Versioon 17.3.23088.0
 - BC22 ühilduvaks
   - Kuna kadus Kauba ristviited tabel, siis selle alusel enam e-arvest ostuarvet luues kauba vastet ei otsita.
