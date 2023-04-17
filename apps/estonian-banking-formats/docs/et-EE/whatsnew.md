@@ -6,6 +6,12 @@
 <br>
 <br>
 
+##### Versioon 19.4.23107.0
+- Täiendatud pangaväljavõtte sidumise loogikat nii, et kui kliendilt saadud laekumisel on viitenubmer, siis vastendatakse klient alati esmalt kliendiandmikukannete alusel (vajalik selleks, et kui maksja on ka klient, et siis sobitataks õige kliendi alt tasutud arve)  
+
+##### Versioon 19.4.23082.0
+- Parandatud žurnaalides tekkinud veaolukord "Tabelit Klient/Hankija pole olemas."  
+
 ##### Versioon 19.4.23081.0
 - Parandatud žurnaalides tekkinud veaolukord "Tabelit Eesti pangaformaatide seadistus pole olemas."  
 
