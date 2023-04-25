@@ -19,5 +19,5 @@ You should see now Dynamics 365 Business Central in Estonian.
 
 ***
 
-For more information, please contact:
+For more information, please contact:  
 <a href="https://dynamicspartnersee.github.io/docs/en-us/contacts" target="_blank">Estonian Dynamics Partners</a>
