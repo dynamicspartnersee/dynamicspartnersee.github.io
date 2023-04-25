@@ -10,5 +10,5 @@ Please learn more about the localized functionalities:
 
 ***
 
-For more information, please contact one of the partners:  
-[http://www.dynamicspartners.ee](http://www.dynamicspartners.ee)
+For more information, please contact:  
+<a href="https://dynamicspartnersee.github.io/docs/en-us/contacts" target="_blank">Estonian Dynamics Partners</a>
