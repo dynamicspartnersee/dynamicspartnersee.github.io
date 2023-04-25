@@ -27,5 +27,5 @@ This app is available in English (United States) and Estonian (Estonia).
 
 ### Contact information
 
-For more information and pricing please contact one of the partners:  
-<a href="http://www.dynamicspartners.ee/" target="_blank">www.dynamicspartners.ee</a>
+For more information and pricing please contact:  
+<a href="https://dynamicspartnersee.github.io/docs/en-us/contacts" target="_blank">Estonian Dynamics Partners</a>
