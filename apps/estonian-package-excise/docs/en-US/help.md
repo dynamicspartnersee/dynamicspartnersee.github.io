@@ -81,5 +81,5 @@ If the report has been submitted, the **Reported** field in the header is marked
 
 ***
 
-For more information, please contact one of the partners:  
-<a href="http://www.dynamicspartners.ee/" target="_blank">www.dynamicspartners.ee</a> 
+For more information, please contact:  
+<a href="https://dynamicspartnersee.github.io/docs/en-us/contacts" target="_blank">Estonian Dynamics Partners</a>
