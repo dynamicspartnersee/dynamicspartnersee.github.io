@@ -78,5 +78,5 @@ If the **Recipient Name** is filled, it is also used in the payment file.
 
 ***
 
-For more information, please contact one of the partners:  
-[http://www.dynamicspartners.ee](http://www.dynamicspartners.ee)
+For more information, please contact:  
+<a href="https://dynamicspartnersee.github.io/docs/en-us/contacts" target="_blank">Estonian Dynamics Partners</a>
