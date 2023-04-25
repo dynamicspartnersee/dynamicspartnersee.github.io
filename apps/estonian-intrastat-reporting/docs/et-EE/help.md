@@ -37,5 +37,5 @@ Väljundfaili saab esitada <a href="https://estat.stat.ee/" target="_blank">esta
 
 ***
 
-Lisainformatsiooni saamiseks pöördu partneri poole:   
-<a href="http://www.dynamicspartners.ee/" target="_blank">www.dynamicspartners.ee</a>
+Lisainformatsiooni saamiseks pöördu partneri poole:  
+<a href="https://dynamicspartnersee.github.io/docs/en-us/contacts" target="_blank">Estonian Dynamics Partners</a>
