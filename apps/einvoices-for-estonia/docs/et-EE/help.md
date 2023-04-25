@@ -222,6 +222,5 @@ Andmete saatmiseks ühekordselt avage vastav **Dokumendivahetusteenuse seadistus
 
 ----------
 
-Täpsema info saamiseks, palun võtke ühendust ühega partneritest:
-
-[http://www.dynamicspartners.ee](http://www.dynamicspartners.ee/)
+Täpsema info saamiseks, palun võtke ühendust partneriga:  
+<a href="https://dynamicspartnersee.github.io/docs/en-us/contacts" target="_blank">Estonian Dynamics Partners</a>
