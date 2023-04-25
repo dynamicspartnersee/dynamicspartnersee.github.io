@@ -91,4 +91,4 @@ Kui väli on märgitud, siis:
 ----------
 
 Täpsema info saamiseks, palun võtke ühendust ühega partneritest:  
-<a href="http://www.dynamicspartners.ee/" target="_blank">www.dynamicspartners.ee</a>
+<a href="https://dynamicspartnersee.github.io/docs/en-us/contacts" target="_blank">Estonian Dynamics Partners</a>
