@@ -70,5 +70,5 @@ You can edit the data if necessary. To save the data into the customer/vendor/co
 <br>
 
 
-For more information, please contact one of the partners:  
-<a href="http://www.dynamicspartners.ee/" target="_blank">www.dynamicspartners.ee</a>
+For more information, please contact:  
+<a href="https://dynamicspartnersee.github.io/docs/en-us/contacts" target="_blank">Estonian Dynamics Partners</a>
