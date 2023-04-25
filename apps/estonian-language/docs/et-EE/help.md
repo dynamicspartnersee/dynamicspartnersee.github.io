@@ -21,4 +21,4 @@ Nüüd peaks Dynamics 365 Business Central olema eesti keeles.
 ***
 
 Lisainformatsiooni saamiseks pöördu partneri poole:  
-<a href="http://www.dynamicspartners.ee/" target="_blank">www.dynamicspartners.ee</a>
+<a href="https://dynamicspartnersee.github.io/docs/en-us/contacts" target="_blank">Estonian Dynamics Partners</a>
