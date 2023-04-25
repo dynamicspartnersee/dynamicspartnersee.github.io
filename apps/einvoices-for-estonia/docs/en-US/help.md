@@ -221,5 +221,5 @@ Master Data will be sent periodically, if you have set up and running the approp
 
 ***
 
-For more information, please contact one of the partners:  
-[http://www.dynamicspartners.ee](http://www.dynamicspartners.ee)
+For more information, please contact:  
+[Estonian Dynamics Partners](https://dynamicspartnersee.github.io/docs/en-us/contacts)
