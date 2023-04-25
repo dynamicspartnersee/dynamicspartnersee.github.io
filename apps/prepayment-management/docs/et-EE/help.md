@@ -139,4 +139,4 @@ Dokumendireale valitakse (kopeeritakse) 체ld. konteeringur체hmade seadistuses m�
 ----------
 
 T채psema info saamiseks, palun v천tke 체hendust 체hega partneritest:  
-[http://www.dynamicspartners.ee](http://www.dynamicspartners.ee/)
+<a href="https://dynamicspartnersee.github.io/docs/en-us/contacts" target="_blank">Estonian Dynamics Partners</a>
