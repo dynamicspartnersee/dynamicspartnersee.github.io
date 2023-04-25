@@ -9,5 +9,5 @@ Kasutusjuhendid lokaliseeritud funktsionaalsuse kohta:
 
 ***
 
-Lisateabe saamiseks võtke palun ühendust Dynamics partneriga:
-[http://www.dynamicspartners.ee](http://www.dynamicspartners.ee)
+Lisateabe saamiseks võtke palun ühendust Dynamics partneriga:  
+<a href="https://dynamicspartnersee.github.io/docs/en-us/contacts" target="_blank">Estonian Dynamics Partners</a>
