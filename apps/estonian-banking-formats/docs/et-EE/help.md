@@ -80,4 +80,4 @@ Kui **Saaja nimi** väli on täidetud, kasutatakse antud nime ka maksefailis (ha
 ***
 
 Täpsema info saamiseks võtke palun ühendust oma partneriga:  
-[http://www.dynamicspartners.ee](http://www.dynamicspartners.ee)
+<a href="https://dynamicspartnersee.github.io/docs/en-us/contacts" target="_blank">Estonian Dynamics Partners</a>
