@@ -1,5 +1,11 @@
 ---
 ---
+##### Versioon 22.1.23120.0
+- Lisatud loogika võtmaks kasutusele BC22.1 standardisse lisandunud mittemahaarvatava KM lahenduse funktsionaalsuse Eesti lokalisatsiooni mittemahaarvatava KM funktsionaalsuse asemel.
+  - Esmalt tuleb deaktiveerida Eesti lokalisatsiooni vastav funktsionaalsus, eemaldades "KM konteerimise seadistus" lehelt kõik "Luba mittemahaarvatav KM" linnukesed.
+  - Seejärel saab standardi mittemahaarvatava käibemaksu lahenduse aktiveerida lehel "KM Seadistus". 
+- Eemaldatud sõltuvuslik Äriregistri äpi seos, võttes kasutusele kliendi ja hankija registrisse BC19.5 versioonis lisandunud standard Registreerimisnr. välja.
+- Tehnilised täiendused tulenevalt värskeimale baasversioonile üleminekust.  
 
 ##### Versioon 16.0.23081.0
 - Parandatud olukord, kus kasutades ostuarvel korraga mittemahaarvatavat käibemaksu ja periodiseerimist ning saates arve kinnitusringile, kuvati kinnitajale konteeringu eelvaates valede summadega kanded.
