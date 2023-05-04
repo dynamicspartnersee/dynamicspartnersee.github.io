@@ -6,6 +6,10 @@
 <br>
 <br>
 
+##### Versioon 19.4.23124.0
+- Täiendatud maksežurnaalist maksete faili loomise loogikat nii, et kui real on viitenumber aga saaja pangakonto pole Eesti IBAN (st pole EE algusega), siis ei lisata viitenumbrit vastavale maksele.
+  - _Täiendus vajalik selleks, et õnnestuks sellise makse maksefaili import SwedBank internetipanka_  
+
 ##### Versioon 19.4.23107.0
 - Täiendatud pangaväljavõtte sidumise loogikat nii, et kui kliendilt saadud laekumisel on viitenubmer, siis vastendatakse klient alati esmalt kliendiandmikukannete alusel (vajalik selleks, et kui maksja on ka klient, et siis sobitataks õige kliendi alt tasutud arve)  
 
