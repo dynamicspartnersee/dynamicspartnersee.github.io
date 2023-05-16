@@ -1,5 +1,8 @@
 ---
 ---
+##### Versioon 22.1.23136.0
+- Üleminek kontaktide registris standard Registreerimisnr. väljale (_tuli BC22.1 versioonis_)
+  - Analoogselt kliendi ja hankija registrile jääb ka kontaktide tabelis senine Registreerimisnr. väli taustal esialgu alles ning täitub paralleelselt standard Registreerimisnr. välja täitumisega  
 
 ##### Versioon 21.5.23074.0
 - Üleminek kliendi ja hankija registris standard Registreerimisnr. väljale (_tuli BC21.5 versioonis_)
