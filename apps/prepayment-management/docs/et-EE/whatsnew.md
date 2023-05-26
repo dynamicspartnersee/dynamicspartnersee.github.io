@@ -1,6 +1,13 @@
 ---
 ---
 
+##### Versioon 17.0.23146.0
+- Täiendatud kliendipõhise ettemaksu toomist müügitellimusele/müügiarvele nii, et süsteem toob ka "Hinnad koos KM-ga" valiku korral dokumendi reale sellise ettemaksu summa, mis ei ületa arve kogusummat
+- Lisatud kontroll, et konteerimisel kontrollitakse, kas ettemaksu real kasutatud KM toote konteeringurühm vastab ettemaksuandmiku vastaval kandel olevale rühmale
+- Müügitellimuse ja müügirave ridade lehele lisatud vaikimisi peidus väli "Seotud ettemaksukande nr." (et kasutaja saaks vajadusel välja nähtavale tuua ning seeläbi leida rida, millele mõni veateade vihjab
+- Parandatud olukord, kus tekkis viga "Kutse funktsioonile LOCKTABLE pole .... TryFunction" 
+- Tehnilised täiendused  
+
 ##### Versioon 15.3.22095.1
 - Lisandus Hankijapõhine ettemaksude funktsionaalsus (aktiveeritav Ostude ja ostuv. seadistuses)
 - Lisandus valuutas ettemaksude ümberhindlus
