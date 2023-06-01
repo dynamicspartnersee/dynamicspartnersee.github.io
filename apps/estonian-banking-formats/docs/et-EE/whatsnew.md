@@ -6,6 +6,9 @@
 <br>
 <br>
 
+##### Versioon 19.4.23152.0
+- Muudetud avalikuks viitenumbri genereerimise protseduur koodis (et kliendipõhistes laiendustes ei peaks oma viitenumbri genereerimise protseduuri välja mõtlema).  
+
 ##### Versioon 19.4.23124.0
 - Täiendatud maksežurnaalist maksete faili loomise loogikat nii, et kui real on viitenumber aga saaja pangakonto pole Eesti IBAN (st pole EE algusega), siis ei lisata viitenumbrit vastavale maksele.
   - _Täiendus vajalik selleks, et õnnestuks sellise makse maksefaili import SwedBank internetipanka_  
