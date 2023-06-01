@@ -1,5 +1,7 @@
 ---
 ---
+##### Versioon 18.0.23152.0
+- Lisandus aruandesse PV Saldo uus rühmitusalus "Peavara"  
 
 ##### Versioon 18.0.22365.1
 - Bugiparandused:
