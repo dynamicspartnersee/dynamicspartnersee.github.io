@@ -1,6 +1,14 @@
 ---
 ---
 
+##### Versioon 17.3.23164.0
+- Tehtud täiendus, mis uuendab automaatselt Finbite Teenuse URL-i uuele, alates 16.06.2023.a. kehtima hakkavale kujule (kõikides ettevõtetes):
+  - Lisainfo <a href="https://help.finbite.eu/et/articles/7895353-peale-16-juunit-muutuvad-finbite-keskkonna-url-lingid" target="_blank">Finbite lehelt</a>
+- Tehtud kasutusmugavuse täiendus nii, et kui kasutaja "Finbite (Omniva) dokumendivahetusteenuse seadistus" lehel vajutab toimingut "Taasta URL-ide vaikeväärtused", siis süsteem kontrollib, kas keskkond asub avalikus pilves (Saas) ning kui tegu on Sandbox liiki keskkonnaga, siis taastatakse vaike URL-iks Finbite testkkeskkonna URL. Kui aga tegu on Production keskkonnaga või asub OnPrem-is, siis, taastatakse vaike URL-iks Finbite Live keskkonna url.  
+
+##### Versioon 17.3.23108.0
+- Parandatud haruldane veaolukord "KM summa ei tohi olla negatiivne", mis tekkis kui arvel olid nii positiivse, kui negatiivse kogusega read ning ühtlasi tekkis automaatse ümardamise vajadus.  
+
 ##### Versioon 17.3.23105.0
 - Parandatud veateadet "Väljal Kogus peab olema tabelis Osturida väärtus" tekitanud olukord, mis ilmnes kui real puudus kogus ning kui "Ostude ja ostuv. seadisuses", Eesti e-arvete seadete sektsioonis välja "Säilita kirjeldus ning ühiku hind" väärtuseks oli "kõikidel ridadel" ja kui muudeti ostuarve real PR Kontot/kaupa või kasutati "Kopeeri dokument" funktsionaalsust.
 - Parandatud olukord, kus uue hankija esitatud e-ostuarve väljastaja ettevõtte riigiks ei olnud mitte kahetäheline kood vaid pikem riigi nimetus ning seetõttu automaatne hankija loomine ebaõnnestus.
