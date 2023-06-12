@@ -1,5 +1,7 @@
 ---
 ---
+##### Versioon 17.0.23158.0
+- Parandatud olukord "Please chesk VAT base amounts", mis tekkis kliendipõhise ettemaksukande kasutamisel müügidokumendil, kus oli määratud "Hinnad koos KM-ga" ning dokumendil olid erineva KM %-ga read  
 
 ##### Versioon 17.0.23146.0
 - Täiendatud kliendipõhise ettemaksu toomist müügitellimusele/müügiarvele nii, et süsteem toob ka "Hinnad koos KM-ga" valiku korral dokumendi reale sellise ettemaksu summa, mis ei ületa arve kogusummat
