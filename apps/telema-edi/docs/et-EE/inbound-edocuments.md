@@ -35,6 +35,6 @@ Telema EDI-tööde automatiseerimiseks tuleb BC-i rakendusserver seadistada ja k
 
 Avage  **Tööjärjekorra kanded**:
 - Looge uus tööjärjekorra kanne **Aruanne 24007801 Võta e-dokumendid Telemast** automaatseteks allalaadimisteks Telema serverist.
-- Looge uus tööjärjekorra kanne  **Aruanne 24007801 Salvesta e-dokumendid BC-i**  allalaaditud e-dokumentide automaatseks salvestamiseks BC-i dokumentidesse.
+- Looge uus tööjärjekorra kanne  **Aruanne 24007803 Salvesta e-dokumendid BC-i**  allalaaditud e-dokumentide automaatseks salvestamiseks BC-i dokumentidesse.
 
 Pange paika tööde ajakava  **Korduvus**  kiirkaardil.

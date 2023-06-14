@@ -35,7 +35,7 @@ To automate Telema EDI jobs, NAV Application Server must be set up and running t
 Open the  **Job Queue Entries**:
 
 ·  Create new job entry for the  **Report 24007801 Get e-documents to Telema** for automatic downloads from Telema server.
-·  Create new job entry for the  **Report 24007801 Save e-documents to NAV**  to automatically save the downloaded e-documents to NAV documents.
+·  Create new job entry for the  **Report 24007803 Save e-documents to NAV**  to automatically save the downloaded e-documents to NAV documents.
 
 Set up the schedule of the jobs on  **Recurrence**  FastTab.
 
