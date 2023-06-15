@@ -1,6 +1,7 @@
 ---
 ---
 ##### Versioon 17.3.23166.0
+- Värskendatud äpi logo
 - Parandatud ostuarve loomisel kaupade tuvastamise probleem (_tekkis versiooniga 17.3.23088.0_)  
 
 ##### Versioon 17.3.23164.0
