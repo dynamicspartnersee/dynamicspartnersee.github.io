@@ -1,5 +1,7 @@
 ---
 ---
+##### Versioon 17.3.23166.0
+- Parandatud ostuarve loomisel kaupade tuvastamise probleem (_tekkis versiooniga 17.3.23088.0_)  
 
 ##### Versioon 17.3.23164.0
 - Tehtud täiendus, mis uuendab automaatselt Finbite Teenuse URL-i uuele, alates 16.06.2023.a. kehtima hakkavale kujule (kõikides ettevõtetes):
