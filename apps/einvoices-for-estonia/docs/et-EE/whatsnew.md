@@ -1,5 +1,8 @@
 ---
 ---
+##### Versioon 17.3.23172.0
+- Lisandus võimalus lubada kasutajal konteerida ostuarvet ka siis, kui ostuarve summa ei ühti e-arve (sissetuleva dokumendi) summaga.  
+
 ##### Versioon 17.3.23166.0
 - Värskendatud äpi logo
 - Parandatud ostuarve loomisel kaupade tuvastamise probleem (_tekkis versiooniga 17.3.23088.0_)  
