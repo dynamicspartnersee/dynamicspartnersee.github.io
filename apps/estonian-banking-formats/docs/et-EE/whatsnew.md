@@ -6,6 +6,11 @@
 <br>
 <br>
 
+##### Versioon 19.4.23187.0
+- Lisatud loogika, mis maksete sobitamise žurnaali konteerimisel täidab makse viite (ehk viitenumbri) ka kliendi- ja hankijaandmiku kannetes.
+- Maksete sobitamise žurnaalis on nüüd visuaalselt eristatav, kui tehingu Viitenumber ja Seotud kande viitenumber ühtivad (_roheline_) või erinevad (_punane_).
+- Parandatud teatud juhtudel peažurnaalis tekkinud veaolukord "Tabelit Klient/Hankija pole olemas".  
+
 ##### Versioon 19.4.23152.0
 - Muudetud avalikuks viitenumbri genereerimise protseduur koodis (et kliendipõhistes laiendustes ei peaks oma viitenumbri genereerimise protseduuri välja mõtlema).  
 
