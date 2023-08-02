@@ -1,5 +1,9 @@
 ---
 ---
+
+##### Versioon 17.3.23214.0
+- Parandatud hooldusarve saatmisel olukord, kus read liigiga Maksumus (Cost) ei jõudnud e-arvele.  
+  
 ##### Versioon 17.3.23172.0
 - Lisandus võimalus lubada kasutajal konteerida ostuarvet ka siis, kui ostuarve summa ei ühti e-arve (sissetuleva dokumendi) summaga.  
 
