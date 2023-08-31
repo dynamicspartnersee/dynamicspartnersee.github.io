@@ -22,7 +22,7 @@ E-arve operaatoritena on toetatud:
 
 ## Videojuhend
 
-[![Video kasutusjuhend](https://img.youtube.com/vi/iHjqAfZKSx0/default.jpg)](https://youtu.be/iHjqAfZKSx0?si=WDOI858m4iwcKuV6)
+[![Video kasutusjuhend](https://img.youtube.com/vi/iHjqAfZKSx0/hqdefault.jpg)](https://youtu.be/iHjqAfZKSx0)
 
 <br>
   
