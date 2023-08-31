@@ -1,11 +1,17 @@
 ---
 ---
-# Eesti e-arved - Kasutusjuhend
+# Eesti e-arved | Kasutusjuhend
 
-Eesti e-arve lahendus võimaldab teil vahetada e-arveid oma äripartneritega.  
-Eeldusena peate olema sõlminud operaatorlepingu Finbite'ga või Unifiedpost'iga.
+Eesti e-arve lahendus võimaldab teil vahetada e-arveid oma äripartneritega.
+
+E-arve operaatoritena on toetatud: 
+- RIK (Riigi Infosüsteemide Keskus)
+- Finbite
+- Unifiedpost
 
 ## Sisukord
+- [Eesti e-arved | Kasutusjuhend](#eesti-e-arved--kasutusjuhend)
+  - [Sisukord](#sisukord)
   - [Teenuse seadistamine](#teenuse-seadistamine)
   - [Tööjärjekorra kanded](#tööjärjekorra-kanded)
   - [Andmevahetustegevuste logi](#andmevahetustegevuste-logi)
@@ -16,31 +22,34 @@ Eeldusena peate olema sõlminud operaatorlepingu Finbite'ga või Unifiedpost'iga
 
 ## Teenuse seadistamine
 
-Avage **Finbite (Omniva) dokumendivahetusteenuse seadistus** või **Unifiedpost (FitekIn) dokumendivahetusteenuse seadistus** ning seadistage järgnevad väljad:
+Avage **RIK dokumendivahetusteenuse seadistus**, **Finbite (Omniva) dokumendivahetusteenuse seadistus** või **Unifiedpost (FitekIn) dokumendivahetusteenuse seadistus** ning seadistage järgnevad väljad:
 
 
-Kiirkaart / Väli | Selgitus
-|--|--|
-**Üldine** | 
-Lubatud | Aktiveerib teenuse ning loob automaatse andmevahetuse jaoks vajalikud **Tööjärjekorra kanded**.
-Võtmekasutaja | Tema rollikeskuse teatistesse saadetakse automaatsete andmevahetustööde käigus tekkivad vead, mis vajavad lahendamist.
-Tegevuse logimine | Määrab, millise detailsusega peetakse andmevahetuse tegevuste logi. Testperioodil on soovitav kasutada valikut „Tegevuse teade ja XML sõnumid“, et saada probleemide lahendamiseks maksimaalselt infot. Logitud teated ja sõnumid on vaadeldavad lehel Tegevuse logi.
-Aktiveeri Peppol (Finbite) <br><br>Aktiveeri roaming | Aktiveerib e-arvete saatmise läbi Peppoli. Kliendi kaardil tuleb määrata vastav PeppolId.<br><br>Aktiveerib rahvusvaheliste e-arvete saatmise. Kliendi kaardil saab määrata vastava kanali (channelId) ning kanali aadressi (channelAddress).
-**Ühendus** | Ühenduse vaikeväärtuste seadistamiseks saate kasutada tegevust Taasta URLide vaikeväärtused.
-Teenuse URL | Finbite puhul leiate selle arvete halduse keskkonnast Üldinfo->Seaded->Andmevahetus ERP-ga.
-Teenuse nimeruumi URL | Vaikeväärtust ei ole vaja üldjuhul muuta.
-SOAP nimeruumi URL | Vaikeväärtust ei ole vaja üldjuhul muuta.
-Autentimisfraas (Finbite puhul) | Leiate selle Finbite arvete halduse keskkonnast Üldinfo->Seaded->Andmevahetus ERP-ga.
-Kasutajanimi  (Unifiedposti puhul) | Täpsustage Unifiedpost’ist.
-Parool  (Unifiedposti puhul) | Täpsustage Unifiedpost’ist.
-**Põhiandmed**  (Unifiedpost puhul) | 
-Saada ühes PR kontoga tähis kohustuslik dim. nõue | Määratleb kas ühes PR Kontodega saadetakse ka Tähis kohustuslik dimensioonid, mis Fitekin-is määratakse kohustuslikeks kuluobjektideks vastavale kontole.
-Kustuta kasutamata põhiandmed uute saatmisel | Määratleb, kas kasutamata Kontod/Dimensiooniväärtused/Hankijad kustutatakse FitekIn-ist enne uute andmete lisamist.
-
-**Dokumendid**  (Finbite puhul) | 
-Võta arved muudetud alates | Dokumendivahetuse sisemine järjehoida. Mittemuudetav.
-Võta arved, mis on | Määrab, millise olekuga ostuarved laetakse BC-sse: <br> a) Töödeldud - st peale nende töötlemist Finbite arvehalduses. <br> b) Vastu võetud - st kohe peale arve saabumist Finbite-i. <br> c) Kinnitatud - st peale arve kinnitamist Finbites.
-Võta arve manused | Määrab, kas võetakse e-arvega kaasasolevad manused. „Põhimanus“ on üljuhul arve PDF kujul.
+Kiirkaart / Väli | Operaator | Selgitus
+|--|--|--|
+**Üldine** |  | 
+Lubatud | Kõik | Aktiveerib teenuse ning loob automaatse andmevahetuse jaoks vajalikud **Tööjärjekorra kanded**.
+Võtmekasutaja | Kõik | Tema rollikeskuse teatistesse saadetakse automaatsete andmevahetustööde käigus tekkivad vead, mis vajavad lahendamist.
+Tegevuse logimine | Kõik | Määrab, millise detailsusega peetakse andmevahetuse tegevuste logi. Testperioodil on soovitav kasutada valikut „Tegevuse teade ja XML sõnumid“, et saada probleemide lahendamiseks maksimaalselt infot. Logitud teated ja sõnumid on vaadeldavad lehel Tegevuse logi.
+Aktiveeri Peppol | Finbite | Aktiveerib e-arvete saatmise läbi Peppoli. Kliendi kaardil tuleb määrata vastav PeppolId.
+Aktiveeri roaming | Finbite | Aktiveerib rahvusvaheliste e-arvete saatmise. Kliendi kaardil saab määrata vastava kanali (channelId) ning kanali aadressi (channelAddress).
+**Ühendus** |  | Ühenduse vaikeväärtuste seadistamiseks saate kasutada tegevust Taasta URLide vaikeväärtused.
+Teenuse id | RIK | Täpsustage teenusepakkujalt.
+Teenuse saladus | RIK | Täpsustage teenusepakkujalt.
+Kliendi parool | RIK | Täpsustage teenusepakkujalt.
+Teenuse URL | Kõik | Finbite puhul leiate selle arvete halduse keskkonnast Üldinfo->Seaded->Andmevahetus ERP-ga.
+Teenuse nimeruumi URL | Finbite, Unifiedpost | Vaikeväärtust ei ole vaja üldjuhul muuta.
+SOAP nimeruumi URL | Finbite, Unifiedpost | Vaikeväärtust ei ole vaja üldjuhul muuta.
+Autentimisfraas | Finbite | Leiate selle Finbite arvete halduse keskkonnast Üldinfo->Seaded->Andmevahetus ERP-ga.
+Kasutajanimi | Unifiedpost | Täpsustage Unifiedpost’ist.
+Parool | Unifiedpost | Täpsustage Unifiedpost’ist.
+**Põhiandmed** |  | 
+Saada ühes PR kontoga tähis kohustuslik dim. nõue | Unifiedpost | Määratleb kas ühes PR Kontodega saadetakse ka Tähis kohustuslik dimensioonid, mis Fitekin-is määratakse kohustuslikeks kuluobjektideks vastavale kontole.
+Kustuta kasutamata põhiandmed uute saatmisel | Unifiedpost | Määratleb, kas kasutamata Kontod/Dimensiooniväärtused/Hankijad kustutatakse FitekIn-ist enne uute andmete lisamist.
+**Dokumendid** |  | 
+Võta arved muudetud alates | RIK, Finbite | Dokumendivahetuse sisemine järjehoida. Mittemuudetav.
+Võta arved, mis on | Finbite | Määrab, millise olekuga ostuarved laetakse BC-sse: <br> a) Töödeldud - st peale nende töötlemist Finbite arvehalduses. <br> b) Vastu võetud - st kohe peale arve saabumist Finbite-i. <br> c) Kinnitatud - st peale arve kinnitamist Finbites.
+Võta arve manused | RIK, Finbite | Määrab, kas võetakse e-arvega kaasasolevad manused. „Põhimanus“ on üljuhul arve PDF kujul.
 
 Ühenduse testimiseks kasutage tegevust **Testi ühendust**.
 
@@ -60,7 +69,7 @@ Saada kont. ostuarvete nr. | SEND-PINV-NO	|  Saadab konteeritud ostuarve numbri 
 Saada järjek. müügiarved | SEND-SINV |  Saadab konteeritud müügiarved (ning konteritud müügi kreeditarved), mille **E-arve olek** on „Ootab saatmist“ või „Saatmise tõrge“. Kliendil peab olema **Dokumendi saatmise profiil**, millel on seadistatud **Eesti e-arve**.
 Saada järjek. hooldusarved | SEND-SMINV |  Saadab konteeritud hooldusarved (ning konteeritud hoolduse kreeditarved), mille **E-arve olek** on „Ootab saatmist“ või „Saatmise tõrge“. Kliendil peab olema **Dokumendi saatmise profiil**, millel on seadistatud **Eesti e-arve**.
 
-Seadistage töödele soovitud sagedus ning aktiveerige iga töö tegevusega **Sea olekuks Valmis**. Käsitsi saab andmevahetuse tegevusi käivitada **Finbite (Omniva) dokumendivahetusteenuse seadistuse** või **Unifiedpost (FitekIn) dokumendivahetusteenuse seadistuse** toimingute ribalt.
+Seadistage töödele soovitud sagedus ning aktiveerige iga töö tegevusega **Sea olekuks Valmis**. Käsitsi saab andmevahetuse tegevusi käivitada **RIK/Finbite/Unifiedpost dokumendivahetusteenuse seadistuse** toimingute ribalt.
 
 <br>
 
@@ -70,7 +79,7 @@ Kõik andmevahetuse tegevused logitakse. Tõrgete korral aitavad need teid probl
 
 Andmekirje / Leht | Andmevahetustegevus
 |--|--|
-Finbite (/Unifiedpost) dokumendivahetusteenuse seadistus | -Kontoplaani ja dimensioonide saatmine <br> -Hankijate ja klientide saatmine <br> -Ostuarvete vastuvõtmine
+RIK/Finbite/Unifiedpost dokumendivahetusteenuse seadistus | -Kontoplaani ja dimensioonide saatmine <br> -Hankijate ja klientide saatmine <br> -Ostuarvete vastuvõtmine
 Sissetulev dokument | -Ostuarvega seotud manuste vastuvõtmine <br> -Konteeritud ostuarve nr. saatmine
 Konteeritud müügiarve ( või kreeditarve) | -Müügiarve saatmine
 Konteeritud hooldusarve ( või hoolduse kreeditarve) | -Hooldusarve saatmine
@@ -81,7 +90,7 @@ Logi sissekannete vaatamiseks klikkige seadistusel või dokumendil **Tegevuse lo
 
 ## E-arvete vastuvõtmine
 
-E-arvete vastuvõtmine on tavaliselt seadistatud automaatseks tegevuseks. Selle kontrollimiseks avage **Finbite (/Unifiedpost) dokumendivahetusteenuse seadistus**, veenduge, et see on **Lubatud** ning klikkige **Tööjärjekorra kanded**. Avage töö „Võta ostuarved“ ning veenduge, et see on seadistatud ja töötab nii nagu soovite.
+E-arvete vastuvõtmine on tavaliselt seadistatud automaatseks tegevuseks. Selle kontrollimiseks avage **RIK/Finbite/Unifiedpost dokumendivahetusteenuse seadistus**, veenduge, et see on **Lubatud** ning klikkige **Tööjärjekorra kanded**. Avage töö „Võta ostuarved“ ning veenduge, et see on seadistatud ja töötab nii nagu soovite.
 
 Juhul, kui soovite arvete vastuvõtmist kävitada käsitsi, saate seda teha teenuse seadistuse lehel tegevusega **Võta ostuarved**.
 
