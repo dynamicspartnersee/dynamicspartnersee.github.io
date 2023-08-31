@@ -10,8 +10,6 @@ E-arve operaatoritena on toetatud:
 - Unifiedpost
 
 ## Sisukord
-- [Eesti e-arved | Kasutusjuhend](#eesti-e-arved--kasutusjuhend)
-  - [Sisukord](#sisukord)
   - [Teenuse seadistamine](#teenuse-seadistamine)
   - [Tööjärjekorra kanded](#tööjärjekorra-kanded)
   - [Andmevahetustegevuste logi](#andmevahetustegevuste-logi)
