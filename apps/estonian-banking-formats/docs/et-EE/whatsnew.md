@@ -6,6 +6,9 @@
 <br>
 <br>
 
+##### Versioon 19.4.23244.0
+- Tehtud seadistusega valitavaks, kas mitte-eesti pangakontole mineva makse maksekorraldusele lisatakse viitenumber või makse selgitus (_eeldusel, et tegu on viitenumbriga maksega_).  
+
 ##### Versioon 19.4.23187.0
 - Lisatud loogika, mis maksete sobitamise žurnaali konteerimisel täidab makse viite (ehk viitenumbri) ka kliendi- ja hankijaandmiku kannetes.
 - Maksete sobitamise žurnaalis on nüüd visuaalselt eristatav, kui tehingu Viitenumber ja Seotud kande viitenumber ühtivad (_roheline_) või erinevad (_punane_).
