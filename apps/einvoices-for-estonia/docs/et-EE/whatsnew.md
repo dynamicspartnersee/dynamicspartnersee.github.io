@@ -1,6 +1,6 @@
 ---
 ---
-##### Versioon 17.3.23214.0
+##### Versioon 17.3.23248.0
 - Lisatud event OnBeforeFindItem, et oleks kliendipõhise arendusega võimalik luua oma saabunud e-ostuarvelt kaupade tuvastamise loogika.  
 
 ##### Versioon 17.3.23214.0
