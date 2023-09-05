@@ -1,5 +1,7 @@
 ---
 ---
+##### Versioon 17.3.23214.0
+- Lisatud event OnBeforeFindItem, et oleks kliendipõhise arendusega võimalik luua oma saabunud e-ostuarvelt kaupade tuvastamise loogika.  
 
 ##### Versioon 17.3.23214.0
 - Parandatud hooldusarve saatmisel olukord, kus read liigiga Maksumus (Cost) ei jõudnud e-arvele.  
