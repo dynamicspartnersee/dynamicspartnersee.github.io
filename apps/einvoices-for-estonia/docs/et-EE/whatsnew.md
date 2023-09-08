@@ -1,5 +1,9 @@
 ---
 ---
+##### Versioon 17.3.23251.0
+- Lisatud arvete XML-i loomise koodi event OnBeforeCreateItemEntry, et oleks kliendipõhise arendusega võimalik luua oma variant arveridade ehk ItemEntry blokist.
+- Parandatud tegevuse logi vaatamisel tõrge "Väli „OEA Request XML Message“ tabelis „Tegevuse logi“ on andmebaasis algse ja JIT-koormuse vahel muutunud".  
+
 ##### Versioon 17.3.23248.0
 - Lisatud event OnBeforeFindItem, et oleks kliendipõhise arendusega võimalik luua oma saabunud e-ostuarvelt kaupade tuvastamise loogika.  
 
