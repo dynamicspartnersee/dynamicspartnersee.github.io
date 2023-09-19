@@ -1,5 +1,8 @@
 ---
 ---
+##### Versioon 17.0.23262.0
+- Värskendatud äpi logo
+  
 ##### Versioon 17.0.23158.0
 - Parandatud olukord "Please chesk VAT base amounts", mis tekkis kliendipõhise ettemaksukande kasutamisel müügidokumendil, kus oli määratud "Hinnad koos KM-ga" ning dokumendil olid erineva KM %-ga read  
 
