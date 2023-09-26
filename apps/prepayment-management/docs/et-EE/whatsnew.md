@@ -1,5 +1,8 @@
 ---
 ---
+##### Versioon 17.0.23268.0
+- Lisatud eventid _(OnBeforeInsertPrepaymentEntry, OnBeforeSetPrepaymentEntryFilter, OnBeforePrepaymentEntryFindFirst, OnBeforeSetPrice, OnBeforeSalesLineInsert, OnApplyPrepaymentEntries)_, et oleks kliendipõhise arendusega võimalik täiendada ettemaksude käsitlemise ja haldamise loogikat  
+
 ##### Versioon 17.0.23262.0
 - Värskendatud äpi logo
   
