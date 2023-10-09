@@ -1,10 +1,15 @@
 ---
 ---
-##### Infoks seoses 20.03.2023.a. jõustuvate Euroopa Keskpanga uute nõuetega ISO faili struktuuris
-- _BC maksete XML faili sisu on juba täna tehniliselt nõuetega kooskõlas_
-  - _Tuleb vaid jälgida, et EU väliste maksete puhul oleks Hankija pangakonto kaardil täidetud Saaja panga aadressiandmed (linn ning riik eelkõige)_
+##### Infoks seoses Euroopa Keskpanga uute nõuetega ISO faili struktuuris
+- _BC maksete XML faili sisu on jätkuvalt tehniliselt nõuetega kooskõlas_
+  - _Tuleb vaid jälgida, et **EU väliste maksete puhul** oleks Hankija pangakonto kaardil täidetud Saaja panga aadressiandmed (linn ning riik eelkõige)_
 <br>
 <br>
+
+##### Versioon 19.4.23282.0
+- Lisatud makse ekspordi formaadi pain.001.001.09 tugi (_valiku nimeks pangakontol "SEPACT-EE-001.001.09"_), mis saab LHV pangas kohustuslikuks 1.nov 2023.a. ning hiljem teistes pankades.
+  - Eeldusel, et LHV pangakontol on SWIFT tähiseks LHVBEE22 ning seniseks makse ekspordi formaadiks "SEPACT-EE", siis äpi uuendamise käigus määratakse automaatselt uueks formaadiks pangakonto kaardile "SEPACT-EE-001.001.09"
+    - Teiste pankade puhul tuleb kasutajal see valik hiljem ise teha _(sest äpi uuenduse avaldamise hetkel oli ainult LHV võimeline uut maksefaili formaati vastu võtma)_.  
 
 ##### Versioon 19.4.23244.0
 - Tehtud seadistusega valitavaks, kas mitte-eesti pangakontole mineva makse maksekorraldusele lisatakse viitenumber või makse selgitus (_eeldusel, et tegu on viitenumbriga maksega_).  
