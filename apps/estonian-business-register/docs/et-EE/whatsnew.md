@@ -1,8 +1,14 @@
 ---
 ---
+##### Versioon 22.1.23234.0
+- Lisatud äriregistri päringu lehe koodi eventid _(OnBeforeGetCustomer, OnBeforeGetVendor, OnBeforeGetContact)_, et oleks kliendipõhise arendusega võimalik vastavates protseduurides kasutada kliendipõhist loogikat
+- Värskendatud äpi logo  
+
+
 ##### Versioon 22.1.23136.0
 - Üleminek kontaktide registris standard Registreerimisnr. väljale (_tuli BC22.1 versioonis_)
   - Analoogselt kliendi ja hankija registrile jääb ka kontaktide tabelis senine Registreerimisnr. väli taustal esialgu alles ning täitub paralleelselt standard Registreerimisnr. välja täitumisega  
+
 
 ##### Versioon 21.5.23074.0
 - Üleminek kliendi ja hankija registris standard Registreerimisnr. väljale (_tuli BC21.5 versioonis_)
@@ -14,7 +20,7 @@
 
 
 ##### Versioon 15.3.22064.0
-- Mittefunktsionaalsed tehnilised täiendused
+- Mittefunktsionaalsed tehnilised täiendused  
 
 
 ##### Versioon 15.3.21362.0

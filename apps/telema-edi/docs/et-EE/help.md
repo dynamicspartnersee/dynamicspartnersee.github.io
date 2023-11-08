@@ -33,3 +33,7 @@ Standardmoodulis on toetatud järgnevad e-dokumenditüübid ning protsessid.
 [Ühenduse seadistamine](telema-setup)  
 [Sissetulevad e-dokumendid](inbound-edocuments)  
 [Väljaminevad e-dokumendid](outbound-edocuments)  
+
+## Videojuhend
+
+[![Video kasutusjuhend](https://img.youtube.com/vi/haWhgDLGbps/hqdefault.jpg)](https://youtu.be/haWhgDLGbps)

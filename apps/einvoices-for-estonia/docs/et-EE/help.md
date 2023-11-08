@@ -10,14 +10,22 @@ E-arve operaatoritena on toetatud:
 - Unifiedpost
 
 ## Sisukord
+  - [Videojuhend](#videojuhend)
   - [Teenuse seadistamine](#teenuse-seadistamine)
   - [Tööjärjekorra kanded](#tööjärjekorra-kanded)
   - [Andmevahetustegevuste logi](#andmevahetustegevuste-logi)
   - [E-arvete vastuvõtmine](#e-arvete-vastuvõtmine)
   - [E-arvete salvestamine ostuarveks](#e-arvete-salvestamine-ostuarveks)
   - [E-arvete saatmine](#e-arvete-saatmine)
+  - [EU formaadis saatmise eeltingimused](#eu-formaadis-saatmise-eeltingimused)
   - [Põhiandmete saatmine](#põhiandmete-saatmine)
 
+## Videojuhend
+
+[![Video kasutusjuhend](https://img.youtube.com/vi/iHjqAfZKSx0/hqdefault.jpg)](https://youtu.be/iHjqAfZKSx0)
+
+<br>
+  
 ## Teenuse seadistamine
 
 Avage **RIK dokumendivahetusteenuse seadistus**, **Finbite (Omniva) dokumendivahetusteenuse seadistus** või **Unifiedpost (FitekIn) dokumendivahetusteenuse seadistus** ning seadistage järgnevad väljad:
@@ -30,7 +38,9 @@ Lubatud | Kõik | Aktiveerib teenuse ning loob automaatse andmevahetuse jaoks va
 Võtmekasutaja | Kõik | Tema rollikeskuse teatistesse saadetakse automaatsete andmevahetustööde käigus tekkivad vead, mis vajavad lahendamist.
 Tegevuse logimine | Kõik | Määrab, millise detailsusega peetakse andmevahetuse tegevuste logi. Testperioodil on soovitav kasutada valikut „Tegevuse teade ja XML sõnumid“, et saada probleemide lahendamiseks maksimaalselt infot. Logitud teated ja sõnumid on vaadeldavad lehel Tegevuse logi.
 Aktiveeri Peppol | Finbite | Aktiveerib e-arvete saatmise läbi Peppoli. Kliendi kaardil tuleb määrata vastav PeppolId.
-Aktiveeri roaming | Finbite | Aktiveerib rahvusvaheliste e-arvete saatmise. Kliendi kaardil saab määrata vastava kanali (channelId) ning kanali aadressi (channelAddress).
+Aktiveeri roaming | Unifiedpost | Aktiveerib rahvusvaheliste e-arvete saatmise Eesti e-arve formaati kasutades. Kliendi kaardil saab määrata vastava kanali (channelId) ning kanali aadressi (channelAddress).
+e-müügiarvete formaat | Unifiedpost | Määrab e-arve formaadi, milles saadetakse e-müügiarved partnerile.
+e-ostuarvete formaat | Unifiedpost | Määrab e-arve formaadi, milles e-ostuarved saabuvad partnerilt.
 **Ühendus** |  | Ühenduse vaikeväärtuste seadistamiseks saate kasutada tegevust Taasta URLide vaikeväärtused.
 Teenuse id | RIK | Täpsustage teenusepakkujalt.
 Teenuse saladus | RIK | Täpsustage teenusepakkujalt.
@@ -208,6 +218,17 @@ Juhul, kui arve saatmisel tuleb tõrge, et dokument on juba saadetud aga sellest
 
 Juhul, kui arve saatmisel on tõrge, mida ei ole võimalik lahendada, siis on soovitav peatada arve saatmiskatsed.  
 Selleks klikkige arve väljal **E-arve olek**, mis avab andmevahetustegevuste logi. Logi sulgemisel saate valida, kas soovite saatmise peatada.  
+
+<br>
+
+## EU formaadis saatmise eeltingimused
+
+Selleks, et õnnestuks EU formaadis e-müügiarvete saatmine peab olema täidetud mõned tingimused:
+- Riikide tabelis peab olema “KM skeem” väli täidetud. Nt Eesti puhul määrata väärtuseks 0191
+  ![Riigid](2-Riigid.png "Punasega piiritletud väljad, mis mõjutavad lahenduse funktsionaalsust")
+- KM konteerimise seadistuses peab olema “Maksukategooria” korrektse väärtusega täidetud
+  ![KM konteerimise seadistus](3-KM_konteerimise_seadistus.png "Punasega piiritletud väljad, mis mõjutavad lahenduse funktsionaalsust")
+- Konteeritud müügiarvel peab olema “Teie viide” täidetud .
 
 <br>
 

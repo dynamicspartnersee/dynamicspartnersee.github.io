@@ -1,5 +1,11 @@
 ---
 ---
+##### Versioon 17.0.23268.0
+- Lisatud eventid _(OnBeforeInsertPrepaymentEntry, OnBeforeSetPrepaymentEntryFilter, OnBeforePrepaymentEntryFindFirst, OnBeforeSetPrice, OnBeforeSalesLineInsert, OnApplyPrepaymentEntries)_, et oleks kliendipõhise arendusega võimalik täiendada ettemaksude käsitlemise ja haldamise loogikat  
+
+##### Versioon 17.0.23262.0
+- Värskendatud äpi logo
+  
 ##### Versioon 17.0.23158.0
 - Parandatud olukord "Please chesk VAT base amounts", mis tekkis kliendipõhise ettemaksukande kasutamisel müügidokumendil, kus oli määratud "Hinnad koos KM-ga" ning dokumendil olid erineva KM %-ga read  
 

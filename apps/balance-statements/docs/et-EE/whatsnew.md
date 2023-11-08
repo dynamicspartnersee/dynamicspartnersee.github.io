@@ -1,5 +1,10 @@
 ---
 ---
+##### Versioon 19.3.23251.0
+- Tehnilised täiendused, et lahendus oleks BC23 versiooniga ühilduv
+- Parandatud olukord, kus saldoteatise väljatrükile tekkis punane rist, kui ettevõttel polnud pilti (logo)
+- Värskendatud äpi logo vastamaks muutunud Microsoft AppSource tingimustele  
+
 ##### Versioon 18.0.23152.0
 - Lisandus aruandesse PV Saldo uus rühmitusalus "Peavara"  
 

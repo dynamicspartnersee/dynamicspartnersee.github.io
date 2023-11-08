@@ -1,5 +1,13 @@
 ---
 ---
+##### Versioon 22.1.23262.0
+- Lisatud tugi KM kuupäeva kasutamisele KMD loomisel.
+  - KM aruande seadistus lehel on võimalik valida, kas KMD loomisel "Soovita ridu" võtab aluseks KM kannetes oleva KM kuupäeva või konteerimiskuupäeva.
+    - Valik on võimalik ainult juhul, kui Pearaamatu seadistuses pole KM kuupäeva kasutamine keelatud.
+  - INF ridade lehele lisatud väljad KM kuupäev ja konteerimiskuupäev (vaikimisi peidus).
+- Väiksemad UX täiendused.
+- Värskendatud äpi logo.
+  
 ##### Versioon 22.1.23120.0
 - Lisatud loogika võtmaks kasutusele BC22.1 standardisse lisandunud mittemahaarvatava KM lahenduse funktsionaalsuse Eesti lokalisatsiooni mittemahaarvatava KM funktsionaalsuse asemel.
   - Esmalt tuleb deaktiveerida Eesti lokalisatsiooni vastav funktsionaalsus, eemaldades "KM konteerimise seadistus" lehelt kõik "Luba mittemahaarvatav KM" linnukesed.
