@@ -34,7 +34,7 @@ Avage **RIK dokumendivahetusteenuse seadistus**, **Finbite (Omniva) dokumendivah
 Kiirkaart / Väli | Operaator | Selgitus
 |--|--|--|
 **Üldine** |  | 
-Lubatud | Kõik | Aktiveerib teenuse ning loob automaatse andmevahetuse jaoks vajalikud **Tööjärjekorra kanded**.
+Lubatud | Kõik | Aktiveerib teenuse ning loob automaatse andmevahetuse jaoks vajalikud **ärjekorra kanded**.
 Võtmekasutaja | Kõik | Tema rollikeskuse teatistesse saadetakse automaatsete andmevahetustööde käigus tekkivad vead, mis vajavad lahendamist.
 Tegevuse logimine | Kõik | Määrab, millise detailsusega peetakse andmevahetuse tegevuste logi. Testperioodil on soovitav kasutada valikut „Tegevuse teade ja XML sõnumid“, et saada probleemide lahendamiseks maksimaalselt infot. Logitud teated ja sõnumid on vaadeldavad lehel Tegevuse logi.
 Aktiveeri Peppol | Finbite | Aktiveerib e-arvete saatmise läbi Peppoli. Kliendi kaardil tuleb määrata vastav PeppolId.
@@ -73,7 +73,7 @@ Saada PR kontod | SEND-ACC | Saadab PR kontod, millel on märge **Saada Finbite/
 Saada dimensioonid | SEND-DIM | Saadab dimensioonid, millel on märge **Saada Finbite/FitekIn**.
 Saada hankijad | SEND-VEND	|  Saadab hankijad millel on märge **Saada Finbite/FitekIn**.<br>Ainult Finbite - saab põhiandmetena saata ka kliente.
 Võta ostuarved | GET-PINV	|  Võtab operaatori serverist ostuarved ning salvestab need tabelisse Sissetulevad dokumendid.
-Saada kont. ostuarvete nr. | SEND-PINV-NO	|  Saadab konteeritud ostuarve numbri Finbitest tulnud sissetulevatele dokumentidele.
+Saada kont. ostuarvete nr. | SEND-PINV-NO	|  Saadab konteeritud ostuarve numbri Finbite/FitekIn keskkonda.
 Saada järjek. müügiarved | SEND-SINV |  Saadab konteeritud müügiarved (ning konteritud müügi kreeditarved), mille **E-arve olek** on „Ootab saatmist“ või „Saatmise tõrge“. Kliendil peab olema **Dokumendi saatmise profiil**, millel on seadistatud **Eesti e-arve**.
 Saada järjek. hooldusarved | SEND-SMINV |  Saadab konteeritud hooldusarved (ning konteeritud hoolduse kreeditarved), mille **E-arve olek** on „Ootab saatmist“ või „Saatmise tõrge“. Kliendil peab olema **Dokumendi saatmise profiil**, millel on seadistatud **Eesti e-arve**.
 
