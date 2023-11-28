@@ -18,6 +18,7 @@ E-arve operaatoritena on toetatud:
   - [E-arvete salvestamine ostuarveks](#e-arvete-salvestamine-ostuarveks)
   - [E-arvete saatmine](#e-arvete-saatmine)
   - [EU formaadis saatmise eeltingimused](#eu-formaadis-saatmise-eeltingimused)
+  - [EU formaadis vastuvõetud arve töötlemise eeltingimused](#eu-formaadis-vastuvõetud-arve-töötlemise-eeltingimused)
   - [Põhiandmete saatmine](#põhiandmete-saatmine)
 
 ## Videojuhend
@@ -188,6 +189,7 @@ Tähis | "E-ARVE"
 Kirjeldus | "E-arve"
 Eesti e-arve | Valige oma operaator
 Saada Eesti e-arve automaatselt | Konteeritud arve E-arve olek saab väärtuse "Ootab saatmist" ja saadetakse Tööjärjekorra tööga "Saada järjekorras müügiarved"
+Ära saada null summaga arvet | Automaatselt ei saadeta arveid, mille summa on 0 (null)
 Finbite kättetoimetamisviis | Valige sobiv (vaikeväärtus tühi tähendab, et kanali otsustab Finbite).<br>NB! Kui valikuks on Pank, siis edastatakse serviceId-na konteeritud arvelt makse viitenumber ning channelId-na maksja kliendikaardilt eelistatud pangakonto IBAN.
 Finbite arvehaldus | Kas müügiarve läheb kohe kliendile või esmalt Finbite arvehaldusesse (viimases tuleb siis manuaalselt müügiarve kliendile edasi saata).
 
@@ -229,6 +231,15 @@ Selleks, et õnnestuks EU formaadis e-müügiarvete saatmine peab olema täidetu
 - KM konteerimise seadistuses peab olema “Maksukategooria” korrektse väärtusega täidetud
   ![KM konteerimise seadistus](3-KM_konteerimise_seadistus.png "Punasega piiritletud väljad, mis mõjutavad lahenduse funktsionaalsust")
 - Konteeritud müügiarvel peab olema “Teie viide” täidetud .
+
+<br>
+
+## EU formaadis vastuvõetud arve töötlemise eeltingimused
+
+Selleks, et õnnestuks EU formaadis vastuvõetud e-ostuarve töötlemine peab olema täidetud mõned tingimused:
+- Andmevahetuse määratlustes peab olema PEPPOL arve ja kreeditarve tähised loodud (nt kasutades Andmete käsitsemise koodiplokki 1214 ja Lugemise/kirjutamise koodiplokki 1203)
+- Andmevahetuse liikides peab olema vastavad viited PEPPOL arve ja kreeditarve andmevahetuse määratlusele
+  - Näidisena saab kasutada Cronus ettevõtte seadistusi.
 
 <br>
 
