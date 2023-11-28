@@ -1,5 +1,17 @@
 ---
 ---
+##### Versioon 21.5.23332.0
+- Lisandus "Ära saada null summaga arvet" valik Dokumendi saatmise profiili loomisel kui tehakse "Saada Eesti e-arve automaatselt" valik.
+  - Vajalik tühjade arvete saatmise vältimiseks.
+<br>
+
+##### Versioon 21.5.23237.0
+- Lisandus EL e-arve standardi (PEPPOL BIS3 UML) formaadis müügiarvete saatmise ja ostuarvete vastuvõtmise tugi.
+  - _Eeldusel, et kasutatav e-arvete operaator vastavat võimalust pakub._
+- Lisandus liidestus operaatoriga RIK (Registrite ja Infosüsteemide Keskus), võimaldades e-arvete saatmist ning vastuvõtmist ilma operaatori kuluta.
+- UX täiendused _(lisandunud paljudele väljadele ja nuppudele seni puudunud selgitavad tooltipid)._  
+<br>
+
 ##### Versioon 17.3.23251.0
 - Lisatud arvete XML-i loomise koodi event OnBeforeCreateItemEntry, et oleks kliendipõhise arendusega võimalik luua oma variant arveridade ehk ItemEntry blokist.
 - Parandatud tegevuse logi vaatamisel tõrge "Väli „OEA Request XML Message“ tabelis „Tegevuse logi“ on andmebaasis algse ja JIT-koormuse vahel muutunud".  
@@ -7,13 +19,6 @@
 
 ##### Versioon 17.3.23248.0
 - Lisatud event OnBeforeFindItem, et oleks kliendipõhise arendusega võimalik luua oma saabunud e-ostuarvelt kaupade tuvastamise loogika.  
-<br>
-
-##### Versioon 17.3.23237.0
-- Lisandus EL e-arve standardi (PEPPOL BIS3 UML) formaadis müügiarvete saatmise ja ostuarvete vastuvõtmise tugi.
-  - _Eeldusel, et kasutatav e-arvete operaator vastavat võimalust pakub._
-- Lisandus liidestus operaatoriga RIK (Registrite ja Infosüsteemide Keskus), võimaldades e-arvete saatmist ning vastuvõtmist ilma operaatori kuluta.
-- UX täiendused _(lisandunud paljudele väljadele ja nuppudele seni puudunud selgitavad tooltipid)._  
 <br>
 
 ##### Versioon 17.3.23214.0
