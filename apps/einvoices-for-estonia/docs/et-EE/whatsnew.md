@@ -9,6 +9,7 @@
 - Lisandus EL e-arve standardi (PEPPOL BIS3 UML) formaadis müügiarvete saatmise ja ostuarvete vastuvõtmise tugi.
   - _Eeldusel, et kasutatav e-arvete operaator vastavat võimalust pakub._
 - Lisandus liidestus operaatoriga RIK (Registrite ja Infosüsteemide Keskus), võimaldades e-arvete saatmist ning vastuvõtmist ilma operaatori kuluta.
+- Lahendus kasutab nüüd BC standard registrikoodi andmevälju _(senise Eesti lokalisatsiooni Äriregistri äpi väljade asemel)_.
 - UX täiendused _(lisandunud paljudele väljadele ja nuppudele seni puudunud selgitavad tooltipid)._  
 <br>
 
