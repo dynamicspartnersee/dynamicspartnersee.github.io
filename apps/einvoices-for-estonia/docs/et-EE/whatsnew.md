@@ -1,8 +1,9 @@
 ---
 ---
-##### Versioon 21.5.23332.0
+##### Versioon 21.5.23332.1
 - Lisandus "Ära saada null summaga arvet" valik Dokumendi saatmise profiili loomisel kui tehakse "Saada Eesti e-arve automaatselt" valik.
   - Vajalik tühjade arvete saatmise vältimiseks.
+- Lisandus lahenduse õiguste komplekt .al objektina.
 <br>
 
 ##### Versioon 21.5.23237.0
