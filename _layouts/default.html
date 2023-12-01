@@ -17,7 +17,11 @@
         <header class="inner">
           <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
           <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
-          <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+          {% if page.path contains "en-US" or page.path contains "index_eng" %}
+            <h2 id="project_tagline">Extensions for Microsoft Dynamics 365 Business Central</h2>
+          {% else %}
+            <h2 id="project_tagline">Laiendused Microsoft Dynamics 365 Business Central-ile</h2>
+          {% endif %}
 
           <!-- NAVIGATION -->          
           <div style="float: left">
