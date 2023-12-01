@@ -8,7 +8,7 @@
 [Eesti intrastat aruandlus](apps/estonian-intrastat-reporting/docs/et-EE/help)  
 [Eesti pakendiaktsiis](apps/estonian-package-excise/docs/et-EE/help)  
   
-[Saldoteatised](apps/balance-statements/docs/et-EE/app/help)  
+[Saldoteatised](apps/balance-statements/docs/et-EE/help)  
 [Ettemaksude haldus](apps/prepayment-management/docs/et-EE/help)  
 
 ## E-arved ja EDI lahendused
