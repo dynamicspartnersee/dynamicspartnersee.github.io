@@ -1,5 +1,9 @@
 ---
 ---
+##### Versioon 20.0.23335.0
+- Lisatud tugi uuele laiendatavale arvesisestusmootorile
+- Lahendatud ettemaksu toomine pöördkäibemaksuga müügireale
+
 ##### Versioon 17.0.23268.0
 - Lisatud eventid _(OnBeforeInsertPrepaymentEntry, OnBeforeSetPrepaymentEntryFilter, OnBeforePrepaymentEntryFindFirst, OnBeforeSetPrice, OnBeforeSalesLineInsert, OnApplyPrepaymentEntries)_, et oleks kliendipõhise arendusega võimalik täiendada ettemaksude käsitlemise ja haldamise loogikat  
 
