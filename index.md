@@ -1,19 +1,19 @@
 ---
 ---
-## Estonian Localization
-[Estonian Language for Estonia](apps/estonian-language/docs/en-US/help)  
-[Business Register Localization for Estonia](apps/estonian-business-register/docs/en-US/help)  
-[VAT Reporting Localization for Estonia](apps/estonian-vat-reporting/docs/en-US/help)  
-[Banking Formats Localization for Estonia](apps/estonian-banking-formats/docs/en-US/help)  
-[Intrastat Reporting Localization for Estonia](apps/estonian-intrastat-reporting/docs/en-US/help)  
-[Package Excise Localization for Estonia](apps/estonian-package-excise/docs/en-US/help)  
+## Eesti lokalisatsioon
+[Eesti keel](apps/estonian-language/docs/et-EE/help)  
+[Eesti äriregister](apps/estonian-business-register/docs/et-EE/help)  
+[Eesti käibemaksu aruandlus](apps/estonian-vat-reporting/docs/et-EE/help)  
+[Eesti pangaformaadid](apps/estonian-banking-formats/docs/et-EE/help)  
+[Eesti intrastat aruandlus](apps/estonian-intrastat-reporting/docs/et-EE/help)  
+[Eesti pakendiaktsiis](apps/estonian-package-excise/docs/et-EE/help)  
   
-[Balance Statements](apps/balance-statements/docs/en-US/app)  
-[Prepayment Management](apps/prepayment-management/docs/en-US/help)  
+[Saldoteatised](apps/balance-statements/docs/et-EE/app/help)  
+[Ettemaksude haldus](apps/prepayment-management/docs/et-EE/help)  
 
-## E-invoicing and EDI solutions
-[E-Invoicing for Estonia](apps/einvoices-for-estonia/docs/en-US/help)  
-[Telema & Edisoft EDI](apps/telema-edi/docs/en-US/help)
+## E-arved ja EDI lahendused
+[Eesti e-arved](apps/einvoices-for-estonia/docs/et-EE/help)  
+[Telema & Edisoft EDI](apps/telema-edi/docs/et-EE/help)
 
 ---
 
