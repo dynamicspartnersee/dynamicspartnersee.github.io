@@ -61,11 +61,16 @@
             {% endfor %}          
           </div>
           
-          <div style="float: right">
           <!-- LANGUAGE SELECTOR -->
-          {% assign enUSPage = "-" %}
-          {% assign etEEPage = "-" %}
-          {% assign fiFIPage = "-" %}
+          <!-- avalehel -->
+          <div style="float: right">
+          {% if page.name contains "index.md" %}
+            <a href="index_eng">eng </a>
+          {% endif %}
+          {% if page.name contains "index_eng.md" %}
+            <a href="{{ site.url }}">est </a>
+          {% endif %}
+          <!-- kõigil teistel lehtedel otsusta kausta teekonna järgi -->
           {% if page.path contains "en-US" %}
             {% assign etEEPage = page.path | replace: "en-US", "et-EE" %}
             {% assign fiFIPage = page.path | replace: "en-US", "fi-FI" %}
