@@ -1,5 +1,11 @@
 ---
 ---
+##### Versioon 20.0.23348.0
+- Tehnilised täiendused, et lahenduses oleks võimalik kasutada mitut alternatiivset väljatrükki samale  raportile (alates BC20)
+- Lisatud alternatiivsed saldoteatiste kujundused, kus on kuvatud saldoteatise number ning all osas käsitsi täidetav saldoteatise tagasiside sektsioon, mida kasutaja saab valida läbi "Aruande kujunduse valik" lehe:
+  - "Kliendi saldoteatis tagasiside osaga"
+  - "Hankija saldoteatis tagasiside osaga"  
+
 ##### Versioon 19.3.23251.0
 - Tehnilised täiendused, et lahendus oleks BC23 versiooniga ühilduv
 - Parandatud olukord, kus saldoteatise väljatrükile tekkis punane rist, kui ettevõttel polnud pilti (logo)
