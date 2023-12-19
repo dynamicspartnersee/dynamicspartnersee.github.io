@@ -1,19 +1,29 @@
 ---
 ---
+##### Versioon 22.1.23352.1
+- Lisatud tugi KMD 2024 aasta vormile (sh KMD XML fail).
+- Täiendatud KMD loomisel "Soovita ridu" funktsionaalsust nii, et INF-B rea väljale "KM summa" ei lisata nn Impordi käibemaksu KM kannet (eeldusel, et rea KM arvestusviisiks on "Täielik käibemaks" ning "KM konteerimise seadistus" tabelis on vastav rida märkega "KMD INF-il ei deklareerita".
+  - Muudatus tehtud lähtuvalt Maksuameti selgitusest "Tollimaaklerilt saadud arvelt vormi KMD lisal INF osas B lahtris 6 näidatakse koguarve summa ja lahtris 8 ainult tollimaakleri oma teenuste eest kajastataud sisendkäibemaks".
+- Mõned vähetähtsamad bugiparandused.  
+
 ##### Versioon 22.1.23262.0
 - Lisatud tugi KM kuupäeva kasutamisele KMD loomisel.
   - KM aruande seadistus lehel on võimalik valida, kas KMD loomisel "Soovita ridu" võtab aluseks KM kannetes oleva KM kuupäeva või konteerimiskuupäeva.
     - Valik on võimalik ainult juhul, kui Pearaamatu seadistuses pole KM kuupäeva kasutamine keelatud.
   - INF ridade lehele lisatud väljad KM kuupäev ja konteerimiskuupäev (vaikimisi peidus).
 - Väiksemad UX täiendused.
-- Värskendatud äpi logo.
-  
+- Värskendatud äpi logo.  
+
 ##### Versioon 22.1.23120.0
 - Lisatud loogika võtmaks kasutusele BC22.1 standardisse lisandunud mittemahaarvatava KM lahenduse funktsionaalsuse Eesti lokalisatsiooni mittemahaarvatava KM funktsionaalsuse asemel.
   - Esmalt tuleb deaktiveerida Eesti lokalisatsiooni vastav funktsionaalsus, eemaldades "KM konteerimise seadistus" lehelt kõik "Luba mittemahaarvatav KM" linnukesed.
   - Seejärel saab standardi mittemahaarvatava käibemaksu lahenduse aktiveerida lehel "KM Seadistus". 
 - Eemaldatud sõltuvuslik Äriregistri äpi seos, võttes kasutusele kliendi ja hankija registrisse BC19.5 versioonis lisandunud standard Registreerimisnr. välja.
 - Tehnilised täiendused tulenevalt värskeimale baasversioonile üleminekust.  
+
+##### Versioon 16.0.23352.0
+- Lisatud tugi KMD 2024 aasta vormile (sh KMD XML fail).
+- Täiendatud KMD loomisel "Soovita ridu" funktsionaalsust nii, et INF-B rea väljale "KM summa" ei lisata nn Impordi käibemaksu KM kannet (eeldusel, et rea KM arvestusviisiks on "Täielik käibemaks" ning "KM konteerimise seadistus" tabelis on vastav rida märkega "KMD INF-il ei deklareerita".  
 
 ##### Versioon 16.0.23081.0
 - Parandatud olukord, kus kasutades ostuarvel korraga mittemahaarvatavat käibemaksu ja periodiseerimist ning saates arve kinnitusringile, kuvati kinnitajale konteeringu eelvaates valede summadega kanded.
