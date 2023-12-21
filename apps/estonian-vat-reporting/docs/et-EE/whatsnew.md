@@ -2,6 +2,10 @@
 ---
 ##### Versioon 22.1.23352.1
 - Lisatud tugi KMD 2024 aasta vormile (sh KMD XML fail).
+  - Tabelisse "KMD vormi read" lisatud lahtri nr. 1' (20% määraga (al. 01.01.2024) maksustatavad toimingud ja tehingud) ning nimetatud selguse mõttes ümber lahter nr. 1 (22% määraga (20% kuni 31.12.2023) maksustatavad toimingud ja tehingud)
+    - _Lahtrit kahtjuks polnud võimalik nummerdada kui 1¹, sest SQL tasemel tõlgendati see võrdseks juba olemasoleva lahtriga 11._
+  - Täiendatud XML-i genereerimise loogikat nii, et kui luuakse KM tagastus (KMD) 2024 aastast alates, siis kasutatakse lahtri nr. 1' 20% jaoks ning lahtri nr. 1 22% jaoks.
+    - Vanema perioodi KMD puhul aga tähendab lahtri nr. 1 20%.
 - Täiendatud KMD loomisel "Soovita ridu" funktsionaalsust nii, et INF-B rea väljale "KM summa" ei lisata nn Impordi käibemaksu KM kannet (eeldusel, et rea KM arvestusviisiks on "Täielik käibemaks" ning "KM konteerimise seadistus" tabelis on vastav rida märkega "KMD INF-il ei deklareerita".
   - Muudatus tehtud lähtuvalt Maksuameti selgitusest "Tollimaaklerilt saadud arvelt vormi KMD lisal INF osas B lahtris 6 näidatakse koguarve summa ja lahtris 8 ainult tollimaakleri oma teenuste eest kajastataud sisendkäibemaks".
 - Mõned vähetähtsamad bugiparandused.  
@@ -21,7 +25,7 @@
 - Eemaldatud sõltuvuslik Äriregistri äpi seos, võttes kasutusele kliendi ja hankija registrisse BC19.5 versioonis lisandunud standard Registreerimisnr. välja.
 - Tehnilised täiendused tulenevalt värskeimale baasversioonile üleminekust.  
 
-##### Versioon 16.0.23352.0
+##### Versioon 16.0.23352.1
 - Lisatud tugi KMD 2024 aasta vormile (sh KMD XML fail).
 - Täiendatud KMD loomisel "Soovita ridu" funktsionaalsust nii, et INF-B rea väljale "KM summa" ei lisata nn Impordi käibemaksu KM kannet (eeldusel, et rea KM arvestusviisiks on "Täielik käibemaks" ning "KM konteerimise seadistus" tabelis on vastav rida märkega "KMD INF-il ei deklareerita".  
 
