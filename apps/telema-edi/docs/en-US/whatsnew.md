@@ -1,6 +1,9 @@
 ---
 ---
 
+##### Versioon 21.5.23335.0
+- MS added registration number for customers and vendors into standard functionality. EDI solution uses now this field. Thanks to that dependency for Estonian localization Business Register app is not requied any more.
+
 ##### Version 17.0.23083.0
 - E-Documents need quite a lot of storage space and are often one of the biggest tables in the database. Old e-documents can now be deleted through "Retention Policy" functionality.
 

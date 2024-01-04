@@ -1,6 +1,9 @@
 ---
 ---
 
+##### Versioon 21.5.23335.0
+- MS lisas klientide ja hankijate registreerimisnumbri standardisse. EDI lahendus kasutab nüüd seda. Sellest tulenvalt ei ole enam nõutud sõltuvuseks Eesti lokalisatsiooni äriregistri äpp.
+
 ##### Versioon 17.0.23083.0
 - E-dokumendid vajavad üsna palju salvestusruumi ja on tihti baasis ühed suuremad tabelid. Vanad e-dokumendid saab nüüd kustutada läbi "Säilitamise poliitika" funktsionaalsuse.
 
