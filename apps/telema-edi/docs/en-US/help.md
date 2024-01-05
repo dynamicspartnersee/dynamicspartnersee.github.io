@@ -7,8 +7,9 @@ Module allows to send and receive electronic documents in [Telema eDoc](https://
 ## Supported Operators
 - [Telema](https://telema.ee/)
 - [Edisoft](https://ediweb.com/)
-- Direct Connection between Business Centrals
-
+- [Direct Connection between Business Centrals](telema-setup#how-to-setup-connection-between-business-centrals-without-operator)
+- File System Folders (using IIS Virtual Directory)
+  
 The following e-document types and related processes are supported in standard module.
 
 ## E-documents for seller
