@@ -1,5 +1,10 @@
 ---
 ---
+##### Versioon 21.5.24017.0
+- Lisandus Müügi ja müügivõlgade seadistus lehele "E-kreeditarve summad miinusmärgiga", mis määrab, kas kogus ning seeläbi summad e-kreeditarvel (xml) kuvatakse miinusmärgiga.
+- Lisatud Run Doc. Exchange koodiblokki event OnBeforeRun, mis võimaldab lisada kliendipõhist loogikat tööjärjekorra kannete käivitamise loogikasse.  
+<br>
+
 ##### Versioon 21.5.23332.1
 - Lisandus "Ära saada null summaga arvet" valik Dokumendi saatmise profiili loomisel kui tehakse "Saada Eesti e-arve automaatselt" valik.
   - Vajalik tühjade arvete saatmise vältimiseks.
