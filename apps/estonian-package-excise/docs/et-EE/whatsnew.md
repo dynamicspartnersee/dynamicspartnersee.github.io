@@ -1,5 +1,10 @@
 ---
 ---
+##### Versioon 17.0.24025.0
+- Parendatud pakendiaktsiisideklaratsiooni tabeli jõudlust
+- Lisatud event OnBeforeInsertPackageExciseEntry(), mis võimaldab luua pakendiaktsiisideklaratsiooni, kasutades kliendipõhist loogikat
+- Eemaldatud deklaratsiooni kaardilt üleliigsed (obsolete) väljad
+  
 
 ##### Versioon 17.0.23022.0
 - Kauba pakendimaterjalide lehe saab nüüd avada ka kauba loendist
