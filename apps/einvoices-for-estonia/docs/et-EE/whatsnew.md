@@ -1,5 +1,10 @@
 ---
 ---
+##### Versioon 21.5.24017.1
+- Parandatud peale lahenduse installimist Finbite-st ostuarvete pärimisel tekkinud veaolukord "Unknown error has occurred.".
+  - Põhjuseks oli mittesobivas formaadis algne kuupäevkellaaeg väljal "Võta arved muudetud alates" (_peab olema formaadis YYYY-MM-DD HH:MM:SS_)
+<br>
+
 ##### Versioon 21.5.24017.0
 - Lisandus Müügi ja müügivõlgade seadistus lehele "E-kreeditarve summad miinusmärgiga", mis määrab, kas kogus ning seeläbi summad e-kreeditarvel (xml) kuvatakse miinusmärgiga.
 - Lisatud Run Doc. Exchange koodiblokki event OnBeforeRun, mis võimaldab lisada kliendipõhist loogikat tööjärjekorra kannete käivitamise loogikasse.  
