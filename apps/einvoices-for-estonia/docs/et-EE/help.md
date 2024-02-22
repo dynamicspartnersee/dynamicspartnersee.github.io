@@ -118,6 +118,8 @@ Lahenduse funktsionaalsust (sh ostuarveks salvestamisel ning loodud arve ridade 
   - **Üldine**:
     - Aktiveerida kaupade tuvastamise funktsionaalsuse (vt all loogika punkt 2)
     - Aktiveerida allahindluste tuvastamise funktsionaalsuse (vt all loogika punkt 7)
+    - Määrata kas ning mis tingimustel leitakse Makse saaja hankija e-arve PayToName tag-i alusel
+    - Määrata, kas konteerimisel lubada sissetulnud e-arve ja loodud ostuarve summa erinevust (vajalik ainult erijuhtudel)
     - Teha osturea andmete säilitamise määrangud (vt all Osturea andmete säilitamise määrangud)
   - <span style="color:blue">**Automatne ümardamine**:</span>
     - Määrata automaatseks ümarduseks lubatud maksimaalse arve erinevuse kohalikus valuutas. Kui selles piires leitakse arve summa erinevus (sissetulevatest dokumentidest ostuarve loomisel), siis luuakse arvele lisarida, kasutades väljal "Arve ümardamise konto" määratud PR kontot
