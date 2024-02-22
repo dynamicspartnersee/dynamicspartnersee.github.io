@@ -1,5 +1,11 @@
 ---
 ---
+##### Versioon 21.5.24053.0
+- Lisatud Ostude ja ostuv. seadistus lehele valik "Leia Makse saaja hankija PayToName alusel", mille abil saab määrata kas ja mis tingimustel leitakse e-ostuarvele Makse saaja hankija kasutades e-arve tag-i PayToName.
+  _- Vajalik kasutada juhul kui samale hankija võib erinevate arvete maksmist soovida erinevatele makse saaja hankijatele, kuid hankija kaardile saab teadupärast valida vaid ühe._  
+<br>
+
+
 ##### Versioon 21.5.24017.1
 - Parandatud peale lahenduse installimist Finbite-st ostuarvete pärimisel tekkinud veaolukord "Unknown error has occurred.".
   - Põhjuseks oli mittesobivas formaadis algne kuupäevkellaaeg väljal "Võta arved muudetud alates" (_peab olema formaadis YYYY-MM-DD HH:MM:SS_)
