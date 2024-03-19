@@ -6,6 +6,17 @@
 <br>
 <br>
 
+##### Versioon 21.5.24079.0
+- BC24 versiooniga ühilduv lahendus.
+- Viidud lokaliseeritud pangaväljavõtte sidumisreeglite rakendamine tehniliselt üle uusimatele eventidele.
+- Lisatud võimalus aktiveerida Eesti pangaformaatide seadistuses "Seo viitenr. alusel laekumised Kliendiga", mis kliendiandmiku kannete puudumisel seob laekumise viitenumbri alusel otse Kliendiga (kliendipõhiste viitenumbrite korral).
+  - Analoogselt kui kasutaja käsitsi määraks Maksete sobitamise žurnaalis Konto liik väärtuseks Klient ja konto nr. väärtuseks kliendi numbri.
+    - _Aitab olukordades, kus kliendid tasuvad ilma arveta raha ette ning kiirendab viitenumbri filtri alusel käsitsi sidumist._
+- Parandatud olukord, kus "Soovita makseid hankijale" toimingu käivitamisel, kui kasutati Summeeri hankija kohta ja viitenumbri alusel kombinatsiooni, tekkisid kõikide arvete numbrid erinevatele ridadele.
+- Lisatud automaatselt genereeritav teisendusreegel "REMOVE_COMPANY_NAME", mida saab vajadusel kasutada andmevahetusmääratluse välja vastendamisel
+  - _nt panna teisendusreegel külge ridadele, mille Välja ID = 15, selleks et Maksja/Saaja nimi ei sisaldaks ettevõtte enda nime (LHV XML failist pangaväljavõtte importimisel)_.
+- Väiksemad UX täiendused.  
+
 ##### Versioon 19.4.23282.0
 - Lisatud makse ekspordi formaadi pain.001.001.09 tugi (_valiku nimeks pangakontol "SEPACT-EE-001.001.09"_), mis saab LHV pangas kohustuslikuks 1.nov 2023.a. ning hiljem teistes pankades.
   - Eeldusel, et LHV pangakontol on SWIFT tähiseks LHVBEE22 ning seniseks makse ekspordi formaadiks "SEPACT-EE", siis äpi uuendamise käigus määratakse automaatselt uueks formaadiks pangakonto kaardile "SEPACT-EE-001.001.09"
