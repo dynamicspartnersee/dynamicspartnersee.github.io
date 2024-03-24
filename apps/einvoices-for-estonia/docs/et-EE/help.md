@@ -116,6 +116,7 @@ Lahenduse funktsionaalsust (sh ostuarveks salvestamisel ning loodud arve ridade 
 - Sektsioonis **Vaikekontod** saab seadistada pearaamatu konto, mida süsteem kasutab arveridadele konto määramisel (vt all loogika punkt 5)
 - Sektsioonis Eesti e-arvete seaded saab:
   - **Üldine**:
+    - Aktiveerida duplikaat dokumenti tuvastamise ostudokumendi loomisel (_et duplikaat avastada kohe loomisel, mitte alles konteerimisel_)
     - Aktiveerida kaupade tuvastamise funktsionaalsuse (vt all loogika punkt 2)
     - Aktiveerida allahindluste tuvastamise funktsionaalsuse (vt all loogika punkt 7)
     - Määrata kas ning mis tingimustel leitakse Makse saaja hankija e-arve PayToName tag-i alusel
