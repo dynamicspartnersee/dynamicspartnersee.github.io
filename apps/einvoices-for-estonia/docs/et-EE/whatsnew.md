@@ -1,10 +1,15 @@
 ---
 ---
+##### Versioon 21.5.24084.0
+- Lisatud Ostude ja ostuv. seadistusse määrang "Kontrolli duplikaat dokumenti".
+  - Kui valik aktiveeritakse, siis sissetulevast dokumentist ostudokumendi loomisel tehakse duplikaat dokumendi kontroll (avastamaks juba olemasolevat dokumenti nii konteeritud kui konteerimata ostudokumentide hulgast).
+    - _Mõistlik kasutada juhul, kui duplikaat dokument kipub selguma alles konteerimisel (peale kinnitusringide jms läbimist)_  
+<br>
+
 ##### Versioon 21.5.24053.0
 - Lisatud Ostude ja ostuv. seadistus lehele valik "Leia Makse saaja hankija PayToName alusel", mille abil saab määrata kas ja mis tingimustel leitakse e-ostuarvele Makse saaja hankija kasutades e-arve tag-i PayToName.
   _- Vajalik kasutada juhul kui samale hankija võib erinevate arvete maksmist soovida erinevatele makse saaja hankijatele, kuid hankija kaardile saab teadupärast valida vaid ühe._  
 <br>
-
 
 ##### Versioon 21.5.24017.1
 - Parandatud peale lahenduse installimist Finbite-st ostuarvete pärimisel tekkinud veaolukord "Unknown error has occurred.".
