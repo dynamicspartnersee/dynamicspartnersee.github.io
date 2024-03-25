@@ -99,6 +99,7 @@ Functionality of the solution (inc. invoice creation logic and retaining line in
     - Activate check duplicate document functionality when purchase document is created (_to find duplicate immediately_)
     - Activate find items from e-invoice functionality (look below point 2)
     - Activate find discounts from e-invoice functionality (look below point 7)
+    - Deactivate finding of "VAT Prod. Posting Group" from e-invoice
     - Specify conditions to find Pay-to Vendor using PayToName from e-invoice XML
     - Activate allow amount difference on posting (_to override purchase invoice amount and incoming document amount matching validation_)
     - Specify logic to retain information on purchase line (look below Retain Line information specification)
@@ -140,7 +141,7 @@ c) Seller Item No. (firstly from item reference, then solution checks if a BC It
 3. G/L Account and dimensions are taken from the e-invoice if they are available – this means preposting has been done in operator invoice management system.
 4. If the G/L account is not found on the e-invoice line, then **Map text to Account** functionality is used. Mapping is searched for the e-invoice line description and if not found then for the vendor name. **NB! Using filters is allowed in Text-to-Account Mapping page.**
 5. Finally, the default accounts are used from the **Default Accounts** fast tab of the **Purchases & Payables Setup**.
-6. **VAT Prod. Posting Group** is taken from e-invoice (if it exists). If it's not on e-invoice then a VAT Prod. Posting Group that's specified on Item or G/L Account is used. <br> Note! If VAT % on e-invoice line is smaller then on purchase invoice line, then system finds and uses a first suitable VAT Prod. Posting Group with a matching VAT % (*in combination with VAT Bus. Posting Group from Vendor*).
+6. **VAT Prod. Posting Group** is taken from e-invoice (if it exists and allowed to find in setup). If it's not on e-invoice then a VAT Prod. Posting Group that's specified on Item or G/L Account is used. <br> Note! If VAT % on e-invoice line is smaller then on purchase invoice line, then system finds and uses a first suitable VAT Prod. Posting Group with a matching VAT % (*in combination with VAT Bus. Posting Group from Vendor*).
 7. **Discount** is added to invoice line only if **Activate Find Discounts from e-invoice** is activated on  **Purchases & Payables Setup** and if discount information exists on e-invoice and if it passes mathematic checks (like Line amount less Line discount amount must equal SumBeforeVAT on e-invoice XML).
 
 <br><br>
