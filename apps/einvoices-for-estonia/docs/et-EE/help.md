@@ -119,6 +119,7 @@ Lahenduse funktsionaalsust (sh ostuarveks salvestamisel ning loodud arve ridade 
     - Aktiveerida duplikaat dokumenti tuvastamise ostudokumendi loomisel (_et duplikaat avastada kohe loomisel, mitte alles konteerimisel_)
     - Aktiveerida kaupade tuvastamise funktsionaalsuse (vt all loogika punkt 2)
     - Aktiveerida allahindluste tuvastamise funktsionaalsuse (vt all loogika punkt 7)
+    - Deaktiveerida e-arvelt KM toote konteeringurühma otsimine (Ära otsi e-arvelt KM koodi)
     - Määrata kas ning mis tingimustel leitakse Makse saaja hankija e-arve PayToName tag-i alusel
     - Määrata, kas konteerimisel lubada sissetulnud e-arve ja loodud ostuarve summa erinevust (vajalik ainult erijuhtudel)
     - Teha osturea andmete säilitamise määrangud (vt all Osturea andmete säilitamise määrangud)
@@ -158,7 +159,7 @@ c) Müüja kauba kood (esmalt kauba viidetes, seejärel vaadatakse, kas vastavat
 3. **Kulukontod ja dimensioonid** võetakse e-arvest juhul, kui need on seal olemas – st. eelkonteerimine on tehtud operaatori arvehalduskeskkonnas.
 4. Kui konto e-arvel puudub, siis kasutatakse **Vastenda tekst kontoks** funktsionaalsust, kust kõigepealt otsitakse e-arve rea kirjeldusele vastet ning kui seda ei leita, siis hankija nimele vastavat seadistust. **NB! Vastendamises on lubatud filtri kujul seadistused.**
 5. Viimases järjekorras kasutatakse **Ostu ja ostuv. seadistus** lehel, **Vaikekontod** kiirkaardil määratud vaikekontosid.
-6. **KM toote konteeringurühm** võetakse e-arvelt (juhul, kui see on seal olemas). Viimase puudumisel kasutatakse leitud kauba või PR konto vastavat määrangut. <br> NB! Kui e-arvel on väiksem KM %, kui kauba või PR konto KM toote konteeringurühmal, leiab süsteem esimese KM toote konteeringurühma (*kombinatsioonis hankija pealt tuleva KM äri konteeringurühmaga*), millel on sama KM % kui e-arve real, ning kasutab seda.
+6. **KM toote konteeringurühm** võetakse e-arvelt (juhul, kui see on seal olemas ning seadistuses KM toote konteeringurühma otsimine lubatud). Viimase puudumisel kasutatakse leitud kauba või PR konto vastavat määrangut. <br> NB! Kui e-arvel on väiksem KM %, kui kauba või PR konto KM toote konteeringurühmal, leiab süsteem esimese KM toote konteeringurühma (*kombinatsioonis hankija pealt tuleva KM äri konteeringurühmaga*), millel on sama KM % kui e-arve real, ning kasutab seda.
 7. **Allahindlus** lisatakse arvereale ainult juhul kui **Aktiveeri allahindluste tuvastamine e-arvelt** on aktiveeritud **Ostu ja ostuv. seadistus** lehel ja kui e-arvel on allahindluse info leitav ning kui lisatud info läbib kontrollid (nt rea summa miinus rea allahindlus peab võrduma e-arve SumBeforeVAT summaga).
 
 <br><br>
