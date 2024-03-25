@@ -1,9 +1,12 @@
 ---
 ---
-##### Versioon 21.5.24084.0
+##### Versioon 21.5.24085.0
 - Lisatud Ostude ja ostuv. seadistusse määrang "Kontrolli duplikaat dokumenti".
   - Kui valik aktiveeritakse, siis sissetulevast dokumentist ostudokumendi loomisel tehakse duplikaat dokumendi kontroll (avastamaks juba olemasolevat dokumenti nii konteeritud kui konteerimata ostudokumentide hulgast).
-    - _Mõistlik kasutada juhul, kui duplikaat dokument kipub selguma alles konteerimisel (peale kinnitusringide jms läbimist)_  
+    - _Mõistlik kasutada juhul, kui duplikaat dokument kipub selguma alles konteerimisel (peale kinnitusringide jms läbimist)_
+- Lisatud Ostude ja ostuv. seadistusse määrang "Ära otsi e-arvelt KM koodi"
+  - Määrab kas süsteem peaks vältima e-arvel sisalduva KM toote konteeringurühma kasutamist. Määrangu võiks aktiveerida, kui eelnevalt e-arvet arvehalduskeskkonnas ei töödelda.
+- Parandatud ostudokumendi loomisel tekkinud veaolukord, mille põhjustas liialt pikk mõõtühiku nimetus e-arves  
 <br>
 
 ##### Versioon 21.5.24053.0
