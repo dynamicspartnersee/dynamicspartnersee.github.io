@@ -6,7 +6,7 @@
 <br>
 <br>
 
-##### Versioon 21.5.24079.0
+##### Versioon 21.5.24080.1
 - BC24 versiooniga ühilduv lahendus.
 - Viidud lokaliseeritud pangaväljavõtte sidumisreeglite rakendamine tehniliselt üle uusimatele eventidele.
 - Lisatud võimalus aktiveerida Eesti pangaformaatide seadistuses "Seo viitenr. alusel laekumised Kliendiga", mis kliendiandmiku kannete puudumisel seob laekumise viitenumbri alusel otse Kliendiga (kliendipõhiste viitenumbrite korral).
