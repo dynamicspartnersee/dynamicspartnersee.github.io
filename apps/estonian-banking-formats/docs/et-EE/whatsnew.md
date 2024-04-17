@@ -6,6 +6,9 @@
 <br>
 <br>
 
+##### Versioon 21.5.24080.2
+- Lahendatud pangaväljavõtte importimisel tekkinud veaolukord, kus valuutatehingut sisaldanud väljavõtte puhul tuli veateade "Fail, mida püüate importida, sisaldab rohkem kui üht pangaväljavõtet".  
+
 ##### Versioon 21.5.24080.1
 - BC24 versiooniga ühilduv lahendus.
 - Viidud lokaliseeritud pangaväljavõtte sidumisreeglite rakendamine tehniliselt üle uusimatele eventidele.
