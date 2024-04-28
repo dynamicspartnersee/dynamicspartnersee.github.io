@@ -1,5 +1,9 @@
 ---
 ---
+
+##### Versioon 21.5.24110.1
+- Lisandus võimalus aktiveerida "Ostude ja ostuv. seadistus" lehel määrang "Kasuta kauba ostu mõõtühikut", mis määrab, kas e-arvest loodud ostudokumendil kasutatakse kauba kaardil määratud ostu mõõtühikut, e-arvel oleva mõõtühiku asemel.  
+
 ##### Versioon 21.5.24085.0
 - Lisatud Ostude ja ostuv. seadistusse määrang "Kontrolli duplikaat dokumenti".
   - Kui valik aktiveeritakse, siis sissetulevast dokumentist ostudokumendi loomisel tehakse duplikaat dokumendi kontroll (avastamaks juba olemasolevat dokumenti nii konteeritud kui konteerimata ostudokumentide hulgast).
