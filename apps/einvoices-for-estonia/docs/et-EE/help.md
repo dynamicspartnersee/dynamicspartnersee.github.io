@@ -115,20 +115,23 @@ Lahenduse funktsionaalsust (sh ostuarveks salvestamisel ning loodud arve ridade 
 
 - Sektsioonis **Vaikekontod** saab seadistada pearaamatu konto, mida süsteem kasutab arveridadele konto määramisel (vt all loogika punkt 5)
 - Sektsioonis Eesti e-arvete seaded saab:
-  - **Üldine**:
+  - **Dokumendi loomine**:
     - Aktiveerida duplikaat dokumenti tuvastamise ostudokumendi loomisel (_et duplikaat avastada kohe loomisel, mitte alles konteerimisel_)
     - Aktiveerida kaupade tuvastamise funktsionaalsuse (vt all loogika punkt 2)
+    - Määrata, kas e-arvest loodud ostudokumendil kasutada kaubakaardil määratud ostu mõõtühikut, e-arvel oleva mõõtühiku asemel
     - Aktiveerida allahindluste tuvastamise funktsionaalsuse (vt all loogika punkt 7)
     - Deaktiveerida e-arvelt KM toote konteeringurühma otsimine (Ära otsi e-arvelt KM koodi)
     - Määrata kas ning mis tingimustel leitakse Makse saaja hankija e-arve PayToName tag-i alusel
-    - Määrata, kas konteerimisel lubada sissetulnud e-arve ja loodud ostuarve summa erinevust (vajalik ainult erijuhtudel)
-    - Teha osturea andmete säilitamise määrangud (vt all Osturea andmete säilitamise määrangud)
   - <span style="color:blue">**Automatne ümardamine**:</span>
     - Määrata automaatseks ümarduseks lubatud maksimaalse arve erinevuse kohalikus valuutas. Kui selles piires leitakse arve summa erinevus (sissetulevatest dokumentidest ostuarve loomisel), siis luuakse arvele lisarida, kasutades väljal "Arve ümardamise konto" määratud PR kontot
       - Lisaks tuleks "Pearaamatu seadistuses" määrata "Max lubatud KM erinevus", sest seda kasutatakse automaatseks KM erinevuste korrigeerimiseks (tavaliselt tekib arve summa vahe just tänu käibemaksu erinevusele)
     - Määrata PR konto, mida kasutatakse arve automaatsel ümardamisel:
       - Valitud kontol peaks kontoplaanis olema täidetud "Üld. toote konteeringurühm" ja "KM toote konteeringurühm"
       - "KM konteerimise seadistuses" peaks vastava "KM toote konteeringurühm" ridadel olema 0 (null) määranguga "KM %" (et automaatselt lisatav ümarduse rida ei tekitaks omakorda KM summa erinevust)
+  - **Dokumendi töötlemine**:
+    - Teha osturea andmete säilitamise määrangud (vt all Osturea andmete säilitamise määrangud)
+    - Määrata, kas konteerimisel lubada sissetulnud e-arve ja loodud ostuarve summa erinevust (vajalik ainult erijuhtudel)
+
 
 
 **Protsess:**
