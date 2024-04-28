@@ -95,20 +95,22 @@ Functionality of the solution (inc. invoice creation logic and retaining line in
 
 - In fast tab **Default Accounts** you can specify a G/L account that is automatically inserted on purchase lines that are created from e-invoices when the line does not contain an identifiable G/L account or item (look below point 5).
 - In fast tab **E-Invoicing for Estonia Settings** you can:
-  - **General**:
+  - **Document Creation**:
     - Activate check duplicate document functionality when purchase document is created (_to find duplicate immediately_)
     - Activate find items from e-invoice functionality (look below point 2)
+    - Activate to use purch. unit of measure from Item card on purchase invoice, instead of the unit of measure on e-invoice
     - Activate find discounts from e-invoice functionality (look below point 7)
     - Deactivate finding of "VAT Prod. Posting Group" from e-invoice
     - Specify conditions to find Pay-to Vendor using PayToName from e-invoice XML
-    - Activate allow amount difference on posting (_to override purchase invoice amount and incoming document amount matching validation_)
-    - Specify logic to retain information on purchase line (look below Retain Line information specification)
   - <span style="color:blue">**Automatic Rounding**:</span>
     - Specify the maximum invoice difference amount allowed for automatic rounding. If invoice difference up to this amount is found (during creation of purchase invoices from incoming documents), then an extra rounding line is created on purchase invoice using G/L account specified in field "Account for Invoice Rounding"
       - It's also recommended to setup "Max. VAT Difference Allowed" on "General Ledger Setup", since that is used to automatically round VAT differences (usually the difference in invoice total amount is caused by VAT difference)
     - Specify G/L account that is used to automatically round invoice differences
       - Selected account should have "Gen. Prod. Posting Group" and "VAT Prod. Posting Group" specified on "Chart of Accounts"
       - In "VAT Posting Setup" the lines with this "VAT Prod. Posting Group" should have 0 (zero) as VAT % (to avoid creation of additional VAT differences on invoice when rounding line is automatically added)
+  - **Document Handling**:
+    - Specify logic to retain information on purchase line (look below Retain Line information specification)
+    - Activate allow amount difference on posting (_to override purchase invoice amount and incoming document amount matching validation_)
 
 
 **Process:**
