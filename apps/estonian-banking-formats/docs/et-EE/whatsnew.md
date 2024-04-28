@@ -6,6 +6,10 @@
 <br>
 <br>
 
+##### Versioon 21.5.24119.0
+- Parandatud müügidokumendi konteerimisel välja “Makse viitenr.” mittetäitumine kliendiandmiku kannetes (sh täidetakse tagantjärgi puuduvad viitenumbrid avatud kliendiandmiku kannetel).
+- Täiendatud pangaväljavõtte sidumise loogikat, et tehingu viitenumber žurnaalis ei mõjutaks negatiivselt sidumise tulemust.  
+
 ##### Versioon 21.5.24080.2
 - Lahendatud pangaväljavõtte importimisel tekkinud veaolukord, kus valuutatehingut sisaldanud väljavõtte puhul tuli veateade "Fail, mida püüate importida, sisaldab rohkem kui üht pangaväljavõtet".  
 
