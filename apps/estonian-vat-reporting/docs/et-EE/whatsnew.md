@@ -1,5 +1,9 @@
 ---
 ---
+##### Versioon 22.1.24127.0
+- Tehnilised täiendused
+  - Lisatud KMD XML faili genereerivasse raportisse eventid OnBeforeAddSalesAnnex ja OnBeforeAddPurchaseAnnex, et saaks luua kliendipõhise loogikaga KMD INF-A ja INF-B failide sisu.  
+
 ##### Versioon 22.1.23352.1
 - Lisatud tugi KMD 2024 aasta vormile (sh KMD XML fail).
   - Tabelisse "KMD vormi read" lisatud lahtri nr. 1' (20% määraga (al. 01.01.2024) maksustatavad toimingud ja tehingud) ning nimetatud selguse mõttes ümber lahter nr. 1 (22% määraga (20% kuni 31.12.2023) maksustatavad toimingud ja tehingud)
