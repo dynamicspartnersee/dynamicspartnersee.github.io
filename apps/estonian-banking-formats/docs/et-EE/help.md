@@ -62,6 +62,7 @@ Maksežurnaalis olevas toimingus **Soovita makseid hankijale** saab:
   - Lahendus on aktiivne ainult siis, kui maksežurnaali töölehele on valitud Korr. Konto liigiks Pangakonto ning Korr. konto nr. pangakonto, millel IBAN täidetud.
 - Valiku **ja viitenumbri alusel** abil saab summeerida makseid kombinatsioonis hankija ja viitenumber
   - Valiku tulemusena pannakse sama viitenumbriga arved kokku ühele maksele.
+    - NB! Kui maksežurnaalist plaanis read ära koknteerida, siis tuleks aktiveerida aruande päringuaknas valik "Uus dok. nr. rea kohta", selleks et konteerimisel oleks iga seotud viitenumbriga makse eristatud.
 - Summeerimise puhul tulevad makse selgitusse kõik summeeritud arvete numbrid
   - Kui summeeritud arveid on niipalju, et Teade saajale väli maksežurnaalis saab täis (140 tähemärki), siis ülejääv osa lõigatakse ära.
   - Kui hankijaandmiku kandel on täidetud väli Teade saajale, siis kasutatakse välise dokumendi nr. asemel infot sellelt väljalt.
@@ -69,9 +70,9 @@ Maksežurnaalis olevas toimingus **Soovita makseid hankijale** saab:
   - Toetatud on eesti ja inglise keel
 
 ## "Seo kanded" ning "Seo käsitsi" toimingute täiendused
-Žurnaalides (sh laekumisžurnaalis) olevat toiminguid "Seo kanded" ning "Seo käsitsi" on täidendatud loogikaga, et žurnaali rea väljale kirjeldus tulevad seotud arvete numbrid (_standard märkis sinna lihtsalt kliendi/hankija nime_).  
+Žurnaalides (sh laekumisžurnaalis) olevat toiminguid "Seo kanded" ja "Seo käsitsi" ning maksežurnaalis "Soovita makseid hankijale" on täidendatud loogikaga, et žurnaali rea väljale kirjeldus tulevad lisaks seotud osapoole nimele ka seotud arvete numbrid (_standard märkis sinna lihtsalt seotud osapoole ehk kliendi/hankija nime_).  
 
-Funktsionaalsus on vaikimisi aktiveeritud, kuid seda saab väja lülitada **Eesti pangaformaatide seadistuses** valides **Kasuta lokaliseerimata kirjeldust kannete sidumisel**. Lisavõimalusena saab aktiveerida **Kasuta välise dok. nr. kui võimalik** valiku, mis BC arve numbrite asemel kasutab välise dokumendi numbreid.  
+Funktsionaalsus on vaikimisi aktiveeritud, kuid seda saab väja lülitada **Eesti pangaformaatide seadistuses** valides **Kasuta lokaliseerimata kirjeldust kannete sidumisel**. Lisavõimalusena saab aktiveerida **Kasuta välise dok. nr. kui võimalik** valiku, mis BC arve numbrite asemel kasutab välise dokumendi numbreid kirjelduse väljal.  
 
 ## Makse saaja nime muutmine maksel
 Kui makse saaja on erinev hankijast/kliendist (näiteks on saajaks faktooringettevõte või Rahandusministeerium), lisage andmed **Hankija/Kliendi pangakonto kaart** kiirkaardil **Makse saaja**.  
