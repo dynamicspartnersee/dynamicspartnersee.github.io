@@ -61,14 +61,15 @@ With action **Suggest Vendor Payments** in Payment Journals:
   - Solution is active only then when batch has Bal. Account Type as Bank Account and Bal. Account No. has bankaccount with IBAN.
 - Selection **and per Payment Reference** summarizes payments per vendor and payment reference combination
   - Payments, that have same reference numbers are summarized.
+    - When planning to post suggested entries, please make selection **New Doc. No. per Line**, to avoid applied invoices and payments confusion during posting.
 - Summarized payment's **Message to Recipient** consits of all summarized invoice numbers 
   - If there are so many summarized invoices, that Message to recipient field comes full, then the rest of information is cut from the end.
   - If in Vendor Ledger Entries there is Message to recipient field filled then that is used instead of External Document No.
 - **Message to Recipient takes into account Language code** specified on Vendor card 
   - English and Estonian is supported
 
-## "Apply entries" improvements
-In journals (incl. Cash Receipt Journal) action **Apply Entries** inserts applied invoice numbers to journal field **Description** (_standard just entered there Customer/Vendor name_).  
+## Applied entries description improvements
+In journals (incl. Cash Receipt Journal) action **Apply Entries** and in Payment Journal action **Suggest Vendor Payments** inserts also applied invoice numbers to journal field **Description** (_standard just entered there Customer/Vendor name_).  
 
 Improvement is activated by default, but can be deactivated on **Estonian Banking Formats Setup** page by selecting **Use Non-localized Description when applying entries**. Additionally it's possible to activate **Use Ext. Doc. No. if Possible** in order to use external document numbers instead of BC Sales Invoice numbers.  
 
