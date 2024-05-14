@@ -6,6 +6,11 @@
 <br>
 <br>
 
+##### Versioon 21.5.24135.0
+- Eesti pangaformaatide seadistusse lisatud väli "Makse teade töötajale", kuhu saab valida maksežurnaali välja "Teade saajale" sisu koostamise loogika.
+- Täiendatud maksežurnaali "Soovita makseid hankijale" protseduuri nii, et nüüd täitub ka kirjeldus seotud arvete infoga.
+- Žurnaalides sidumisel jääb nüüd kirjelduse ette osapoole (klient, hankija, töötaja) nimetus, et oleks kande kirjelduse alusel kohe näha, kellega tehing toimus.  
+
 ##### Versioon 21.5.24119.0
 - Parandatud müügidokumendi konteerimisel välja “Makse viitenr.” mittetäitumine kliendiandmiku kannetes (sh täidetakse tagantjärgi puuduvad viitenumbrid avatud kliendiandmiku kannetel).
 - Täiendatud pangaväljavõtte sidumise loogikat, et tehingu viitenumber žurnaalis ei mõjutaks negatiivselt sidumise tulemust.  
