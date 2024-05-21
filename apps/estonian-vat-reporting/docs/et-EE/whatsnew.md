@@ -1,5 +1,8 @@
 ---
 ---
+##### Versioon 22.1.24143.0
+- Tehnilised äpi upgrade koodi täiendused seoses "KMD vormi read" tabeli andmete uuendamisega.  
+
 ##### Versioon 22.1.24127.0
 - Tehnilised täiendused
   - Lisatud KMD XML faili genereerivasse raportisse eventid OnBeforeAddSalesAnnex ja OnBeforeAddPurchaseAnnex, et saaks luua kliendipõhise loogikaga KMD INF-A ja INF-B failide sisu.  
