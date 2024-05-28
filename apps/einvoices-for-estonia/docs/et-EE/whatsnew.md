@@ -1,5 +1,13 @@
 ---
 ---
+##### Versioon 21.5.24149.0
+- Lisandus võimalus hankijapõhiselt (Hankija kaardil) määrata "Dokumendi rea loomise loogika":
+  - Vaikimisi - st. kõik read nii nagu nad e-arvel on
+  - Tuvasta kaubad - st. e-arve rida lisatakse ostudokumendi reale liigiga kaup (kui kaup tuvastati)
+  - Koonda KM lõikes - st. e-arve read koondatakse XML-is sisalduva VATRate tag-i alusel _(nt 100 reaga telefoniarve puhul jääb järgi ainult 2 rida: 22% ja 0%)_
+  - Koonda KM ja arveridade grupi id lõikes - st. kui hankija on saatnud e-arve, kus ridadel küljes grupeerimise tunnus groupId, siis grupeeritakse read vastava tunnuse alusel _(nt telefoniarve puhul iga telefoninumbri ja KM määra kohta üks rida)_
+  - Koonda KM ja toote/teenuse kirjelduse lõikes - st. e-arve read lisatakse ostudokumendi reale grupeerituna e-arve kirjelduste järgi _(nt telefoniarve puhul kõik SMS-id ühel real ja kuutasud teisel real jne)_
+- Seoses tuvasta kaubad funktsionaalsuse hankijapõhiseks muutumisega, teisaldus ka "Kasuta kauba ostu mõõtühikut" hankijapõhiseks seadistuseks _(kuna määratav ainult siis, kui "Tuvasta kaubad" valik aktiveeritud)_.  
 
 ##### Versioon 21.5.24110.1
 - Lisandus võimalus aktiveerida "Ostude ja ostuv. seadistus" lehel määrang "Kasuta kauba ostu mõõtühikut", mis määrab, kas e-arvest loodud ostudokumendil kasutatakse kauba kaardil määratud ostu mõõtühikut, e-arvel oleva mõõtühiku asemel.  
