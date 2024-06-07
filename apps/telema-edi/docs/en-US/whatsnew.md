@@ -1,6 +1,12 @@
 ---
 ---
 
+##### Versioon 21.5.24074.9
+- Issued e-document ReceiverID change according to Telema recommendation: ReceiverID and Delivery Party Code should be the same.
+
+##### Versioon 21.5.24071.0
+- Option to select whether e-documents will be created on posting (option in EDI setup) or later with job queue (R24007809).
+
 ##### Versioon 21.5.23335.0
 - MS added registration number for customers and vendors into standard functionality. EDI solution uses now this field. Thanks to that dependency for Estonian localization Business Register app is not requied any more.
 

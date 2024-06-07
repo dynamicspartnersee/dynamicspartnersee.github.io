@@ -1,6 +1,12 @@
 ---
 ---
 
+##### Versioon 21.5.24074.9
+- Väljastatud e-dokumendi ReceiverID täitmise loogika muutus vastavalt Telema soovitusele: ReceiverID ja Delivery Party Code peaksid olema samad.
+
+##### Versioon 21.5.24071.0
+- Valikuvõimalus, kas e-dokumentide loomine tehakse konteerimise käigus (valik EDI seadistuses) või hiljem tööjärjekorraga (R24007809).
+
 ##### Versioon 21.5.23335.0
 - MS lisas klientide ja hankijate registreerimisnumbri standardisse. EDI lahendus kasutab nüüd seda. Sellest tulenvalt ei ole enam nõutud sõltuvuseks Eesti lokalisatsiooni äriregistri äpp.
 
