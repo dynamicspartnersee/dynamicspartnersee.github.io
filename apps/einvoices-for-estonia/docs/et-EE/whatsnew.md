@@ -1,5 +1,12 @@
 ---
 ---
+##### Versioon 21.5.24161.0
+- Lisandus võimalus hankijapõhiselt (Hankija kaardil) määrata kas e-arvelt loetakse hankija arvelduskontod sisse autommatselt, peale kasutaja kinnitus või üldse mitte.
+- Lisandus võimalus ostuarvel määrata, millisele makse saaja hankija pangakontole ülekanne peaks arve eest minema.
+  - Vaikimisi väärtust saab seadistata hankijapõhiselt (Hankija kaardil).
+- Hankija malli lehele lisatud hankija kaardil olevad eesti e-arvete lahenduste väljad.
+- Väiksemad UX täiendused.  
+
 ##### Versioon 21.5.24149.0
 - Lisandus võimalus hankijapõhiselt (Hankija kaardil) määrata "Dokumendi rea loomise loogika":
   - Vaikimisi - st. kõik read nii nagu nad e-arvel on
