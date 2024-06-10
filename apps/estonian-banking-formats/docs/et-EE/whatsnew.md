@@ -6,6 +6,12 @@
 <br>
 <br>
 
+##### Versioon 21.5.24161.0
+- Lisatud funktsionaalsus, mis "Soovita makseid hankijale" toimingu puhul arvestab hankijaandmiku kannetes "Saaja pangakonto tähis" väärtusega
+  - Funktsionaalsust saab vajadusel välja lülitada Eesti pangaformaatide seadistuse välja "Ära kasuta hankija kannetest saaja pangakontot" abil.
+  - st kasutades Eesti e-arvete lahendust (ver. 21.5.24161.0 või uuem), saab otse ostuarvel määrata hankija pangakonto, kuhu makse peaks minema ning info jõuab hankijaandmiku kannetesse, kust omakorda Eesti pangaformaatide lahendus "Saaja pangakonto tähis" määrangut arvestades makseid hankijale maksežurnaali soovitab.
+- UX täiendused _(nt teade erinevate viitenumbrite või saaja pangakontogaa hank. arvete sidumise kohta kuvatakse kasutjaale ainult maksežurnaalis olles)._  
+
 ##### Versioon 21.5.24135.1
 - Eesti pangaformaatide seadistusse lisatud väli "Makse teade töötajale", kuhu saab valida maksežurnaali välja "Teade saajale" sisu koostamise loogika.
 - Täiendatud maksežurnaali "Soovita makseid hankijale" protseduuri nii, et nüüd täitub ka kirjeldus seotud arvete infoga.
