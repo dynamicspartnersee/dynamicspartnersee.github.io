@@ -1,9 +1,11 @@
 ---
 ---
 ##### Versioon 21.5.24161.0
-- Lisandus võimalus hankijapõhiselt (Hankija kaardil) määrata kas e-arvelt loetakse hankija arvelduskontod sisse autommatselt, peale kasutaja kinnitus või üldse mitte.
-- Lisandus võimalus ostuarvel määrata, millisele makse saaja hankija pangakontole ülekanne peaks arve eest minema.
+- Lisandus võimalus hankijapõhiselt (Hankija kaardil) määrata, kas e-arvelt loetakse hankija arvelduskontod sisse automaatselt, peale kasutaja kinnitust või üldse mitte.
+- Lisandus võimalus ostuarvel määrata, millisele makse saaja hankija pangakontole peaks arve eest makse (ülekanne) minema.
   - Vaikimisi väärtust saab seadistata hankijapõhiselt (Hankija kaardil).
+  - Ostuarvel määratud Saaja pangakonto jõuab hankijaandmiku kandele
+    - NB! Selleks, et määrang sealt edasi Maksežurnaali kanduks _(Soovita makseid hankijale toiminguga)_, tuleb kontrollida, et kasutatakse Eesti Pangaformaatide äpist vähemalt versiooni 21.5.24161.0
 - Hankija malli lehele lisatud hankija kaardil olevad eesti e-arvete lahenduste väljad.
 - Väiksemad UX täiendused.  
 
