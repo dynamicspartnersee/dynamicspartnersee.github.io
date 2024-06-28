@@ -1,6 +1,10 @@
 ---
 ---
 
+##### Versioon 21.5.24180.0
+- Lisandus Docura operaatorkanal.
+- Kliendi kaardil saab valida, kas e-tellimus loob müügitellimuse või koondmüügitellimuse.
+
 ##### Versioon 21.5.24074.9
 - Väljastatud e-dokumendi ReceiverID täitmise loogika muutus vastavalt Telema soovitusele: ReceiverID ja Delivery Party Code peaksid olema samad.
 

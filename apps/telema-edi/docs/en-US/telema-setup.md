@@ -3,13 +3,18 @@
 # EDI Setup
 
 ## Table of Contents
- - [How to setup connection with Telema server](#how-to-setup-connection-with-telema-server)
- - [How to setup connection with Edisoft server](#how-to-setup-connection-with-edisoft-server)
- - [How to setup connection between Business Centrals without operator](#how-to-setup-connection-between-business-centrals-without-operator)
- - [How to send and receive e-documents](#how-to-send-and-receive-e-documents)
+- [EDI Setup](#edi-setup)
+  - [Table of Contents](#table-of-contents)
+  - [How to setup connection with Telema server](#how-to-setup-connection-with-telema-server)
+  - [How to setup connection with Edisoft server](#how-to-setup-connection-with-edisoft-server)
+  - [How to setup connection with Docura server](#how-to-setup-connection-with-docura-server)
+  - [How to setup connection between Business Centrals without operator](#how-to-setup-connection-between-business-centrals-without-operator)
+    - [Sending Documents](#sending-documents)
+    - [Receiving Documents](#receiving-documents)
+  - [How to send and receive e-documents](#how-to-send-and-receive-e-documents)
 
 ## How to setup connection with Telema server
-Open  **Telema EDI Setup** and the FastTab  **Connection.**  
+Open  **EDI Setup** and the FastTab  **Connection.**  
 Please ask the following information from Telema to fill in here:
 
 | Field: |
@@ -18,10 +23,10 @@ Please ask the following information from Telema to fill in here:
 | **API Channel Id** |
 | **API Key** |
 
-After filling  **Connection** FastTab use function  **Test Connection** to ensure that connection with Telema has been established.
+After filling  **Connection** FastTab use function  **Test Connection/Telema** to ensure that connection with Telema has been established.
 
 ## How to setup connection with Edisoft server
-Open  **Telema EDI Setup** and the FastTab  **Connection.**  
+Open  **EDI Setup** and the FastTab  **Connection.**  
 Please ask the following information from Edisoft to fill in here:
 
 | Field: |
@@ -30,12 +35,26 @@ Please ask the following information from Edisoft to fill in here:
 | **Edisoft User** |
 | **Edisoft Key** |
 
-After filling  **Connection** FastTab use function  **Test Edisoft Connection** to ensure that connection with Edisoft has been established.
+After filling  **Connection** FastTab use function  **Test Connection/Edisoft** to ensure that connection with Edisoft has been established.
+
+## How to setup connection with Docura server
+Open  **EDI Setup** and the FastTab  **Connection.**  
+Please ask the following information from Edisoft to fill in here:
+
+| Field: |
+| - |
+| **Docura URL** |
+| **Docura Client Id** |
+| **Docura Clinet Secret** |
+
+After filling  **Connection** FastTab use function  **Test Connection/Docura** to ensure that connection with Docura has been established.
+
 ## How to setup connection between Business Centrals without operator
 Business Central SOAP web services are used to exchange documents. SOAP service must be activated on the receiver side.
+
 ### Sending Documents
-To send documents, open **Telema EDI Setup** and activate the check box **Publish E-Document Web Service** - this allows document exchange between Business Central companies.
-Then open customer card from **Customers** list and on the **Telema EDI** fast tab select **Sending to Channel** *BC E-Document Web Service*.
+To send documents, open **EDI Setup** and activate the check box **Publish E-Document Web Service** - this allows document exchange between Business Central companies.
+Then open customer card from **Customers** list and on the **EDI** fast tab select **Sending to Channel** *BC E-Document Web Service*.
 Please ask the company to whom you want to send documents through BC for the following information:
 
 | Field |

@@ -2,11 +2,11 @@
 ---
 # Sissetulevad e-dokumendid
 
-## Kuidas vastuvõtta e-dokumente Telemalt
-Avage loend  **Sissetulevad e-dokumendid** ja käivitage toiming  **Võta dokumendid Telemast**. Uued dokumendid laaditakse Telema severist alla ja salvestatakse loendisse **Sissetulevad e-dokumendid**.
+## Kuidas vastuvõtta e-dokumente
+Avage loend  **Sissetulevad e-dokumendid** ja käivitage toiming  **Võta dokumendid**. Uued dokumendid laetakse alla ja salvestatakse loendisse **Sissetulevad e-dokumendid**.
 
-## Salvestage e-dokument BC-i dokumenti
-Avage loend **Sissetulevad e-dokumendid**. Näete e-dokumentide loendit, mis pole veel BC-dokumentidesse salvestatud.
+## Salvestage e-dokument BC dokumendiks
+Avage loend **Sissetulevad e-dokumendid**. Näete e-dokumentide loendit, mis pole veel BC dokumendiks salvestatud.
 
 Käivitage toiming  **Salvesta e-dokumendid BC-i**.
 
@@ -29,12 +29,14 @@ Kui e-dokumendi probleemi ei saa lahendada, võite e-dokumendi edasise töötlem
 Kui on vaja töödelda (salvestada BC-i dokumenti) käsitsi parandatud XML-failiga, kasutage toimingut **Loo dokument XML-st**. Selle toiminguga luuakse antud XML-faili põhjal uus e-dokument.
 
 
-## Kuidas automatiseerida e-dokumentide vastuvõtmist ja salvestamist BC-ga
+## Kuidas automatiseerida e-dokumentide vastuvõtmine ja salvestamine
 
-Telema EDI-tööde automatiseerimiseks tuleb BC-i rakendusserver seadistada ja käivitada funktsioon **Tööjärjekord**.
+EDI tööde automatiseerimiseks kasutatakse **Tööjärjekorra** funktsionaalsust.
 
-Avage  **Tööjärjekorra kanded**:
-- Looge uus tööjärjekorra kanne **Aruanne 24007801 Võta e-dokumendid Telemast** automaatseteks allalaadimisteks Telema serverist.
-- Looge uus tööjärjekorra kanne  **Aruanne 24007803 Salvesta e-dokumendid BC-i**  allalaaditud e-dokumentide automaatseks salvestamiseks BC-i dokumentidesse.
+Avage  **Tööjärjekorra kanded** ning looge tööd:
+- **Aruanne 24007801 Võta e-dokumendid kanalilt** e-dokumentide allalaadimisteks operaatori serverist. Määrake operaator töö kaardil aruande päringuaknas.
+- **Aruanne 24007803 Salvesta e-dokumendid BC-i**  allalaaditud e-dokumentide automaatseks salvestamiseks BC-i dokumentidesse.
 
-Pange paika tööde ajakava  **Korduvus**  kiirkaardil.
+Seadistage tööde ajakava  **Korduvus**  kiirkaardil.
+
+Juhuks kui e-dokumentide töötlemisel esineb tõrkeid, saate seadistada teavituste meiliaadressid **EDI seadistus** lehel väljal **Käsitlemisvigade e-meil**.

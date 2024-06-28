@@ -7,6 +7,7 @@ Module allows to send and receive electronic documents in [Telema eDoc](https://
 ## Supported Operators
 - [Telema](https://telema.ee/)
 - [Edisoft](https://ediweb.com/)
+- [Docura](https://docura.net/)
 - [Direct Connection between Business Centrals](telema-setup#how-to-setup-connection-between-business-centrals-without-operator)
 - File System Folders (using IIS Virtual Directory)
   

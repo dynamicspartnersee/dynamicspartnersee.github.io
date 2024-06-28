@@ -7,6 +7,7 @@ Moodul võimaldab saata ja vastu võtta [Telema eDoc](https://telema.ee/telema-e
 ## Toetatud operaatorid
 - [Telema](https://telema.ee/)
 - [Edisoft](https://ediweb.com/)
+- [Docura](https://docura.net/)
 - [Otseühendus Business Central-ite vahel](telema-setup#kuidas-seadistada-ühendus-kahe-business-centrali-vahel-ilma-operaatorita)
 - Failisüsteemi kaustad (läbi IIS Virtual Directory)
   

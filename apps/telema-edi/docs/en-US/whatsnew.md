@@ -1,6 +1,10 @@
 ---
 ---
 
+##### Versioon 21.5.24180.0
+- Docura operator channel was added.
+- Option to select whether e-order creates order or blanket order was added on the customer card.
+
 ##### Versioon 21.5.24074.9
 - Issued e-document ReceiverID change according to Telema recommendation: ReceiverID and Delivery Party Code should be the same.
 
