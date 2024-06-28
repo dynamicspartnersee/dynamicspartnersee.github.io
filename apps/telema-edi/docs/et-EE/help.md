@@ -1,6 +1,6 @@
 ---
 ---
-# Telema & Edisoft EDI
+# EDI - Telema | Edisoft | Docura
 
 Moodul võimaldab saata ja vastu võtta [Telema eDoc](https://telema.ee/telema-edoc/) formaadis elektroonilisi dokumente.   
 

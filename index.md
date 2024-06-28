@@ -13,7 +13,7 @@
 
 ## E-arved ja EDI lahendused
 [Eesti e-arved](apps/einvoices-for-estonia/docs/et-EE/help)  
-[Telema & Edisoft EDI](apps/telema-edi/docs/et-EE/help)
+[EDI - Telema | Edisoft | Docura](apps/telema-edi/docs/et-EE/help)
 
 ---
 

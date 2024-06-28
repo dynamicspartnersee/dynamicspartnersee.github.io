@@ -13,7 +13,7 @@
 
 ## E-invoicing and EDI solutions
 [E-Invoicing for Estonia](apps/einvoices-for-estonia/docs/en-US/help)  
-[Telema & Edisoft EDI](apps/telema-edi/docs/en-US/help)
+[EDI - Telema | Edisoft | Docura](apps/telema-edi/docs/en-US/help)
 
 ---
 

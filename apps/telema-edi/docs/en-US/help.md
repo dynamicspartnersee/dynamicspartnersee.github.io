@@ -1,6 +1,6 @@
 ---
 ---
-# Telema & Edisoft EDI
+# EDI - Telema | Edisoft | Docura
 
 Module allows to send and receive electronic documents in [Telema eDoc](https://telema.ee/telema-edoc/) format.  
 
