@@ -1,5 +1,12 @@
 ---
 ---
+##### Versioon 21.5.24187.0
+- Lisandus võimalus luua automaatselt e-arve alusel kaupasid.
+  - Hankija kaardil saab määrata kauba malli "Loo uus kaup malliga" väljale ning kui kaupa ei leita, siis luuakse uus kaup vastava kauba malli ning e-arves oleva info (_Kirjeldus, Mõõtühik, EAN, Hankija kood_) alusel.
+    - "Loo uus kaup malliga" saab määrata ainult siis, kui "Dokumendi rea loomise loogika" valikuks on "Tuvasta kaubad".
+    - "Loo uus kaup malliga" määrangu saab lisada ka hankija mallile.
+- Parandatud ostudokumendi loomisel tekkinud veaolukord, kui hankija kaardil oli valitud “Koonda KM ja arveridade grupi id lõikes” ning e-arve XML-is sisaldusid tühikud grupi id-s.  
+
 ##### Versioon 21.5.24161.0
 - Lisandus võimalus hankijapõhiselt (Hankija kaardil) määrata, kas e-arvelt loetakse hankija arvelduskontod sisse automaatselt, peale kasutaja kinnitust või üldse mitte.
 - Lisandus võimalus ostuarvel määrata, millisele makse saaja hankija pangakontole peaks arve eest makse (ülekanne) minema.
