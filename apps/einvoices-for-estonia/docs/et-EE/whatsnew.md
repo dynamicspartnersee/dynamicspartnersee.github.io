@@ -1,5 +1,9 @@
 ---
 ---
+##### Versioon 21.5.24239.0
+- Tehnilised täiendused
+  - _Lisatud Finbite koodiblokki eventid, et saaks luua kliendipõhise arenduse, mille kaudu saata e-arvetena konteerimata arveid._  
+
 ##### Versioon 21.5.24187.0
 - Lisandus võimalus luua automaatselt e-arve alusel kaupasid.
   - Hankija kaardil saab määrata kauba malli "Loo uus kaup malliga" väljale ning kui kaupa ei leita, siis luuakse uus kaup vastava kauba malli ning e-arves oleva info (_Kirjeldus, Mõõtühik, EAN, Hankija kood_) alusel.
