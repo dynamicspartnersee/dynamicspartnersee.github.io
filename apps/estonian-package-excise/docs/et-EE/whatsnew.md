@@ -1,5 +1,10 @@
 ---
 ---
+##### Versioon 18.0.24242.0
+- Lisatud deklaratsiooniridade loomise koodi eventid OnBeforeItemPackageMaterialFind() ja OnBeforePackageMaterialFind(), et saaks kliendipõhise loogika täiendusi teha
+- Väiksemad tehnilised täiendused  
+
+
 ##### Versioon 17.0.24025.0
 - Parendatud pakendiaktsiisideklaratsiooni tabeli jõudlust
 - Lisatud event OnBeforeInsertPackageExciseEntry(), mis võimaldab luua pakendiaktsiisideklaratsiooni, kasutades kliendipõhist loogikat
