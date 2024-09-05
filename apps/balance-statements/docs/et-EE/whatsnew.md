@@ -1,5 +1,9 @@
 ---
 ---
+##### Versioon 20.0.24071.1
+- Täiendatud "PV Saldo" aruannet, et oleks võimalik grupeerida aruannet nii Vastutav töötaja kui Vastutav töötaja (palk)
+- Väiksemad tehnilised täiendused "PV Saldo" aruandes, võimaldamaks kliendipõhiseid erisusi  
+
 ##### Versioon 20.0.23348.0
 - Tehnilised täiendused, et lahenduses oleks võimalik kasutada mitut alternatiivset väljatrükki samale  raportile (alates BC20)
 - Lisatud alternatiivsed saldoteatiste kujundused, kus on kuvatud saldoteatise number ning all osas käsitsi täidetav saldoteatise tagasiside sektsioon, mida kasutaja saab valida läbi "Aruande kujunduse valik" lehe:
