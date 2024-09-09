@@ -4,7 +4,7 @@
 # Väljaminevad e-dokumendid
 
 ## Kuidas luua BC dokumendist e-dokument 
-Üldiselt ei ole vaja e-dokumente käsitsi luua. Soovitame seadistada e-dokumentide konteerimisel loomise **EDI seadistus** lehel ning valida väljstatavad dokumendiliigid **Kliendi** lehel **EDI** vahekaardil.
+Üldiselt ei ole vaja e-dokumente käsitsi luua. Soovitame seadistada e-dokumentide konteerimisel loomise **EDI seadistus** lehel ning valida väljastatavad dokumendiliigid **Kliendi** lehel **EDI** vahekaardil.
 
 E-dokumentide käsitsi loomiseks avage **Väljaminevad e-dokumendid** ja valige **Toimingud** vahekaardil **Loo dokument BC-st** sobiv toiming.
 
