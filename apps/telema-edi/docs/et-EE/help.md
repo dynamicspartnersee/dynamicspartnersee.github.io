@@ -36,6 +36,6 @@ Standardmoodulis on toetatud järgnevad e-dokumenditüübid ning protsessid.
 [Sissetulevad e-dokumendid](inbound-edocuments)  
 [Väljaminevad e-dokumendid](outbound-edocuments)  
 
-## Videojuhend
+## Videojuhend (müügiarve väljastamine ja Telema eFlow-s käsitletud ostuarve vastuvõtmine)
 
 [![Video kasutusjuhend](https://img.youtube.com/vi/haWhgDLGbps/hqdefault.jpg)](https://youtu.be/haWhgDLGbps)
