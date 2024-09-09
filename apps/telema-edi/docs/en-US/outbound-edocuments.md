@@ -3,7 +3,7 @@
 # Outbound e-documents
 
 ## How to create e-document from BC document
-Generally, there is no need to manually create e-documents. We recommend to setup creating e-documents on posting in  **Setup**.
+Generally, there is no need to manually create e-documents. We recommend to setup creating e-documents on posting in **EDI Setup** and select document types to issue on the **EDI** fasttab of the **Customer** page.
 
 To manually create e-documents open  **Outbound E-Documents** and on the  **Actions** tab actions group  **Create Document from BC** select the desired action.
 
