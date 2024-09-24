@@ -38,8 +38,9 @@ Click **Process -> Create Customer/Vendor Statements**
 |-|-|
 |Balance Date|The balance (standing) date.|
 |Returning Date|The date user wants Customer/Vendor response.|
-|Include details|Specifies if list of entries, that form the outstanding amount, is included on the statement.|
+|Include details|Specifies if list of open entries, that form the outstanding amount, is included on the statement.|
 |Use Ext. Doc. No. as Doc. No.|Specifies if External Document No. is used as Document No. on balance statement (if possible).|
+|Create also when balance is zero|Specifies if balance statements are created even when there are no open ledger entries|
 |Print In LCY|Specifies if outstanding amount is shown converted to Local Currency only or for each currency separately.|
 |Issued By|If specified selected employees information will be added to the signature.|
  
@@ -107,8 +108,10 @@ The report shows a list of fixed assets on a specified balance date and user can
 |Balance Date|Specifies the date to which the report or batch job processes information.|
 |Print FA financial info|Specifies if financial information (Acquisition cost, Depreciation, Book value) is displayed instead of general (class, subclass etc) information.|
 |Include FA with Zero Book Value|Specifies if fixed assets with zero book value are included in the report.|
+|Include Disposed FA|Specifies if disposed fixed assets are included in the report.|
 |Group by|Specifies if you want the report to group fixed assets and print totals using the category defined in this field.|
 |New Page Per Group|Specifies if you want each group printed on a new page.|
+|Source of Responsible Employee|Specifies the source table of responsible employee. Selection is visible only when in addtition to Employees table, there is also Payroll Employees table in the system.|
 |**Committee members:**|You can select up to 3 inventory committee members from employees|
   
 <br>
