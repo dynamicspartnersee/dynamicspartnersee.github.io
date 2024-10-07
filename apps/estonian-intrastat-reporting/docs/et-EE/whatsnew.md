@@ -1,8 +1,11 @@
 ---
 ---
-##### Versioon 17.2.21356.4
-- Mittefunktsionaalsed tehnilised täiendused
+##### Versioon 25.0.24280.2
+- BC25 versiooniga ühilduv lahendus, mis täiendab uut Intrastat Core lahendust.
+  - _Intrastat žurnaali asemel on nüüd Intrastat aruanded, kus saab luua **XML faili** statistikaametile esitamiseks._  
 
+##### Versioon 17.2.21356.4
+- Mittefunktsionaalsed tehnilised täiendused.  
 
 ##### Versioon 17.2.21356.3
 - XML-i loomisel arvestab lahendus 2022 aastast kehtima hakkavad nõudeid (eemaldatakse transpordiliik, tarneklausel, koht, statistiline väärtus ning lähetuste puhul lisandub tehingupartneri käibemaksukohustuslase number. Lisaks kontrollitakse, et aruande valuutaks oleks EUR).
