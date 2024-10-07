@@ -4,7 +4,8 @@
 - BC25 versiooniga ühilduv lahendus, mis täiendab uut Intrastat Core lahendust.
   - _Intrastat žurnaali asemel on nüüd Intrastat aruanded, kus saab luua **XML faili** statistikaametile esitamiseks._
   - Nomenklatuurinumbrites olnud Täiendava mõõtühiku tähised määratakse äpi uuendamise käigus automaatselt vastavatele kaupadele _(al BC25 on määrang Kauba kaardil)_.
-  - Lahendusesisesed tehnilised täiendused.   
+- Lisatud uus õiguste komplekt (ISD - Objects) koodiobjektina ning eemaldatud nn XML õiguste komplekt (INTRASTAT REPORTING).
+- Lahendusesisesed tehnilised täiendused.   
 
 ##### Versioon 17.2.21356.4
 - Mittefunktsionaalsed tehnilised täiendused.  
