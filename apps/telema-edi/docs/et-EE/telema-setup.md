@@ -65,13 +65,15 @@ Palun küsige järgnevalt täidetav informatsioon ettevõttelt kelle Business Ce
 ### Dokumentide vastuvõtmine
 Dokumentide vastuvõtmiseks peate edastama saatjale järgnevad andmed: veebiteenuse URLi, kasutaja ning parooli.
 
-Avage **EDI seadistus** ning aktiveerige **Avalda e-document veebiteenus**.
+Avage **EDI seadistus** ning aktiveerige **Avalda e-dokumendi veebiteenus**.
 
 Seejärel avage **Veebiteenused** ning valige objekti **TED E-Document Web Service** realt **SOAP URL**. See ongi **E-dokument veebiteenuse URL**.  
 
 Seejärel avage **Kasutajad** ning looge saatja ettevõttele kasutaja. Määrake **Kasutajanimi**, **Veebiteenuse juurdepääsu võti** ning vajalikud õigustekomplektid. 
   
 Edastage andmed saatja ettevõttele.
+
+PS. saatjaks võib olla Business Central-i asemel ka mõni muu rakendus, kui selles on arendatud saatmisfunktsioon vastavalt veebiteenuse kirjeldusele. Vastuvõtva SOAP veebiteenuse kirjeldus [WSDL-i näol.]((/apps/telema-edi/docs/TED_E_Document_Web_Service_WSDL.xml) )
 
 
 ## Kuidas e-dokumente saata ja vastu võtta
