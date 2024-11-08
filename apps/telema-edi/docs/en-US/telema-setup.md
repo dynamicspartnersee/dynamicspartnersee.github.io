@@ -71,6 +71,8 @@ Then open **Users** and create a user for the sending company. Specify **User Na
   
 Give the data to the document sender.
 
+PS. The sender can be another application instead of Business Central, if it has developed a sending function according to the description of the web service. A description of the receiving SOAP web service [as WSDL.](TED_E_Document_Web_Service_WSDL.xml)
+
 ## How to send and receive e-documents
 
 See the manual for:  

@@ -73,8 +73,7 @@ Seejärel avage **Kasutajad** ning looge saatja ettevõttele kasutaja. Määrake
   
 Edastage andmed saatja ettevõttele.
 
-PS. saatjaks võib olla Business Central-i asemel ka mõni muu rakendus, kui selles on arendatud saatmisfunktsioon vastavalt veebiteenuse kirjeldusele. Vastuvõtva SOAP veebiteenuse kirjeldus [WSDL-i näol.](/TED_E_Document_Web_Service_WSDL.xml)
-
+PS. saatjaks võib olla Business Central-i asemel ka mõni muu rakendus, kui selles on arendatud saatmisfunktsioon vastavalt veebiteenuse kirjeldusele. Vastuvõtva SOAP veebiteenuse kirjeldus [WSDL-i näol.](TED_E_Document_Web_Service_WSDL.xml)
 
 ## Kuidas e-dokumente saata ja vastu võtta
 
