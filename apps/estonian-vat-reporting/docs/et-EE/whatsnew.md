@@ -1,5 +1,10 @@
 ---
 ---
+##### Versioon 22.1.24282.0
+- Täiendatud KMD müügiread INF-A täitmist nii, et eraldi read tekivad ka erisuse 02 puhul
+  - _(varem tekkis ainult erisus 01 puhul)_
+- Lisatud event OnSetVatDeclNo, mille abil on võimalik lisada kliendipõhist loogikat Soovita INF read protsessile.  
+
 ##### Versioon 22.1.24143.0
 - Tehnilised äpi upgrade koodi täiendused seoses "KMD vormi read" tabeli andmete uuendamisega.  
 

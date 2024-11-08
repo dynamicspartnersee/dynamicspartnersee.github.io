@@ -40,6 +40,7 @@ Kliki **Protsess -> Loo kliendi/hankija teatised**
 |Tagastamise kuupäev|Kuupäev, mis ajaks oodatakse vastust.|
 |Kaasa kannete loetelu|Määrab kas kaasata saldoteatisele loetelu kannetest, millest saldo koosneb.|
 |Kasuta dok. nr asemel välise dok. nr.|Määrab kas saldoteatisel kajastatakse välise dokumendi numbrit kui müügiarve numbrit (kui võimalik).|
+|Loo teatis ka null saldo puhul|Määrab kas saldoteatis luuakse ka siis, kui saldo kuupäeval puuduvad avatud andmikukanded|
 |Prindi KV-s|Määratleb kas võlgnevuse summa näidatakse konverteerituna kokku kohalikus valuutas või iga valuuta kohta eraldi.|
 |Väljastaja |Valitud Töötaja nimi ning info (telefon, meil, ametinimetus) lisatakse saldoteatisele.|
  
@@ -106,8 +107,10 @@ Aruanne võimaldab väljastada põhivarade loendi teatud kuupäeva seisuga ning 
 |Saldo kuupäev|Määratleb kuupäeva, mis seisuga on info aruandel kajastatud.|
 |Trüki PV finantsinfo|Määratleb, kas aruandel kuvatakse üldinfo (klass, alamklass jne) asemel finantsinfo (soetusmaksumus, kulum, jääkväärtus).|
 |Kaasa jääkväärtuseta PV|Määratleb, kas aruandele kaasatakse ka null jääkväärtusega põhivarad.|
+|Kaasa likvideeritud PV|Määratleb, kas aruandele kaasatakse ka likvideeritud põhivarad.|
 |Rühmitusalus|Määratleb millistel alustel põhivarad aruandele rühmitatakse.|
 |Uus lk per rühm|Määratleb, kas iga rühm trükkida eraldi lehele.|
+|Vastutava töötaja allikas|Määrab vastutava töötaja allika tabeli. _Valik kuvatakse ainult juhul, kui lisaks Töötajate tabelile on süsteemis veel Palga töötajate tabel._|
 |**Komisjoni liikmed:**|Väljatrükile saab valida töötajate loendist kuni 3 inventuurikomisjoni liiget|
 
 

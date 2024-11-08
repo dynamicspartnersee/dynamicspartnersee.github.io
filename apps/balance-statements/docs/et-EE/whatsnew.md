@@ -1,5 +1,11 @@
 ---
 ---
+##### Versioon 20.0.24268.0
+- Lisatud nii kliendi- kui hankija saldoteatiste loomisel võimalus määrata "Loo teatis ka null saldo puhul", mis loob saldoteatise ka juhul, kui saldo kuupäeval puuduvad avatud andmikukanded
+  - _Seni loodi saldoteatis null saldo korral ainult siis, kui olid avatud andmikukanded_
+- Lisatud AL õiguste komplekt SBS - OBJECTS (Saldoteatised - Koodiobjektid)
+- Väiksemad UX täiendused  
+
 ##### Versioon 20.0.24071.1
 - Täiendatud "PV Saldo" aruannet, et oleks võimalik grupeerida aruannet nii Vastutav töötaja kui Vastutav töötaja (palk)
 - Väiksemad tehnilised täiendused "PV Saldo" aruandes, võimaldamaks kliendipõhiseid erisusi  

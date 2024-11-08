@@ -1,5 +1,12 @@
 ---
 ---
+##### Versioon 21.5.24277.0
+- Kui arvele on valitud ettevõtte pangakonto info, siis see kajastub nüüd ka e-arvel _(sektsioonis/tag-is SellerParty/AccountInfo ning PaymentInfo/PayToAccount)._
+  - Kui on määramata, siis (nagu seni) võetakse pangakonto info ettevõtte andmed tabelist.
+- Kui e-arve on valitul liikuma Finbite kaudu kliendi internetipanka, siis nüüd lisatakse ka kreeditarvele kliendi pangakonto nr. _(channelAddress parameetrina nagu müügiarvete puhul)._
+  - _Seni oli see lisatud ainult müügiarvete puhul, eeldades et kreeditarvet polegi vaja internetipanka saata_
+- Lahendusesisesed tehnilised täiendused.  
+
 ##### Versioon 21.5.24239.0
 - Tehnilised täiendused
   - _Lisatud Finbite koodiblokki eventid, et saaks luua kliendipõhise arenduse, mille kaudu saata e-arvetena konteerimata arveid._  
