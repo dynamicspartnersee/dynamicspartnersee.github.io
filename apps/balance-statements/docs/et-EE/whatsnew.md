@@ -1,5 +1,10 @@
 ---
 ---
+##### Versioon 20.0.24318.0
+- Lisatud "PV Saldo" aruande andmestikku Soetuse kuupäev (AcquisitionDate) ning vastav pealdis (AcquisitionDateLbl). Lisaks likvideerimiskuupäeva pealdis (DisposalDateLbl).
+- Muudetud "PV Saldo" aruande osad muutujad kättesaadavaks kliendipõhiste laiendustega
+- Parandatud olukord, mis tekkis versiooniga 20.0.24268.0, kus ei loodud saldoteatist kliendile/hankijale, kuigi saldo kuupäeval ei olnud saldo nullis _(põhjuseks oli see, et loomise kuupäeval puudusid avatud kanded)_.  
+
 ##### Versioon 20.0.24268.0
 - Lisatud nii kliendi- kui hankija saldoteatiste loomisel võimalus määrata "Loo teatis ka null saldo puhul", mis loob saldoteatise ka juhul, kui saldo kuupäeval puuduvad avatud andmikukanded
   - _Seni loodi saldoteatis null saldo korral ainult siis, kui olid avatud andmikukanded_
