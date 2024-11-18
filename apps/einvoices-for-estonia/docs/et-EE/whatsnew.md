@@ -1,5 +1,9 @@
 ---
 ---
+##### Versioon 21.5.24323.0
+- Parandatud regionaalformaadi probleem, mis avaldus sissetulevast dokumendist ostuarve loomisel ja mille tõttu ei tekkinud korrektsed komakohad ühiku hinnale.
+- Lisatud event OnBeforeFindVendor() võimaldamaks kliendipõhise loogika lisamist hankija leidmisel/lisamisel.  
+
 ##### Versioon 21.5.24277.0
 - Kui arvele on valitud ettevõtte pangakonto info, siis see kajastub nüüd ka e-arvel _(sektsioonis/tag-is SellerParty/AccountInfo ning PaymentInfo/PayToAccount)._
   - Kui on määramata, siis (nagu seni) võetakse pangakonto info ettevõtte andmed tabelist.
