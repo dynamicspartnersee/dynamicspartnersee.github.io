@@ -7,7 +7,7 @@ Estonian Business Register app makes possible to use **Business Register Query**
 Query from Business Register enables to make queries from Business Register free information service “Requisites XML Service” and “E-Invoice Register Service”. 
 
 In order to make queries, one has to have a contract for using e-Business Register. Contract information:
-[http://www.rik.ee/en/e-business-registry/contract-info](http://www.rik.ee/en/e-business-registry/contract-info)
+[https://www.rik.ee/en/e-business-register/contract-information](https://www.rik.ee/en/e-business-register/contract-information)
 
 The following data is queried from the Business Register:
 * Business name
