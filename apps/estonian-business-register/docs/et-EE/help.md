@@ -8,7 +8,7 @@ Eesti äriregistri äpp võimaldab kasutada **Äriregistri päring** funktsionaa
 
 Äriregistri päring võimaldab teha tasuta päringuid e-äriregistri infoteenustest „Ettevõtja rekvisiitide teenus“ ja „E-arve registri teenus“.  
 
-Päringute tegemiseks tuleb sõlmida päringusüsteemide kasutamise leping. Lepingu info: [http://www.rik.ee/et/e-ariregister/lepinguinfo](http://www.rik.ee/et/e-ariregister/lepinguinfo)  
+Päringute tegemiseks tuleb sõlmida päringusüsteemide kasutamise leping. Lepingu info: [https://www.rik.ee/et/e-ariregister/lepinguinfo](https://www.rik.ee/et/e-ariregister/lepinguinfo)  
 
 E-äriregistrist päritakse järgmised andmed:
 
