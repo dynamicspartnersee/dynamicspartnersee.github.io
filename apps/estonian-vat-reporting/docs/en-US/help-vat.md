@@ -20,16 +20,18 @@ Open **VAT Report Setup** and on the **Estonian VAT Report** tab setup the follo
     * *Pay-to Vendor/Bill-to Customer*
     * *Buy-from Vendor/Sell-to Customer*
     * *Buy-from Vendor/Sell-to Customer (Only If VAT Reg. No. Exists)* – with this option Buy-from/Sell-to is used if **VAT Reg. No.** exist for them, otherwise Pay-to/Bill-to will be used.
-* **Use Ext. Doc. No. on INF-A** - Specifies if External Document No. from Sales invoice is used on INF-A as Invoice No. (_only if Ext. Doc. No is not empty_).
 * **Limit Amount** - enter transactions limit amount specified by the law (usually 1000).
+* **Use Ext. Doc. No. on INF-A** - Specifies if External Document No. from Sales invoice is used on INF-A as Invoice No. (_only if Ext. Doc. No is not empty_).
+* **Exclude Canceled Sales Invoices from INF-A** - Makes possible to exclude from INF-A report cancelled sales invoices and according corrective sales credit memos. This should only be activated if canceled sales invoices have not been sent to customer.
+* **Exclude Canceled Purchase Invoices from INF-B** - Makes possible to exclude from INF-B report cancelled purchase invoices and according corrective purchase credit memos.  
 
-The data of VAT Report appendix is collected from **VAT Entries**. To set up the necessary conditions to collect the correct data, open **VAT Posting Setup**.
+The data of VAT Report appendix is collected from **VAT Entries**. To set up the necessary conditions to collect the correct data, open **VAT Posting Setup**.  
 
-For each combination of VAT posting groups you can define whether the transaction posted with that combination has to be reported or not, and set up the necessary specialities.
+For each combination of VAT posting groups you can define whether the transaction posted with that combination has to be reported or not, and set up the necessary specialities.  
 
-In order to automatically separate the transactions which have to be declared and which not, the transactions have to be posted with different VAT posting groups. The transactions to be described as exceptions, have to be posted with separate VAT posting groups as well.
+In order to automatically separate the transactions which have to be declared and which not, the transactions have to be posted with different VAT posting groups. The transactions to be described as exceptions, have to be posted with separate VAT posting groups as well.  
 
-Examples:
+Examples:  
 1. Transactions with companies have to be declared and transactions with private persons do not have to be declared.  Therefore, the customers and vendors who are private persons, should be posted with separate **VAT Business Posting Group** (e.g. *PRIVATE*)
 2. When invoice(s) is/are issued for professional services which are treated as confidential by the laws, those transactions do not have to be declared and the sale of those services should be posted with separate **VAT Product Posting Group**.
 
@@ -58,7 +60,7 @@ In order to automatically complete the missing registration numbers, you can use
 
 Place the check mark **Report All Transactions** if you wish to include the invoices of those transaction partners, whose transactions total amount is below the limit (usually 1000€).
 
-Click **Generate** to save the report into XML file. Upload and submit the file in E-Tax Board.
+Click **Generate** to save the report into XML file. Upload and submit the file in E-Tax Board.  
 
 ---
 ## Requirements for postings in Business Central:
