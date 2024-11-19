@@ -26,10 +26,12 @@ Avage **KM aruande seadistus** ja vahekaardil **Eesti KM aruanne** seadistage j�
     * *Makse saaja hankija/Maksja klient*
     * *Müüja hankija/Ostja klient*
     * *Müüja hankija/Ostja klient (ainult KM reg. nr. olemasolul)* - selle valikuga kasutatakse Müüja hankija/Ostja klient juhul kui neil on **KM reg. nr.**, vastasel juhul kasutatakse Makse saaja hankijat/Maksja klienti.
+* **Piirmäära summa** - sisestage Käibemaksuseaduses sätestatud piirmäär (üldjuhul 1000).
 * **Kasuta INF-A peal välise dok. nr.** - Juhul kui see on aktiveeritud ning müügiarvel on välise dokumendi number täidetud, siis INF-A peal kasutatakse välise dokumendi numbrit müügiarve numbri asemel.
-* **Piirmäära summa** - sisestage Käibemaksuseaduses sätestatud piirmäär (üldjuhul 1000).   
+* **Välista INF-A -lt tühistatud müügiarved** - Võimaldab INF-A aruandest välistada tühistatud müügiarved ja vastavad parandavad müügi kreeditarved. Määrang tuleks aktiveerida ainult juhul, kui tühistatud müügiarved ei ole kliendini jõudnud.
+* **Välista INF-B -lt tühistatud ostuarved** - Võimaldab INF-B aruandest välistada tühistatud ostuarved ja vastavad parandavad ostu kreeditarved.  
  
-Andmed KM aruande lisa jaoks kogutakse **KM kanded** loendist.  
+Andmed KM aruande lisa jaoks kogutakse **KM kanded** registrist.  
 Õigete andmete kogumiseks vajalike tingimuste seadistamiseks avage **KM konteerimise seadistus**.  
 Iga käibemaksu konteeringurühma kombinatsiooni jaoks saate määratleda, kas selle kombinatsiooniga konteeritud tehing tuleb esitada või mitte, ning seadistada vajalikud eripärad.
 
@@ -51,7 +53,7 @@ Erisust '03' ei pea, ega saagi lisada - see erisus lisatakse automaatselt, kui m
 Avage **KM tagastused (KMD)**, looge uus aruanne, määrake **Nr.** ja valige **Versioon** 'EST'.
 
 ### Andmete saamine
-Andmete saamiseks aruandesse käivitage toiming **Soovita ridu**, valides seejärel kasutatav KM aruanne ja aruande periood.
+Andmete saamiseks aruandesse käivitage toiming **Soovita ridu**, valides seejärel kasutatav KM aruanne (seadistatud KMD) ja aruande periood.
 
 Funktsioon täidab KM deklaratsiooni aruande ridadel andmed (kui olete seadistanud **Käibedeklaratsiooni seadistamine** jaotistes kirjeldatud seosed) ja INF lisad all väljad **INF-A read** ja **INF-B read**.
 
@@ -70,10 +72,11 @@ Pärast uuenduse käivitamist, sisaldab nimekiri neid tehinguparntereid keda ei 
 Muutke neid kliente/hankijaid ükshaaval kasutades funktsiooni **Päri äriregistrist** ja määrates otsitava ettevõtte nime.
 
 ## Deklaratsiooni esitamiseks XML-faili loomine
-Märkige linnuke **Esita kõik tehingud**, kui soovite lisada nende tehingupartnerite arveid, kelle tehingute kogusumma jääb alla **KM aruande seadistus** lehel määratud piirmäära (üldjuhul 1000 €).
+Märkige linnuke **Esita kõik tehingud**, kui soovite lisada ka nende tehingupartnerite arveid, kelle tehingute kogusumma jääb alla **KM aruande seadistus** lehel määratud piirmäära (üldjuhul 1000 €).  
 
 Aruande XML-faili salvestamiseks klõpsake **Koosta** ja OK nupule vajutades saate faili salvestada.  
-Laadige fail üles ja esitage E-maksuametis.
+_Kui KM tagastus (KMD) luuakse 2024 aasta perioodi kohta, siis tuleb XML fail maksuameti nõutud KMD4 vormis ning kui luuakse 2025 aasta kohta, siis tuleb XML fail maksuameti nõutud KMD5 vormis jne._  
+Laadige fail üles ja esitage E-maksuametis.  
 
 ---
 ## Business Centrali konteeringute nõuded:
