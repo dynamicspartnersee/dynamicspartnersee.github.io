@@ -1,5 +1,14 @@
 ---
 ---
+##### Versioon 22.1.24324.0
+- Lisatud tugi KMD 2025 aasta vormile (sh KMD XML fail).
+  - sh tabelisse "KMD vormi read" lisatud lahter nr. 2² (13% määraga (al. 01.01.2025) maksustatavad toimingud ja tehingud), mida läheb vaja majutusettevõtetel.
+- Lisatud võimalus välistada INF-A ja/või INF-B lisast tühistatud müügi- ja/või ostuarved.
+  - KM aruande seadistuses saab teha vastava(d) määrangu(d).
+- Täiendatud tehingute piirmäära ületamise arvutamise loogikat selliselt, et tulemus oleks ootuspärane ka mittemahaarvatava käibemaksuga ostuarvete puhul.
+- Lisatud kliendipõhise loogika võimaldamiseks INF-A ja INF-B ridade leidmise koodi eventid OnBeforeVatReportInfLineModifySalesTransactionTaxableAmount, OnBeforeVatReportInfLineModifySalesTransactionInvoiceAmount, OnBeforeVatReportInfLineModifyPurchTransaction.
+- Väiksemad UX ja tehnilised täiendused.  
+
 ##### Versioon 22.1.24282.0
 - Täiendatud KMD müügiread INF-A täitmist nii, et eraldi read tekivad ka erisuse 02 puhul
   - _(varem tekkis ainult erisus 01 puhul)_
@@ -14,7 +23,7 @@
 
 ##### Versioon 22.1.23352.1
 - Lisatud tugi KMD 2024 aasta vormile (sh KMD XML fail).
-  - Tabelisse "KMD vormi read" lisatud lahtri nr. 1' (20% määraga (al. 01.01.2024) maksustatavad toimingud ja tehingud) ning nimetatud selguse mõttes ümber lahter nr. 1 (22% määraga (20% kuni 31.12.2023) maksustatavad toimingud ja tehingud)
+  - Tabelisse "KMD vormi read" lisatud lahter nr. 1' (20% määraga (al. 01.01.2024) maksustatavad toimingud ja tehingud) ning nimetatud selguse mõttes ümber lahter nr. 1 (22% määraga (20% kuni 31.12.2023) maksustatavad toimingud ja tehingud)
     - _Lahtrit kahtjuks polnud võimalik nummerdada kui 1¹, sest SQL tasemel tõlgendati see võrdseks juba olemasoleva lahtriga 11._
   - Täiendatud XML-i genereerimise loogikat nii, et kui luuakse KM tagastus (KMD) 2024 aastast alates, siis kasutatakse lahtri nr. 1' 20% jaoks ning lahtri nr. 1 22% jaoks.
     - Vanema perioodi KMD puhul aga tähendab lahtri nr. 1 20%.
