@@ -6,8 +6,12 @@
 <br>
 <br>
 
+##### Versioon 21.5.24341.0
+- Optimeeritud maksete sobitamise žurnaalis viitenumbri alusel kliendiandmiku kannete sidumise kiirust.
+- Täiendatud soovita makseid hankijale protseduuriga loodavat teade saajale ning kirjeldus sisu töökindlust.  
+
 ##### Versioon 21.5.24161.1
-- Lisatud funktsionaalsus, mis "Soovita makseid hankijale" toimingu puhul arvestab hankijaandmiku kannetes "Saaja pangakonto tähis" väärtusega
+- Lisatud funktsionaalsus, mis "Soovita makseid hankijale" toimingu puhul arvestab hankijaandmiku kannetes "Saaja pangakonto tähis" väärtusega.
   - Funktsionaalsust saab vajadusel välja lülitada Eesti pangaformaatide seadistuse välja "Ära kasuta hankija kannetest saaja pangakontot" abil.
   - st kasutades Eesti e-arvete lahendust (ver. 21.5.24161.0 või uuem), saab otse ostuarvel määrata hankija pangakonto, kuhu makse peaks minema ning info jõuab hankijaandmiku kannetesse, kust omakorda Eesti pangaformaatide lahendus "Saaja pangakonto tähis" määrangut arvestades makseid hankijale maksežurnaali soovitab.
 - UX täiendused _(nt teade erinevate viitenumbrite või saaja pangakontogaa hank. arvete sidumise kohta kuvatakse kasutjaale ainult maksežurnaalis olles)._  
