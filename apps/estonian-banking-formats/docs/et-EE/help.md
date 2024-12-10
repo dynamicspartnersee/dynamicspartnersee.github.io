@@ -9,7 +9,9 @@ Laiendus lokaliseerib Dynamics 365 Business Central pangafunktsionaalsuse Eesti 
 - Eesti SEPA makseformaat
 - Eesti SEPA väljavõtteformaat
 - Viitenumbrit ja registreerimisnumbrit arvestavad maksete sidumisreeglid
-- Hankijale maksete loomise täiendused
+- Hankijale maksete soovitamise ja teade saajale ning kirjeldus täiendused maksežurnaalis
+- Töötajale maksete puhul teade saajale ning kirjeldus täiendused
+- Müügidokumentide automaatne ümardamine lähtuvalt makseviisist
 
 ## Installeerimise tegevused
 Peale laienduse installeerimist tuleb avada leht **Eesti pangaformaatide seadistus** (_Estonian Banking Formats Setup_), sest lehe avamine käivitab taustal formaatide installeerimise (_Andmevahetuse määratlused, Panga ekspordi/impordi seadistus, Dokumendi kujundused_).  
@@ -39,7 +41,6 @@ Business Central'i makse sidumisreegleid on täiendatud järgnevate komponentide
 
 Täiendavad reeglid ei vaja seadistamist ja ei ole nähtavad **Maksete sidumisreeglites**.  
 Täiendatud reegleid kasutatakse **Maksete sobitamise žurnaali** toimingul **Seo automaatselt**.  
-_NB! (Alates BC 21) Pangaväljavõtte importimisel tasub **aktiveerida pangakonto lehel "Keela automaatne maksete sobitamine"**, vältimaks väljavõtte faili importimisel BC standard sobitamise käivitumist (ei arvesta viitenumbritega, mistõttu aeglasem kui viitenumbrid kasutuses)._  
 
 ## Panga väljavõtte impordi vorming (SEPA väljavõtteformaat)
 Pangaväljavõtete importimiseks Business Central'isse on lisatud Eesti SEPA väljavõtteformaadi tugi.  
@@ -47,13 +48,25 @@ Kas formaat on installitud, saate kontrollida **Eesti pangaformaatide seadistuse
 Formaadi seadistamiseks pangakontole avage **Pangakontod** ja redigeerige soovitud kontot.  
 Määrake **SEPACAMT-EE** väljal **Panga väljavõtte impordi vorming**.  
 
-![Image](vormingu-seaded-pangakontol.png)
-
 ## Makse ekspordi vorming (SEPA makseformaat)
 Business Central'is koostatud maksete panka edastamiseks on lisatud Eesti SEPA makseformaadi tugi.  
 Kas formaat on installitud, saate kontrollida **Eesti pangaformaatide seadistuses**. Kui ei ole, võtke ühendust oma partneriga.  
 Formaadi seadistamiseks pangakontole avage **Pangakontod** ja redigeerige soovitud kontot.  
-Määrake **SEPACT-EE** väljal **Makse ekspordi vorming**.
+Määrake **SEPACT-EE-001.001.09** väljal **Makse ekspordi vorming**.  
+
+![Image](vormingu-seaded-pangakontol.png)
+
+Teatud juhtudel (üldjuhul LHV väljavõttega) tekib importimisel olukord, kus **Maksete sobitamise žurnaalis** väljale **Maksja/Saaja nimi** tulevad alati mõlemad - st nii Maksja nimi, kui Saaja nimi.  
+Arusaadavalt on üheks selliseks nimeks alati ettevõtte enda nimi.  
+**Selle vältimiseks** on lisatud **teisendusreegel** **REMOVE_COMPANY_NAME**, mida saab vajadusel kasutada andmevahetusmääratluse välja vastendamisel. 
+Seega LHV XML väljavõtte puhul tuleks teisendusreegel panna külge **Andmevahetuse määratluse** tabeli 274 **Välja vastendamine** ridadele, mille Välja ID = 15 (Maksja/Saaja nimi), selleks et Maksja/Saaja nimi ei sisaldaks ettevõtte enda nime.  
+
+![Image](andmevahetusmääratluse-teisendusreegel.png)
+
+NB! Eelnevalt vaadata väljavõttest või maksete sobitamise žurnaalist, millisel kujul kõige enam ettevõtte nimi esineb ning seejärel määrata vastav nimi teisendusreegli väljale **Leia väärtus**, selleks et süsteem selle importimisel üles leiaks.  
+
+![Image](teisendusreeglis-nimi.png)
+  
 
 ## Hankijale maksete loomise täiendused
 Maksežurnaalis olevas toimingus **Soovita makseid hankijale** saab:
@@ -69,10 +82,13 @@ Maksežurnaalis olevas toimingus **Soovita makseid hankijale** saab:
 - Maksete selgituse koostamisel arvestatakse Hankija kaardil oleva keele tähisega
   - Toetatud on eesti ja inglise keel
 
+## Töötajale maksete puhul teade saajale ning kirjeldus täiendused
+**Eesti pangaformaatide seadistuses** saab **Makse teade töötajale** välja kaudu valida, millisel kujul luuakse maksežurnaali välja "Teade saajale" sisu, kui luuakse makse töötajale. 
+
 ## "Seo kanded" ning "Seo käsitsi" toimingute täiendused
 Žurnaalides (sh laekumisžurnaalis) olevat toiminguid "Seo kanded" ja "Seo käsitsi" ning maksežurnaalis "Soovita makseid hankijale" on täidendatud loogikaga, et žurnaali rea väljale kirjeldus tulevad lisaks seotud osapoole nimele ka seotud arvete numbrid (_standard märkis sinna lihtsalt seotud osapoole ehk kliendi/hankija nime_).  
 
-Funktsionaalsus on vaikimisi aktiveeritud, kuid seda saab väja lülitada **Eesti pangaformaatide seadistuses** valides **Kasuta lokaliseerimata kirjeldust kannete sidumisel**. Lisavõimalusena saab aktiveerida **Kasuta välise dok. nr. kui võimalik** valiku, mis BC arve numbrite asemel kasutab välise dokumendi numbreid kirjelduse väljal.  
+Funktsionaalsus on vaikimisi aktiveeritud, kuid seda saab väja lülitada **Eesti pangaformaatide seadistuses** valides **Kasuta lokaliseerimata kirjeldust kannete sidumisel**. Lisavõimalusena saab aktiveerida **Kasuta sidumisel välise dok. nr. kui võimalik** valiku, mis BC arve numbrite asemel kasutab välise dokumendi numbreid kirjelduse väljal (mõistlik siis sisse lülitada, kui arved luuakse välises süsteemis).  
 
 ## Makse saaja nime muutmine maksel
 Kui makse saaja on erinev hankijast/kliendist (näiteks on saajaks faktooringettevõte või Rahandusministeerium), lisage andmed **Hankija/Kliendi pangakonto kaart** kiirkaardil **Makse saaja**.  
