@@ -6,6 +6,12 @@
 <br>
 <br>
 
+##### Versioon 21.5.24344.1
+- Müügidokumentidel sentide ümardamise funktsionaalsus vastavalt makseviisile
+  - Mõeldud alates 2025 jõustuva <a href="https://www.eestipank.ee/press/1-ja-2-sendised-ning-umardamisreegel" target="_blank">sularahamaksetel 1-ja 2-sendiste kadumise</a> lahendamiseks.
+  - Eesti pangaformaatide seadistus lehel saab aktiveerida "Kasuta müügiarvete ümardamist makseviisidega" määrangu ning seejärel tuleb nähtavale makseviisides väli "Arve ümardamistäpsus (KV)" ning müügidokumentidel väli "Arve summa arv. ümardust".
+  - Arve konteerimisel luuakse analoogselt standardile müügiarvele täiendav rida ümardamisele kuuluva summaga (PR Konto, kuhu ümardatav summa konteeritakse, võetakse Kliendi konteeringurühmad väljalt "Arvete ümardamise konto").  
+
 ##### Versioon 21.5.24341.0
 - Optimeeritud maksete sobitamise žurnaalis viitenumbri alusel kliendiandmiku kannete sidumise kiirust.
 - Täiendatud soovita makseid hankijale protseduuriga loodavat teade saajale ning kirjeldus sisu töökindlust.  
