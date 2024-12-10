@@ -92,7 +92,14 @@ Funktsionaalsus on vaikimisi aktiveeritud, kuid seda saab väja lülitada **Eest
 
 ## Makse saaja nime muutmine maksel
 Kui makse saaja on erinev hankijast/kliendist (näiteks on saajaks faktooringettevõte või Rahandusministeerium), lisage andmed **Hankija/Kliendi pangakonto kaart** kiirkaardil **Makse saaja**.  
-Kui **Saaja nimi** väli on täidetud, kasutatakse antud nime ka maksefailis (hankija/kliendi nime asemel). 
+Kui **Saaja nimi** väli on täidetud, kasutatakse antud nime ka maksefailis (hankija/kliendi nime asemel).  
+
+## Müügidokumentide automaatne ümardamine vastavalt makseviisile
+_Mõeldud alates 2025 jõustuva <a href="https://www.eestipank.ee/press/1-ja-2-sendised-ning-umardamisreegel" target="_blank">sularahamaksetel 1-ja 2-sendiste kadumise</a> lahendamiseks._  
+**Eesti pangaformaatide seadistus** lehel saab aktiveerida **Kasuta müügiarvete ümardamist makseviisidega** määrangu ning seejärel tuleb nähtavale makseviisides väli **Arve ümardamistäpsus (KV)** ning müügidokumentidel väli **Arve summa arv. ümardust**.  
+Kui müügidokumendile lisatakse **makseviis**, kuhu on määratud **Arve ümardamistäpsus (KV)**, siis hakkab **Arve summa arv. ümardust** näitama ümardatud arve summat peale konteerimist.  
+Arve konteerimisel luuakse analoogselt standardile müügiarvele täiendav rida ümardamisele kuuluva summaga (PR Konto, kuhu ümardatav summa konteeritakse, võetakse Kliendi konteeringurühmad väljalt **Arvete ümardamise konto**).  
+
 
 ***
 
