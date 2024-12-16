@@ -1,5 +1,10 @@
 ---
 ---
+##### Versioon 25.0.24351.0
+- XML-i loomisel ei lisata 2025 ja hilisemate perioodide aruande XML-i enam Tarne liiki ridu, kuna kauba saabumise andmeid enam esitama
+  - <a href="https://www.stat.ee/et/uudised/ettevotjad-ei-pea-uuel-aastal-kauba-saabumise-andmeid-enam-esitama" target="_blank">Statistikaamet: Ettevõtjad ei pea uuel aastal kauba saabumise andmeid enam esitama</a>
+- Parandatud olukord, kus müügi- või ostudokumendi loomisel tuli viga "Tabelit Intrastati aruande seadistus pole olemas." _(viga kuvati juhul kui Intrastat aruande seadistus lehte polnud keegi kunagi avanud)_.  
+
 ##### Versioon 25.0.24280.2
 - BC25 versiooniga ühilduv lahendus, mis täiendab uut Intrastat Core lahendust.
   - _Intrastat žurnaali asemel on nüüd Intrastat aruanded, kus saab luua **XML faili** statistikaametile esitamiseks._
