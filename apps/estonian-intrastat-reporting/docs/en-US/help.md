@@ -9,7 +9,7 @@ Please read more about Business Central Intrastat reporting on:
 ## Setup Intrastat
 The required level of detail in Estonian Intrastat reporting can be different from company to company.
 
-To setup the appropriate requirements for your company,  open **Intrastat Setup** and fill in the **Purchase Mandatory Fields** and **Sales Mandatory Fields** on **Estonian Intrastat** fast tab:
+To setup the appropriate requirements for your company,  open **Intrastat Setup** and fill in the **Purchase Mandatory Fields** _(not needed anymore for reports 2025 and later)_ and **Sales Mandatory Fields** on **Estonian Intrastat** fast tab:
 
 Value | Description
 -- | --
