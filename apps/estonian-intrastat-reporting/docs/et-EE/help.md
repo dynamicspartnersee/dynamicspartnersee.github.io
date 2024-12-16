@@ -9,7 +9,7 @@ Business Central'i intrastat funktsionaalsuse üldist juhendit saate lugeda siit
 ## Intrastati seadistus
 Intrastati aruannete nõutud detailsus on Eestis ettevõteti erinev.
 
-Nõutud detailsusastme määramiseks avage **Intrastati aruande seadistus** ning määrake **Eesti Intrastat** vahelehel vastavalt **Ostu kohustuslikud väljad** ja **Müügi kohustuslikud väljad**:
+Nõutud detailsusastme määramiseks avage **Intrastati aruande seadistus** ning määrake **Eesti Intrastat** vahelehel vastavalt **Ostu kohustuslikud väljad** _(al.2025 aruandeperioodist pole kauba saabumise andmete esitamine enam nõutud)_ ja **Müügi kohustuslikud väljad**:
 
 Väärtus | Kirjeldus
 -- | --
