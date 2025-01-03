@@ -1,5 +1,13 @@
 ---
 ---
+##### Versioon 21.5.25003.0
+- Suurendatud kaupade loomise ning tuvastamise tõrkekindlust:
+  - Täiendatud uute kaupade loomise loogikat nii, et kui e-arvel on kaubal mõõtühik, mida BC mõõtühikute tabelis ei ole, siis ostuarve loomisel ei teki enam tõrget vaid ostuarve luuakse ära, kusjuures vastava kaubaga rida jääb ilma mõõtühikuta ning sissetuleva dokumendi peale kuvatakse vastavasisuline teade.
+  - Täiendatud kaupade tuvastamist nii, et kaup määratakse ostuarve reale ka siis, kui kauba viidetest leitakse sama EAN koodi või Hankija kauba koodi rohkem, kui ühel korral.
+- Täiendatud e-arve XML faili lisatava PDF kujunduse leidmise loogikat selliselt, mis järgib BC standard kujunduse leidmise loogikat.
+  - st nüüd süsteem esmalt vaatab Kliendi kaardi kaudu Dokumendi kujunduse määrangut ning alles seejärel üldist Aruandevalikud - Müük määrangut ehk e-arve XML faili lisatava PDF-i kujundus tuleb nüüd sama, mis BC-s arve printimisel.
+- Lahendusesisesed tehnilised täiendused (_lisatud koodisisesed õigused võimalike kasutajaõiguste probleemide ennetamiseks_).  
+
 ##### Versioon 21.5.24323.0
 - Parandatud regionaalformaadi probleem, mis avaldus sissetulevast dokumendist ostuarve loomisel ja mille tõttu ei tekkinud korrektsed komakohad ühiku hinnale.
 - Lisatud event OnBeforeFindVendor() võimaldamaks kliendipõhise loogika lisamist hankija leidmisel/lisamisel.  
