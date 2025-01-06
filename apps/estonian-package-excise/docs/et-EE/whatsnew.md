@@ -1,5 +1,11 @@
 ---
 ---
+##### Versioon 22.0.25006.0
+- Lisatud võimalus sisestada pakendimaterjalide tabelisse aktsiisi määra kuni 5 komakohalise täpsusega
+  - Pakendi aktsiidideklaratsiooni kannete lehel kuvatakse nüüd Pakendimaterjali Kogus välja kuni 5 komakohta
+  - Pakendi aktsiisideklaratsiooni ridades kuvatakse nüüd Pakendimaterjali kogus ning Aktsiisi määr väljadel kuni 5 komakohta
+- Tehnilised täiendused (koodi kvaliteedi parendamine seoses uuema madalama taseme versiooni toetamisega)  
+
 ##### Versioon 18.0.24242.0
 - Lisatud deklaratsiooniridade loomise koodi eventid OnBeforeItemPackageMaterialFind() ja OnBeforePackageMaterialFind(), et saaks kliendipõhise loogika täiendusi teha
 - Väiksemad tehnilised täiendused  
