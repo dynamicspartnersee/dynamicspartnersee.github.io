@@ -1,5 +1,10 @@
 ---
 ---
+##### Versioon 21.5.25007.0
+- Täiendatud ostuarve rea loomisel PR konto leidmist "Vastenda tekst kontoks" funktsionaalsusega.
+  - nüüd süsteem esmalt otsib vastava hankija numbriga vastenda tekst kontoks määranguid (_eeldab täpset vastendamise teksti st ilma tärnideta_) ning seejärel hankija numbrita määrangute hulgast (_nagu seni sh tärnidega vastendamise teksti otsing_).
+  - enam ei teki tõrget _"Filtri tõlgendamisel ilmnes tõrge: ei oodatud üksust „(“."_, kui vastenda tekst kontoks vastendamise tekstis on kasutatud sulgusid vms süsteemseid sümboleid.  
+
 ##### Versioon 21.5.25003.0
 - Suurendatud kaupade loomise ning tuvastamise tõrkekindlust:
   - Täiendatud uute kaupade loomise loogikat nii, et kui e-arvel on kaubal mõõtühik, mida BC mõõtühikute tabelis ei ole, siis ostuarve loomisel ei teki enam tõrget vaid ostuarve luuakse ära, kusjuures vastava kaubaga rida jääb ilma mõõtühikuta ning sissetuleva dokumendi peale kuvatakse vastavasisuline teade.
