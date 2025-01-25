@@ -1,5 +1,9 @@
 ---
 ---
+##### Versioon 22.1.25025.0
+- Täiendatud vorm KMD 2025 aasta lahendust _(sh lisatud eeldatav KMD XML faili loogika al. 01.07.2025)_.
+- Väiksemad kasutusmugavuse täiendused.  
+
 ##### Versioon 22.1.24324.0
 - Lisatud tugi KMD 2025 aasta vormile (sh KMD XML fail).
   - sh tabelisse "KMD vormi read" lisatud lahter nr. 2² (13% määraga (al. 01.01.2025) maksustatavad toimingud ja tehingud), mida läheb vaja majutusettevõtetel.
