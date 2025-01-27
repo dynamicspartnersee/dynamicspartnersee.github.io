@@ -25,21 +25,24 @@ Open **Finbite (Omniva) Document Exchange Service Setup** or **Unifiedpost (Fite
 |Key User|Notifications of errors of automatic data exchange will be sent to his/her role center.|
 |Activity Logging|Determines the level of detail for data exchange activity logging. During the test period it is advisable to use "Activity Message and XML Message" to get the maximum information to solve problems. Logged activities and messages can be viewed on the page **Activity Log**.|
 |Activate Peppol (Finbite)<br><br>Activate Roaming(Unifiedpost)|Activates international e-invoice sending through Finbite using Peppol. PeppolId can be specified on Customer Card.<br>Activates international e-invoice sending through Unifiedpost using roaming. ChannelId and Channel Address can be specified on Customer card.|
+|**Master Data**<br>||
+|Don't Replace G/L Accounts (Finbite)|Specifies whether existing G/L Accounts in Finbite Arvekeskus should not be replaced when sending G/L Accounts. If selected, then G/L Accounts sent are merged in Finbite Arvekeskus.
+|Don't Replace Dimensions (Finbite)|Specifies whether existing dimensions in Finbite Arvekeskus should not be replaced when sending dimensions. If selected, then dimensions sent are merged in Finbite Arvekeskus. Recommended to use if related dimensions are used in Finbite Arvekeskus.
+|Don't Replace Vendors and Customers (Finbite)|Specifies whether existing Vendors and Customers in Finbite Arvekeskus should not be replaced when sending Vendors and Customers. If selected, then Vendors and Customers sent are merged in Finbite Arvekeskus.
+|Send Code Mandatory Dimensions with G/L accounts (Unifiedpost)|Specifies if G/L account's Code Mandatory dimensions are sent to FitekIn as Mandatory Cost Objectives for that account.|
+|Delete Unused Masterdata (Unifiedpost)|Specifies if unused Accounts/Dimensions/Vendors cleanup is performed in FitekIn before data import.|
+|PropagateToChild (Unifiedpost)|Specifies FitekIn API to propagate the request to child entities. For example, performing a request to some Organization with PropagateToChild set to True will perform the same request on each Company belonging to the target Organization.|
+|**Documents**<br>(Finbite)||
+|Get Invoices Changed Since|Document exchange internal bookmark. Not editable.|
+|Get Invoice Which Are|Receive invoice if status is: <br> a) Processed - invoice is marked as Ready for sending to ERP. <br> b) Received - invoice is received as soon as they arrive to Finbite. <br> c) Confirmed - invoce has been approved in Finbite invoice management.
+|Get Invoice Attachments|Specifies whether the attachents of the e-invoice are taken. „Main Attachment“ is usually invoice as a PDF.|
 |**Connection**|To setup default values for connection, you can use action **Set URLs to Default**.|
 |Service URL|For Finbite you can find it in Finbite invoicing management environment under the Settings->Settings->Data Exchange with ERP.|
 |Service Namespace URL|Usually no need to change default value.|
 |SOAP Namespace URL|Usually no need to change default value.|
-|Authentication Phrase<br>(Finbite only)|You can find it in the Finbite invoicing management environment under the Settings->Settings->Data Exchange with ERP.|
-|User Name<br>(Unifiedpost only)|Ask from Unifiedpost.|
-|Password<br>(Unifiedpost only)|Ask from Unifiedpost.|
-|**Master Data**<br>(Unifiedpost only)||
-|Send Code Mandatory Dimensions with G/L accounts|Specifies if G/L account's Code Mandatory dimensions are sent to FitekIn as Mandatory Cost Objectives for that account.|
-|Delete Unused Masterdata|Specifies if unused Accounts/Dimensions/Vendors cleanup is performed in FitekIn before data import.|
-|PropagateToChild|Specifies FitekIn API to propagate the request to child entities. For example, performing a request to some Organization with PropagateToChild set to True will perform the same request on each Company belonging to the target Organization.|
-|**Documents**<br>(Finbite only)||
-|Get Invoices Changed Since|Document exchange internal bookmark. Not editable.|
-|Get Invoice Which Are|Receive invoice if status is: <br> a) Processed - invoice is marked as Ready for sending to ERP. <br> b) Received - invoice is received as soon as they arrive to Finbite. <br> c) Confirmed - invoce has been approved in Finbite invoice management.
-|Get Invoice Attachments|Specifies whether the attachents of the e-invoice are taken. „Main Attachment“ is usually invoice as a PDF.|
+|Authentication Phrase<br>(Finbite)|You can find it in the Finbite invoicing management environment under the Settings->Settings->Data Exchange with ERP.|
+|User Name<br>(Unifiedpost)|Ask from Unifiedpost.|
+|Password<br>(Unifiedpost)|Ask from Unifiedpost.|
 
 To test the connection, use action **Test Connection**.
 
@@ -135,7 +138,7 @@ c) VAT Registration No. <br>
 d) Vendor Name (system searches for exact match in XML) <br>
 If vendor is not found it can be created automatically (*if New Vendor Template is specified in Countries/Regions table*), but using this feature is not recommended.  
 _Puchase invoices mediated by Finbite can have fllowing country codes: "EE", "LT", "LV" or "ZZ", where the last one means all other countries. Therefore one should create a so called virtual country with code "ZZ" to Countries/Regions table._
-4. **Items are identified** only if  **Activate Find Items from e-invoice** is activated on **Purchases & Payables Setup**. <br>
+4. **Items are identified**  if  **Activate Find Items from e-invoice** is activated on **Purchases & Payables Setup**. <br>
 Items are identified using the following order: <br> 
 a) BC Item No. (in item code in BuyerProductId tag) <br>
 b) EAN (firstly GTIN on item, then barcode from item reference) <br>
@@ -144,7 +147,7 @@ c) Seller Item No. (firstly from item reference, then solution checks if a BC It
 4. If the G/L account is not found on the e-invoice line, then **Map text to Account** functionality is used. Mapping is searched for the e-invoice line description and if not found then for the vendor name. **NB! Using filters is allowed in Text-to-Account Mapping page.**
 5. Finally, the default accounts are used from the **Default Accounts** fast tab of the **Purchases & Payables Setup**.
 6. **VAT Prod. Posting Group** is taken from e-invoice (if it exists and allowed to find in setup). If it's not on e-invoice then a VAT Prod. Posting Group that's specified on Item or G/L Account is used. <br> Note! If VAT % on e-invoice line is smaller then on purchase invoice line, then system finds and uses a first suitable VAT Prod. Posting Group with a matching VAT % (*in combination with VAT Bus. Posting Group from Vendor*).
-7. **Discount** is added to invoice line only if **Activate Find Discounts from e-invoice** is activated on  **Purchases & Payables Setup** and if discount information exists on e-invoice and if it passes mathematic checks (like Line amount less Line discount amount must equal SumBeforeVAT on e-invoice XML).
+7. **Discount** is added to invoice line  if **Activate Find Discounts from e-invoice** is activated on  **Purchases & Payables Setup** and if discount information exists on e-invoice and if it passes mathematic checks (like Line amount less Line discount amount must equal SumBeforeVAT on e-invoice XML).
 
 <br><br>
 
@@ -153,7 +156,7 @@ c) Seller Item No. (firstly from item reference, then solution checks if a BC It
 Field | Selections with descriptions
 |--|--|
 **Retain Description & Unit Cost** | Specifies whether to retain line's Description, Unit of Measure, Unit Cost and Line discount amount after a change on field No. or Location code. <br><br> a) No (BC Standard) - use Business Centrali standard logic meaning a G/L Account change shall result in data loss on fields mentioned above. <br> b) for E-invoice Lines - if purchase line is created from e-invoice XML, then change on fields No. or Location code does not result in data loss on fields mentioned above. <br> c) for All lines - no matter if line is created manually or from e-invoice, a change on fields No. or Location code does not result in data loss on fields mentioned above. <br><br> **NB!** If you selected b) or c) then solution stops user form changing line Type *(for example G/L Account is changed to Item)*. To change line type you should create a new line with suitable data and then delete the line created from e-invoice.
-**Line Dimension Change Logic** | Specifies logic for changing or retaining dimension values after a change in fields No., Job No., Job Task No. <br><br> a) Default Dimensions (BC Standard) - standard BC behaviour meaning dimensions on line depend on default dimensions from values of fields mentioned above. <br> b) Ask User - every change on fields mentioned abouve activate checking if dimension set ID has changed and if so, then user is asked Do You want to change line dimensions with default dimensions. If user confirms then selection a) applies and if not then dimension values are retained. <br> c) Retain for E-invoice Lines - dimension values are retained only on lines created from e-invoice XML.
+**Line Dimension Change Logic** | Specifies logic for changing or retaining dimension values after a change in fields No., Job No., Job Task No. <br><br> a) Default Dimensions (BC Standard) - standard BC behaviour meaning dimensions on line depend on default dimensions from values of fields mentioned above. <br> b) Ask User - every change on fields mentioned abouve activate checking if dimension set ID has changed and if so, then user is asked Do You want to change line dimensions with default dimensions. If user confirms then selection a) applies and if not then dimension values are retained. <br> c) Retain for E-invoice Lines - dimension values are retained  on lines created from e-invoice XML.
 
 <br>
 
