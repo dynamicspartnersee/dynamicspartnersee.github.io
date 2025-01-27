@@ -1,5 +1,12 @@
 ---
 ---
+##### Versioon 21.5.25027.0
+- Lisatud võimalus Finbite (Omniva) dokumendivahetusteenuse seadistus lehel määrata põhiandmete Finbite Arvekeskusesse saatmise töötlemist:
+  - Ära asenda PR kontosid
+  - Ära asenda dimensioone
+  - Ära asenda hankijaid ja kliente
+- Parandatud uue hankija ostuarve loomisel tekkinud veaolukord, mis avaldus kui süsteem otsis vastavat hankijat KM reg. koodi alusel ning e-arve XML-is oli tühi tag VATRegNumber.  
+
 ##### Versioon 21.5.25007.0
 - Täiendatud ostuarve rea loomisel PR konto leidmist "Vastenda tekst kontoks" funktsionaalsusega.
   - nüüd süsteem esmalt otsib vastava hankija numbriga vastenda tekst kontoks määranguid (_eeldab täpset vastendamise teksti st ilma tärnideta_) ning seejärel hankija numbrita määrangute hulgast (_nagu seni sh tärnidega vastendamise teksti otsing_).
