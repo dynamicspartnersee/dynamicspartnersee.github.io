@@ -42,6 +42,16 @@ Aktiveeri Peppol | Finbite | Aktiveerib e-arvete saatmise läbi Peppoli. Kliendi
 Aktiveeri roaming | Unifiedpost | Aktiveerib rahvusvaheliste e-arvete saatmise Eesti e-arve formaati kasutades. Kliendi kaardil saab määrata vastava kanali (channelId) ning kanali aadressi (channelAddress).
 e-müügiarvete formaat | Unifiedpost | Määrab e-arve formaadi, milles saadetakse e-müügiarved partnerile.
 e-ostuarvete formaat | Unifiedpost | Määrab e-arve formaadi, milles e-ostuarved saabuvad partnerilt.
+**Põhiandmed** |  | 
+Ära asenda PR kontosid | Finbite | Määrab, et Finbite Arvekeskuses olemasolevaid PR kontosid ei tohi asendada saadetavate PR kontodega. Kui valitud, siis saadetud PR kontod mestitakse Finbite Arvekeskuses.
+Ära asenda Dimensioone | Finbite | Määrab, et Finbite Arvekeskuses olemasolevaid dimensioone ei tohi asendada saadetavate dimensioonidega. Kui valitud, siis saadetud dimensioonid mestitakse Finbite Arvekeskuses. Soovitav kasutada, kui seotud dimensioonid on Finbite Arvekeskuses kasutusel.
+Ära asenda Hankijaid ja kliente | Finbite | Määrab, et Finbite Arvekeskuses olemasolevaid Hankijaid ja kliente ei tohi asendada saadetavate Hankijate ja klientidega. Kui valitud, siis saadetud Hankijad ja kliendid mestitakse Finbite Arvekeskuses.
+Saada ühes PR kontoga tähis kohustuslik dim. nõue | Unifiedpost | Määratleb kas ühes PR Kontodega saadetakse ka Tähis kohustuslik dimensioonid, mis Fitekin-is määratakse kohustuslikeks kuluobjektideks vastavale kontole.
+Kustuta kasutamata põhiandmed uute saatmisel | Unifiedpost | Määratleb, kas kasutamata Kontod/Dimensiooniväärtused/Hankijad kustutatakse FitekIn-ist enne uute andmete lisamist.
+**Dokumendid** |  | 
+Võta arved muudetud alates | RIK, Finbite | Dokumendivahetuse sisemine järjehoida. Mittemuudetav.
+Võta arved, mis on | Finbite | Määrab, millise olekuga ostuarved laetakse BC-sse: <br> a) Töödeldud - st peale nende töötlemist Finbite arvehalduses. <br> b) Vastu võetud - st kohe peale arve saabumist Finbite-i. <br> c) Kinnitatud - st peale arve kinnitamist Finbites.
+Võta arve manused | RIK, Finbite | Määrab, kas võetakse e-arvega kaasasolevad manused. „Põhimanus“ on üljuhul arve PDF kujul.
 **Ühendus** |  | Ühenduse vaikeväärtuste seadistamiseks saate kasutada tegevust Taasta URLide vaikeväärtused.
 Teenuse id | RIK | Täpsustage teenusepakkujalt.
 Teenuse saladus | RIK | Täpsustage teenusepakkujalt.
@@ -52,13 +62,6 @@ SOAP nimeruumi URL | Finbite, Unifiedpost | Vaikeväärtust ei ole vaja üldjuhu
 Autentimisfraas | Finbite | Leiate selle Finbite arvete halduse keskkonnast Üldinfo->Seaded->Andmevahetus ERP-ga.
 Kasutajanimi | Unifiedpost | Täpsustage Unifiedpost’ist.
 Parool | Unifiedpost | Täpsustage Unifiedpost’ist.
-**Põhiandmed** |  | 
-Saada ühes PR kontoga tähis kohustuslik dim. nõue | Unifiedpost | Määratleb kas ühes PR Kontodega saadetakse ka Tähis kohustuslik dimensioonid, mis Fitekin-is määratakse kohustuslikeks kuluobjektideks vastavale kontole.
-Kustuta kasutamata põhiandmed uute saatmisel | Unifiedpost | Määratleb, kas kasutamata Kontod/Dimensiooniväärtused/Hankijad kustutatakse FitekIn-ist enne uute andmete lisamist.
-**Dokumendid** |  | 
-Võta arved muudetud alates | RIK, Finbite | Dokumendivahetuse sisemine järjehoida. Mittemuudetav.
-Võta arved, mis on | Finbite | Määrab, millise olekuga ostuarved laetakse BC-sse: <br> a) Töödeldud - st peale nende töötlemist Finbite arvehalduses. <br> b) Vastu võetud - st kohe peale arve saabumist Finbite-i. <br> c) Kinnitatud - st peale arve kinnitamist Finbites.
-Võta arve manused | RIK, Finbite | Määrab, kas võetakse e-arvega kaasasolevad manused. „Põhimanus“ on üljuhul arve PDF kujul.
 
 Ühenduse testimiseks kasutage tegevust **Testi ühendust**.
 
