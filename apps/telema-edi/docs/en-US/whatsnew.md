@@ -1,8 +1,11 @@
 ---
 ---
 
+##### Versioon 21.5.25048.0
+- Sending invoices to the PEPPOL network has been added. To do this, fill in the "Peppol ID" on the Customer card and in the EDI setup (for your own company). On the Unit of measure page, fill in the "International Standard Code".
+
 ##### Versioon 21.5.24180.0
-- Docura operator channel was added.
+- Docura operator channel has been added.
 - Option to select whether e-order creates order or blanket order was added on the customer card.
 
 ##### Versioon 21.5.24074.9

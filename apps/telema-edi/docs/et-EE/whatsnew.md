@@ -1,6 +1,9 @@
 ---
 ---
 
+##### Versioon 21.5.25048.0
+- Lisandus arvete saatmisvõimalus PEPPOL võrku. Selleks tuleb täita "Peppol ID" kliendi kaardil ja EDI seadistuses (ettevõtte enda oma). Mõõtühiku lehel tuleb täita "Rahvusvaheline standardkood".
+
 ##### Versioon 21.5.24180.0
 - Lisandus Docura operaatorkanal.
 - Kliendi kaardil saab valida, kas e-tellimus loob müügitellimuse või koondmüügitellimuse.
