@@ -1,18 +1,23 @@
 ---
 ---
-##### Versioon 21.5.25027.0
+##### Versioon 21.5.25064.0 _(saadaval al. 05.03.2025)_
+- Kasutusmugavuse täiendused:
+  - Ostuarve reale e-arvelt kauba mõõtühiku kirjutamisel kontrollitakse, kas kauba mõõtühikutes on vastav mõõtühik olemas ning kui mitte, siis kuvatakse kasutajale vastavasisuline veateade ühes viitega probleemsele kaubale.
+  - Kaubaga ostuarve rele, kus puudub mõõtühik, saab nüüd määrata kauba mõõtühiku nii, et rea finantsandmed (hind, kogus) jäävad alles.  
+
+##### Versioon 21.5.25027.0 _(saadaval al. 27.01.2025)_
 - Lisatud võimalus Finbite (Omniva) dokumendivahetusteenuse seadistus lehel määrata põhiandmete Finbite Arvekeskusesse saatmise töötlemist:
   - Ära asenda PR kontosid
   - Ära asenda dimensioone
   - Ära asenda hankijaid ja kliente
 - Parandatud uue hankija ostuarve loomisel tekkinud veaolukord, mis avaldus kui süsteem otsis vastavat hankijat KM reg. koodi alusel ning e-arve XML-is oli tühi tag VATRegNumber.  
 
-##### Versioon 21.5.25007.0
+##### Versioon 21.5.25007.0 _(saadaval al. 07.01.2025)_
 - Täiendatud ostuarve rea loomisel PR konto leidmist "Vastenda tekst kontoks" funktsionaalsusega.
   - nüüd süsteem esmalt otsib vastava hankija numbriga vastenda tekst kontoks määranguid (_eeldab täpset vastendamise teksti st ilma tärnideta_) ning seejärel hankija numbrita määrangute hulgast (_nagu seni sh tärnidega vastendamise teksti otsing_).
   - enam ei teki tõrget _"Filtri tõlgendamisel ilmnes tõrge: ei oodatud üksust „(“."_, kui vastenda tekst kontoks vastendamise tekstis on kasutatud sulgusid vms süsteemseid sümboleid.  
 
-##### Versioon 21.5.25003.0
+##### Versioon 21.5.25003.0 _(saadaval al. 03.01.2025)_
 - Suurendatud kaupade loomise ning tuvastamise tõrkekindlust:
   - Täiendatud uute kaupade loomise loogikat nii, et kui e-arvel on kaubal mõõtühik, mida BC mõõtühikute tabelis ei ole, siis ostuarve loomisel ei teki enam tõrget vaid ostuarve luuakse ära, kusjuures vastava kaubaga rida jääb ilma mõõtühikuta ning sissetuleva dokumendi peale kuvatakse vastavasisuline teade.
   - Täiendatud kaupade tuvastamist nii, et kaup määratakse ostuarve reale ka siis, kui kauba viidetest leitakse sama EAN koodi või Hankija kauba koodi rohkem, kui ühel korral.
@@ -20,18 +25,18 @@
   - st nüüd süsteem esmalt vaatab Kliendi kaardi kaudu Dokumendi kujunduse määrangut ning alles seejärel üldist Aruandevalikud - Müük määrangut ehk e-arve XML faili lisatava PDF-i kujundus tuleb nüüd sama, mis BC-s arve printimisel.
 - Lahendusesisesed tehnilised täiendused (_lisatud koodisisesed õigused võimalike kasutajaõiguste probleemide ennetamiseks_).  
 
-##### Versioon 21.5.24323.0
+##### Versioon 21.5.24323.0 _(saadaval al. 18.11.2024)_
 - Parandatud regionaalformaadi probleem, mis avaldus sissetulevast dokumendist ostuarve loomisel ja mille tõttu ei tekkinud korrektsed komakohad ühiku hinnale.
 - Lisatud event OnBeforeFindVendor() võimaldamaks kliendipõhise loogika lisamist hankija leidmisel/lisamisel.  
 
-##### Versioon 21.5.24277.0
+##### Versioon 21.5.24277.0 _(saadaval al. 03.10.2024)_
 - Kui arvele on valitud ettevõtte pangakonto info, siis see kajastub nüüd ka e-arvel _(sektsioonis/tag-is SellerParty/AccountInfo ning PaymentInfo/PayToAccount)._
   - Kui on määramata, siis (nagu seni) võetakse pangakonto info ettevõtte andmed tabelist.
 - Kui e-arve on valitul liikuma Finbite kaudu kliendi internetipanka, siis nüüd lisatakse ka kreeditarvele kliendi pangakonto nr. _(channelAddress parameetrina nagu müügiarvete puhul)._
   - _Seni oli see lisatud ainult müügiarvete puhul, eeldades et kreeditarvet polegi vaja internetipanka saata_
 - Lahendusesisesed tehnilised täiendused.  
 
-##### Versioon 21.5.24239.0
+##### Versioon 21.5.24239.0 _(saadaval al. 26.08.2024)_
 - Tehnilised täiendused
   - _Lisatud Finbite koodiblokki eventid, et saaks luua kliendipõhise arenduse, mille kaudu saata e-arvetena konteerimata arveid._  
 
