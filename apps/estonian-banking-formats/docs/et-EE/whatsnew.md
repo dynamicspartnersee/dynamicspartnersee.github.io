@@ -43,7 +43,8 @@
 - Parandatud olukord, kus "Soovita makseid hankijale" toimingu käivitamisel, kui kasutati Summeeri hankija kohta ja viitenumbri alusel kombinatsiooni, tekkisid kõikide arvete numbrid erinevatele ridadele.
 - Lisatud automaatselt genereeritav teisendusreegel "REMOVE_COMPANY_NAME", mida saab vajadusel kasutada andmevahetusmääratluse välja vastendamisel
   - _nt panna teisendusreegel külge ridadele, mille Välja ID = 15, selleks et Maksja/Saaja nimi ei sisaldaks ettevõtte enda nime (LHV XML failist pangaväljavõtte importimisel)_.
-- Väiksemad UX täiendused.  
+- Väiksemad UX täiendused nt:
+  - Kui kasutusel on Eesti lokalisatsiooni sidumisreeglid (_ehk ei ole aktiveeritud "Kasuta lokaliseerimata sidumisreegleid" valikut Eesti Pangaformaatide seadistuses_), siis pangaväljavõtte importimisel maksete sobitamise žurnaali tühjendatakse automaatselt "Kopeeri KM seadistus žurnaaliridadele" linnuke, et viimane ei tekitaks konteerimisel ootamatuid KM-ga kandeid või tõrkeid.  
 
 ##### Versioon 19.4.23282.0
 - Lisatud makse ekspordi formaadi pain.001.001.09 tugi (_valiku nimeks pangakontol "SEPACT-EE-001.001.09"_), mis saab LHV pangas kohustuslikuks 1.nov 2023.a. ning hiljem teistes pankades.
