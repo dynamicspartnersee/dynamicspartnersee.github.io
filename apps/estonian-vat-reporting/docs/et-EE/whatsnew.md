@@ -1,5 +1,11 @@
 ---
 ---
+##### Versioon 22.1.25105.0
+- Täiendatud vorm KMD 2025 aasta lahendust _(sh KMD XML faili loogika al. 01.07.2025 vastavalt maksuameti avaldatud juhistele)_.
+  - Tabelisse "KMD vormi read" lisatud lahter nr. 1 ²', '22% määraga (al. 01.07.25) maksustatavad toimingud ja tehingud'
+    - _(Märkuseks, et tuli kasutada ametliku 1² asemel lahtri numbrit 1 ², kuna vormil on juba rida numbriga 12 ning teatud juhtudel SQL tasemel oleks 1² olnud võrdne numbriga 12, põhjustades tõrkeid.)_
+- Täiendatud KMD müügiread INF-A täitmist nii, et eraldi read tekivad nii erisuse 01, kui ka erisuse 02 puhul ning järgitakse maksuameti ettenähtud kontrolle.  
+
 ##### Versioon 22.1.25025.0
 - Täiendatud vorm KMD 2025 aasta lahendust _(sh lisatud eeldatav KMD XML faili loogika al. 01.07.2025)_.
 - Väiksemad kasutusmugavuse täiendused.  
