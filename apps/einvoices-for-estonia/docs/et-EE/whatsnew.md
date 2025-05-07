@@ -1,5 +1,9 @@
 ---
 ---
+##### Versioon 21.5.25127.1 _(saadaval al. 08.05.2025)_
+- Täiendatud ostudokumendi loomise veahaldust.
+  - Ebastandardses olukorras, kui e-arvel oli InvoiceSumGroup sektsioonis mitu sama VATRate väärtusega VAT blokki tekkis sissetulevast dokumendist ostudokumendi loomisel veateade "Sama võtmega üksus on juba lisatud".  
+
 ##### Versioon 21.5.25064.0 _(saadaval al. 05.03.2025)_
 - Kasutusmugavuse täiendused:
   - Ostuarve reale e-arvelt kauba mõõtühiku kirjutamisel kontrollitakse, kas kauba mõõtühikutes on vastav mõõtühik olemas ning kui mitte, siis kuvatakse kasutajale vastavasisuline veateade ühes viitega probleemsele kaubale.
