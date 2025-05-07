@@ -1,6 +1,9 @@
 ---
 ---
 
+##### Versioon 21.5.25127.0
+- Lisandus arvete saatmisvõimalus Läti e-aadressi võrku. Selleks tuleb täita "LV e-aadress" kliendi kaardil ja EDI seadistuses (ettevõtte enda oma).
+
 ##### Versioon 21.5.25048.0
 - Lisandus arvete saatmisvõimalus PEPPOL võrku. Selleks tuleb täita "Peppol ID" kliendi kaardil ja EDI seadistuses (ettevõtte enda oma). Mõõtühikute lehel tuleb täita "Rahvusvaheline standardkood".
 

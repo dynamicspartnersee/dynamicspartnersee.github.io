@@ -1,8 +1,11 @@
 ---
 ---
 
+##### Versioon 21.5.25127.0
+- Sending invoices to the LV e-address network has been added. To do this, fill in the "LV E-Address" on the Customer card and on the EDI setup (for your own company). 
+
 ##### Versioon 21.5.25048.0
-- Sending invoices to the PEPPOL network has been added. To do this, fill in the "Peppol ID" on the Customer card and in the EDI setup (for your own company). On the Unit of measures page, fill in the "International Standard Code".
+- Sending invoices to the PEPPOL network has been added. To do this, fill in the "Peppol ID" on the Customer card and on the EDI setup (for your own company). On the Unit of measures page, fill in the "International Standard Code".
 
 ##### Versioon 21.5.24180.0
 - Docura operator channel has been added.
