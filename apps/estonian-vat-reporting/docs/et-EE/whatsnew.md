@@ -1,16 +1,16 @@
 ---
 ---
-##### Versioon 22.1.25105.0
+##### Versioon 22.1.25105.0 _(saadaval al. 15.04.2025)_
 - Täiendatud vorm KMD 2025 aasta lahendust _(sh KMD XML faili loogika al. 01.07.2025 vastavalt maksuameti avaldatud juhistele)_.
   - Tabelisse "KMD vormi read" lisatud lahter nr. 1 ²', '22% määraga (al. 01.07.25) maksustatavad toimingud ja tehingud'
     - _(Märkuseks, et tuli kasutada ametliku 1² asemel lahtri numbrit 1 ², kuna vormil on juba rida numbriga 12 ning teatud juhtudel SQL tasemel oleks 1² olnud võrdne numbriga 12, põhjustades tõrkeid.)_
 - Täiendatud KMD müügiread INF-A täitmist nii, et eraldi read tekivad nii erisuse 01, kui ka erisuse 02 puhul ning järgitakse maksuameti ettenähtud kontrolle.  
 
-##### Versioon 22.1.25025.0
+##### Versioon 22.1.25025.0 _(saadaval al. 25.01.2025)_
 - Täiendatud vorm KMD 2025 aasta lahendust _(sh lisatud eeldatav KMD XML faili loogika al. 01.07.2025)_.
 - Väiksemad kasutusmugavuse täiendused.  
 
-##### Versioon 22.1.24324.0
+##### Versioon 22.1.24324.0 _(saadaval al. 20.11.2024)_
 - Lisatud tugi KMD 2025 aasta vormile (sh KMD XML fail).
   - sh tabelisse "KMD vormi read" lisatud lahter nr. 2² (13% määraga (al. 01.01.2025) maksustatavad toimingud ja tehingud), mida läheb vaja majutusettevõtetel.
 - Lisatud võimalus välistada INF-A ja/või INF-B lisast tühistatud müügi- ja/või ostuarved.
@@ -19,19 +19,19 @@
 - Lisatud kliendipõhise loogika võimaldamiseks INF-A ja INF-B ridade leidmise koodi eventid OnBeforeVatReportInfLineModifySalesTransactionTaxableAmount, OnBeforeVatReportInfLineModifySalesTransactionInvoiceAmount, OnBeforeVatReportInfLineModifyPurchTransaction.
 - Väiksemad UX ja tehnilised täiendused.  
 
-##### Versioon 22.1.24282.0
+##### Versioon 22.1.24282.0 _(saadaval al. 08.10.2024)_
 - Täiendatud KMD müügiread INF-A täitmist nii, et eraldi read tekivad ka erisuse 02 puhul
   - _(varem tekkis ainult erisus 01 puhul)_
 - Lisatud event OnSetVatDeclNo, mille abil on võimalik lisada kliendipõhist loogikat Soovita INF read protsessile.  
 
-##### Versioon 22.1.24143.0
+##### Versioon 22.1.24143.0 _(saadaval al. 22.05.2024)_
 - Tehnilised äpi upgrade koodi täiendused seoses "KMD vormi read" tabeli andmete uuendamisega.  
 
-##### Versioon 22.1.24127.0
+##### Versioon 22.1.24127.0 _(saadaval al. 07.05.2024)_
 - Tehnilised täiendused
   - Lisatud KMD XML faili genereerivasse raportisse eventid OnBeforeAddSalesAnnex ja OnBeforeAddPurchaseAnnex, et saaks luua kliendipõhise loogikaga KMD INF-A ja INF-B failide sisu.  
 
-##### Versioon 22.1.23352.1
+##### Versioon 22.1.23352.1 _(saadaval al. 22.12.2023)_
 - Lisatud tugi KMD 2024 aasta vormile (sh KMD XML fail).
   - Tabelisse "KMD vormi read" lisatud lahter nr. 1' (20% määraga (al. 01.01.2024) maksustatavad toimingud ja tehingud) ning nimetatud selguse mõttes ümber lahter nr. 1 (22% määraga (20% kuni 31.12.2023) maksustatavad toimingud ja tehingud)
     - _Lahtrit kahtjuks polnud võimalik nummerdada kui 1¹, sest SQL tasemel tõlgendati see võrdseks juba olemasoleva lahtriga 11._
@@ -55,6 +55,11 @@
   - Seejärel saab standardi mittemahaarvatava käibemaksu lahenduse aktiveerida lehel "KM Seadistus". 
 - Eemaldatud sõltuvuslik Äriregistri äpi seos, võttes kasutusele kliendi ja hankija registrisse BC19.5 versioonis lisandunud standard Registreerimisnr. välja.
 - Tehnilised täiendused tulenevalt värskeimale baasversioonile üleminekust.  
+
+##### Versioon 16.0.25105.0
+- Täiendatud vorm KMD 2025 aasta lahendust _(sh KMD XML faili loogika al. 01.07.2025 vastavalt maksuameti avaldatud juhistele)_.
+  - Tabelisse "KMD vormi read" lisatud lahter nr. 1 ²', '22% määraga (al. 01.07.25) maksustatavad toimingud ja tehingud'
+    - _(Märkuseks, et tuli kasutada ametliku 1² asemel lahtri numbrit 1 ², kuna vormil on juba rida numbriga 12 ning teatud juhtudel SQL tasemel oleks 1² olnud võrdne numbriga 12, põhjustades tõrkeid.)_  
 
 ##### Versioon 16.0.23352.1
 - Lisatud tugi KMD 2024 aasta vormile (sh KMD XML fail).
