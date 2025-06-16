@@ -4,37 +4,44 @@
 - _BC maksete XML faili sisu on jätkuvalt tehniliselt nõuetega kooskõlas_
   - _Tuleb vaid jälgida, et **EU väliste maksete puhul** oleks Hankija pangakonto kaardil täidetud Saaja panga aadressiandmed (linn ning riik eelkõige)_
 <br>
-<br>
 
-##### Versioon 21.5.24344.1
+##### Versioon 21.5.25166.0 _(saadaval al. 17.06.2025)_
+- Mitte EU panka mineva makse puhul on võimalus valida "Maksja kannab ülekandekulud".
+  - _Kui hankija pangakonto kaardil märkida "Maksja kannab ülekandekulud", siis maksefaili lisatakse tag <ChrgBr>DEBT</ChrgBr>, mille alusel internetipank saab aru, et makse teenustasud katab maksja._
+- Täiendatud maksefaili loomise loogikat nii, et lisaks eesi arveldusarvele on nüüd ka soome arveldusarvele mineva makse puhul viitenumber ja makse selgitus korraga lubatud.
+  - _Teiste riikide puhul lähtutakse Eesti pangaformaatide seadistuse "Viitenumber mitte Eesti/Soome panka" määrangust._
+- Maksefaili loomisel, kasutades Eesti lokalisatsioonis sisalduvat makse ekspordi vormingut _(nt XML port 24007711 "BNK SEPA CT pain.001.001.09")_, on võetud nüüd kasutusele standard codeunit 1221 "SEPA CT-Fill Export Buffer" senise codeunit 24007711 "BNK SEPA CT-Fill Export Buffer" asemel.
+  - _Võimaldab teha kliendipõhiseid täiendusi standard koodibloki evente kasutades nagu sai ka lokalisatsiooni loogika täiendused nüüd realiseeritud._  
+
+##### Versioon 21.5.24344.1 _(saadaval al. 09.12.2024)_
 - Müügidokumentidel sentide ümardamise funktsionaalsus vastavalt makseviisile
   - Mõeldud alates 2025 jõustuva <a href="https://www.eestipank.ee/press/1-ja-2-sendised-ning-umardamisreegel" target="_blank">sularahamaksetel 1-ja 2-sendiste kadumise</a> lahendamiseks.
   - Eesti pangaformaatide seadistus lehel saab aktiveerida "Kasuta müügiarvete ümardamist makseviisidega" määrangu ning seejärel tuleb nähtavale makseviisides väli "Arve ümardamistäpsus (KV)" ning müügidokumentidel väli "Arve summa arv. ümardust".
   - Arve konteerimisel luuakse analoogselt standardile müügiarvele täiendav rida ümardamisele kuuluva summaga (PR Konto, kuhu ümardatav summa konteeritakse, võetakse Kliendi konteeringurühmad väljalt "Arvete ümardamise konto").  
 
-##### Versioon 21.5.24341.0
+##### Versioon 21.5.24341.0 _(saadaval al. 06.12.2024)_
 - Optimeeritud maksete sobitamise žurnaalis viitenumbri alusel kliendiandmiku kannete sidumise kiirust.
 - Täiendatud soovita makseid hankijale protseduuriga loodavat teade saajale ning kirjeldus sisu töökindlust.  
 
-##### Versioon 21.5.24161.1
+##### Versioon 21.5.24161.1 _(saadaval al. 13.06.2024)_
 - Lisatud funktsionaalsus, mis "Soovita makseid hankijale" toimingu puhul arvestab hankijaandmiku kannetes "Saaja pangakonto tähis" väärtusega.
   - Funktsionaalsust saab vajadusel välja lülitada Eesti pangaformaatide seadistuse välja "Ära kasuta hankija kannetest saaja pangakontot" abil.
   - st kasutades Eesti e-arvete lahendust (ver. 21.5.24161.0 või uuem), saab otse ostuarvel määrata hankija pangakonto, kuhu makse peaks minema ning info jõuab hankijaandmiku kannetesse, kust omakorda Eesti pangaformaatide lahendus "Saaja pangakonto tähis" määrangut arvestades makseid hankijale maksežurnaali soovitab.
 - UX täiendused _(nt teade erinevate viitenumbrite või saaja pangakontogaa hank. arvete sidumise kohta kuvatakse kasutjaale ainult maksežurnaalis olles)._  
 
-##### Versioon 21.5.24135.1
+##### Versioon 21.5.24135.1 _(saadaval al. 14.05.2024)_
 - Eesti pangaformaatide seadistusse lisatud väli "Makse teade töötajale", kuhu saab valida maksežurnaali välja "Teade saajale" sisu koostamise loogika.
 - Täiendatud maksežurnaali "Soovita makseid hankijale" protseduuri nii, et nüüd täitub ka kirjeldus seotud arvete infoga.
 - Žurnaalides sidumisel jääb nüüd kirjelduse ette osapoole (klient, hankija, töötaja) nimetus, et oleks kande kirjelduse alusel kohe näha, kellega tehing toimus.  
 
-##### Versioon 21.5.24119.0
+##### Versioon 21.5.24119.0 _(saadaval al. 28.04.2024)_
 - Parandatud müügidokumendi konteerimisel välja “Makse viitenr.” mittetäitumine kliendiandmiku kannetes (sh täidetakse tagantjärgi puuduvad viitenumbrid avatud kliendiandmiku kannetel).
 - Täiendatud pangaväljavõtte sidumise loogikat, et tehingu viitenumber žurnaalis ei mõjutaks negatiivselt sidumise tulemust.  
 
-##### Versioon 21.5.24080.2
+##### Versioon 21.5.24080.2 _(saadaval al. 17.04.2024)_
 - Lahendatud pangaväljavõtte importimisel tekkinud veaolukord, kus valuutatehingut sisaldanud väljavõtte puhul tuli veateade "Fail, mida püüate importida, sisaldab rohkem kui üht pangaväljavõtet".  
 
-##### Versioon 21.5.24080.1
+##### Versioon 21.5.24080.1 _(saadaval al. 31.03.2024)_
 - BC24 versiooniga ühilduv lahendus.
 - Viidud lokaliseeritud pangaväljavõtte sidumisreeglite rakendamine tehniliselt üle uusimatele eventidele.
 - Lisatud võimalus aktiveerida Eesti pangaformaatide seadistuses "Seo viitenr. alusel laekumised Kliendiga", mis kliendiandmiku kannete puudumisel seob laekumise viitenumbri alusel otse Kliendiga (kliendipõhiste viitenumbrite korral).
