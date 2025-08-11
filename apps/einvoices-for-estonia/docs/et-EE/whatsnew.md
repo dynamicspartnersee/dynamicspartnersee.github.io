@@ -1,5 +1,8 @@
 ---
 ---
+##### Versioon 21.5.25223.0 _(saadaval al. 12.08.2025)_
+- Finbite päringute timeout suurendamine 180 sekundi peale, kuna Finbite tõstis ERP SOAP liideses vastuse ehk response andmise ajalise vahemiku selliseks.  
+
 ##### Versioon 21.5.25127.1 _(saadaval al. 08.05.2025)_
 - Täiendatud ostudokumendi loomise veahaldust.
   - Ebastandardses olukorras, kui e-arvel oli InvoiceSumGroup sektsioonis mitu sama VATRate väärtusega VAT blokki tekkis sissetulevast dokumendist ostudokumendi loomisel veateade "Sama võtmega üksus on juba lisatud".  
