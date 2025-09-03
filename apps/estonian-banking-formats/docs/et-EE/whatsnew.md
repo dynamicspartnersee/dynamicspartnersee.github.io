@@ -5,6 +5,13 @@
   - _Tuleb vaid jälgida, et **EU väliste maksete puhul** oleks Hankija pangakonto kaardil täidetud Saaja panga aadressiandmed (linn ning riik eelkõige)_
 <br>
 
+##### Versioon 21.5.25246.0 _(saadaval al. 03.09.2025)_
+- Lisatud Maksete sobitamise žurnaalis, maksete sidumisel loogika, mis kontrollib mitme sama viitenumbri ja summaga ridade olemasolul ka hankija arve numbreid, lähtudes väljal "Tehingu tekst" olevast infost.
+  - _See võimaldab täpsemini sobitada sama summa ning viitenumbriga hankija arveid._
+- Parandatud Eesti Pangaformaatide Seadistuse lehe esmakordsel avamisel tekkinud veaolukord:
+  - _The field Reading/Writing Codeunit of table Data Exch. Def contains a value (24007715) that cannot be found in the related table (AllObjWithCaption)_.
+- Väiksemad mittefunktsionaalsed täiendused.  
+
 ##### Versioon 21.5.25166.0 _(saadaval al. 17.06.2025)_
 - Mitte EU panka mineva makse puhul on võimalus valida "Maksja kannab ülekandekulud".
   - _Kui hankija pangakonto kaardil märkida "Maksja kannab ülekandekulud", siis maksefaili lisatakse tag <ChrgBr>DEBT</ChrgBr>, mille alusel internetipank saab aru, et makse teenustasud katab maksja._
