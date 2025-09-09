@@ -1,5 +1,10 @@
 ---
 ---
+##### Versioon 22.1.25252.0 _(saadaval al. 10.09.2025)_
+- Parandatud olukord, mis avaldus kui žurnaalist konteeriti rida teatud määrangutega ning ekslikult käivitus kood, mis mõeldud aegunud mittemahaarvatava käibemaksu loogika tarbeks.
+  - Lisatud kontroll, et kui standard mittemahaarvatav käibemaks on KM seadistuses aktiveeritud, siis vastav kood enam ei saa käivituda.
+- Väiksemad tehnilised täiendused.  
+
 ##### Versioon 22.1.25105.0 _(saadaval al. 15.04.2025)_
 - Täiendatud vorm KMD 2025 aasta lahendust _(sh KMD XML faili loogika al. 01.07.2025 vastavalt maksuameti avaldatud juhistele)_.
   - Tabelisse "KMD vormi read" lisatud lahter nr. 1 ²', '22% määraga (al. 01.07.25) maksustatavad toimingud ja tehingud'
