@@ -1,5 +1,10 @@
 ---
 ---
+##### Versioon 26.0.25252.0 _(saadaval al. 10.09.2025)_
+- Täiendatud ostuarve loomisel hankija IBAN pangakonto salvestamist.
+  - _XML-is olevast pangakontost eemaldatakse tühikud ning sidekriipsud._
+- BC27 ühilduv (2025 wave 2).  
+
 ##### Versioon 21.5.25223.0 _(saadaval al. 12.08.2025)_
 - Finbite päringute timeout suurendamine 180 sekundi peale, kuna Finbite tõstis ERP SOAP liideses vastuse ehk response andmise ajalise vahemiku selliseks.  
 
