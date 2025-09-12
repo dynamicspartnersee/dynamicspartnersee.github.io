@@ -1,5 +1,8 @@
 ---
 ---
+##### Versioon 24.0.25254.0 _(saadaval al. 12.09.2025)_
+- Tehnilised täiendused, et lahendus oleks BC27 _(2025 wave 2)_ ühilduv.  
+
 ##### Versioon 20.0.24318.0
 - Lisatud "PV Saldo" aruande andmestikku Soetuse kuupäev (AcquisitionDate) ning vastav pealdis (AcquisitionDateLbl). Lisaks likvideerimiskuupäeva pealdis (DisposalDateLbl).
 - Muudetud "PV Saldo" aruande osad muutujad kättesaadavaks kliendipõhiste laiendustega
