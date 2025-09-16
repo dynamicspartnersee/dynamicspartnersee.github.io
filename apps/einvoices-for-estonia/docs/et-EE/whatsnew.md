@@ -1,5 +1,12 @@
 ---
 ---
+##### Versioon 26.0.25259.0 _(saadaval al. 17.09.2025)_
+- Täiendatud ostuarvete pärimist Finbite -st nii, et juhul kui tulemas on nii palju ostuarveid (Finbite praeguse reegli kohaselt 30), siis kuna peab mitu korda neid pärima, siis nö korduva päringu vahel süsteem ootab 15 sekundit.
+  - _Vajalik veaolukorra "Request rate too high Error 93" vältimiseks._
+- Täiendatud ostuarve loomisel hankija pangakontode salvestamist:
+  - _Juhul kui pangal oli pikk nimi (üle 20 tähemärgi), siis enam ei teki sellest tõrget hankija pangakonto lisamisel._
+  - _Juhul kui pangal oli pika nimega pangas mitu kontot, siis enam ei teki ka nende lisamisel tõrget._  
+
 ##### Versioon 26.0.25252.0 _(saadaval al. 10.09.2025)_
 - Täiendatud ostuarve loomisel hankija IBAN pangakonto salvestamist.
   - _XML-is olevast pangakontost eemaldatakse tühikud ning sidekriipsud._
