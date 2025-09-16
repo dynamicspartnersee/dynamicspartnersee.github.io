@@ -5,6 +5,10 @@
   - _Tuleb vaid jälgida, et **EU väliste maksete puhul** oleks Hankija pangakonto kaardil täidetud Saaja panga aadressiandmed (linn ning riik eelkõige)_
 <br>
 
+##### Versioon 26.0.25246.1 _(saadaval al. 16.09.2025)_
+- Parandatud maksete sobitamise žurnaalis, eelmises versioonis lisatud funktsionaalsuse (_kontrollib mitme sama viitenumbri ja summaga ridade olemasolul ka hankija arve numbreid_) tõttu tekkinud veaolukord:
+  - _The length of the string is %1, but it must be less than or equal to 35 characters._  
+
 ##### Versioon 26.0.25246.0 _(saadaval al. 06.09.2025)_
 - Lisatud Maksete sobitamise žurnaalis, maksete sidumisel loogika, mis kontrollib mitme sama viitenumbri ja summaga ridade olemasolul ka hankija arve numbreid, lähtudes väljal "Tehingu tekst" olevast infost.
   - _See võimaldab täpsemini sobitada sama summa ning viitenumbriga hankija arveid._
