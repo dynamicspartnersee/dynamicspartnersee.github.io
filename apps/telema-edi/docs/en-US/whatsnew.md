@@ -1,6 +1,10 @@
 ---
 ---
 
+##### Versioon 22.5.25251.0
+- Previously, failed e-documents could only be cancelled one by one. Now it is possible to cancel selected e-documents in bulk.
+- Shipped sales order quantities that did not receive delivery confirmation (receiving advice) and remained uninvoiced in the 4doc scheme can now be easily corrected with the "Correct Shipped & Not Invoiced Items" action, which posts the remaining quantities as a fictitious invoice and immediately credits it.
+
 ##### Versioon 21.5.25127.0
 - Sending invoices to the LV e-address network has been added. To do this, fill in the "LV E-Address" on the Customer card and on the EDI setup (for your own company). 
 

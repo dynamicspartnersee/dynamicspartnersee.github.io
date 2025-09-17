@@ -1,6 +1,10 @@
 ---
 ---
 
+##### Versioon 22.5.25251.0
+- Tõrkes e-dokumente sai varem tühistada ükshaaval. Lisandus võimalus märgitud e-dokumendid korraga tühistada.
+- Müügitellimuse lähetatud kogused, mis ei saanud tarnekinnitust ja jäid arveldamata 4dok skeemis, saab nüüd lihtsasti parandada tegevusega "Correct Shipped & Not Invoiced Items", mis konteerib jäägid fiktiivseks arveks ja kohe ka krediteerib selle.
+
 ##### Versioon 21.5.25127.0
 - Lisandus arvete saatmisvõimalus Läti e-aadressi võrku. Selleks tuleb täita "LV e-aadress" kliendi kaardil ja EDI seadistuses (ettevõtte enda oma).
 
