@@ -157,11 +157,11 @@ c) KM Koodi alusel <br>
 d) Nime alusel (süsteem otsib täpset vastet XML-is olevale hankija nimele) <br>
 Hankija puudumisel on võimalus hankija automaatselt luua (eeldusel, et Riigid/regioonid tabelis on seadistatud Uue hankija mall) aga see ei ole soovituslik.  
 _Finbite-ist tulevatel ostuarvel saab riigi määranguks olla "EE", "LT", "LV" või "ZZ", kus viimane tähistab kõiki ülejäänud riike. Seega tuleks luua Riigid/regioonid tabelisse välishankijat tähistav nn virtuaalne riik tähisega "ZZ"._
-2. **Kaubad** tuvastatakse ainult juhul kui **Aktiveeri kaupade tuvastamine e-arvelt** on aktiveeritud **Ostu ja ostuv. seadistus** lehel. <br>
+2. **Kaubad** tuvastatakse ainult juhul kui Hankija kaardil on **Dokumendi rea loomise loogika** määranguks on **Tuvasta kaubad**. <br>
 Kaubad tuvastatakse järgmises järjekorras: <br>
 a) BC kauba nr. (BuyerProductId tagis oleva koodi alusel) <br>
 b) EAN (esmalt GTIN kauba kaardil, seejärel vöötkood kauba viidetes) <br>
-c) Müüja kauba kood (esmalt kauba viidetes, seejärel vaadatakse, kas vastavat BC kauba nr. leidub *(kuna Finbite-is käsitsi loodud kaubad saadetakse ka kui SellerProductId)*) <br>
+c) Müüja kauba kood (esmalt kauba viidetes, seejärel kui on määratud **Kauba nr. võib olla SellerProductId** vaadatakse, kas vastavat BC kauba nr. leidub *(kuna Finbite-is käsitsi loodud kaubad saadetakse ka kui SellerProductId)*) <br>
 3. **Kulukontod ja dimensioonid** võetakse e-arvest juhul, kui need on seal olemas – st. eelkonteerimine on tehtud operaatori arvehalduskeskkonnas.
 4. Kui konto e-arvel puudub, siis kasutatakse **Vastenda tekst kontoks** funktsionaalsust, kust kõigepealt otsitakse e-arve rea kirjeldusele vastet ning kui seda ei leita, siis hankija nimele vastavat seadistust. **NB! Vastendamises on lubatud filtri kujul seadistused.**
 5. Viimases järjekorras kasutatakse **Ostu ja ostuv. seadistus** lehel, **Vaikekontod** kiirkaardil määratud vaikekontosid.
@@ -199,6 +199,7 @@ Tähis | "E-ARVE"
 Kirjeldus | "E-arve"
 Eesti e-arve | Valige oma operaator
 Saada Eesti e-arve automaatselt | Konteeritud arve E-arve olek saab väärtuse "Ootab saatmist" ja saadetakse Tööjärjekorra tööga "Saada järjekorras müügiarved"
+Ära lisa PDF-i e-arvele | PDF väljatrükki ei lisata e-arvele. _(Vajalik, kui väljatrükk luuakse e-arve operaatori poolt või kui on vaja e-arvete loomist ja väljasaatmist kiirendada)_
 Ära saada null summaga arvet | Automaatselt ei saadeta arveid, mille summa on 0 (null)
 Finbite kättetoimetamisviis | Valige sobiv (vaikeväärtus tühi tähendab, et kanali otsustab Finbite).<br>NB! Kui valikuks on Pank, siis edastatakse serviceId-na konteeritud arvelt makse viitenumber ning channelId-na maksja kliendikaardilt eelistatud pangakonto IBAN.
 Finbite arvehaldus | Kas müügiarve läheb kohe kliendile või esmalt Finbite arvehaldusesse (viimases tuleb siis manuaalselt müügiarve kliendile edasi saata).
