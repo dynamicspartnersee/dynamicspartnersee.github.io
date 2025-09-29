@@ -1,5 +1,13 @@
 ---
 ---
+##### Versioon 26.0.25272.0 _(saadaval al. 30.09.2025)_
+- Lisatud võimalus saata operaatori Finbite kaudu e-müügiarvet nii, et PDF väljatrükki ei lisata.
+  - Dokumendi saatmise profiilile, kui valitud "Eesti e-arve operaator" väärtuseks "Finbite dok.vahetusteenuse kaudu", ilmub nähtavale uus väli "Ära lisa PDF-i e-arvele".
+  - _Vajalik juhul, kui Finbite ise lisab XML andmete alusel PDF kujunduse ning edastab selle kliendile._
+- Täiendatud ostuarve loomisel e-arvelt kaupade tuvastamise loogikat, vältimaks eksliku kauba tuvastamist, kui kaupade numbrid BC-s kattuvad hankija kauba numbriga.
+  - Hankija kaardil, kui määratud "Dokumendi rea loomise loogika" väärtuseks "Tuvasta kaubad", siis ilmub nähtavale uus väli "Kauba nr. võib olla SellerProductId".
+  - _Seda on vaja sisse lülitada juhul, kui hankija kaubakoode kasutatakse BC-s kaubakoodidena._  
+
 ##### Versioon 26.0.25259.0 _(saadaval al. 17.09.2025)_
 - Täiendatud ostuarvete pärimist Finbite -st nii, et juhul kui tulemas on nii palju ostuarveid (Finbite praeguse reegli kohaselt 30), siis kuna peab mitu korda neid pärima, siis nö korduva päringu vahel süsteem ootab 15 sekundit.
   - _Vajalik veaolukorra "Request rate too high Error 93" vältimiseks._
