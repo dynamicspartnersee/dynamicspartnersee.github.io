@@ -236,7 +236,9 @@ Selleks klikkige arve väljal **E-arve olek**, mis avab andmevahetustegevuste lo
 
 ## EU formaadis saatmise eeltingimused
 
-Selleks, et õnnestuks EU formaadis e-müügiarvete saatmine peab olema täidetud mõned tingimused:
+**NB! Allolevat on vaja ainult juhul, kui e-müügiarvete formaadiks on seadistuses valitud "EU Peppol BIS3 UML"** - st. et BC-st läheb arve PEPPOL formaadis välja (hetkel toetab seda ainult Unifiedpost). _Kui saadetakse e-arve PEPPOL kliendile aga nii, et BC-st läheb välja Eesti e-arve formaadis arve, mille operaator ise konverteerib PEPPOL formaati, siis allolevat pole vaja._  
+
+**Selleks, et õnnestuks EU formaadis loodud e-müügiarvete saatmine peab olema täidetud mõned tingimused:**
 - Riikide tabelis peab olema “KM skeem” väli täidetud. Nt Eesti puhul määrata väärtuseks 0191
   ![Riigid](2-Riigid.png "Punasega piiritletud väljad, mis mõjutavad lahenduse funktsionaalsust")
 - KM konteerimise seadistuses peab olema “Maksukategooria” korrektse väärtusega täidetud
