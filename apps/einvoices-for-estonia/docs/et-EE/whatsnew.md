@@ -1,5 +1,13 @@
 ---
 ---
+##### Versioon 26.0.25307.0 _(saadaval al. 04.11.2025)_
+- Täiendatud loodava arve XML-i koostamise loogikat nii, et kui maksja-kliendi kaardil on KM registreerimise nr. täidetud, siis lisatakse e-arvele BuyerParty blokki tag VATRegNumber.
+  - _Muudatus hõlmab nii arvet, kui kreeditarvet (sh hoolduse arve ja kreeditarve)._
+- Lisatud võimalus tagantjärgi küsida e-ostuarvele uuesti manust Finbite-st.
+  - Ostuarvelt tuleb avada vastav Sissetulev dokument ning kasutada toimingut "Võta Finbite manus(ed)".
+    - _Vajalik kasutada juhul, kui mingil põhjusel pole PDF manus e-ostuarvega koos BC-sse jõudnud._
+- Täiendatud Makse saaja hankija pangakonto leidmist ostuarvele olukorras, kus e-arvel olev pangakonto sisaldas tühikuid või sidekriipse.   
+
 ##### Versioon 26.0.25272.0 _(saadaval al. 30.09.2025)_
 - Lisatud võimalus saata operaatori Finbite kaudu e-müügiarvet nii, et PDF väljatrükki ei lisata.
   - Dokumendi saatmise profiilile, kui valitud "Eesti e-arve operaator" väärtuseks "Finbite dok.vahetusteenuse kaudu", ilmub nähtavale uus väli "Ära lisa PDF-i e-arvele".
