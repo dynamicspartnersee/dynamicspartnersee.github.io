@@ -28,6 +28,12 @@
   - _XML-is olevast pangakontost eemaldatakse tühikud ning sidekriipsud._
 - BC27 ühilduv (2025 wave 2).  
 
+##### Versioon 21.5.25307.0 _(vt kirjeldust ülal versioonile 26.0.25307.0)_  
+
+##### Versioon 21.5.25259.0 _(vt kirjeldust ülal versioonile 26.0.25259.0)_  
+
+##### Versioon 21.5.25252.0 _(vt kirjeldust ülal versioonile 26.0.25252.0)_  
+
 ##### Versioon 21.5.25223.0 _(saadaval al. 12.08.2025)_
 - Finbite päringute timeout suurendamine 180 sekundi peale, kuna Finbite tõstis ERP SOAP liideses vastuse ehk response andmise ajalise vahemiku selliseks.  
 
