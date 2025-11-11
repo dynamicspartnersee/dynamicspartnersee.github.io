@@ -1,5 +1,11 @@
 ---
 ---
+##### Versioon 22.1.25315.0 _(saadaval al. 12.11.2025)_
+- Lisatud tugi KMD seadistuses välja "Summa liik" väärtustele Mittemahaarvatav summa, Mittemahaarvatav alus, Täis summa, Täis alus.
+  - _Võimaldab teha KMD seadistuse paindlikumalt, eriti kui kasutusel standard mittemahaarvatava käibemaksu lahendus._
+- Parendatud töökindlust, kui kasutatakse võimalust välistada INF-A ja/või INF-B lisast tühistatud müügi- ja/või ostuarved.
+  - _Enam ei teki vea olukorda, kui kanne ei pärine müügi- või ostumoodulist._  
+
 ##### Versioon 22.1.25252.0 _(saadaval al. 10.09.2025)_
 - Parandatud olukord, mis avaldus kui žurnaalist konteeriti rida teatud määrangutega ning ekslikult käivitus kood, mis mõeldud aegunud mittemahaarvatava käibemaksu loogika tarbeks.
   - Lisatud kontroll, et kui standard mittemahaarvatav käibemaks on KM seadistuses aktiveeritud, siis vastav kood enam ei saa käivituda.
