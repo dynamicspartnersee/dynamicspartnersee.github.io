@@ -170,7 +170,7 @@ To send international e-invoices activate Peppol for Finbite or roaming for Unif
 |Field|Explanation|
 |--|--|
 |ChannelId|Specifies for UnifiedPost the Customer's E-Invoice roaming channel ID (like PEPPOL, fEAb, INEX, ERIGA). Value is added to XML Invoice tag as channelId attribute.|
-|PeppolId or Channel's address|Specifies for Finbite Customer's Peppol ID used in PartyEN extension. (example 0192:979920261).<br>Specifies for Unifiedpost Customer's E-Invoice roaming channel Address (get this from Customer or for finland look https://verkkolaskuosoite.fi/client/index.html). Value is added to XML Invoice tag as channelAddress attribute.|  
+|PeppolId or Channel's address|Specifies for Finbite Customer's Peppol ID used in PartyEN extension. (example 0192:979920261).<br>Specifies for Unifiedpost Customer's E-Invoice roaming channel Address (get this from Customer or from <a href="https://directory.peppol.eu/" target="_blank">Peppol Directory</a> or for finland from <a href="https://verkkolaskuosoite.fi" target="_blank">verkkolaskuosoite.fi</a>). Value is added to XML Invoice tag as channelAddress attribute.|  
 
 <br>
 
