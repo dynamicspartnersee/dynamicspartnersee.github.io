@@ -188,7 +188,7 @@ Rahvusvaheliste e-arvete saatmiseks aktiveerige Finbite-i tarbeks Peppol või Un
 |Väli|Selgitus|
 |--|--|
 |Kanal (ChannelId)|Määratleb Unifiedposti jaoks rahvusvahelise kliendi kanali ID (nt PEPPOL, fEAb, INEX, ERIGA). Väärtus lisatakse XML-is Invoice tagi atribuudina channelId.|
-|PeppolId või Channel-i aadress|Määratleb Finbite jaoks kliendi Peppoli ID (nt 0192:979920261), mida kasutatakse XML-is PartyEN laienduses.<br>Unifiedposti jaoks aga määratleb kliendi rahvusvahelise kanali aadressi (sh PeppolId ning selle saab kliendi käest või soome puhul vt. https://verkkolaskuosoite). Väärtus lisatakse XML-is Invoice tagi atribuudina channelAddress.| 
+|PeppolId või Channel-i aadress|Määratleb Finbite jaoks kliendi Peppoli ID (nt 0192:979920261), mida kasutatakse XML-is PartyEN laienduses.<br>Unifiedposti jaoks aga määratleb kliendi rahvusvahelise kanali aadressi (sh PeppolId ning selle saab kliendi käest või <a href="https://directory.peppol.eu/" target="_blank">Peppol Directory-st</a> või soome puhul vt. <a href="https://verkkolaskuosoite.fi" target="_blank">verkkolaskuosoite.fi</a>). Väärtus lisatakse XML-is Invoice tagi atribuudina channelAddress.| 
 
 
 Kui e-arve profiil puudub, avage **Dokumendi saatmise profiilid** ning looge uus profiil:
