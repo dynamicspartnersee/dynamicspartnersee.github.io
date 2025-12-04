@@ -53,9 +53,8 @@ Võta arved muudetud alates | RIK, Finbite | Dokumendivahetuse sisemine järjeho
 Võta arved, mis on | Finbite | Määrab, millise olekuga ostuarved laetakse BC-sse: <br> a) Töödeldud - st peale nende töötlemist Finbite arvehalduses. <br> b) Vastu võetud - st kohe peale arve saabumist Finbite-i. <br> c) Kinnitatud - st peale arve kinnitamist Finbites.
 Võta arve manused | RIK, Finbite | Määrab, kas võetakse e-arvega kaasasolevad manused. „Põhimanus“ on üljuhul arve PDF kujul.
 **Ühendus** |  | Ühenduse vaikeväärtuste seadistamiseks saate kasutada tegevust Taasta URLide vaikeväärtused.
-Teenuse id | RIK | Täpsustage teenusepakkujalt.
-Teenuse saladus | RIK | Täpsustage teenusepakkujalt.
-Kliendi parool | RIK | Täpsustage teenusepakkujalt.
+Teenuse saladus | RIK | Täpsustage Partnerilt.
+Kliendi parool | RIK | Täpsustage Partnerilt.
 Teenuse URL | Kõik | Finbite puhul leiate selle arvete halduse keskkonnast Üldinfo->Seaded->Andmevahetus ERP-ga.
 Teenuse nimeruumi URL | Finbite, Unifiedpost | Vaikeväärtust ei ole vaja üldjuhul muuta.
 SOAP nimeruumi URL | Finbite, Unifiedpost | Vaikeväärtust ei ole vaja üldjuhul muuta.
