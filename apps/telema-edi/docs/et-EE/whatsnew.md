@@ -1,6 +1,9 @@
 ---
 ---
 
+##### Versioon 22.5.25343.0
+- Lisandus Telema mFlow funktsionaalsus, mis hõlbustab ostuarve kontrollimist ja vastendamist tellimuse ning tarnega.
+
 ##### Versioon 22.5.25251.0
 - Tõrkes e-dokumente sai varem tühistada ükshaaval. Lisandus võimalus märgitud e-dokumendid korraga tühistada.
 - Müügitellimuse lähetatud kogused, mis ei saanud tarnekinnitust ja jäid arveldamata 4dok skeemis, saab nüüd lihtsasti parandada tegevusega "Correct Shipped & Not Invoiced Items", mis konteerib jäägid fiktiivseks arveks ja kohe ka krediteerib selle.

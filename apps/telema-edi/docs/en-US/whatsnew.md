@@ -1,6 +1,9 @@
 ---
 ---
 
+##### Versioon 22.5.25343.0
+- Telema mFlow functionality has been added, making it easier to verify purchase invoices and reconcile them with orders and receipts.
+
 ##### Versioon 22.5.25251.0
 - Previously, failed e-documents could only be cancelled one by one. Now it is possible to cancel selected e-documents in bulk.
 - Shipped sales order quantities that did not receive delivery confirmation (receiving advice) and remained uninvoiced in the 4doc scheme can now be easily corrected with the "Correct Shipped & Not Invoiced Items" action, which posts the remaining quantities as a fictitious invoice and immediately credits it.
