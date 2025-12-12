@@ -9,7 +9,8 @@
 - Lisatud võimalus väljastada saldoteatiseid ühes infoga teatud perioodi käibest.
   - Vajalik nt. juhul kui audiitor soovib kliendi/hankija kinnitust teatud perioodi (nt aasta esimesed 9 kuud) käibele.
   - Saldoteatise loomise valikutes, "Kuva rohkem" all, on võimalik määrata "**Lisa käive perioodis**" väljale kuupäeva periood (nt kujul 01.01..30.09).
-    - _Saldoteatistele lisatakse sellisel juhul eraldi "Kaibe" blokk, kus on toodud valuutade lõikes info käivete osas vastavalt siestatud kuupäeva perioodile._
+    - _Saldoteatistele lisatakse sellisel juhul eraldi "Käibe" blokk, kus on toodud valuutade lõikes info käivete osas vastavalt siestatud kuupäeva perioodile._
+      - _Kui valitakse "Prindi KV-s" (valuutas tehingute puhul nt võiks seda valida), siis lisatakse veel juurde veerud "Summa (KV)" ja "Summa KM-ga (KV), kuvamaks perioodi käivet kohalikus valuutas._
     - _Juhul kui kasutatakse saldoteatise tagasiside osaga kujundust, siis lisatakse rida, kuhu saldoteatise saaja saab kirjutada vastava perioodi käibe summa._
   - Kui kasutatakse määrangut "Viitenumbrite lõikes", siis käibed tulevad samuti vastavate viitenumbrite lõikes.
 - Väiksemad tehnilised täiendused (koodi mõningane optimeerimine ja moderniseerimine).  
