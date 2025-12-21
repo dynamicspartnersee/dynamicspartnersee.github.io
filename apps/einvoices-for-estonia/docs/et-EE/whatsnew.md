@@ -1,5 +1,11 @@
 ---
 ---
+##### Versioon 26.0.25355.0 _(saadaval al. 22.12.2025)_
+- Täiendatud loodava e-arve XML-i loogikat nii, et kui arve väli "Teie viide" on täidetud, siis lisatakse XML-i tag InvoiceContentCode vastavasisulise infoga.
+  - _Vajalik eelkõige seetõttu, et kui klient soovib saada PEPPOL formaadis arvet, siis peab olema kas cbc:BuyerReference või cac:OrderReference täidetud ning kui täita InvoiceContentCode, siis see konverteeritakse cbc:BuyerReference väärtuseks._
+- Lisatud võimalus saata operaatorite Unifiedpost ja RIK kaudu e-müügiarvet nii, et PDF väljatrükki ei lisata.
+- Lisatud ostuarve loomise koodi eventid OnBeforeExitFindGLAccount ning OnAfterFindGLAccountWithSearchEntries, et oleks võimalik lisada kliendipõhist loogikat vastenda tekst kontoks kasutamisel.  
+
 ##### Versioon 26.0.25307.0 _(saadaval al. 04.11.2025)_
 - Täiendatud loodava arve XML-i koostamise loogikat nii, et kui maksja-kliendi kaardil on KM registreerimise nr. täidetud, siis lisatakse e-arvele BuyerParty blokki tag VATRegNumber.
   - _Muudatus hõlmab nii arvet, kui kreeditarvet (sh hoolduse arve ja kreeditarve)._
@@ -27,6 +33,8 @@
 - Täiendatud ostuarve loomisel hankija IBAN pangakonto salvestamist.
   - _XML-is olevast pangakontost eemaldatakse tühikud ning sidekriipsud._
 - BC27 ühilduv (2025 wave 2).  
+
+##### Versioon 21.5.25355.0 _(vt kirjeldust ülal versioonile 26.0.25355.0)_
 
 ##### Versioon 21.5.25307.0 _(vt kirjeldust ülal versioonile 26.0.25307.0)_  
 
