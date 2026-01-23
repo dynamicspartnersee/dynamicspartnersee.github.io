@@ -1,6 +1,11 @@
 ---
 ---
 
+##### Versioon 25.0.26023.0
+- Lisandus PR kontode tuvastamine e-dokumendi salvestamisel ostutellimuseks (ostuarve puhul oli juba varasemalt toetatud).
+- Veebikaustadele lisandus Azure File Share ja Azure Blob Storage tugi.
+- Ettevõtte ja toodangu keskkonna (andmebaasi) kopeerimisel tühjendatakse ühendusinfo, et vältida tahtmatut andmevahetuse käivitamist koopias.
+
 ##### Versioon 22.5.25343.0
 - Lisandus Telema mFlow funktsionaalsus, mis hõlbustab ostuarve kontrollimist ja vastendamist tellimuse ning tarnega.
 
