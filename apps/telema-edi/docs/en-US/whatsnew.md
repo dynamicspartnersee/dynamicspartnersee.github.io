@@ -1,30 +1,35 @@
 ---
 ---
 
-##### Versioon 22.5.25343.0
+##### Version 25.0.26023.0
+- Added GL account detection when saving e-document as purchase order (was already supported for purchase invoices).
+- Added Azure File Share and Azure Blob Storage support for web folders.
+- When copying company or database (production environment), connection information is cleared to prevent unintended data exchange in the copy.
+  
+##### Version 22.5.25343.0
 - Telema mFlow functionality has been added, making it easier to verify purchase invoices and reconcile them with orders and receipts.
 
-##### Versioon 22.5.25251.0
+##### Version 22.5.25251.0
 - Previously, failed e-documents could only be cancelled one by one. Now it is possible to cancel selected e-documents in bulk.
 - Shipped sales order quantities that did not receive delivery confirmation (receiving advice) and remained uninvoiced in the 4doc scheme can now be easily corrected with the "Correct Shipped & Not Invoiced Items" action, which posts the remaining quantities as a fictitious invoice and immediately credits it.
 
-##### Versioon 21.5.25127.0
+##### Version 21.5.25127.0
 - Sending invoices to the LV e-address network has been added. To do this, fill in the "LV E-Address" on the Customer card and on the EDI setup (for your own company). 
 
-##### Versioon 21.5.25048.0
+##### Version 21.5.25048.0
 - Sending invoices to the PEPPOL network has been added. To do this, fill in the "Peppol ID" on the Customer card and on the EDI setup (for your own company). On the Unit of measures page, fill in the "International Standard Code".
 
-##### Versioon 21.5.24180.0
+##### Version 21.5.24180.0
 - Docura operator channel has been added.
 - Option to select whether e-order creates order or blanket order was added on the customer card.
 
-##### Versioon 21.5.24074.9
+##### Version 21.5.24074.9
 - Issued e-document ReceiverID change according to Telema recommendation: ReceiverID and Delivery Party Code should be the same.
 
-##### Versioon 21.5.24071.0
+##### Version 21.5.24071.0
 - Option to select whether e-documents will be created on posting (option in EDI setup) or later with job queue (R24007809).
 
-##### Versioon 21.5.23335.0
+##### Version 21.5.23335.0
 - MS added registration number for customers and vendors into standard functionality. EDI solution uses now this field. Thanks to that dependency for Estonian localization Business Register app is not requied any more.
 
 ##### Version 17.0.23083.0
