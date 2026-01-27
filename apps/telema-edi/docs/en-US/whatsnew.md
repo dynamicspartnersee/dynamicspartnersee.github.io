@@ -1,12 +1,12 @@
 ---
 ---
 
-##### Version 25.0.26023.0
+##### Version 25.0.26023.0 | 2026-01-23
 - Added GL account detection when saving e-document as purchase order (was already supported for purchase invoices).
 - Added Azure File Share and Azure Blob Storage support for web folders.
 - When copying company or database (production environment), connection information is cleared to prevent unintended data exchange in the copy.
   
-##### Version 22.5.25343.0
+##### Version 22.5.25343.0 | 2025-12-09
 - Telema mFlow functionality has been added, making it easier to verify purchase invoices and reconcile them with orders and receipts.
 
 ##### Version 22.5.25251.0
