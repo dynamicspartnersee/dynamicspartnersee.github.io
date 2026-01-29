@@ -28,7 +28,8 @@ Standardmoodulis on toetatud järgnevad e-dokumenditüübid ning protsessid.
 3. Tarne vastuvõtmine
 4. Tarnekinnituse väljastamine
 5. Ostuarve (sh kreeditarve) vastuvõtmine
-6. [Töödeldud ostuarve (Telema eFlow) vastuvõtmine](eflow-purch-invoice)
+6. [Telema eFlow-s töödeldud ostuarve vastuvõtmine](eflow-purch-invoice)
+7. [Telema MatchFlow-s tellimusega (ja tarnega) vastendatud ostuarve vastuvõtmine](mflow.md)
 
 ## Kuidas saata ja vastuvõtta e-dokumente?
 
