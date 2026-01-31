@@ -5,6 +5,10 @@
   - _Tuleb vaid jälgida, et **EU väliste maksete puhul** oleks Hankija pangakonto kaardil täidetud Saaja panga aadressiandmed (linn ning riik eelkõige)_
 <br>
 
+##### Versioon 26.0.26031.0 _(saadaval al. 01.02.2026)_
+- Lahendatud veaolukord, mis tekkis uue evaluation ettevõtte loomisel Contoso demo andmetega.
+- Mittefunktsionaalsed koodisisesed täiendused.  
+
 ##### Versioon 26.0.25246.1 _(saadaval al. 16.09.2025)_
 - Parandatud maksete sobitamise žurnaalis, eelmises versioonis lisatud funktsionaalsuse (_kontrollib mitme sama viitenumbri ja summaga ridade olemasolul ka hankija arve numbreid_) tõttu tekkinud veaolukord:
   - _The length of the string is %1, but it must be less than or equal to 35 characters._  
