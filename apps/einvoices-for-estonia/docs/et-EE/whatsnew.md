@@ -1,5 +1,13 @@
 ---
 ---
+##### Versioon 26.0.26041.0 _(saadaval al. 11.02.2026)_
+- Parandatud olukord, kus litsentsikontrolli ebaõnnestumisel tuli e-arve operaatorilt (nt Unifiedpost) BC-sse, kuid edasi sissetulevatesse dokumentidesse ei jõudnud.
+  - nn kinnijäänud e-arvete lahendamiseks sai Unifiedpost seadistuse lehelt avatavale "Tegevuse logi" lehele lisatud Toimingud sektsiooni nupp "Loo sissetulev dok.".
+  - Kui kasutaja on valinud ühe või mitu rida ja vajutab seda nuppu, siis töödeldakse vastavate kirjete XML sõnumid (tingimusel, et algolek on Ebaõnnestud), ning luuakse vastuse XML sõnumist sissetulevad dokumendid.
+- Lisatud filter Finbite/Unifiedpost/RIK dokumendivahetusteenuse seadistuse lehelt avatavale "Tegevuse logi" lehele, et näidatakse viimase 3 kuu kandeid
+  - Vajalik selleks, et mitmeaastase logi korral oleks logi avanemine mõistliku kiirusega.  
+
+
 ##### Versioon 26.0.25355.0 _(saadaval al. 22.12.2025)_
 - Täiendatud loodava e-arve XML-i loogikat nii, et kui arve väli "Teie viide" on täidetud, siis lisatakse XML-i tag InvoiceContentCode vastavasisulise infoga.
   - _Vajalik eelkõige seetõttu, et kui klient soovib saada PEPPOL formaadis arvet, siis peab olema kas cbc:BuyerReference või cac:OrderReference täidetud ning kui täita InvoiceContentCode, siis see konverteeritakse cbc:BuyerReference väärtuseks._
