@@ -1,6 +1,11 @@
 ---
 ---
 
+##### Version 25.0.26050.0 | 2026-02-19
+- As per Telema's recommendation, ReceiverRegNum and ReceiverCountryCode have been removed from the purchase order and ItemPrice has been added.
+- Serial number will henceforth be retrieved from the purchase receipt and purchase invoice only if the use of serial numbers for purchases is activated in the item tracking setup.
+- For MatchFlow, it is no longer necessary to mark the issuance of e-order and e-receipt on the vendor card. These only need to be marked if documents are intended to be sent to the supplier.
+
 ##### Version 25.0.26023.0 (available from 2026-01-23)
 - Added GL account detection when saving e-document as purchase order (was already supported for purchase invoices).
 - Added Azure File Share and Azure Blob Storage support for web folders.

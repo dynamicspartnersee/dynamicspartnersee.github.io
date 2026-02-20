@@ -2,7 +2,7 @@
 ---
 # Telema MatchFlow
 
-Lugege lähemalt MatchFlow kohta Telema kodulehelt: https://eflow.live/et/mflow/
+Lugege lähemalt MatchFlow kohta Telema kodulehelt: [https://eflow.live/et/mflow/](https://eflow.live/et/mflow/)
 
 MatchFlow abil saate ostutellimuse ja tarne vastendada saabunud arvega. Selleks tuleb ostutellimus ja tarne saata MatchFlow-sse ning saabunud arve seal vastendada ja kontrollida, misjärel on see valmis vastuvõtmiseks ERP-i.
 

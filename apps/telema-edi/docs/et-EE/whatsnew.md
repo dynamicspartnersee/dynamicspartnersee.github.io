@@ -1,6 +1,11 @@
 ---
 ---
 
+##### Versioon 25.0.26050.0 | 2026-02-19
+- Vastavalt Telema soovitusele on ostutellimuselt eemaldatud ReceiverRegNum ja ReceiverCountryCode ning lisatud ItemPrice.
+- Seerianr võetakse ostutarnelt ja ostuarvelt edaspidi ainult juhul, kui kauba jälgimistähise seadistuses on seerianumbri kasutamine ostu puhul aktiveeritud.
+- MatchFlow puhul ei pea enam hankija kaardil märkima e-tellimuse ja e-tarne väljastamist. Need on vajalik märkida ainult juhul, kui dokumente soovitakse tarnijale saata.
+
 ##### Versioon 25.0.26023.0 (saadaval al. 23.01.2026)
 - Lisandus PR kontode tuvastamine e-dokumendi salvestamisel ostutellimuseks (ostuarve puhul oli juba varasemalt toetatud).
 - Veebikaustadele lisandus Azure File Share ja Azure Blob Storage tugi.
