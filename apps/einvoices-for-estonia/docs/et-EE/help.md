@@ -121,7 +121,7 @@ Lahenduse funktsionaalsust saab erinevate määrangutega juhtida **Ostude ja ost
     - Aktiveerida allahindluste tuvastamise funktsionaalsuse (vt all loogika punkt 7)
     - Deaktiveerida e-arvelt KM toote konteeringurühma otsimine (Ära otsi e-arvelt KM koodi)
     - Määrata kas ning mis tingimustel leitakse Makse saaja hankija e-arve PayToName tag-i alusel
-  - **Automatne ümardamine**:</span>
+  - **Automatne ümardamine**:
     - Määrata automaatseks ümarduseks lubatud maksimaalse arve erinevuse kohalikus valuutas. Kui selles piires leitakse arve summa erinevus (sissetulevatest dokumentidest ostuarve loomisel), siis luuakse arvele lisarida, kasutades väljal "Arve ümardamise konto" määratud PR kontot
       - Lisaks tuleks "Pearaamatu seadistuses" määrata "Max lubatud KM erinevus", sest seda kasutatakse automaatseks KM erinevuste korrigeerimiseks (tavaliselt tekib arve summa vahe just tänu käibemaksu erinevusele)
     - Määrata PR konto, mida kasutatakse arve automaatsel ümardamisel:
@@ -134,7 +134,7 @@ Lahenduse funktsionaalsust saab erinevate määrangutega juhtida **Ostude ja ost
 ![Ostude ja ostuv. seadistus](1-Ostu_ja_ostuv_seadistus.png "Sinisega piiritletud väljad, mis mõjutavad lahenduse funktsionaalsust")
 
 **Hankija kaart**
-- Üldine sektsioonis saab:
+- **Üldine** sektsioonis saab:
   - Määrata e-arvelt hankija pangakonto lisamise loogika
   - Määrata saaja pangakonto ostudokumendile lisamise loogika
   - Määrata dokumendi tähaja loomise loogika
