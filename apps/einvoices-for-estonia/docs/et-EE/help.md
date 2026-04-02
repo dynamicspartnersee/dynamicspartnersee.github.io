@@ -111,20 +111,17 @@ Vastu võetud e-arved salvestatakse tabelisse **Sissetulevad dokumendid**.
 
 ## E-arvete salvestamine ostuarveks
 
-Lahenduse funktsionaalsust (sh ostuarveks salvestamisel ning loodud arve ridade info hoidmisel) saab juhtida **Ostude ja ostuv. seadistus** lehel:
+Lahenduse funktsionaalsust saab erinevate määrangutega juhtida **Ostude ja ostuv. seadistus** lehel ning **Hankija kaardil**:
 
-![Ostude ja ostuv. seadistus](1-Ostu_ja_ostuv_seadistus.png "Punasega piiritletud väljad, mis mõjutavad lahenduse funktsionaalsust")
-
+**Ostude ja ostuv. seadistus**
 - Sektsioonis **Vaikekontod** saab seadistada pearaamatu konto, mida süsteem kasutab arveridadele konto määramisel (vt all loogika punkt 5)
-- Sektsioonis Eesti e-arvete seaded saab:
+- Sektsioonis <span style="color:blue">**Eesti e-arvete seaded** </span> saab:
   - **Dokumendi loomine**:
     - Aktiveerida duplikaat dokumenti tuvastamise ostudokumendi loomisel (_et duplikaat avastada kohe loomisel, mitte alles konteerimisel_)
-    - Aktiveerida kaupade tuvastamise funktsionaalsuse (vt all loogika punkt 2)
-    - Määrata, kas e-arvest loodud ostudokumendil kasutada kaubakaardil määratud ostu mõõtühikut, e-arvel oleva mõõtühiku asemel
     - Aktiveerida allahindluste tuvastamise funktsionaalsuse (vt all loogika punkt 7)
     - Deaktiveerida e-arvelt KM toote konteeringurühma otsimine (Ära otsi e-arvelt KM koodi)
     - Määrata kas ning mis tingimustel leitakse Makse saaja hankija e-arve PayToName tag-i alusel
-  - <span style="color:blue">**Automatne ümardamine**:</span>
+  - **Automatne ümardamine**:
     - Määrata automaatseks ümarduseks lubatud maksimaalse arve erinevuse kohalikus valuutas. Kui selles piires leitakse arve summa erinevus (sissetulevatest dokumentidest ostuarve loomisel), siis luuakse arvele lisarida, kasutades väljal "Arve ümardamise konto" määratud PR kontot
       - Lisaks tuleks "Pearaamatu seadistuses" määrata "Max lubatud KM erinevus", sest seda kasutatakse automaatseks KM erinevuste korrigeerimiseks (tavaliselt tekib arve summa vahe just tänu käibemaksu erinevusele)
     - Määrata PR konto, mida kasutatakse arve automaatsel ümardamisel:
@@ -134,7 +131,20 @@ Lahenduse funktsionaalsust (sh ostuarveks salvestamisel ning loodud arve ridade 
     - Teha osturea andmete säilitamise määrangud (vt all Osturea andmete säilitamise määrangud)
     - Määrata, kas konteerimisel lubada sissetulnud e-arve ja loodud ostuarve summa erinevust (vajalik ainult erijuhtudel)
 
+![Ostude ja ostuv. seadistus](1-Ostu_ja_ostuv_seadistus.png "Sinisega piiritletud väljad, mis mõjutavad lahenduse funktsionaalsust")
 
+**Hankija kaart**
+- **Üldine** sektsioonis saab:
+  - Määrata e-arvelt hankija pangakonto lisamise loogika
+  - Määrata saaja pangakonto ostudokumendile lisamise loogika
+  - Määrata dokumendi tähaja loomise loogika
+  - Määrata dokumendi rea loomise loogika
+    - sh ridade koondamine KM või KM ja arveridade grupi või KM ja kirjelduse lõikes
+    - sh kaupade tuvastamise funktsionaalsuse (vt all loogika punkt 2)
+      - sh määrata uue kauba loomise malli, mille alusel luuakse kaup, kui kaupa ei õnnestunud tuvastada
+      - sh määrata, kas e-arvest loodud ostudokumendil kasutada kaubakaardil määratud ostu mõõtühikut, e-arvel oleva mõõtühiku asemel
+
+![Hankija kaart](4-Hankija_kaardi_seaded.png "Erinevad määrangud hankija kaardil")
 
 **Protsess:**
 

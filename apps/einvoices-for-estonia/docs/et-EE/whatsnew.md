@@ -1,12 +1,17 @@
 ---
 ---
+##### Versioon 26.0.26085.0 _(saadaval al. 27.03.2026)_
+- Lisatud võimalus määrata hankijale "Dokumendi tähtaja loogika" (määrangud "Võta e-arvelt" ning "Arvuta kasutades maksetingimust")
+  - Vajalik selleks, et oleks võimalik e-arvest ostudokumendi loomisel arvutada tähtaeg vastavalt hankija kaardil olevale maksetingimuse tähisele ja dokumendi kuupäevale.
+    - Seni e-arvest ostudokumendi loomisel määrati tähtag alati e-arves leiduva info põhjal.
+- Lisatud RIK-i dokumendivahetusteenuse seadistustes keskkonna nime juurde vahendaja ehk teenusepakkuja nimi.  
+
 ##### Versioon 26.0.26041.0 _(saadaval al. 11.02.2026)_
 - Parandatud olukord, kus litsentsikontrolli ebaõnnestumisel tuli e-arve operaatorilt (nt Unifiedpost) BC-sse, kuid edasi sissetulevatesse dokumentidesse ei jõudnud.
   - nn kinnijäänud e-arvete lahendamiseks sai Unifiedpost seadistuse lehelt avatavale "Tegevuse logi" lehele lisatud Toimingud sektsiooni nupp "Loo sissetulev dok.".
   - Kui kasutaja on valinud ühe või mitu rida ja vajutab seda nuppu, siis töödeldakse vastavate kirjete XML sõnumid (tingimusel, et algolek on Ebaõnnestud), ning luuakse vastuse XML sõnumist sissetulevad dokumendid.
 - Lisatud filter Finbite/Unifiedpost/RIK dokumendivahetusteenuse seadistuse lehelt avatavale "Tegevuse logi" lehele, et näidatakse viimase 3 kuu kandeid
   - Vajalik selleks, et mitmeaastase logi korral oleks logi avanemine mõistliku kiirusega.  
-
 
 ##### Versioon 26.0.25355.0 _(saadaval al. 22.12.2025)_
 - Täiendatud loodava e-arve XML-i loogikat nii, et kui arve väli "Teie viide" on täidetud, siis lisatakse XML-i tag InvoiceContentCode vastavasisulise infoga.
