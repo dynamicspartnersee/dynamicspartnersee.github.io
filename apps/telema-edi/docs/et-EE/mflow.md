@@ -27,5 +27,13 @@ Ostutellimuse saatmiseks MatchFlow-sse avage ostutellimus ning faktikastis **Tel
 Juhul kui hankija kaardil on märgitud nii **Telema mFlow** kui ka **Väljasta e-tellimus**, siis väljastatakse kaks tellimust, üks MatchFlow ja teine hankija jaoks.
 
 ## Ostutarne saatmine
+Ostutarne väljastatakse automaatselt konteerimise käigus.
+
+Juhul kui hankija kaardil on märgitud nii **Telema mFlow** kui ka **Väljasta e-tarne**, siis väljastatakse kaks tarnet, üks MatchFlow ja teine hankija jaoks.
 
 ## Ostuarve vastuvõtmine
+MatchFlow-st saabunud ostuarve salvestatakse ostuarvena, millel on olemas seosed ostutellimuse ja ostutarnetega.
+
+Seega ostuarve on valmis konteerimiseks. 
+
+Seotud ostutellimuse uuendab BC automaatselt konteerimise käigus.
