@@ -1,6 +1,10 @@
 ---
 ---
 
+##### Version 25.0.26099.0 | 2026-04-16
+- Purchase order e-document now includes comments (Purch. Comment Line).
+- VATCode is now added to purchase order e-document lines.
+
 ##### Version 25.0.26050.0 | 2026-02-19
 - As per Telema's recommendation, ReceiverRegNum and ReceiverCountryCode have been removed from the purchase order and ItemPrice has been added.
 - Serial number will henceforth be retrieved from the purchase receipt and purchase invoice only if the use of serial numbers for purchases is activated in the item tracking setup.

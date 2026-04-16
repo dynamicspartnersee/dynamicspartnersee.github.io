@@ -1,6 +1,10 @@
 ---
 ---
 
+##### Versioon 25.0.26099.0 | 2026-04-16
+- Ostutellimuse e-dokumenti lisatakse kommentaarid (Purch. Comment Line).
+- Ostutellimuse e-dokumendi reale lisatakse VATCode.
+
 ##### Versioon 25.0.26050.0 | 2026-02-19
 - Vastavalt Telema soovitusele on ostutellimuselt eemaldatud ReceiverRegNum ja ReceiverCountryCode ning lisatud ItemPrice.
 - Seerianr võetakse ostutarnelt ja ostuarvelt edaspidi ainult juhul, kui kauba jälgimistähise seadistuses on seerianumbri kasutamine ostu puhul aktiveeritud.
