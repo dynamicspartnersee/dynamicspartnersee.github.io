@@ -5,6 +5,11 @@
   - _Tuleb vaid jälgida, et **EU väliste maksete puhul** oleks Hankija pangakonto kaardil täidetud Saaja panga aadressiandmed (linn ning riik eelkõige)_
 <br>
 
+##### Versioon 26.0.26107.0 _(saadaval al. 18.04.2026)_
+- Viidud lahendus BC28 versiooniga ühilduvaks.
+  - _Mindud üle teisele eventile hooldusarve viitenumbri salvestamisel makse viitena kandele._
+- Mittefunktsionaalsed koodisisesed täiendused.  
+
 ##### Versioon 26.0.26031.0 _(saadaval al. 01.02.2026)_
 - Lahendatud veaolukord, mis tekkis uue evaluation ettevõtte loomisel Contoso demo andmetega.
 - Mittefunktsionaalsed koodisisesed täiendused.  
