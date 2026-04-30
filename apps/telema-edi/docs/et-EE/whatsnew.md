@@ -1,6 +1,9 @@
 ---
 ---
 
+##### Versioon 25.0.26120.0 | 2026-04-30
+- Litsenstikontrolli jaoks vajalik laienduse säte "Luba HttpClient päringuid" lülitatakse laienduse kasutamisel automaatselt sisse.
+
 ##### Versioon 25.0.26119.0 | 2026-04-29
 - BC28 ühilduvus
 - Lisandus remadv e-dokumendi väljastamine. Tegu on eFlow ostuarve lõplikul sulgemisel makseinfo väljastamisega. Kui hankija kaardil on märgitud "Väljasta e-makse", siis makse konteerimisel koostatakse vastav e-dokument.

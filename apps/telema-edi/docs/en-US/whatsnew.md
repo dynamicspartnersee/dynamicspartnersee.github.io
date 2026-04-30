@@ -1,6 +1,9 @@
 ---
 ---
 
+##### Version 25.0.26120.0 | 2026-04-30
+- The extension setting "Allow HttpClient Requests" required for license check is automatically enabled when the extension is used.
+
 ##### Version 25.0.26119.0 | 2026-04-29
 - BC28 compatibility.
 - New e-document remadv has been added. This involves sending payment information upon final closing of an eFlow purchase invoice. If "Issue E-Payment" is marked on the vendor card, the corresponding e-document is created when the payment is posted.
