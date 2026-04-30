@@ -1,6 +1,11 @@
 ---
 ---
 
+##### Version 25.0.26119.0 | 2026-04-29
+- BC28 compatibility.
+- New e-document remadv has been added. This involves sending payment information upon final closing of an eFlow purchase invoice. If "Issue E-Payment" is marked on the vendor card, the corresponding e-document is created when the payment is posted.
+- A calculated field "Comment" (hidden by default) has been added to sales documents. It shows the content (first line) from the document's comments page (subtable Sales Comment Line), making the note immediately visible to the user.
+  
 ##### Version 25.0.26099.0 | 2026-04-16
 - Purchase order e-document now includes comments (Purch. Comment Line).
 - VATCode is now added to purchase order e-document lines.

@@ -1,6 +1,11 @@
 ---
 ---
 
+##### Versioon 25.0.26119.0 | 2026-04-29
+- BC28 ühilduvus
+- Lisandus remadv e-dokumendi väljastamine. Tegu on eFlow ostuarve lõplikul sulgemisel makseinfo väljastamisega. Kui hankija kaardil on märgitud "Väljasta e-makse", siis makse konteerimisel koostatakse vastav e-dokument.
+- Müügidokumentidele on lisatud (vaikimisi peidus) arvutatav väli "Märkus". Näitab infot (esimest rida) dokumendi märkuste lehelt (alamtabel Müügi märkuse rida). Nii saab märkuse tuua kasutajale kohe märgatavaks.
+
 ##### Versioon 25.0.26099.0 | 2026-04-16
 - Ostutellimuse e-dokumenti lisatakse kommentaarid (Purch. Comment Line).
 - Ostutellimuse e-dokumendi reale lisatakse VATCode.
