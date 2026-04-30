@@ -1,5 +1,10 @@
 ---
 ---
+##### Versioon 26.0.26118.0 _(saadaval al. 30.04.2026)_
+- Lisatud võimalus saata koos PDF arve väljatrükiga ka arvele lisatud PDF manused (nt akt, saateleht jms).
+  - Dokumendi saatmise profiilis tuleb aktiveerida "Saada manustatud PDF-id" ning siis liidetakse kõik arve küljes olevad PDF manused (mis märgitud kui "Saada PDF e-arvega kaasa") arve PDF manusega kokku ning lisatakse ühe manusena e-arvele.
+    - PDF failide liitmiseks kasutatakse välist lahendust, läbi Azure funktsiooni.  
+
 ##### Versioon 26.0.26085.0 _(saadaval al. 27.03.2026)_
 - Lisatud võimalus määrata hankijale "Dokumendi tähtaja loogika" (määrangud "Võta e-arvelt" ning "Arvuta kasutades maksetingimust")
   - Vajalik selleks, et oleks võimalik e-arvest ostudokumendi loomisel arvutada tähtaeg vastavalt hankija kaardil olevale maksetingimuse tähisele ja dokumendi kuupäevale.
