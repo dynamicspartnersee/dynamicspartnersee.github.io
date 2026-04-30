@@ -2,7 +2,7 @@
 ---
 
 ##### Versioon 25.0.26120.0 | 2026-04-30
-- Litsenstikontrolli jaoks vajalik laienduse säte "Luba HttpClient päringuid" lülitatakse laienduse kasutamisel automaatselt sisse.
+- Litsentsikontrolli jaoks vajalik laienduse säte "Luba HttpClient päringuid" lülitatakse laienduse kasutamisel automaatselt sisse.
 
 ##### Versioon 25.0.26119.0 | 2026-04-29
 - BC28 ühilduvus
