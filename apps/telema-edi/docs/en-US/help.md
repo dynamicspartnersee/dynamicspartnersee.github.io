@@ -30,6 +30,7 @@ The following e-document types and related processes are supported in standard m
 5.  Receiving Purchase Invoice (incl Credit Memo)
 6.  [Receiving Purchase Invoice processed in Telema eFlow](eflow-purch-invoice)
 7.  [Receiving Purchase Invoice matched with Order (and Receipt) in Telema MatchFlow](mflow.md)
+8.  Issuing payment info for eFlow purchase invoice
 
 ## How to send and receive e-documents?
 
