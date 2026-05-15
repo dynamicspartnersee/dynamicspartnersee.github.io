@@ -1,6 +1,10 @@
 ---
 ---
 
+##### Versioon 25.0.26135.0 | 2026-05-15
+- Lisandus dimensioonide eksport eFlow jaoks.
+- Täiendatud ostuarve real hinna/summa ümardamist, et vältida võimalikku tõrget "...kehtetu allahindlus".
+
 ##### Versioon 25.0.26120.0 | 2026-04-30
 - Litsentsikontrolli jaoks vajalik laienduse säte "Luba HttpClient päringuid" lülitatakse laienduse kasutamisel automaatselt sisse.
 

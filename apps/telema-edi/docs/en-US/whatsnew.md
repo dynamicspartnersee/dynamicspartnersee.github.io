@@ -1,6 +1,10 @@
 ---
 ---
 
+##### Version 25.0.26135.0 | 2026-05-15
+- Added dimensions export for eFlow.
+- Improved price/amount rounding on purchase invoice lines to avoid a possible error "...invalid discount".
+
 ##### Version 25.0.26120.0 | 2026-04-30
 - The extension setting "Allow HttpClient Requests" required for license check is automatically enabled when the extension is used.
 
