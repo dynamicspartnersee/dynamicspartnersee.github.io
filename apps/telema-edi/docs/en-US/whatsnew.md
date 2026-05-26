@@ -1,6 +1,9 @@
 ---
 ---
 
+##### Version 25.0.26145.0 | 2026-05-25
+- Sending payment information for Telema eFlow purchase invoices has been made more reliable. Among other things, it is no longer necessary to mark "Issue E-Payment" on the vendor card in order to send payment information.
+
 ##### Version 25.0.26135.0 | 2026-05-15
 - Added dimensions export for eFlow.
 - Improved price/amount rounding on purchase invoice lines to avoid a possible error "...invalid discount".

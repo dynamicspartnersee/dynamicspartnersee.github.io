@@ -1,6 +1,9 @@
 ---
 ---
 
+##### Versioon 25.0.26145.0 | 2026-05-25
+- Telema eFlow ostuarvele makseinfo väljastamist on muudetud töökindlamaks. Muuhulgas ei ole makseinfo saatmiseks enam hankja kaardil vaja märkida "Väljasta e-makse".
+
 ##### Versioon 25.0.26135.0 | 2026-05-15
 - Lisandus dimensioonide eksport eFlow jaoks.
 - Täiendatud ostuarve real hinna/summa ümardamist, et vältida võimalikku tõrget "...kehtetu allahindlus".
