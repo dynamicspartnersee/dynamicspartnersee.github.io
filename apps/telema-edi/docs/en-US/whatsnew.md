@@ -25,12 +25,12 @@
 - Serial number will henceforth be retrieved from the purchase receipt and purchase invoice only if the use of serial numbers for purchases is activated in the item tracking setup.
 - For MatchFlow, it is no longer necessary to mark the issuance of e-order and e-receipt on the vendor card. These only need to be marked if documents are intended to be sent to the supplier.
 
-##### Version 25.0.26023.0 (available from 2026-01-23)
+##### Version 25.0.26023.0 | 2026-01-23
 - Added GL account detection when saving e-document as purchase order (was already supported for purchase invoices).
 - Added Azure File Share and Azure Blob Storage support for web folders.
 - When copying company or database (production environment), connection information is cleared to prevent unintended data exchange in the copy.
   
-##### Version 22.5.25343.0 (available from 2025-12-09)
+##### Version 22.5.25343.0 | 2025-12-09
 - Telema mFlow functionality has been added, making it easier to verify purchase invoices and reconcile them with orders and receipts.
 
 ##### Version 22.5.25251.0

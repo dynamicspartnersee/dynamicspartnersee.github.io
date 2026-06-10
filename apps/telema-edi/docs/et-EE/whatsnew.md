@@ -25,12 +25,12 @@
 - Seerianr võetakse ostutarnelt ja ostuarvelt edaspidi ainult juhul, kui kauba jälgimistähise seadistuses on seerianumbri kasutamine ostu puhul aktiveeritud.
 - MatchFlow puhul ei pea enam hankija kaardil märkima e-tellimuse ja e-tarne väljastamist. Need on vajalik märkida ainult juhul, kui dokumente soovitakse tarnijale saata.
 
-##### Versioon 25.0.26023.0 (saadaval al. 23.01.2026)
+##### Versioon 25.0.26023.0 | 2026-01-23
 - Lisandus PR kontode tuvastamine e-dokumendi salvestamisel ostutellimuseks (ostuarve puhul oli juba varasemalt toetatud).
 - Veebikaustadele lisandus Azure File Share ja Azure Blob Storage tugi.
 - Ettevõtte või andmebaasi (toodangu keskkond) kopeerimisel tühjendatakse ühendusinfo, et vältida tahtmatut andmevahetuse käivitamist koopias.
 
-##### Versioon 22.5.25343.0 (saadaval al. 09.12.2025)
+##### Versioon 22.5.25343.0 | 2025-12-09
 - Lisandus Telema mFlow funktsionaalsus, mis hõlbustab ostuarve kontrollimist ja vastendamist tellimuse ning tarnega.
 
 ##### Versioon 22.5.25251.0
