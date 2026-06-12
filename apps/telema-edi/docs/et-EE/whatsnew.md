@@ -1,6 +1,9 @@
 ---
 ---
 
+##### Versioon 25.0.26163.0 | 2026-06-12
+- Telema eFlow ostuarvele makseinfo väljastamine on muudetud seadistatavaks läbi EDI seadistuse lehe.
+
 ##### Versioon 25.0.26145.0 | 2026-05-25
 - Telema eFlow ostuarvele makseinfo väljastamist on muudetud töökindlamaks. Muuhulgas ei ole makseinfo saatmiseks enam hankja kaardil vaja märkida "Väljasta e-makse".
 
