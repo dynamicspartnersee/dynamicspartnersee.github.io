@@ -1,7 +1,7 @@
 ---
 ---
 
-##### Version 25.0.26163.0 | 2026-06-12
+##### Version 25.0.26164.0 | 2026-06-12
 - Sending payment information for Telema eFlow purchase invoices has been made configurable through the EDI setup page.
 
 ##### Version 25.0.26145.0 | 2026-05-25

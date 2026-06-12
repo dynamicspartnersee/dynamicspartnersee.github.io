@@ -1,7 +1,7 @@
 ---
 ---
 
-##### Versioon 25.0.26163.0 | 2026-06-12
+##### Versioon 25.0.26164.0 | 2026-06-12
 - Telema eFlow ostuarvele makseinfo väljastamine on muudetud seadistatavaks läbi EDI seadistuse lehe.
 
 ##### Versioon 25.0.26145.0 | 2026-05-25
