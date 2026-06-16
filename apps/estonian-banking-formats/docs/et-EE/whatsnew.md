@@ -2,8 +2,13 @@
 ---
 ##### Infoks seoses Euroopa Keskpanga uute nõuetega ISO faili struktuuris
 - _BC maksete XML faili sisu on jätkuvalt tehniliselt nõuetega kooskõlas_
-  - _Tuleb vaid jälgida, et **EU väliste maksete puhul** oleks Hankija pangakonto kaardil täidetud Saaja panga aadressiandmed (linn ning riik eelkõige)_
+  - _NB! Tuleb jälgida, et andmed oleksid korrektset - st eelkõige **EL väliste maksete puhul**, et oleks Hankija kaardil täidetud vähemalt Riik ja Linn või kui kasutatakse hankija pangakonto kaardil "Makse saaja" sektsiooni, siis Saaja riigi tähis ja Saaja linn._
 <br>
+
+##### Versioon 26.0.26167.0 _(saadaval al. 16.06.2026)_
+- Lisatud loogika, et kui Hankija on EL-i riik, siis ei lisata maksefaili Hankija aadressi (Cdtr -> PstlAdr) sektsiooni.
+  - Lisatud täiendav kontroll, et kui Riik või Linn on täitmata, siis ei Hankija aadressi sektsiooni (PstlAdr blokki Cdtr alla) ei lisata (_vajalik SEPA riik, mis ei ole EL riik juhtumiteks_).
+- Kasutajale kuvatakse nüüd hankija kaardil (või hankija pangakonto kaardil "Makse saaja" sektsioonis) Linn kui kohustuslik väli, kui Riigi tähis on täidetud.  
 
 ##### Versioon 26.0.26107.0 _(saadaval al. 18.04.2026)_
 - Viidud lahendus BC28 versiooniga ühilduvaks.
