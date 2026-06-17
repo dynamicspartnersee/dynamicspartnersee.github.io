@@ -1,8 +1,9 @@
 ---
 ---
-##### Infoks seoses Euroopa Keskpanga uute nõuetega ISO faili struktuuris
+##### Infoks seoses Euroopa Keskpanga uute (pain.001.001.09) nõuetega ISO faili struktuuris
 - _BC maksete XML faili sisu on jätkuvalt tehniliselt nõuetega kooskõlas_
-  - _NB! Tuleb jälgida, et andmed oleksid korrektset - st eelkõige **EL väliste maksete puhul**, et oleks Hankija kaardil täidetud vähemalt Riik ja Linn või kui kasutatakse hankija pangakonto kaardil "Makse saaja" sektsiooni, siis Saaja riigi tähis ja Saaja linn._
+  - Tuleb teha korrektne <a href="https://www.dynamicspartners.ee/apps/estonian-banking-formats/docs/et-EE/help#makse-ekspordi-vorming-sepa-makseformaat" target="_blank">seadistus</a>
+  - _NB! Tuleb jälgida, et andmed oleksid korrektsed - st eelkõige **EL väliste maksete puhul**, et oleks Hankija kaardil täidetud vähemalt Riik ja Linn või kui kasutatakse hankija pangakonto kaardil "Makse saaja" sektsiooni, siis Saaja riigi tähis ja Saaja linn._
 <br>
 
 ##### Versioon 26.0.26167.0 _(saadaval al. 16.06.2026)_
