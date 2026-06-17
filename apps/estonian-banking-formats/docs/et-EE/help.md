@@ -3,6 +3,24 @@
 # Eesti pangaformaadid - kasutajajuhend
 Laiendus lokaliseerib Dynamics 365 Business Central pangafunktsionaalsuse Eesti nõuetele vastavaks.
 
+## Sisukord
+- [Eesti lokalisatsioon sisaldab](#eesti-lokalisatsioon-sisaldab)
+- [Installeerimise tegevused](#installeerimise-tegevused)
+- [Viitenumbrid müügi- ja hooldusarvetel](#viitenumbrid-müügi--ja-hooldusarvetel)
+- [Müügidokumentide kujundused](#müügidokumentide-kujundused)
+- [Maksete sidumise reeglid](#maksete-sidumise-reeglid)
+- [Panga väljavõtte impordi vorming (SEPA väljavõtteformaat)](#panga-väljavõtte-impordi-vorming-sepa-väljavõtteformaat)
+- [Makse ekspordi vorming (SEPA makseformaat)](#makse-ekspordi-vorming-sepa-makseformaat)
+- [Hankijale maksete loomise täiendused](#hankijale-maksete-loomise-täiendused)
+- [Töötajale maksete puhul teade saajale ning kirjeldus täiendused](#töötajale-maksete-puhul-teade-saajale-ning-kirjeldus-täiendused)
+- ["Seo kanded" ning "Seo käsitsi" toimingute täiendused](#seo-kanded-ning-seo-käsitsi-toimingute-täiendused)
+- [Makse saaja nime muutmine maksel](#makse-saaja-nime-muutmine-maksel)
+- [Müügidokumentide automaatne ümardamine vastavalt makseviisile](#müügidokumentide-automaatne-ümardamine-vastavalt-makseviisile)
+
+---
+
+### Eesti lokalisatsioon sisaldab
+
 **Eesti lokalisatsioon sisaldab:**
 - Kliendi- või arvepõhised viitenumbrid müügi- ja hooldusarvetel
 - Pangarekvisiitide täiendused müügidokumendite kujundustel (tellimus, arve, kreeditarve)
@@ -14,7 +32,7 @@ Laiendus lokaliseerib Dynamics 365 Business Central pangafunktsionaalsuse Eesti 
 - Müügidokumentide automaatne ümardamine lähtuvalt makseviisist
 
 ## Installeerimise tegevused
-Peale laienduse installeerimist tuleb avada leht **Eesti pangaformaatide seadistus** (_Estonian Banking Formats Setup_), sest lehe avamine käivitab taustal formaatide installeerimise (_Andmevahetuse määratlused, Panga ekspordi/impordi seadistus, Dokumendi kujundused_).  
+Peale laienduse installeerimist tuleb avada leht **Eesti pangaformaatide seadistus** (_Estonian Banking Formats Setup_), sest lehe avamine käivitab taustal formaatide installeerimise (_Andmevahetuse määratlus_, _Panga eks/imp seadistus_, _Dokumendi kujundused_).
 
 Leht tuleb avada igas ettevõttes, kus soovitakse Eesti pangaformaate kasutada.  
 
@@ -59,11 +77,11 @@ Määrake **SEPACT-EE-001.001.09** väljal **Makse ekspordi vorming**.
 Teatud juhtudel (üldjuhul LHV väljavõttega) tekib importimisel olukord, kus **Maksete sobitamise žurnaalis** väljale **Maksja/Saaja nimi** tulevad alati mõlemad - st nii Maksja nimi, kui Saaja nimi.  
 Arusaadavalt on üheks selliseks nimeks alati ettevõtte enda nimi.  
 **Selle vältimiseks** on lisatud **teisendusreegel** **REMOVE_COMPANY_NAME**, mida saab vajadusel kasutada andmevahetusmääratluse välja vastendamisel. 
-Seega LHV XML väljavõtte puhul tuleks teisendusreegel panna külge **Andmevahetuse määratluse** tabeli 274 **Välja vastendamine** ridadele, mille Välja ID = 15 (Maksja/Saaja nimi), selleks et Maksja/Saaja nimi ei sisaldaks ettevõtte enda nime.  
+Seega LHV XML väljavõtte puhul tuleks teisendusreegel panna külge **Andmevahetuse määratluse** tabeli 274 **Välja vastendamine** ridadele, mille Välja ID = 15 (Maksja/Saaja nimi), selleks et Maksja/Saaja nimi väljal ei oleks ettevõtte enda nime.
 
 ![Image](andmevahetusmääratluse-teisendusreegel.png)
 
-NB! Eelnevalt vaadata väljavõttest või maksete sobitamise žurnaalist, millisel kujul kõige enam ettevõtte nimi esineb ning seejärel määrata vastav nimi teisendusreegli väljale **Leia väärtus**, selleks et süsteem selle importimisel üles leiaks.  
+NB! Eelnevalt vaadata väljavõttest või maksete sobitamise žurnaalist, millisel kujul kõige enam ettevõtte nimi esineb ning seejärel määrata vastav nimi teisendusreegli väljale **Leia väärtus**.
 
 ![Image](teisendusreeglis-nimi.png)
   
@@ -75,7 +93,7 @@ Maksežurnaalis olevas toimingus **Soovita makseid hankijale** saab:
   - Lahendus on aktiivne ainult siis, kui maksežurnaali töölehele on valitud Korr. Konto liigiks Pangakonto ning Korr. konto nr. pangakonto, millel IBAN täidetud.
 - Valiku **ja viitenumbri alusel** abil saab summeerida makseid kombinatsioonis hankija ja viitenumber
   - Valiku tulemusena pannakse sama viitenumbriga arved kokku ühele maksele.
-    - NB! Kui maksežurnaalist plaanis read ära koknteerida, siis tuleks aktiveerida aruande päringuaknas valik "Uus dok. nr. rea kohta", selleks et konteerimisel oleks iga seotud viitenumbriga makse eristatud.
+    - NB! Kui maksežurnaalist plaanis read ära konteeri, siis tuleks aktiveerida aruande päringuaknas valik "Uus dok. nr. rea kohta", selleks et konteerimisel oleks iga seotud viitenumbriga makse eraldi.
 - Summeerimise puhul tulevad makse selgitusse kõik summeeritud arvete numbrid
   - Kui summeeritud arveid on niipalju, et Teade saajale väli maksežurnaalis saab täis (140 tähemärki), siis ülejääv osa lõigatakse ära.
   - Kui hankijaandmiku kandel on täidetud väli Teade saajale, siis kasutatakse välise dokumendi nr. asemel infot sellelt väljalt.
@@ -86,9 +104,9 @@ Maksežurnaalis olevas toimingus **Soovita makseid hankijale** saab:
 **Eesti pangaformaatide seadistuses** saab **Makse teade töötajale** välja kaudu valida, millisel kujul luuakse maksežurnaali välja "Teade saajale" sisu, kui luuakse makse töötajale. 
 
 ## "Seo kanded" ning "Seo käsitsi" toimingute täiendused
-Žurnaalides (sh laekumisžurnaalis) olevat toiminguid "Seo kanded" ja "Seo käsitsi" ning maksežurnaalis "Soovita makseid hankijale" on täidendatud loogikaga, et žurnaali rea väljale kirjeldus tulevad lisaks seotud osapoole nimele ka seotud arvete numbrid (_standard märkis sinna lihtsalt seotud osapoole ehk kliendi/hankija nime_).  
+Žurnaalides (sh laekumisžurnaalis) olevat toiminguid "Seo kanded" ja "Seo käsitsi" ning maksežurnaalis "Soovita makseid hankijale" on täiendatud loogikaga, et žurnaali rea väljale kirjeldus tulevad sidumisel seotud kannete osapoole nimetused.
 
-Funktsionaalsus on vaikimisi aktiveeritud, kuid seda saab väja lülitada **Eesti pangaformaatide seadistuses** valides **Kasuta lokaliseerimata kirjeldust kannete sidumisel**. Lisavõimalusena saab aktiveerida **Kasuta sidumisel välise dok. nr. kui võimalik** valiku, mis BC arve numbrite asemel kasutab välise dokumendi numbreid kirjelduse väljal (mõistlik siis sisse lülitada, kui arved luuakse välises süsteemis).  
+Funktsionaalsus on vaikimisi aktiveeritud, kuid seda saab välja lülitada **Eesti pangaformaatide seadistuses** valides **Kasuta lokaliseerimata kirjeldust kannete sidumisel**. Lisavõimalusena saab aktiveerida **Kasuta lühendatud nimetusi kannete sidumisel**, mis kasutab lühendatud nimetusi.
 
 ## Makse saaja nime muutmine maksel
 Kui makse saaja on erinev hankijast/kliendist (näiteks on saajaks faktooringettevõte või Rahandusministeerium), lisage andmed **Hankija/Kliendi pangakonto kaart** kiirkaardil **Makse saaja**.  
@@ -96,9 +114,9 @@ Kui **Saaja nimi** väli on täidetud, kasutatakse antud nime ka maksefailis (ha
 
 ## Müügidokumentide automaatne ümardamine vastavalt makseviisile
 _Mõeldud alates 2025 jõustuva <a href="https://www.eestipank.ee/press/1-ja-2-sendised-ning-umardamisreegel" target="_blank">sularahamaksetel 1-ja 2-sendiste kadumise</a> lahendamiseks._  
-**Eesti pangaformaatide seadistus** lehel saab aktiveerida **Kasuta müügiarvete ümardamist makseviisidega** määrangu ning seejärel tuleb nähtavale makseviisides väli **Arve ümardamistäpsus (KV)** ning müügidokumentidel väli **Arve summa arv. ümardust**.  
+**Eesti pangaformaatide seadistus** lehel saab aktiveerida **Kasuta müügiarvete ümardamist makseviisidega** määrangu ning seejärel tuleb nähtavale makseviisides väli **Arve ümardamistäpsus (KV)**.
 Kui müügidokumendile lisatakse **makseviis**, kuhu on määratud **Arve ümardamistäpsus (KV)**, siis hakkab **Arve summa arv. ümardust** näitama ümardatud arve summat peale konteerimist.  
-Arve konteerimisel luuakse analoogselt standardile müügiarvele täiendav rida ümardamisele kuuluva summaga (PR Konto, kuhu ümardatav summa konteeritakse, võetakse Kliendi konteeringurühmad väljalt **Arvete ümardamise konto**).  
+Arve konteerimisel luuakse analoogselt standardile müügiarvele täiendav rida ümardamisele kuuluva summaga (PR Konto, kuhu ümardatav summa konteeritakse, võetakse Kliendi konteeringurühmade väljalt _Müügi ümardamiskonto_).
 
 
 ***
