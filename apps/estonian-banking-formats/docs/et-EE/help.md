@@ -1,7 +1,8 @@
 ---
 ---
 # Eesti pangaformaadid - kasutajajuhend
-Laiendus lokaliseerib Dynamics 365 Business Central pangafunktsionaalsuse Eesti nõuetele vastavaks.
+Laiendus lokaliseerib Dynamics 365 Business Central pangafunktsionaalsuse Eesti nõuetele vastavaks.  
+
 
 **Eesti lokalisatsioon sisaldab:**
 - Kliendi- või arvepõhised viitenumbrid müügi- ja hooldusarvetel
@@ -18,8 +19,8 @@ Laiendus lokaliseerib Dynamics 365 Business Central pangafunktsionaalsuse Eesti 
 - [Viitenumbrid müügi- ja hooldusarvetel](#viitenumbrid-müügi--ja-hooldusarvetel)
 - [Müügidokumentide kujundused](#müügidokumentide-kujundused)
 - [Maksete sidumise reeglid](#maksete-sidumise-reeglid)
-- [Panga väljavõtte impordi vorming (SEPA väljavõtteformaat)](#panga-väljavõtte-impordi-vorming-sepa-väljavõtteformaat)
 - [Makse ekspordi vorming (SEPA makseformaat)](#makse-ekspordi-vorming-sepa-makseformaat)
+- [Panga väljavõtte impordi vorming (SEPA väljavõtteformaat)](#panga-väljavõtte-impordi-vorming-sepa-väljavõtteformaat)
 - [Hankijale maksete loomise täiendused](#hankijale-maksete-loomise-täiendused)
 - [Töötajale maksete puhul teade saajale ning kirjeldus täiendused](#töötajale-maksete-puhul-teade-saajale-ning-kirjeldus-täiendused)
 - ["Seo kanded" ning "Seo käsitsi" toimingute täiendused](#seo-kanded-ning-seo-käsitsi-toimingute-täiendused)
@@ -56,12 +57,6 @@ Business Central'i makse sidumisreegleid on täiendatud järgnevate komponentide
 Täiendavad reeglid ei vaja seadistamist ja ei ole nähtavad **Maksete sidumisreeglites**.  
 Täiendatud reegleid kasutatakse **Maksete sobitamise žurnaali** toimingul **Seo automaatselt**.  
 
-## Panga väljavõtte impordi vorming (SEPA väljavõtteformaat)
-Pangaväljavõtete importimiseks Business Central'isse on lisatud Eesti SEPA väljavõtteformaadi tugi.  
-Kas formaat on installitud, saate kontrollida **Eesti pangaformaatide seadistuses**. Kui ei ole, võtke ühendust oma partneriga.  
-Formaadi seadistamiseks pangakontole avage **Pangakontod** ja redigeerige soovitud kontot.  
-Määrake **SEPACAMT-EE** väljal **Panga väljavõtte impordi vorming**.  
-
 ## Makse ekspordi vorming (SEPA makseformaat)
 Business Central'is koostatud maksete panka edastamiseks on lisatud Eesti SEPA makseformaadi tugi.  
 Kas formaat on installitud, saate kontrollida **Eesti pangaformaatide seadistuses**. Kui ei ole, võtke ühendust oma partneriga.  
@@ -70,8 +65,15 @@ Määrake **SEPACT-EE-001.001.09** väljal **Makse ekspordi vorming**.
 
 ![Image](vormingu-seaded-pangakontol.png)
 
+## Panga väljavõtte impordi vorming (SEPA väljavõtteformaat)
+Pangaväljavõtete importimiseks Business Central'isse on lisatud Eesti SEPA väljavõtteformaadi tugi.  
+Kas formaat on installitud, saate kontrollida **Eesti pangaformaatide seadistuses**. Kui ei ole, võtke ühendust oma partneriga.  
+Formaadi seadistamiseks pangakontole avage **Pangakontod** ja redigeerige soovitud kontot.  
+Määrake **SEPACAMT-EE** väljal **Panga väljavõtte impordi vorming**.  
+
 Teatud juhtudel (üldjuhul LHV väljavõttega) tekib importimisel olukord, kus **Maksete sobitamise žurnaalis** väljale **Maksja/Saaja nimi** tulevad alati mõlemad - st nii Maksja nimi, kui Saaja nimi.  
 Arusaadavalt on üheks selliseks nimeks alati ettevõtte enda nimi.  
+  
 **Selle vältimiseks** on lisatud **teisendusreegel** **REMOVE_COMPANY_NAME**, mida saab vajadusel kasutada andmevahetusmääratluse välja vastendamisel. 
 Seega LHV XML väljavõtte puhul tuleks teisendusreegel panna külge **Andmevahetuse määratluse** tabeli 274 **Välja vastendamine** ridadele, mille Välja ID = 15 (Maksja/Saaja nimi), selleks et Maksja/Saaja nimi ei sisaldaks ettevõtte enda nime.
 
@@ -116,6 +118,8 @@ Arve konteerimisel luuakse analoogselt standardile müügiarvele täiendav rida 
 
 
 ***
+Laiendus on saadaval <a href="https://marketplace.microsoft.com/en-us/product/PUBID.estonian_dynamics_partners%7CAID.est-bank-formats%7CPAPPID.2df65f5f-6fde-483e-adb6-aa19b6fcfcd0?tab=Overview" target="_blank">Microsoft Marketplace keskkonnas</a>  
+<br>
 
 Täpsema info saamiseks võtke palun ühendust oma partneriga:  
 <a href="https://dynamicspartnersee.github.io/docs/en-us/contacts" target="_blank">Estonian Dynamics Partners</a>
