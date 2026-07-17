@@ -1,5 +1,11 @@
 ---
 ---
+##### Versioon 26.0.26198.0 _(saadaval al. 18.07.2026)_
+- Lisatud võimalus määrata hankijale "Dokumendi konteerimiskp. loogika" (määrangud "Võta e-arvelt", "Kasuta tänast kuupäeva", "Kasuta töökuupäeva" ja "Kuu lõpp enne dok. kuupäeva")
+  - Vajalik selleks, et oleks võimalik e-arvest ostudokumendi loomisel määrata arve konteerimiskuupäev vastavalt soovitavale äriloogikale.
+    - Seni e-arvest ostudokumendi loomisel määrati konteerimiskuupäev alati e-arves leiduva info põhjal.
+- Lisatud ostudokumendi koodiblokis olevale eventile OnBeforeExitFindGLAccount täiendav (viies) parameeter "VendorNo", mis laiendab võimalusi lisamaks kliendipõhist loogikat Vastenda tekst-kontoks funktsionaalsusele.  
+
 ##### Versioon 26.0.26118.0 _(saadaval al. 30.04.2026)_
 - Lisatud võimalus saata koos PDF arve väljatrükiga ka arvele lisatud PDF manused (nt akt, saateleht jms).
   - Dokumendi saatmise profiilis tuleb aktiveerida "Saada manustatud PDF-id" ning siis liidetakse kõik arve küljes olevad PDF manused (mis märgitud kui "Saada PDF e-arvega kaasa") arve PDF manusega kokku ning lisatakse ühe manusena e-arvele.
