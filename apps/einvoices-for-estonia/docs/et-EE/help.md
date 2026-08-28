@@ -35,7 +35,7 @@ Avage **RIK dokumendivahetusteenuse seadistus**, **Finbite (Omniva) dokumendivah
 Kiirkaart / Väli | Operaator | Selgitus
 |--|--|--|
 **Üldine** |  | 
-Lubatud | Kõik | Aktiveerib teenuse ning loob automaatse andmevahetuse jaoks vajalikud **ärjekorra kanded**.
+Lubatud | Kõik | Aktiveerib teenuse ning loob automaatse andmevahetuse jaoks vajalikud **järjekorra kanded**.
 Võtmekasutaja | Kõik | Tema rollikeskuse teatistesse saadetakse automaatsete andmevahetustööde käigus tekkivad vead, mis vajavad lahendamist.
 Tegevuse logimine | Kõik | Määrab, millise detailsusega peetakse andmevahetuse tegevuste logi. Testperioodil on soovitav kasutada valikut „Tegevuse teade ja XML sõnumid“, et saada probleemide lahendamiseks maksimaalselt infot. Logitud teated ja sõnumid on vaadeldavad lehel Tegevuse logi.
 Aktiveeri Peppol | Finbite | Aktiveerib e-arvete saatmise läbi Peppoli. Kliendi kaardil tuleb määrata vastav PeppolId.
