@@ -1,5 +1,8 @@
 ---
 ---
+##### Versioon 26.0.26234.0 _(saadaval al. 04.10.2026)_
+- Lisandus läti keel.
+
 ##### Versioon 26.0.26116.0 _(saadaval al. 27.04.2026)_
 - Viidud lahendus ühilduvaks BC28 versiooniga.
 - Täiendatud müügi- ja ostu kreeditarve toimingu "Too kliendipõhine/hankijapõhine ettemaks" kasutajakogemust.
