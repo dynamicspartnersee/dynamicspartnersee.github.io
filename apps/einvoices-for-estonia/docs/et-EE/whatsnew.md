@@ -1,7 +1,21 @@
 ---
 ---
+##### Versioon 26.0.26281.0 _(saadaval al. 08.10.2026)_
+- Täiendatud lahendust nii, et enam ei pea peale lahenduse installeerimist kasutaja käsitsi lubama http päringud.
+  - _See tehakse nüüd automaatselt._
+- Lehtedel **„Dokumendi saatmise profiil”** ja aknas **„Saada dokument adressaadile”** eemaldati välja **„Elektrooniline dokument”** peitmise loogika.
+- Välja **„Eesti e-arve operaator”** väärtuse määramisel muudetakse välja **„Elektrooniline dokument”** väärtuseks **„Ei”** ainult juhul, kui selle senine väärtus on **„Läbi dokumendivahetuse teenuse”**.
+  - Muudatus rakendub operaatorite **Finbite** ja **RIK** valimisel ning **UnifiedPosti** valimisel juhul, kui lehel **„UnifiedPost (FitekIn) dokumendivahetusteenuse seadistus”** on välja **„e-müügiarve formaat”** väärtuseks määratud **„Eesti e-arve”**.
+- Välja **„Elektrooniline dokument”** määramisel palutakse kasutajal valik kinnitada, kui väärtus on **„Läbi dokumendivahetuse teenuse”** ja valitud on **„Eesti e-arve operaator”**, mille korral võib e-arve loomisel tekkida probleemne olukord.
+- Lisati võimalus luua hankija pangakonto e-arve välja **"PayToAccount"** alusel. Pangakonto lisamise loogika käivitub, kui:
+  - välja **"Vaike saaja pangakonto dokumendil"** väärtus on **"E-arvelt (PayToAccount tag-ist)"**;
+  - e-arvel on **PayToAccount** täidetud;
+  - hankijal puudub vastava IBAN-i või pangakonto numbriga pangakonto.
+  - NB! kui välja **"Hankija pangakonto e-arvelt"** väärtus on **"Ära lisa pangakontot"** korral uut pangakontot ei lisata.
+- Kui kasutaja keeldub uue pangakonto lisamisest, **küsitakse** täiendavalt, kas ostudokumendi loomine tuleb katkestada.  
+
 ##### Versioon 26.0.26198.0 _(saadaval al. 18.07.2026)_
-- Lisatud võimalus määrata hankijale "Dokumendi konteerimiskp. loogika" (määrangud "Võta e-arvelt", "Kasuta tänast kuupäeva", "Kasuta töökuupäeva" ja "Kuu lõpp enne dok. kuupäeva")
+- Lisatud võimalus määrata hankijale "Dokumendi konteerimiskp. loogika" (määrangud "Võta e-arvelt", "Kasuta tänast kuupäeva", "Kasuta töökuupäeva" ja "Kuu lõpp enne dok. kuupäeva").
   - Vajalik selleks, et oleks võimalik e-arvest ostudokumendi loomisel määrata arve konteerimiskuupäev vastavalt soovitavale äriloogikale.
     - Seni e-arvest ostudokumendi loomisel määrati konteerimiskuupäev alati e-arves leiduva info põhjal.
 - Lisatud ostudokumendi koodiblokis olevale eventile OnBeforeExitFindGLAccount täiendav (viies) parameeter "VendorNo", mis laiendab võimalusi lisamaks kliendipõhist loogikat Vastenda tekst-kontoks funktsionaalsusele.  
