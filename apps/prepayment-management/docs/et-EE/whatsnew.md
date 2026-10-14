@@ -3,6 +3,7 @@
 ##### Versioon 26.0.26287.0 _(saadaval al. 15.10.2026)_
 - Peale kliendi/hankija valimist dokumendile kuvatakse teavitus juhul, kui kliendil/hankijal on avatud ettemakse.
 - Dokumendi kiirinfo tegevuste all saab mõõdikutele seadistada värvid sh. avatud ettemaksude arvule.
+- Ettemaksuarve kopeerimisel ei kasutatud uuel arvel ettemaksu numbriseeriat. See on parandatud.
 - Täiustatud on ostudokumendile toodud ettemaksu summa arvutust (erinevate KM määrade juhtum).
 - Täiustatud on dokumendi kokku summade kohest värskendamist peale ettemaksurea toomist.
 

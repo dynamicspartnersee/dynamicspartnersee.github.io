@@ -3,6 +3,7 @@
 ##### Version 26.0.26287.0 _(available from 2026-10-15)_
 - After selecting a customer/vendor on a document, a notification is displayed if the customer/vendor has an open prepayment.
 - Colors can be configured for cues under the document cues actions, including for the number of open prepayments.
+- When copying a prepayment invoice, the prepayment number series was not used on the new invoice. This has been fixed.
 - Improved the calculation of the prepayment amount retrieved on a purchase document when different VAT rates apply.
 - Improved the immediate refresh of document totals after retrieving a prepayment line.
 
