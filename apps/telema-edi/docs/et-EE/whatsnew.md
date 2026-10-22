@@ -1,6 +1,11 @@
 ---
 ---
 
+##### Versioon 25.0.26295.0 | 2026-10-22
+- Partnerite e-dokumendi (hankijate loend) väljastamist on täiendatud. Varasemalt oli kasutus mõeldud mFlow kontekstis, kuid sobib nüüd ka eFlow jaoks kasutamiseks.
+- 4-dok skeemi tarnekinnituse erinevuste käsitlemist on lihtsustatud. Selle jaoks on lisatud müügitellimuse ridadele "EDI" nimeline tegevustegrupp.
+- "Ära saada e-dokumendina" on lisatud (vaikimisi peidus) ka müügitagastuskorraldusele.
+
 ##### Versioon 25.0.26164.0 | 2026-06-12
 - Telema eFlow ostuarvele makseinfo väljastamine on muudetud seadistatavaks läbi EDI seadistuse lehe.
 

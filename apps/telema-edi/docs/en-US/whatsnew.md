@@ -1,6 +1,11 @@
 ---
 ---
 
+##### Version 25.0.26295.0 | 2026-10-22
+- The issuing of the partner e-document (vendor list) has been enhanced. Previously intended for the mFlow, it is now also suitable for use with eFlow.
+- Handling of recadv discrepancies in the 4-doc scheme has been simplified. For this purpose, an action group named "EDI" has been added to the sales order lines.
+- "Do Not Send as E-Document" has also been added (not visible by default) to the sales return order.
+
 ##### Version 25.0.26164.0 | 2026-06-12
 - Sending payment information for Telema eFlow purchase invoices has been made configurable through the EDI setup page.
 
