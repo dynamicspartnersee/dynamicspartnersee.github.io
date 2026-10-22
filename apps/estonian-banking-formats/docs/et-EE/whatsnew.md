@@ -3,8 +3,17 @@
 ##### Infoks seoses Euroopa Keskpanga uute (pain.001.001.09) nõuetega ISO faili struktuuris
 - _BC maksete XML faili sisu on jätkuvalt tehniliselt nõuetega kooskõlas_
   - Tuleb teha korrektne <a href="https://www.dynamicspartners.ee/apps/estonian-banking-formats/docs/et-EE/help#makse-ekspordi-vorming-sepa-makseformaat" target="_blank">seadistus</a>
-  - _NB! Tuleb jälgida, et andmed oleksid korrektsed - st eelkõige **EL väliste maksete puhul**, et oleks Hankija kaardil täidetud vähemalt Riik ja Linn või kui kasutatakse hankija pangakonto kaardil "Makse saaja" sektsiooni, siis Saaja riigi tähis ja Saaja linn._
+  - _NB! Tuleb jälgida, et andmed oleksid korrektsed - st eelkõige **EL väliste ja mitte EUR maksete puhul**, et oleks Hankija kaardil täidetud vähemalt Riik ja Linn või kui kasutatakse hankija pangakonto kaardil "Makse saaja" sektsiooni, siis Saaja riigi tähis ja Saaja linn._
 <br>
+
+##### Versioon 26.0.26289.0 _(saadaval al. 16.10.2026)_
+- Täiendatud pain.001.001.09 maksefaili loomise loogikat nii, et kui hankija on EL-i riik **ja makse toimub eurodes**, siis ei lisata maksefaili Hankija aadressi (Cdtr -> PstlAdr) sektsiooni.
+- Kasutajale kuvatakse nüüd hankija kaardil (ning hankija pangakonto kaardil) Linna ja/või Riiki kui kohustuslikku välja, kui valuuta on täidetud (_sest tühi valuuta tähendab EUR (vähemalt Eesti ettevõtetel)_).
+- Täiendatud maksefaili loomise lahendust BC28.4 standardisse tulnud täiendusega, mis vastavalt Pearaamatu seadistus väljale SEPA mitte-euro eksport lisab maksefaili kas <Cd>NURG</Cd> (kui määratud) või <Cd>SEPA</Cd> kui seadistus määramata.
+  - _Eeldatavasti aitab see vältida maksete impordil Kiirmakse staatusesse jõudmist (kuigi BC-s me maksefaili seni ei lisanud üldse makse kiiruse tunnust)._
+- Lisatud loogika, et kui Saaja aadressis on Linn või Riik täitmata, siis ei lisata PstlAdr sektsiooni üldse.
+  - Seega kui mõni makse saab internetipanka importimisel vea, et Riik või Linn on puudu, siis tuleb esmalt veenduda, et Hankija või Hankija panga riik ning linn oleksid täidetud.
+- Äpi uuendamisel, kui leitakse mõnel pangakontol vana "Makse ekspordi vorming" (SEPACT-EE ehk pain.001.001.03) , siis valitakse selle asemele automaatselt uus formaat "SEPACT-EE-001.001.09".  
 
 ##### Versioon 26.0.26167.0 _(saadaval al. 16.06.2026)_
 - Lisatud loogika, et kui Hankija on EL-i riik, siis ei lisata maksefaili Hankija aadressi (Cdtr -> PstlAdr) sektsiooni.
