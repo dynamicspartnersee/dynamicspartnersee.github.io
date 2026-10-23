@@ -1,7 +1,7 @@
 ---
 ---
 ##### Version 25.0.26282.0 _(available from 2026-10-23)_
-- Latvian language added.
+- Latvian language has been added.
 - The balance statement number and the parties' registration numbers have been added to the printouts.
 
 ##### Version 25.0.26107.0 _(available from 2026-04-18)_
