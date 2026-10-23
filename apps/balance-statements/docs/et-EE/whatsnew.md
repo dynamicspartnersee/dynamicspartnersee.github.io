@@ -1,5 +1,9 @@
 ---
 ---
+##### Versioon 25.0.26282.0 _(saadaval al. 23.10.2026)_
+- Lisandus Läti keel.
+- Väljatrükkidele on lisatud saldoteatise number ja osapoolte registreerimisnumbrid.
+
 ##### Versioon 25.0.26107.0 _(saadaval al. 18.04.2026)_
 - Viidud lahendus BC28 versiooniga ühilduvaks.
   - _Saldoteatiste loendis nö uus mitme manuse kuvamine._  
