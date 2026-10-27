@@ -6,6 +6,12 @@
   - _NB! Tuleb jälgida, et andmed oleksid korrektsed - st eelkõige **EL väliste ja mitte EUR maksete puhul**, et oleks Hankija kaardil täidetud vähemalt Riik ja Linn või kui kasutatakse hankija pangakonto kaardil "Makse saaja" sektsiooni, siis Saaja riigi tähis ja Saaja linn._
 <br>
 
+##### Versioon 26.8.26299.0 _(saadaval al. 28.10.2026)_
+- Täiendatud maksefaili loomise koodi, eesmärgiga parendada jõudlust (analoogselt BC26.8 versiooni täiendusele standard koodis).
+
+##### Versioon 26.0.26289.1 _(saadaval al. 23.10.2026)_
+- Parandatud veaolukorra "Sõlme PstlAdr ei saanud töödelda." tekkimine, mis tekkis maksefaili loomisel, kui hankija kaardil oli riik määramata.  
+
 ##### Versioon 26.0.26289.0 _(saadaval al. 16.10.2026)_
 - Täiendatud pain.001.001.09 maksefaili loomise loogikat nii, et kui hankija on EL-i riik **ja makse toimub eurodes**, siis ei lisata maksefaili Hankija aadressi (Cdtr -> PstlAdr) sektsiooni.
 - Kasutajale kuvatakse nüüd hankija kaardil (ning hankija pangakonto kaardil) Linna ja/või Riiki kui kohustuslikku välja, kui valuuta on täidetud (_sest tühi valuuta tähendab EUR (vähemalt Eesti ettevõtetel)_).
