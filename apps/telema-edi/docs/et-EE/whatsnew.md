@@ -1,6 +1,9 @@
 ---
 ---
 
+##### Versioon 25.0.26320.0 | 2026-11-17
+- E-dokumendi tabelid ei olnud nähtavad "Säilitamise poliitika" funktsionaalsuses. See probleem on parandatud.
+
 ##### Versioon 25.0.26295.0 | 2026-10-22
 - Partnerite e-dokumendi (hankijate loend) väljastamist on täiendatud. Varasemalt oli kasutus mõeldud mFlow kontekstis, kuid sobib nüüd ka eFlow jaoks kasutamiseks.
 - 4-dok skeemi tarnekinnituse erinevuste käsitlemist on lihtsustatud. Selle jaoks on lisatud müügitellimuse ridadele "EDI" nimeline tegevustegrupp.
